@@ -32,6 +32,12 @@ npm run preview
 
 `check` 检查资源唯一性、站点地图、结构化数据和样式约定，需要先完成构建。
 
+## Vercel 部署
+
+项目的 Root Directory 设置为 `site`，配置文件位于 `site/vercel.json`。构建命令为 `npm run build`，输出目录为 `dist`。
+
+忽略构建命令在 `site/` 内执行，检测当前目录及上级 `README.md` 的提交变更：网站代码或目录数据变化时构建；仅爬虫、数据库等文件变化时跳过。没有父提交时执行构建。
+
 ## 界面与交互
 
 - 首页和分类页共用 `Directory.astro`；卡片的静态渲染和动态更新共用 `Card.astro` 模板。
