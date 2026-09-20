@@ -12,7 +12,7 @@ interface Props {
 
 const SITE_URL = 'https://www.rectg.com';
 const {
-  title = 'rectg - Telegram 中文资源索引',
+  title = 'Telegram 中文目录 - rectg',
   description = '整理公开的 Telegram 中文频道和群组，支持分类浏览、关键词搜索、详情查看和 Telegram 链接。',
   canonicalPath = '/',
   ogType = 'website',
@@ -63,8 +63,8 @@ const jsonLdContent = JSON.stringify(structuredData.length === 1 ? structuredDat
   <meta property="twitter:title" content={title} />
   <meta property="twitter:description" content={description} />
 
-  <link rel="icon" type="image/png" href="/favicon.png" />
-  <meta name="theme-color" content="#f7f8fa" id="theme-color-meta" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="theme-color" content="#f8f9f6" id="theme-color-meta" />
   <link rel="manifest" href="/manifest.json" />
   <link rel="alternate" type="text/plain" title="llms.txt" href="/llms.txt" />
 
@@ -86,48 +86,25 @@ const jsonLdContent = JSON.stringify(structuredData.length === 1 ? structuredDat
         }
         document.getElementById('theme-color-meta')?.setAttribute(
           'content',
-          document.body.classList.contains('dark') ? '#0e141b' : '#f7f8fa',
+          document.body.classList.contains('dark') ? '#171c19' : '#f8f9f6',
         );
       } catch (e) {}
     })();
   </script>
   <noscript>
-    <div style="padding: 20px; text-align: center; background: #fff3cd; color: #856404;">
-      <strong>提示：</strong>您的浏览器禁用了 JavaScript，因此网页可能缺少某些交互功能。rectg 导航是一个收录优质 Telegram 中文频道与群组的聚合站，启用 JavaScript 可获得最佳的浏览、搜索与复制链接体验。
+    <div class="noscript-notice">
+      未启用 JavaScript。你仍可浏览资源；搜索、筛选和收藏需启用后使用。
     </div>
   </noscript>
+  <a class="skip-link" href="#main-content">跳到主要内容</a>
   <slot />
-  <script is:inline>
-    // Keep the browser chrome and theme control semantics in sync on every page.
-    (function() {
-      const syncThemeUi = () => {
-        const isDark = document.body.classList.contains('dark');
-        document.getElementById('theme-color-meta')?.setAttribute(
-          'content',
-          isDark ? '#0e141b' : '#f7f8fa',
-        );
-
-        const themeToggle = document.getElementById('theme-toggle');
-        if (themeToggle) {
-          const label = isDark ? '切换到浅色主题' : '切换到深色主题';
-          themeToggle.setAttribute('aria-pressed', String(isDark));
-          themeToggle.setAttribute('aria-label', label);
-          themeToggle.setAttribute('title', label);
-        }
-      };
-
-      syncThemeUi();
-      new MutationObserver(syncThemeUi).observe(document.body, {
-        attributes: true,
-        attributeFilter: ['class'],
-      });
-    })();
-  </script>
+  <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  <script src="../scripts/shared.js"></script>
   <script src="../scripts/metrics.js"></script>
   <script>
     // Register Service Worker
     const browserNavigator = window.navigator;
-    if (browserNavigator && 'serviceWorker' in browserNavigator) {
+    if (import.meta.env.PROD && browserNavigator && 'serviceWorker' in browserNavigator) {
       window.addEventListener('load', () => {
         browserNavigator.serviceWorker.register('/sw.js').catch(registrationError => {
           console.warn('SW registration failed: ', registrationError);

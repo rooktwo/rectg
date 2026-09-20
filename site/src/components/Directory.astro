@@ -1,0 +1,97 @@
+---
+import Card from './Card.astro';
+import Icon from './Icon.astro';
+import ThemeToggle from './ThemeToggle.astro';
+import SiteFooter from './SiteFooter.astro';
+import { buildDirectoryData, categoryPath } from '../utils/data';
+const { activeId = 'featured' } = Astro.props;
+const { validSections, featuredItems, totalItems } = buildDirectoryData();
+const sections = validSections.map(({ meta, items }) => ({ ...meta, items }));
+const active = sections.find(section => section.id === activeId);
+const initialItems = active?.items || featuredItems;
+const initialTitle = active?.name || '目录摘选';
+const Heading = active ? 'h1' : 'h2';
+const payload = JSON.stringify({ sections, featuredIds: featuredItems.map(item => item.id) }).replace(/</g, '\\u003c');
+const quickCategories = ['数码科技', '开发运维', '软件工具', '学习阅读'];
+---
+<div id="app">
+  <aside id="sidebar" aria-label="分类导航">
+    <div class="sidebar-header">
+      <a class="brand" href="/" aria-label="rectg 首页"><span class="brand-mark"><Icon name="telegram" size={21} /></span><strong>rectg<span class="brand-dot">.</span></strong></a>
+      <button id="close-sidebar-btn" class="icon-button" type="button" aria-label="关闭分类菜单"><Icon name="close" /></button>
+    </div>
+    <nav id="category-nav" aria-label="资源分类">
+      <div class="nav-group">
+        <a class:list={['nav-item', { active: !active }]} data-section="featured" href="/" aria-current={!active ? 'page' : undefined}><Icon name="compass" size={18} /><span>发现</span></a>
+        <a class="nav-item" data-section="all" href="/?c=all"><Icon name="grid" size={18} /><span>全部收录</span><span class="nav-count">{totalItems}</span></a>
+        <a class="nav-item" data-section="saved" href="/?c=saved"><Icon name="bookmark" size={18} /><span>我的收藏</span><span class="nav-count" data-saved-count>0</span></a>
+      </div>
+      <div class="nav-section-label">按主题浏览 <span>{sections.length}</span></div>
+      {sections.map(section => (
+        <a class:list={['nav-item', { active: activeId === section.id }]} data-section={section.id} href={categoryPath(section.id)} aria-current={activeId === section.id ? 'page' : undefined}>
+          <Icon name={section.name} size={18} /><span>{section.name}</span><span class="nav-count">{section.items.length}</span>
+        </a>
+      ))}
+    </nav>
+    <div class="sidebar-footer">
+      <p>发现一个好频道？</p>
+      <a href="https://github.com/jackvale/rectg/issues/new?template=channel-submission.md" target="_blank" rel="noopener noreferrer" class="submit-btn"><Icon name="plus" size={17} />提交收录<Icon name="external" size={15} /></a>
+      <span>开源目录 · 社区共建</span>
+    </div>
+  </aside>
+  <div id="sidebar-overlay" aria-hidden="true"></div>
+  <main id="main-content" class="home-main">
+    <header class="directory-topbar">
+      <button id="menu-btn" class="icon-button" type="button" aria-label="打开分类菜单" aria-expanded="false" aria-controls="sidebar"><Icon name="menu" /></button>
+      <a class="mobile-brand" href="/">rectg<span class="brand-dot">.</span></a>
+      <form class="search-box" role="search" action="/" aria-label="搜索资源">
+        <Icon name="search" size={19} />
+        <label for="search-input" class="sr-only">搜索名称、简介或 t.me 地址</label>
+        <input id="search-input" name="q" type="search" placeholder="搜索名称、简介或 t.me 地址" autocomplete="off" spellcheck="false" />
+        <button id="clear-search-btn" class="icon-button" type="button" aria-label="清空搜索" hidden><Icon name="close" size={16} /></button>
+        <kbd id="search-shortcut" aria-hidden="true">/</kbd>
+      </form>
+      <div class="topbar-actions"><a class="text-link github-link" href="https://github.com/jackvale/rectg" target="_blank" rel="noopener noreferrer">GitHub <Icon name="external" size={14} /></a><span class="topbar-divider"></span><ThemeToggle /></div>
+    </header>
+    <nav class="mobile-category-strip" aria-label="快速分类">
+      <a class:list={['mobile-category-item', { active: !active }]} data-section="featured" href="/">发现</a>
+      <a class="mobile-category-item" data-section="all" href="/?c=all">全部</a>
+      <a class="mobile-category-item" data-section="saved" href="/?c=saved">收藏</a>
+      {sections.map(section => <a class:list={['mobile-category-item', { active: activeId === section.id }]} data-section={section.id} href={categoryPath(section.id)}>{section.name}</a>)}
+    </nav>
+    <div id="content-container">
+      <section id="directory-intro" class="directory-intro" hidden={Boolean(active)} aria-labelledby="intro-title">
+        <div class="intro-copy"><p class="eyebrow"><span class="status-dot"></span>频道 · 群组 · 同好</p><h1 id="intro-title">Telegram 中文目录<span class="brand-dot">.</span></h1><p class="intro-description">从一个兴趣出发，找到值得停留的频道与社群。</p>
+          <div class="quick-links"><span>从这里开始</span>{quickCategories.map(name => <a data-section={name} href={categoryPath(name)}>{name}<Icon name="external" size={13} /></a>)}</div>
+        </div>
+        <dl class="directory-stats"><div><dt>公开收录</dt><dd>{totalItems}<span>个</span></dd></div><div><dt>主题分类</dt><dd>{sections.length}<span>类</span></dd></div></dl>
+      </section>
+      <section id="active-section" data-current-id={activeId} aria-labelledby="active-section-title">
+        <div class="section-heading">
+          <div><p id="section-eyebrow" class="eyebrow" hidden={!active}>主题目录</p><Heading class="category-title"><span id="active-section-title">{initialTitle}</span><span id="active-section-meta" class="category-title-meta">{initialItems.length}</span></Heading><p id="active-section-desc" class="category-description">{active ? `浏览${active.name}相关的频道与群组。` : '换个方向逛逛，也许会有新发现。'}</p></div>
+          <a id="browse-all" class="text-link" data-section="all" href="/?c=all" hidden={Boolean(active)}>浏览全部<Icon name="arrow" size={17} /></a>
+        </div>
+        <div class="directory-toolbar" aria-label="筛选和显示方式">
+          <div class="type-filters" role="group" aria-label="资源类型">
+            <button type="button" data-type="all" aria-pressed="true">全部<span data-type-count="all">{initialItems.length}</span></button>
+            <button type="button" data-type="频道" aria-pressed="false">频道<span data-type-count="频道">{initialItems.filter(item => item.typeName === '频道').length}</span></button>
+            <button type="button" data-type="群组" aria-pressed="false">群组<span data-type-count="群组">{initialItems.filter(item => item.typeName === '群组').length}</span></button>
+          </div>
+          <div class="display-options"><label class="sort-control"><span class="sr-only">排序方式</span><select id="sort-select" aria-label="排序方式"><option value="default">默认排序</option><option value="members">人数从多到少</option><option value="name">名称 A–Z</option></select></label><div class="view-switch" role="group" aria-label="显示方式"><button class="icon-button" data-view="grid" type="button" aria-label="卡片视图" aria-pressed="true" title="卡片视图"><Icon name="grid" size={16} /></button><button class="icon-button" data-view="list" type="button" aria-label="列表视图" aria-pressed="false" title="列表视图"><Icon name="list" size={17} /></button></div></div>
+        </div>
+        <div id="result-status" class="result-status" hidden><span id="result-status-text"></span><button id="result-clear-btn" class="text-link" type="button">清除条件</button><button id="search-all-btn" class="text-link" type="button" hidden>搜索全站<Icon name="arrow" size={15} /></button></div>
+        <p id="results-announcement" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
+        <div class="grid" id="active-grid">{initialItems.map(item => <Card {...item} category={item.categoryName} />)}</div>
+        <div id="empty-state" class="empty-state" hidden><span class="empty-icon"><Icon name="search" size={28} /></span><h3>没有找到相关资源</h3><p>换个关键词，或者试试其他分类。</p><button class="button secondary" type="button" id="empty-reset">清除筛选</button></div>
+        <div class="load-more-wrap" id="load-more-wrap" hidden><p id="page-count"></p><button class="button secondary" id="load-more" type="button">加载更多<Icon name="plus" size={16} /></button></div>
+        <p class="results-end" id="results-end">共 {initialItems.length} 个收录 · 人数仅供参考</p>
+      </section>
+      <section class="directory-about" id="directory-about"><details><summary>关于这个目录<Icon name="plus" size={17} /></summary><div><p>rectg 整理公开的 Telegram 中文频道与群组。你可以按分类浏览，也可以搜索名称、拼音、简介或 t.me 地址。</p><p>收藏保存在当前浏览器中。加入和订阅等操作在 Telegram 内完成；发现失效链接或想补充收录，欢迎通过 <a href="https://github.com/jackvale/rectg/issues" target="_blank" rel="noopener noreferrer">GitHub 反馈</a>。</p></div></details></section>
+      <SiteFooter />
+    </div>
+  </main>
+</div>
+<button id="back-to-top" class="icon-button back-to-top" type="button" aria-label="返回顶部" hidden><Icon name="arrow" size={19} /></button>
+<template id="card-template"><Card id="" title="" desc="" url="" typeName="" countStr="" category="" /></template>
+<script id="directory-data" type="application/json" set:html={payload}></script>
+<script src="../scripts/main.js"></script>

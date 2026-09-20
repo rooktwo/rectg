@@ -1,0 +1,45 @@
+# rectg 网站
+
+基于 Astro 的静态目录。数据从仓库根目录的 `README.md` 生成，不需要后端服务。
+
+资料源为 PostgreSQL 的 `tg_profiles` 表。按 `crawler/README.md` 配置 `RECTG_DATABASE_URL` 并完成采集后，在仓库根目录执行：
+
+```sh
+python3 -m pip install -r crawler/requirements.txt
+python3 -m crawler export
+cd site
+npm run build
+npm run check
+```
+
+生成器只导出已收录、未拉黑且状态为 `available` 的频道、群组和机器人，按现有关键词规则生成主题分类和短简介。空结果默认不覆盖 README，导出成功后才原子替换文件。构建同步更新 `public/data.json`、`sitemap.xml` 和 `llms.txt`；构建本身不连接数据库，采集不自动发布网站。
+
+```sh
+cd site
+npm ci
+npm run dev
+```
+
+开发地址以终端输出为准，默认是 `http://localhost:4321`。
+
+## 构建与检查
+
+```sh
+npm run build
+npm run check
+npm run preview
+```
+
+`check` 检查资源唯一性、站点地图、结构化数据和样式约定，需要先完成构建。
+
+## 界面与交互
+
+- 首页和分类页共用 `Directory.astro`；卡片的静态渲染和动态更新共用 `Card.astro` 模板。
+- 搜索支持名称、简介、主题、拼音和 Telegram 地址。在分类页搜索当前分类，可切换到全站搜索。
+- 分类、搜索词、资源类型和排序写入网址，支持刷新、分享以及浏览器前进和后退。
+- 卡片 / 列表视图、主题和收藏保存在 `localStorage`；收藏只在当前浏览器有效。
+- 每次展示 24 条结果，按需加载更多。进入详情后返回，恢复筛选条件、已加载数量和浏览位置。
+- 按 `/` 或 `⌘/Ctrl + K` 聚焦搜索，按 Esc 清空搜索或关闭手机菜单。
+- 样式集中在 `src/styles/style.css`，主题颜色使用同一组 CSS 变量。
+
+本地回归重点：桌面与 320px / 390px 手机布局、主题切换、搜索无结果恢复、收藏 / 取消收藏、复制、加载更多、详情返回和键盘操作。

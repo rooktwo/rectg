@@ -1,0 +1,8 @@
+---
+const { compact = false } = Astro.props;
+---
+<footer class:list={['site-footer', { compact }]}>
+  <div><a href="/" class="footer-brand">rectg.</a><span>一个持续整理的 Telegram 中文目录。</span></div>
+  <div class="footer-links"><a href="https://github.com/jackvale/rectg" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://github.com/jackvale/rectg/issues" target="_blank" rel="noopener noreferrer">反馈问题 ↗</a></div>
+  <p class="footer-note">收录信息仅供参考，人数与简介以 Telegram 内为准。收录不代表对内容的背书。</p>
+</footer>

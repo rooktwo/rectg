@@ -1,56 +1,30 @@
 ---
-/**
- * Card.astro
- * Represents a single Telegram channel/group card.
- */
-import { getAvatarColorClass, getTelegramUsername } from '../utils/data';
-
-export interface Props {
-    id: string;
-    title: string;
-    desc: string;
-    url: string;
-    typeName: string;
-    countStr: string;
-    category: string;
-}
-
+import Icon from './Icon.astro';
+import { getAvatarColorClass, getTelegramUsername, itemPath } from '../utils/data';
+export interface Props { id: string; title: string; desc: string; url: string; typeName: string; countStr: string; category: string }
 const { id, title, desc, url, typeName, countStr, category } = Astro.props;
-
 const username = getTelegramUsername(url);
-const avatarUrl = username ? `https://unavatar.io/telegram/${username}` : '';
-const firstLetter = title ? title.substring(0, 1).toUpperCase() : '?';
-const colorClass = getAvatarColorClass(firstLetter);
-const countLabel = typeName === '频道' ? '订阅' : typeName === '群组' ? '成员' : '人数';
+const firstLetter = Array.from(title || '?')[0].toUpperCase();
+const countLabel = typeName === '群组' ? '成员' : '订阅';
 ---
-
-<article class="card" data-id={id} data-title={title} data-desc={desc} data-url={url} data-category={category} data-type={typeName}>
-    <div class="card-header">
-        <div class={`card-icon ${colorClass}`} aria-hidden="true">
-            {firstLetter}
-            {avatarUrl && (
-                <img src={avatarUrl} loading="lazy" decoding="async" alt="" onerror="this.style.display='none'" />
-            )}
-        </div>
-        <div class="card-title-wrap">
-            <a href={`/p/${id}/`} class="card-title" title={title}>{title}</a>
-            <div class="card-meta">
-                <span class="tag">{typeName}</span>
-                {category && <span class="tag category-tag" title={category}>{category}</span>}
-                <span class="resource-count">{countLabel} {countStr}</span>
-            </div>
-        </div>
+<article class="card" data-id={id} data-type={typeName}>
+  <div class="card-header">
+    <div class={`card-icon ${getAvatarColorClass(firstLetter)}`} aria-hidden="true">
+      <span class="avatar-letter">{firstLetter}</span>
+      {username && <img src={`https://unavatar.io/telegram/${username}`} width="42" height="42" loading="lazy" decoding="async" alt="" onerror="this.hidden=true" />}
     </div>
-    <div class="card-desc" title={desc}>{desc || '暂无简介'}</div>
+    <div class="card-title-wrap">
+      <a href={itemPath(id)} class="card-title" title={title}>{title}</a>
+      <div class="card-meta"><span class="card-type">{typeName}</span><span aria-hidden="true">·</span><span class="card-category">{category}</span></div>
+    </div>
+    <button class="icon-button bookmark-button" type="button" data-bookmark={id} aria-label={`收藏 ${title}`} aria-pressed="false" title="收藏"><Icon name="bookmark" size={17} /></button>
+  </div>
+  <p class="card-desc">{desc || '暂无简介，前往 Telegram 了解更多。'}</p>
+  <div class="card-footer">
+    <span class="resource-count"><strong>{countStr || '—'}</strong><span>{countLabel}</span></span>
     <div class="card-actions">
-        <a class="card-action card-action-primary" href={url} target="_blank" rel="noopener noreferrer">打开 Telegram <span aria-hidden="true">↗</span></a>
-        <a class="card-action" href={`/p/${id}/`}>查看详情 <span aria-hidden="true">→</span></a>
-        <button class="card-action card-copy-btn" type="button" aria-label="复制链接" data-url={url}>
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
-                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
-            </svg>
-            <span class="copy-label">复制链接</span>
-        </button>
+      <button class="icon-button card-copy-btn" type="button" aria-label={`复制 ${title} 的链接`} title="复制链接" data-copy-url={url}><Icon name="copy" size={15} /><span class="copy-label sr-only">复制链接</span></button>
+      <a class="card-action-primary" href={url} target="_blank" rel="noopener noreferrer" aria-label={`在 Telegram 打开 ${title}`}>Telegram <Icon name="external" size={15} /></a>
     </div>
+  </div>
 </article>

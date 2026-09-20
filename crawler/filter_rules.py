@@ -2,13 +2,13 @@
 from __future__ import annotations
 
 import re
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Mapping, Any
 
 import opencc
 
 
-MIN_CHANNEL_SUBSCRIBERS = 1000
+MIN_CHANNEL_SUBSCRIBERS = 500
 MIN_GROUP_MEMBERS = 200
 INACTIVE_DAYS_THRESHOLD = 90
 TRADITIONAL_RATIO_THRESHOLD = 0.10
@@ -94,14 +94,15 @@ def inactive_days(last_active: str | None) -> int:
         return 0
 
     try:
-        dt_str = last_active.replace("+00:00", "").replace("Z", "")
-        last_dt = datetime.fromisoformat(dt_str)
-        return (datetime.now() - last_dt).days
+        last_dt = last_active if isinstance(last_active, datetime) else datetime.fromisoformat(last_active.replace("Z", "+00:00"))
+        if last_dt.tzinfo is None:
+            last_dt = last_dt.replace(tzinfo=timezone.utc)
+        return (datetime.now(timezone.utc) - last_dt).days
     except (ValueError, TypeError):
         return 0
 
 
-def evaluate_entry(entry: Mapping[str, Any]) -> tuple[int, str]:
+def evaluate_entry(entry: Mapping[str, Any], *, blacklisted=False, whitelisted=False) -> tuple[int, str]:
     """Return (keep, reason) for a crawled Telegram entry."""
     if not entry.get("valid"):
         return 0, "链接无效"
@@ -109,8 +110,13 @@ def evaluate_entry(entry: Mapping[str, Any]) -> tuple[int, str]:
         return 0, "私密频道/群组"
 
     entry_type = entry.get("type")
-    if not entry_type:
+    if entry_type not in ('channel', 'group', 'bot'):
         return 0, "无法识别类型"
+
+    if blacklisted or entry.get("is_blacklisted"):
+        return 0, "黑名单"
+    if whitelisted:
+        return 1, "白名单"
 
     text = f"{entry.get('title') or ''} {entry.get('description') or ''}"
     if not contains_chinese(text):
@@ -131,8 +137,6 @@ def evaluate_entry(entry: Mapping[str, Any]) -> tuple[int, str]:
     elif entry_type == "group":
         if count < MIN_GROUP_MEMBERS:
             return 0, f"成员数不足 ({count} < {MIN_GROUP_MEMBERS})"
-    elif entry_type == "bot":
-        if count == 0:
-            return 0, "无月活用户数据"
+    # 机器人不限制人数，未公开月活也可收录。
 
     return 1, ""

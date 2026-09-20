@@ -1,745 +1,336 @@
 import PinyinMatchModule from 'pinyin-match';
+import { getSavedIds, readStorage, writeStorage, syncBookmarks } from './shared';
 
 const PinyinMatch = PinyinMatchModule?.default || PinyinMatchModule;
+const $ = selector => document.querySelector(selector);
+const payload = JSON.parse($('#directory-data').textContent);
+const sections = payload.sections;
+const allItems = sections.flatMap(section => section.items);
+const itemsById = new Map(allItems.map(item => [item.id, item]));
+const featured = payload.featuredIds.map(id => itemsById.get(id)).filter(Boolean);
+const pageSize = 24;
+let visibleCount = pageSize;
+let searchTimer;
+let composing = false;
+let state = readLocation();
+let view = readStorage('rectg:view') === 'list' ? 'list' : 'grid';
+let filteredItems = [];
+let matchesById = new Map();
+const grid = $('#active-grid');
+const search = $('#search-input');
+const mobile = matchMedia('(max-width: 800px)');
+const sidebar = $('#sidebar');
+let previousFocus;
 
-function safeGetStorage(key) {
-    try {
-        return window.localStorage.getItem(key);
-    } catch (error) {
-        console.warn('[rectg] localStorage get failed:', error);
-        return null;
+function readLocation() {
+  const params = new URLSearchParams(location.search);
+  let routeCategory = '';
+  try { routeCategory = decodeURIComponent(location.pathname.match(/^\/category\/([^/]+)/)?.[1] || ''); } catch { /* Fall back to the directory. */ }
+  const requested = routeCategory || params.get('c') || 'featured';
+  return {
+    section: ['featured', 'all', 'saved'].includes(requested) || sections.some(section => section.id === requested) ? requested : 'featured',
+    q: (params.get('q') || '').trim(),
+    type: ['频道', '群组'].includes(params.get('type')) ? params.get('type') : 'all',
+    sort: ['members', 'name'].includes(params.get('sort')) ? params.get('sort') : 'default',
+  };
+}
+
+function updateLocation(replace = false) {
+  const url = new URL(location.href);
+  const isCategory = sections.some(section => section.id === state.section);
+  url.pathname = isCategory ? `/category/${encodeURIComponent(state.section)}/` : '/';
+  url.hash = '';
+  for (const key of ['c', 'q', 'type', 'sort']) url.searchParams.delete(key);
+  if (!isCategory && state.section !== 'featured') url.searchParams.set('c', state.section);
+  if (state.q) url.searchParams.set('q', state.q);
+  if (state.type !== 'all') url.searchParams.set('type', state.type);
+  if (state.sort !== 'default') url.searchParams.set('sort', state.sort);
+  if (url.href !== location.href) history[replace ? 'replaceState' : 'pushState']({}, '', url);
+}
+
+function highlight(element, value, range) {
+  element.textContent = '';
+  if (!range) { element.textContent = value; return; }
+  const start = Math.max(0, range[0]);
+  const end = Math.min(value.length, range[1] + 1);
+  const mark = document.createElement('mark');
+  mark.textContent = value.slice(start, end);
+  element.append(value.slice(0, start), mark, value.slice(end));
+}
+
+function matchItem(item, rawQuery) {
+  const query = rawQuery.toLowerCase().replace(/^@/, '');
+  if (!query) return { score: 0 };
+  const find = value => {
+    const position = value.toLowerCase().indexOf(query);
+    return position >= 0 ? [position, position + query.length - 1] : PinyinMatch.match(value, query) || null;
+  };
+  const title = find(item.title || '');
+  const desc = find(item.desc || '');
+  const url = item.url.toLowerCase().includes(query);
+  const category = `${item.categoryName} ${item.categoryKeywords}`.toLowerCase().includes(query);
+  if (!title && !desc && !url && !category) return null;
+  return { title, desc, score: title ? (title[0] === 0 ? 0 : 1) : url ? 2 : category ? 3 : 4 };
+}
+
+function numericCount(item) { return Number.parseInt((item.countStr || '').replaceAll(',', ''), 10) || 0; }
+
+function createCard(item) {
+  const card = $('#card-template').content.firstElementChild.cloneNode(true);
+  const match = matchesById.get(item.id);
+  card.dataset.id = item.id;
+  card.dataset.type = item.typeName;
+  const title = card.querySelector('.card-title');
+  title.href = `/p/${encodeURIComponent(item.id)}/`;
+  title.title = item.title;
+  highlight(title, item.title, match?.title);
+  card.querySelector('.card-type').textContent = item.typeName;
+  card.querySelector('.card-category').textContent = item.categoryName;
+  highlight(card.querySelector('.card-desc'), item.desc || '暂无简介，前往 Telegram 了解更多。', match?.desc);
+  card.querySelector('.resource-count strong').textContent = item.countStr || '—';
+  card.querySelector('.resource-count span').textContent = item.typeName === '群组' ? '成员' : '订阅';
+  const copy = card.querySelector('[data-copy-url]');
+  copy.dataset.copyUrl = item.url;
+  copy.setAttribute('aria-label', `复制 ${item.title} 的链接`);
+  const direct = card.querySelector('.card-action-primary');
+  direct.href = item.url;
+  direct.setAttribute('aria-label', `在 Telegram 打开 ${item.title}`);
+  const bookmark = card.querySelector('[data-bookmark]');
+  bookmark.dataset.bookmark = item.id;
+  const firstLetter = Array.from(item.title || '?')[0].toUpperCase();
+  let hash = 2166136261;
+  for (let i = 0; i < firstLetter.length; i++) { hash ^= firstLetter.charCodeAt(i); hash = Math.imul(hash, 16777619); }
+  const avatar = card.querySelector('.card-icon');
+  avatar.className = `card-icon avatar-color-${(hash >>> 0) % 6}`;
+  card.querySelector('.avatar-letter').textContent = firstLetter;
+  const username = item.url.match(/^https?:\/\/t\.me\/([a-zA-Z0-9_]+)(?:[/?#]|$)/)?.[1];
+  if (username && !['joinchat', 'c'].includes(username)) {
+    const image = document.createElement('img');
+    Object.assign(image, { src: `https://unavatar.io/telegram/${username}`, alt: '', loading: 'lazy', decoding: 'async', width: 42, height: 42 });
+    image.addEventListener('error', () => { image.hidden = true; }, { once: true });
+    avatar.append(image);
+  }
+  return card;
+}
+
+function renderCards(appendFrom = 0) {
+  const fragment = document.createDocumentFragment();
+  filteredItems.slice(appendFrom, visibleCount).forEach(item => fragment.append(createCard(item)));
+  if (appendFrom) grid.append(fragment); else grid.replaceChildren(fragment);
+  syncBookmarks();
+  $('#load-more-wrap').hidden = filteredItems.length <= visibleCount;
+  $('#page-count').textContent = `已显示 ${Math.min(visibleCount, filteredItems.length)} / ${filteredItems.length} 个资源`;
+  $('#load-more').firstChild.textContent = `再显示 ${Math.min(pageSize, Math.max(0, filteredItems.length - visibleCount))} 个 `;
+  $('#results-end').hidden = !filteredItems.length || filteredItems.length > visibleCount;
+  $('#results-end').textContent = `共 ${filteredItems.length} 个收录 · 人数仅供参考`;
+  $('#results-announcement').textContent = `找到 ${filteredItems.length} 个资源，已显示 ${Math.min(visibleCount, filteredItems.length)} 个`;
+}
+
+function render() {
+  const section = sections.find(section => section.id === state.section);
+  const saved = getSavedIds();
+  const source = section?.items || (state.section === 'saved' ? allItems.filter(item => saved.has(item.id)) : state.section === 'all' || state.q ? allItems : featured);
+  matchesById = new Map();
+  const matching = state.q ? source.filter(item => {
+    const match = matchItem(item, state.q);
+    if (match) matchesById.set(item.id, match);
+    return Boolean(match);
+  }) : source;
+  filteredItems = matching.filter(item => state.type === 'all' || item.typeName === state.type);
+  if (state.sort === 'name') filteredItems.sort((a, b) => a.title.localeCompare(b.title, 'zh-CN'));
+  else if (state.sort === 'members') filteredItems.sort((a, b) => numericCount(b) - numericCount(a));
+  else if (state.q) filteredItems.sort((a, b) => (matchesById.get(a.id)?.score || 0) - (matchesById.get(b.id)?.score || 0) || numericCount(b) - numericCount(a));
+
+  const name = section?.name || ({ featured: '目录摘选', all: '全部收录', saved: '我的收藏' })[state.section];
+  const searchScope = section?.name || (state.section === 'saved' ? '我的收藏' : '全部收录');
+  $('#active-section-title').textContent = state.q ? '搜索结果' : name;
+  $('#active-section-meta').textContent = filteredItems.length;
+  $('#active-section-desc').textContent = state.q ? `在「${searchScope}」中搜索“${state.q}”` : section ? `浏览${section.name}相关的频道与群组。` : state.section === 'saved' ? '留住感兴趣的频道。收藏保存在当前浏览器中。' : state.section === 'all' ? `${allItems.length} 个公开频道与群组，按兴趣慢慢找。` : '换个方向逛逛，也许会有新发现。';
+  $('#directory-intro').hidden = state.section !== 'featured' || Boolean(state.q);
+  $('.category-title').setAttribute('aria-level', $('#directory-intro').hidden ? '1' : '2');
+  $('#section-eyebrow').hidden = state.section === 'featured' && !state.q;
+  $('#section-eyebrow').textContent = state.q ? '搜索目录' : section ? '主题目录' : '你的目录';
+  $('#browse-all').hidden = state.section !== 'featured' || Boolean(state.q);
+  $('#directory-about').hidden = state.section !== 'featured' || Boolean(state.q);
+  $('#active-section').dataset.currentId = state.section;
+  $('#sort-select').value = state.sort;
+  search.placeholder = section ? `在${section.name}中搜索…` : state.section === 'saved' ? '在收藏中搜索…' : '搜索名称、简介或 t.me 地址';
+  $('#clear-search-btn').hidden = !search.value;
+  $('#search-shortcut').hidden = Boolean(search.value);
+  document.title = state.q ? `搜索 ${state.q} - rectg` : `${section ? `${section.name} Telegram 频道和群组` : state.section === 'featured' ? 'Telegram 中文目录' : name} - rectg`;
+  const canonical = document.querySelector('link[rel="canonical"]');
+  if (canonical) canonical.href = `https://www.rectg.com${section ? `/category/${encodeURIComponent(section.id)}/` : '/'}`;
+  document.querySelectorAll('[data-section]').forEach(link => {
+    const selected = link.dataset.section === state.section;
+    link.classList.toggle('active', selected);
+    if (selected) link.setAttribute('aria-current', 'page'); else link.removeAttribute('aria-current');
+  });
+  document.querySelectorAll('[data-type]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.type === state.type)));
+  document.querySelectorAll('[data-type-count]').forEach(count => {
+    count.textContent = matching.filter(item => count.dataset.typeCount === 'all' || item.typeName === count.dataset.typeCount).length;
+  });
+  const hasConditions = Boolean(state.q) || state.type !== 'all' || state.sort !== 'default';
+  $('#result-status').hidden = !hasConditions;
+  $('#result-status-text').textContent = `${filteredItems.length} 个结果${state.type === 'all' ? '' : ` · 仅${state.type}`}`;
+  $('#search-all-btn').hidden = !state.q || (!section && state.section !== 'saved');
+  $('#empty-state').hidden = filteredItems.length > 0;
+  const noSaved = state.section === 'saved' && !source.length;
+  $('#empty-state h3').textContent = noSaved ? '把喜欢的频道留在这里' : '暂时没有找到';
+  $('#empty-state p').textContent = noSaved ? '点击资源右上角的书签，下次就能在这里找到它。' : state.q ? '试试更短的关键词、拼音或 t.me 用户名。' : '这个分类暂无该类型的资源，试试其他筛选。';
+  $('#empty-reset').textContent = noSaved ? '去发现频道' : '清除筛选';
+  renderCards();
+}
+
+function syncView() {
+  grid.classList.toggle('list-view', view === 'list');
+  document.querySelectorAll('[data-view]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.view === view)));
+}
+
+function changeState(next, { replace = false, scroll = false, syncInput = true } = {}) {
+  clearTimeout(searchTimer);
+  state = { ...state, ...next };
+  if (syncInput && search.value !== state.q) search.value = state.q;
+  visibleCount = pageSize;
+  updateLocation(replace);
+  render();
+  if (scroll) window.scrollTo({ top: 0, behavior: 'instant' });
+}
+
+function syncSidebar(open = false) {
+  const expanded = mobile.matches && open;
+  const exposed = !mobile.matches || expanded;
+  sidebar.classList.toggle('open', expanded);
+  sidebar.setAttribute('aria-hidden', String(!exposed));
+  sidebar.inert = !exposed;
+  $('#sidebar-overlay').classList.toggle('open', expanded);
+  $('#menu-btn').setAttribute('aria-expanded', String(expanded));
+  $('#main-content').inert = expanded;
+  document.body.classList.toggle('menu-open', expanded);
+  if (expanded) { sidebar.setAttribute('role', 'dialog'); sidebar.setAttribute('aria-modal', 'true'); }
+  else { sidebar.removeAttribute('role'); sidebar.removeAttribute('aria-modal'); }
+}
+
+function closeSidebar() {
+  const wasOpen = sidebar.classList.contains('open');
+  syncSidebar(false);
+  if (wasOpen && previousFocus instanceof HTMLElement) previousFocus.focus({ preventScroll: true });
+}
+
+$('#menu-btn').addEventListener('click', () => {
+  previousFocus = document.activeElement;
+  syncSidebar(true);
+  $('#close-sidebar-btn').focus();
+});
+$('#close-sidebar-btn').addEventListener('click', closeSidebar);
+$('#sidebar-overlay').addEventListener('click', closeSidebar);
+mobile.addEventListener('change', () => {
+  if (mobile.matches && sidebar.contains(document.activeElement)) $('#menu-btn').focus();
+  syncSidebar(false);
+});
+syncSidebar(false);
+
+function commitSearch() {
+  if (composing) return;
+  const hadQuery = Boolean(state.q);
+  changeState({ q: search.value.trim() }, { replace: hadQuery, syncInput: false });
+  window.rectgTrack?.('resource_search', { query_length: state.q.length, result_count: filteredItems.length });
+}
+search.addEventListener('input', () => {
+  clearTimeout(searchTimer);
+  $('#clear-search-btn').hidden = !search.value;
+  $('#search-shortcut').hidden = Boolean(search.value);
+  if (!composing) searchTimer = setTimeout(commitSearch, 150);
+});
+search.addEventListener('compositionstart', () => { composing = true; clearTimeout(searchTimer); });
+search.addEventListener('compositionend', () => { composing = false; clearTimeout(searchTimer); searchTimer = setTimeout(commitSearch, 150); });
+$('.search-box').addEventListener('submit', event => { event.preventDefault(); clearTimeout(searchTimer); commitSearch(); });
+$('#clear-search-btn').addEventListener('click', () => { changeState({ q: '' }); search.focus(); });
+$('#result-clear-btn').addEventListener('click', () => { changeState({ q: '', type: 'all', sort: 'default' }); search.focus(); });
+$('#search-all-btn').addEventListener('click', () => changeState({ section: 'all' }));
+$('#empty-reset').addEventListener('click', () => {
+  const goDiscover = state.section === 'saved' && !getSavedIds().size;
+  changeState({ section: goDiscover ? 'featured' : state.section, q: '', type: 'all', sort: 'default' }, { scroll: goDiscover });
+  search.focus({ preventScroll: goDiscover });
+});
+$('#sort-select').addEventListener('change', event => changeState({ sort: event.target.value }));
+$('#load-more').addEventListener('click', event => {
+  const previousCount = visibleCount;
+  visibleCount += pageSize;
+  renderCards(previousCount);
+  if (event.detail === 0) grid.children[previousCount]?.querySelector('.card-title')?.focus();
+});
+
+document.addEventListener('click', event => {
+  if (!(event.target instanceof Element)) return;
+  const nav = event.target.closest('[data-section]');
+  if (nav && !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey && event.button === 0) {
+    event.preventDefault();
+    closeSidebar();
+    changeState({ section: nav.dataset.section, q: '', type: 'all', sort: 'default' }, { scroll: true });
+    document.querySelector('.mobile-category-item.active')?.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+    window.rectgTrack?.('category_view', { category: state.section });
+  }
+  const type = event.target.closest('[data-type]');
+  if (type?.tagName === 'BUTTON') changeState({ type: type.dataset.type });
+  const display = event.target.closest('[data-view]');
+  if (display) { view = display.dataset.view; writeStorage('rectg:view', view); syncView(); }
+  if (event.target.closest('.card-title')) rememberPosition();
+});
+
+document.addEventListener('keydown', event => {
+  if (event.isComposing) return;
+  if (sidebar.classList.contains('open')) {
+    if (event.key === 'Escape') { event.preventDefault(); closeSidebar(); }
+    if (event.key === 'Tab') {
+      const controls = [...sidebar.querySelectorAll('a[href], button')].filter(element => element.getClientRects().length);
+      const first = controls[0];
+      const last = controls.at(-1);
+      if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+      else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
     }
+    return;
+  }
+  const editable = document.activeElement?.matches('input, textarea, select, [contenteditable="true"]');
+  if ((event.key === '/' && !editable) || (event.key.toLowerCase() === 'k' && (event.metaKey || event.ctrlKey))) {
+    event.preventDefault(); search.focus(); search.select();
+  }
+  if (event.key === 'Escape' && document.activeElement === search) { changeState({ q: '' }); search.focus(); }
+});
+
+document.addEventListener('rectg:saved', event => {
+  if (state.section !== 'saved') return;
+  const index = [...grid.children].findIndex(card => card.dataset.id === event.detail?.id);
+  const focusInGrid = grid.contains(document.activeElement);
+  render();
+  if (focusInGrid) (grid.children[Math.max(0, Math.min(index, grid.children.length - 1))]?.querySelector('[data-bookmark]') || $('#empty-reset')).focus();
+});
+
+function rememberPosition() {
+  try {
+    sessionStorage.setItem('rectg:directory-return', location.pathname + location.search);
+    sessionStorage.setItem('rectg:directory-position', JSON.stringify({ url: location.pathname + location.search, count: visibleCount, y: scrollY }));
+  } catch { /* Browsing still works when storage is unavailable. */ }
 }
-
-function safeSetStorage(key, value) {
-    try {
-        window.localStorage.setItem(key, value);
-        return true;
-    } catch (error) {
-        console.warn('[rectg] localStorage set failed:', error);
-        return false;
-    }
-}
-
-function trackEvent(name, properties = {}) {
-    window.rectgTrack?.(name, properties);
-}
-
-function readDirectoryData() {
-    const payload = document.getElementById('directory-data');
-    if (!payload?.textContent) return { sections: [], allItems: [] };
-
-    try {
-        return JSON.parse(payload.textContent);
-    } catch (error) {
-        console.error('[rectg] failed to parse directory data:', error);
-        return { sections: [], allItems: [] };
-    }
-}
-
-let sidebar;
-let sidebarOverlay;
-let menuBtn;
-let closeSidebarBtn;
-let themeToggle;
-let searchInput;
-let clearSearchBtn;
-let toast;
-let backToTopBtn;
-let progressBar;
-let emptyState;
-let homeMain;
-let searchDebounce;
-let contentContainer;
-let activeSection;
-let activeSectionTitle;
-let activeSectionMeta;
-let activeSectionDesc;
-let activeGrid;
-let resultStatus;
-let resultStatusText;
-let resultClearBtn;
-let directoryData = { sections: [], allItems: [] };
-let sections = [];
-let allItems = [];
-let currentSectionId = 'featured';
-let toastTimeout;
-
-function collectDomRefs() {
-    sidebar = document.getElementById('sidebar');
-    sidebarOverlay = document.getElementById('sidebar-overlay');
-    menuBtn = document.getElementById('menu-btn');
-    closeSidebarBtn = document.getElementById('close-sidebar-btn');
-    themeToggle = document.getElementById('theme-toggle');
-    searchInput = document.getElementById('search-input');
-    clearSearchBtn = document.getElementById('clear-search-btn');
-    toast = document.getElementById('toast');
-    backToTopBtn = document.getElementById('back-to-top');
-    progressBar = document.getElementById('progress-bar');
-    emptyState = document.getElementById('empty-state');
-    homeMain = document.querySelector('.home-main');
-    contentContainer = document.getElementById('content-container');
-    activeSection = document.getElementById('active-section');
-    activeSectionTitle = document.getElementById('active-section-title');
-    activeSectionMeta = document.getElementById('active-section-meta');
-    activeSectionDesc = document.getElementById('active-section-desc');
-    activeGrid = document.getElementById('active-grid');
-    resultStatus = document.getElementById('result-status');
-    resultStatusText = document.getElementById('result-status-text');
-    resultClearBtn = document.getElementById('result-clear-btn');
-    directoryData = readDirectoryData();
-    sections = Array.isArray(directoryData.sections) ? directoryData.sections : [];
-    allItems = Array.isArray(directoryData.allItems)
-        ? directoryData.allItems
-        : sections
-            .filter((section) => section.id !== 'featured')
-            .flatMap((section) => section.items || []);
-    currentSectionId = activeSection?.dataset.currentId || 'featured';
-}
-
-function showToast(msg) {
-    if (!toast) return;
-    toast.textContent = msg;
-    toast.classList.add('show');
-    clearTimeout(toastTimeout);
-    toastTimeout = setTimeout(() => toast.classList.remove('show'), 2000);
-}
-
-function hashText(value) {
-    let hash = 2166136261;
-    for (let i = 0; i < value.length; i += 1) {
-        hash ^= value.charCodeAt(i);
-        hash = Math.imul(hash, 16777619);
-    }
-    return hash >>> 0;
-}
-
-function getAvatarColorClass(value) {
-    return `avatar-color-${hashText(value || '?') % 6}`;
-}
-
-function getTelegramUsername(url) {
-    if (!url || !url.includes('t.me/')) return '';
-    const parts = url.split('t.me/');
-    return parts[1]?.split('/')[0]?.split('?')[0] || '';
-}
-
-function parseCount(countStr) {
-    if (!countStr || countStr === '-') return 0;
-    const parsed = Number.parseInt(String(countStr).replace(/,/g, ''), 10);
-    return Number.isFinite(parsed) ? parsed : 0;
-}
-
-function categoryPath(categoryId) {
-    return `/category/${encodeURIComponent(categoryId)}/`;
-}
-
-function setHighlightedText(target, text, matchPositions) {
-    if (!target) return;
-    target.textContent = '';
-
-    if (!matchPositions || !Array.isArray(matchPositions)) {
-        target.textContent = text;
-        return;
-    }
-
-    const start = Math.max(0, Math.min(text.length, matchPositions[0]));
-    const end = Math.max(start, Math.min(text.length - 1, matchPositions[1]));
-
-    target.appendChild(document.createTextNode(text.substring(0, start)));
-
-    const mark = document.createElement('mark');
-    mark.textContent = text.substring(start, end + 1);
-    target.appendChild(mark);
-
-    target.appendChild(document.createTextNode(text.substring(end + 1)));
-}
-
-function createCopyIcon() {
-    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-    svg.setAttribute('width', '14');
-    svg.setAttribute('height', '14');
-    svg.setAttribute('viewBox', '0 0 24 24');
-    svg.setAttribute('fill', 'none');
-    svg.setAttribute('stroke', 'currentColor');
-    svg.setAttribute('stroke-width', '2');
-    svg.setAttribute('stroke-linecap', 'round');
-    svg.setAttribute('stroke-linejoin', 'round');
-
-    const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
-    rect.setAttribute('x', '9');
-    rect.setAttribute('y', '9');
-    rect.setAttribute('width', '13');
-    rect.setAttribute('height', '13');
-    rect.setAttribute('rx', '2');
-    rect.setAttribute('ry', '2');
-
-    const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-    path.setAttribute('d', 'M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1');
-
-    svg.append(rect, path);
-    return svg;
-}
-
-function createCard(item, matches = {}) {
-    const title = item.title || '';
-    const desc = item.desc || '';
-    const url = item.url || '';
-    const categoryName = item.categoryName || item.categoryFullName || '';
-    const username = getTelegramUsername(url);
-    const firstLetter = title ? title.substring(0, 1).toUpperCase() : '?';
-    const article = document.createElement('article');
-
-    article.className = 'card';
-    article.dataset.id = item.id || '';
-    article.dataset.title = title;
-    article.dataset.desc = desc;
-    article.dataset.url = url;
-    article.dataset.category = [item.categoryFullName, item.categoryKeywords, item.typeName].filter(Boolean).join(' ');
-    article.dataset.type = item.typeName || '';
-
-    const header = document.createElement('div');
-    header.className = 'card-header';
-
-    const icon = document.createElement('div');
-    icon.className = `card-icon ${getAvatarColorClass(firstLetter)}`;
-    icon.setAttribute('aria-hidden', 'true');
-    if (username) {
-        const img = document.createElement('img');
-        img.src = `https://unavatar.io/telegram/${username}`;
-        img.loading = 'lazy';
-        img.decoding = 'async';
-        img.alt = '';
-        img.addEventListener('error', () => {
-            icon.textContent = firstLetter;
-        });
-        icon.appendChild(img);
-    } else {
-        icon.textContent = firstLetter;
-    }
-
-    const titleWrap = document.createElement('div');
-    titleWrap.className = 'card-title-wrap';
-
-    const titleLink = document.createElement('a');
-    titleLink.href = `/p/${item.id}/`;
-    titleLink.className = 'card-title';
-    titleLink.title = title;
-    setHighlightedText(titleLink, title, matches.title);
-
-    const meta = document.createElement('div');
-    meta.className = 'card-meta';
-
-    const tag = document.createElement('span');
-    tag.className = 'tag';
-    tag.textContent = item.typeName || '资源';
-
-    const categoryTag = document.createElement('span');
-    categoryTag.className = 'tag category-tag';
-    categoryTag.title = categoryName;
-    categoryTag.textContent = categoryName || '未分类';
-
-    const count = document.createElement('span');
-    count.className = 'resource-count';
-    const countLabel = item.typeName === '频道' ? '订阅' : item.typeName === '群组' ? '成员' : '人数';
-    count.textContent = `${countLabel} ${item.countStr || '-'}`;
-    meta.append(tag, categoryTag, count);
-    titleWrap.append(titleLink, meta);
-    header.append(icon, titleWrap);
-
-    const descEl = document.createElement('div');
-    descEl.className = 'card-desc';
-    descEl.title = desc;
-    setHighlightedText(descEl, desc || '暂无简介', matches.desc);
-
-    const actions = document.createElement('div');
-    actions.className = 'card-actions';
-
-    const directLink = document.createElement('a');
-    directLink.className = 'card-action card-action-primary';
-    directLink.href = url;
-    directLink.target = '_blank';
-    directLink.rel = 'noopener noreferrer';
-    const directLinkArrow = document.createElement('span');
-    directLinkArrow.textContent = '↗';
-    directLinkArrow.setAttribute('aria-hidden', 'true');
-    directLink.append('打开 Telegram ', directLinkArrow);
-
-    const detailLink = document.createElement('a');
-    detailLink.className = 'card-action';
-    detailLink.href = `/p/${item.id}/`;
-    const detailLinkArrow = document.createElement('span');
-    detailLinkArrow.textContent = '→';
-    detailLinkArrow.setAttribute('aria-hidden', 'true');
-    detailLink.append('查看详情 ', detailLinkArrow);
-
-    const copyBtn = document.createElement('button');
-    copyBtn.className = 'card-action card-copy-btn';
-    copyBtn.type = 'button';
-    copyBtn.setAttribute('aria-label', '复制链接');
-    copyBtn.dataset.url = url;
-    const copyLabel = document.createElement('span');
-    copyLabel.className = 'copy-label';
-    copyLabel.textContent = '复制链接';
-    copyBtn.replaceChildren(createCopyIcon(), copyLabel);
-    actions.append(directLink, detailLink, copyBtn);
-    article.append(header, descEl, actions);
-    return article;
-}
-
-function renderCards(items, matchMap = new Map()) {
-    if (!activeGrid) return;
-    const fragment = document.createDocumentFragment();
-    items.forEach((item) => {
-        fragment.appendChild(createCard(item, matchMap.get(item.id) || {}));
-    });
-    activeGrid.replaceChildren(fragment);
-}
-
-function setActiveNav(id) {
-    document.querySelectorAll('.nav-item, .mobile-category-item').forEach((item) => {
-        const isActive = item.dataset.id === id;
-        item.classList.toggle('active', isActive);
-        if (isActive) {
-            item.setAttribute('aria-current', 'page');
-        } else {
-            item.removeAttribute('aria-current');
-        }
-    });
-}
-
-function updateUrl({ sectionId, query, replace = false }) {
-    const url = new URL(window.location);
-    if (query) {
-        url.pathname = '/';
-        url.searchParams.set('q', query);
-        url.searchParams.delete('c');
-    } else if (sectionId && sectionId !== 'featured') {
-        url.pathname = '/';
-        url.searchParams.set('c', sectionId);
-        url.searchParams.delete('q');
-        url.hash = '';
-    } else {
-        url.pathname = '/';
-        url.searchParams.delete('c');
-        url.searchParams.delete('q');
-    }
-
-    const method = replace ? 'replaceState' : 'pushState';
-    window.history[method]({}, '', url);
-}
-
-function getSectionDescription(section) {
-    if (!section) return '';
-    if (section.id === 'featured') return '发现值得关注的 Telegram 频道与群组。';
-    const keywords = section.keywords ? `，关联关键词：${section.keywords}` : '';
-    return `${section.items?.length || 0} 个资源，按订阅或成员数排序${keywords}。`;
-}
-
-function setSectionHeader(title, count, subtitle = '', description = '') {
-    if (activeSectionTitle) activeSectionTitle.textContent = title;
-    if (activeSectionMeta) {
-        activeSectionMeta.textContent = subtitle || `(${count})`;
-    }
-    if (activeSectionDesc) {
-        activeSectionDesc.textContent = description;
-    }
-}
-
-function setResultStatus(message = '', show = false) {
-    if (!resultStatus) return;
-    resultStatus.hidden = !show;
-    if (resultStatusText) resultStatusText.textContent = message;
-}
-
-function renderSection(id, options = {}) {
-    const section = sections.find((candidate) => candidate.id === id) || sections[0];
-    if (!section) return;
-
-    currentSectionId = section.id;
-    homeMain?.classList.remove('is-searching');
-    if (activeSection) activeSection.dataset.currentId = section.id;
-    setActiveNav(section.id);
-    setSectionHeader(
-        section.fullName || section.name,
-        section.items?.length || 0,
-        '',
-        getSectionDescription(section),
-    );
-    renderCards(section.items || []);
-    setResultStatus('', false);
-    if (emptyState) emptyState.style.display = 'none';
-    if (activeSection) activeSection.style.display = '';
-    if (searchInput && options.clearSearch) searchInput.value = '';
-    clearSearchBtn?.classList.toggle('visible', Boolean(searchInput?.value?.trim()));
-    if (options.updateUrl) updateUrl({ sectionId: section.id });
-    if (options.scroll) {
-        const top = activeSection
-            ? activeSection.getBoundingClientRect().top + window.pageYOffset - 80
-            : 0;
-        window.scrollTo({ top, behavior: 'smooth' });
-    }
-}
-
-function getMatches(item, query) {
-    const title = item.title || '';
-    const desc = item.desc || '';
-    const url = item.url || '';
-    const category = [item.categoryFullName, item.categoryKeywords, item.typeName].filter(Boolean).join(' ');
-    const titleLower = title.toLowerCase();
-    const descLower = desc.toLowerCase();
-    const categoryLower = category.toLowerCase();
-    const urlLower = url.toLowerCase();
-    const matchTitle = PinyinMatch.match(title, query);
-    const matchDesc = PinyinMatch.match(desc, query);
-    const directTitle = titleLower.includes(query);
-    const directDesc = descLower.includes(query);
-    const matchCategory = categoryLower.includes(query);
-    const matchUrl = urlLower.includes(query);
-
-    if (!matchTitle && !directTitle && !matchDesc && !directDesc && !matchCategory && !matchUrl) return null;
-
-    let score = 4;
-    if (matchTitle || directTitle) score = titleLower.startsWith(query) ? 0 : 1;
-    else if (matchCategory) score = 2;
-    else if (matchDesc || directDesc) score = 3;
-
-    return {
-        title: matchTitle || (directTitle ? [titleLower.indexOf(query), titleLower.indexOf(query) + query.length - 1] : null),
-        desc: matchDesc || (directDesc ? [descLower.indexOf(query), descLower.indexOf(query) + query.length - 1] : null),
-        score,
-    };
-}
-
-function renderSearch(rawQuery, options = {}) {
-    const query = rawQuery.trim().toLowerCase();
-    if (!query) {
-        renderSection(currentSectionId, { updateUrl: options.updateUrl, clearSearch: false });
-        return;
-    }
-
-    homeMain?.classList.add('is-searching');
-
-    const matchMap = new Map();
-    const results = allItems.reduce((items, item) => {
-        const matches = getMatches(item, query);
-        if (!matches) return items;
-        matchMap.set(item.id, matches);
-        items.push(item);
-        return items;
-    }, []).sort((a, b) => {
-        const matchA = matchMap.get(a.id);
-        const matchB = matchMap.get(b.id);
-        if ((matchA?.score || 0) !== (matchB?.score || 0)) {
-            return (matchA?.score || 0) - (matchB?.score || 0);
-        }
-        return parseCount(b.countStr) - parseCount(a.countStr);
-    });
-
-    setActiveNav('');
-    setSectionHeader(
-        '搜索结果',
-        results.length,
-        `“${rawQuery.trim()}” · ${results.length} 个资源`,
-        results.length ? '按标题、分类、简介和 t.me 链接匹配。' : '换一个关键词，或使用左侧分类继续浏览。',
-    );
-    renderCards(results, matchMap);
-    setResultStatus(
-        results.length
-            ? `找到 ${results.length} 个资源`
-            : `没有找到 “${rawQuery.trim()}”`,
-        true,
-    );
-    const emptyTitle = emptyState?.querySelector('h3');
-    const emptyDescription = emptyState?.querySelector('p');
-    if (emptyTitle) emptyTitle.textContent = `没有找到“${rawQuery.trim()}”`;
-    if (emptyDescription) emptyDescription.textContent = '换一个名称、主题词或 t.me 用户名试试。';
-    if (emptyState) emptyState.style.display = results.length ? 'none' : 'block';
-    if (activeSection) activeSection.style.display = results.length ? '' : 'none';
-    clearSearchBtn?.classList.toggle('visible', true);
-    if (query.length >= 2) {
-        trackEvent('resource_search', { query_length: query.length, result_count: results.length });
-    }
-    if (options.updateUrl) updateUrl({ query: rawQuery.trim(), replace: true });
-}
-
-function initTheme() {
-    const savedTheme = safeGetStorage('theme');
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const themeMeta = document.getElementById('theme-color-meta');
-
-    function syncThemeMeta() {
-        const isDark = document.body.classList.contains('dark');
-        const label = isDark ? '切换到浅色主题' : '切换到深色主题';
-        themeMeta?.setAttribute('content', isDark ? '#171615' : '#f4f1eb');
-        themeToggle?.setAttribute('aria-pressed', String(isDark));
-        themeToggle?.setAttribute('aria-label', label);
-        themeToggle?.setAttribute('title', label);
-    }
-
-    document.body.classList.toggle('dark', savedTheme === 'dark' || (!savedTheme && prefersDark));
-    syncThemeMeta();
-
-    themeToggle?.addEventListener('click', () => {
-        document.body.classList.toggle('dark');
-        const isDark = document.body.classList.contains('dark');
-        safeSetStorage('theme', isDark ? 'dark' : 'light');
-        syncThemeMeta();
-    });
-}
-
-function initSidebar() {
-    const mobileSidebarQuery = window.matchMedia('(max-width: 768px)');
-    let focusReturnTarget = null;
-
-    function syncSidebarAccessibility(isOpen = sidebar?.classList.contains('open') || false) {
-        const isMobile = mobileSidebarQuery.matches;
-        const isExposed = !isMobile || isOpen;
-
-        sidebar?.setAttribute('aria-hidden', String(!isExposed));
-        sidebar?.toggleAttribute('inert', !isExposed);
-        menuBtn?.setAttribute('aria-expanded', String(isMobile && isOpen));
-        menuBtn?.setAttribute('aria-label', isMobile && isOpen ? '关闭分类菜单' : '打开分类菜单');
-    }
-
-    function openSidebar() {
-        if (!mobileSidebarQuery.matches) return;
-        focusReturnTarget = document.activeElement instanceof HTMLElement
-            ? document.activeElement
-            : menuBtn;
-        sidebar?.classList.add('open');
-        sidebarOverlay?.classList.add('open');
-        document.body.style.overflow = 'hidden';
-        syncSidebarAccessibility(true);
-        closeSidebarBtn?.focus();
-    }
-
-    function closeSidebar({ restoreFocus = true } = {}) {
-        const wasOpen = sidebar?.classList.contains('open') || false;
-        if (wasOpen && restoreFocus && mobileSidebarQuery.matches) {
-            const target = focusReturnTarget instanceof HTMLElement && focusReturnTarget.isConnected
-                ? focusReturnTarget
-                : menuBtn;
-            target?.focus();
-        }
-        sidebar?.classList.remove('open');
-        sidebarOverlay?.classList.remove('open');
-        document.body.style.overflow = '';
-        syncSidebarAccessibility(false);
-        focusReturnTarget = null;
-    }
-
-    menuBtn?.addEventListener('click', openSidebar);
-    closeSidebarBtn?.addEventListener('click', closeSidebar);
-    sidebarOverlay?.addEventListener('click', closeSidebar);
-
-    document.addEventListener('keydown', (event) => {
-        if (event.key !== 'Escape' || !sidebar?.classList.contains('open')) return;
-        event.preventDefault();
-        closeSidebar();
-    });
-
-    const handleViewportChange = () => {
-        if (!mobileSidebarQuery.matches) {
-            closeSidebar({ restoreFocus: false });
-        } else {
-            if (sidebar?.contains(document.activeElement)) {
-                menuBtn?.focus();
-            }
-            syncSidebarAccessibility(sidebar?.classList.contains('open') || false);
-        }
-    };
-    if (typeof mobileSidebarQuery.addEventListener === 'function') {
-        mobileSidebarQuery.addEventListener('change', handleViewportChange);
-    } else {
-        mobileSidebarQuery.addListener(handleViewportChange);
-    }
-    handleViewportChange();
-
-    document.querySelectorAll('.nav-item, .mobile-category-item').forEach((item) => {
-        item.addEventListener('click', (event) => {
-            const id = item.dataset.id || 'featured';
-            trackEvent('category_view', { category: id });
-            event.preventDefault();
-            renderSection(id, { updateUrl: true, clearSearch: true, scroll: true });
-            if (window.innerWidth <= 768) closeSidebar();
-        });
-    });
-}
-
-function initSearch() {
-    function clearSearch({ focus = true } = {}) {
-        if (!searchInput) return;
-        clearTimeout(searchDebounce);
-        searchInput.value = '';
-        renderSection(currentSectionId, { updateUrl: true, clearSearch: false, scroll: false });
-        clearSearchBtn?.classList.remove('visible');
-        setResultStatus('', false);
-        if (focus) searchInput.focus();
-    }
-
-    searchInput?.addEventListener('input', (event) => {
-        clearTimeout(searchDebounce);
-        const value = event.target.value || '';
-        searchDebounce = setTimeout(() => {
-            renderSearch(value, { updateUrl: true });
-        }, 120);
-    });
-
-    document.addEventListener('keydown', (event) => {
-        if (event.key === '/' && document.activeElement !== searchInput && !['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement?.tagName)) {
-            event.preventDefault();
-            searchInput?.focus();
-        }
-        if (event.key === 'Escape' && document.activeElement === searchInput && searchInput.value) {
-            clearSearch();
-        }
-    });
-
-    clearSearchBtn?.addEventListener('click', () => clearSearch());
-    resultClearBtn?.addEventListener('click', () => clearSearch());
-
-    contentContainer?.addEventListener('click', (event) => {
-        const target = event.target;
-        if (!(target instanceof Element)) return;
-        const action = target.closest('[data-empty-action]')?.getAttribute('data-empty-action');
-        if (!action) return;
-
-        if (action === 'featured') {
-            if (searchInput) searchInput.value = '';
-            renderSection('featured', { updateUrl: true, clearSearch: false, scroll: true });
-            clearSearchBtn?.classList.remove('visible');
-            setResultStatus('', false);
-        } else if (action === 'clear') {
-            clearSearch();
-        }
-    });
-}
-
-async function copyUrl(url) {
-    const clipboard = window.navigator?.clipboard;
-    try {
-        if (clipboard?.writeText) {
-            await clipboard.writeText(url);
-            return true;
-        }
-    } catch (error) {
-        console.warn('[rectg] clipboard api failed, falling back:', error);
-    }
-
-    const textarea = document.createElement('textarea');
-    textarea.value = url;
-    textarea.setAttribute('readonly', '');
-    textarea.style.position = 'fixed';
-    textarea.style.top = '0';
-    textarea.style.left = '0';
-    textarea.style.opacity = '0';
-    document.body.appendChild(textarea);
-    textarea.focus();
-    textarea.select();
-    textarea.setSelectionRange(0, textarea.value.length);
-    try {
-        return document.execCommand('copy');
-    } finally {
-        document.body.removeChild(textarea);
-    }
-}
-
-function initInteractions() {
-    contentContainer?.addEventListener('click', async (event) => {
-        const target = event.target;
-        if (!(target instanceof Element)) return;
-
-        const card = target.closest('.card');
-        const telegramLink = target.closest('.card-action-primary');
-        if (telegramLink && card) {
-            trackEvent('telegram_click', { resource_id: card.dataset.id || '', type: card.dataset.type || '' });
-            return;
-        }
-
-        const detailLink = target.closest('.card-title, .card-action[href^="/p/"]');
-        if (detailLink && card) {
-            trackEvent('resource_detail', { resource_id: card.dataset.id || '' });
-            return;
-        }
-
-        const btn = target.closest('.card-copy-btn');
-        if (!btn) return;
-
-        event.preventDefault();
-        const url = btn.getAttribute('data-url') || '';
-        trackEvent('copy_link', { resource_id: card?.dataset.id || '' });
-        try {
-            showToast((await copyUrl(url)) ? '已复制链接' : '复制失败');
-        } catch {
-            showToast('复制失败');
-        }
-    });
-}
-
-function initScrollFeatures() {
-    window.addEventListener('scroll', () => {
-        backToTopBtn?.classList.toggle('show', window.scrollY > 500);
-
-        if (progressBar) {
-            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            progressBar.style.width = height > 0 ? `${(winScroll / height) * 100}%` : '0';
-        }
-    });
-
-    backToTopBtn?.addEventListener('click', () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-}
-
-function initRouting() {
-    function syncFromLocation() {
-        const params = new URLSearchParams(window.location.search);
-        const query = params.get('q');
-        const sectionId = params.get('c') || 'featured';
-        if (query && searchInput) {
-            searchInput.value = query;
-            renderSearch(query, { updateUrl: false });
-            return;
-        }
-
-        if (searchInput) searchInput.value = '';
-        renderSection(sectionId, { updateUrl: false, clearSearch: false });
-        clearSearchBtn?.classList.remove('visible');
-        setResultStatus('', false);
-    }
-
-    window.addEventListener('popstate', syncFromLocation);
-
-    const params = new URLSearchParams(window.location.search);
-
-    syncFromLocation();
-}
-
-function init() {
-    collectDomRefs();
-
-    const initTasks = [
-        ['theme', initTheme],
-        ['sidebar', initSidebar],
-        ['search', initSearch],
-        ['interactions', initInteractions],
-        ['scrollFeatures', initScrollFeatures],
-        ['routing', initRouting],
-    ];
-
-    initTasks.forEach(([name, task]) => {
-        try {
-            task();
-        } catch (error) {
-            console.error(`[rectg] init failed: ${name}`, error);
-        }
-    });
-}
-
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-} else {
-    init();
-}
+window.addEventListener('pagehide', rememberPosition);
+window.addEventListener('pageshow', event => {
+  // A detail page can change a bookmark while this page is in the back/forward cache.
+  if (event.persisted && state.section === 'saved') render();
+});
+window.addEventListener('popstate', () => { clearTimeout(searchTimer); state = readLocation(); search.value = state.q; visibleCount = pageSize; render(); });
+window.addEventListener('scroll', () => { $('#back-to-top').hidden = scrollY < 700; }, { passive: true });
+$('#back-to-top').addEventListener('click', () => window.scrollTo({ top: 0, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' }));
+
+let restoreY = 0;
+try {
+  const savedPosition = JSON.parse(sessionStorage.getItem('rectg:directory-position') || 'null');
+  const navigationType = performance.getEntriesByType('navigation')[0]?.type;
+  const fromDetail = document.referrer && new URL(document.referrer).origin === location.origin && new URL(document.referrer).pathname.startsWith('/p/');
+  if (savedPosition?.url === location.pathname + location.search && (fromDetail || navigationType === 'back_forward' || navigationType === 'reload')) {
+    visibleCount = Math.max(pageSize, Math.min(allItems.length, Number(savedPosition.count) || pageSize));
+    restoreY = Number(savedPosition.y) || 0;
+  }
+} catch { /* Start at the top if there is no saved position. */ }
+search.value = state.q;
+syncView();
+render();
+if (restoreY) requestAnimationFrame(() => window.scrollTo({ top: restoreY, behavior: 'instant' }));

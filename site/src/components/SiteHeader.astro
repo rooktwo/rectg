@@ -1,0 +1,8 @@
+---
+import Icon from './Icon.astro';
+import ThemeToggle from './ThemeToggle.astro';
+---
+<header class="detail-topbar">
+  <a class="brand" href="/" aria-label="rectg 首页"><span class="brand-mark"><Icon name="telegram" size={21} /></span><strong>rectg<span class="brand-dot">.</span></strong><span class="brand-caption">Telegram 中文目录</span></a>
+  <nav class="topbar-actions" aria-label="主导航"><a class="text-link" href="/">浏览目录</a><a class="text-link" href="https://github.com/jackvale/rectg/issues/new?template=channel-submission.md" target="_blank" rel="noopener noreferrer">提交收录 <Icon name="external" size={15} /></a><ThemeToggle /></nav>
+</header>

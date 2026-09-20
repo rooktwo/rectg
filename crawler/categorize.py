@@ -4,17 +4,13 @@
 用于清理标题和描述中的 Emoji、冗余文本，并基于关键字进行自动细分分类。
 
 用法:
-    python3 crawler/categorize.py
+    python3 -m crawler export
 """
 
-import sqlite3
 import re
-from pathlib import Path
 import emoji
 
-from filter_rules import evaluate_entry
 
-DB_PATH = Path(__file__).resolve().parent.parent / "data" / "rectg.db"
 
 # 用于剔除群规/声明中的敏感词上下文，避免"禁止NSFW"被分类或展示为敏感内容。
 _RULE_CONTEXT_RE = re.compile(
@@ -346,63 +342,14 @@ def determine_category(title: str, desc: str) -> str:
     return "🌐 综合其他"
 
 
-def main():
-    print("🧹 开始执行高级清洗与精细分类 (22大类)...")
-    conn = sqlite3.connect(str(DB_PATH))
-    conn.row_factory = sqlite3.Row
-    
-    rows = conn.execute("SELECT * FROM entries WHERE keep=1").fetchall()
-    print(f"处理保留的 {len(rows)} 条记录...")
-    
-    changed = 0
-    filtered_harmful = 0
-    filtered_lang = 0
-    cat_counts = {}
-    
-    for row in rows:
-        entry = dict(row)
-        title = entry.get("title") or ""
-        desc = entry.get("description") or ""
-        
-        # 0. 统一过滤规则，和 crawl/refilter 保持一致
-        keep, filter_reason = evaluate_entry(entry)
-        if not keep:
-            conn.execute("UPDATE entries SET keep=0, filter_reason=?, updated_at=datetime('now') WHERE id=?", (filter_reason, entry["id"]))
-            changed += 1
-            if filter_reason == "有害内容":
-                filtered_harmful += 1
-            elif filter_reason in ("非中文内容", "繁体中文内容"):
-                filtered_lang += 1
-            print(f"  ❌ 过滤 ({filter_reason}): {title}")
-            continue
 
-        # 1. & 2. 清洗与分类
-        c_title = clean_title_advanced(title) or title  # fallback
-        c_desc = clean_text_advanced(desc, title)
-        
-        # fallback for completely wiped descriptions
-        if not c_desc:
-            c_desc = "暂无详细简介。"
-            
-        category = determine_category(title, desc)
-        
-        conn.execute(
-            "UPDATE entries SET clean_title=?, clean_desc=?, category=?, updated_at=datetime('now') WHERE id=?",
-            (c_title, c_desc, category, entry["id"])
-        )
-        changed += 1
-        cat_counts[category] = cat_counts.get(category, 0) + 1
-        
-    conn.commit()
-    conn.close()
-    
-    print(f"✅ 处理完成，共重新分类和清洗 {changed} 条记录！")
-    if filtered_harmful > 0 or filtered_lang > 0:
-        print(f"   其中排除了 {filtered_harmful} 条有害内容，{filtered_lang} 条非简中内容。")
-    print("\n📊 分类统计 (留存项目):")
-    for cat, count in sorted(cat_counts.items(), key=lambda x: x[1], reverse=True):
-        print(f"  {cat}: {count} 条")
+def main():
+    from crawler.cli import main as cli_main
+    return cli_main(["export"] + __import__("sys").argv[1:])
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+    from pathlib import Path
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+    raise SystemExit(main())

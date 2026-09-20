@@ -32,7 +32,14 @@ site/dist/
 site/node_modules/
 
 /data/
+/db/sqlite/*-journal
+/db/sqlite/*-wal
+/db/sqlite/*-shm
 *.log
 *.bak
 .env
 .env.*
+
+# Ignore Markdown documents except README files.
+*.[mM][dD]
+![rR][eE][aA][dD][mM][eE].[mM][dD]

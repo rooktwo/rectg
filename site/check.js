@@ -70,8 +70,14 @@ function parseJsonLdFromHtml(filePath) {
 
 const jsonLdFailures = [
   existingHtmlPath('dist/index.html'),
-  existingHtmlPath('dist/category/数码科技/index.html', `dist/category/${encodeURIComponent('数码科技')}/index.html`),
-  existingHtmlPath('dist/p/awesomechatgpt/index.html'),
+  ...(data.categories || []).map((category) => existingHtmlPath(
+    `dist/category/${category.id}/index.html`,
+    `dist/category/${encodeURIComponent(category.id)}/index.html`,
+  )),
+  ...items.map((item) => existingHtmlPath(
+    `dist/p/${item.id}/index.html`,
+    `dist/p/${encodeURIComponent(item.id)}/index.html`,
+  )),
 ].flatMap((filePath) => parseJsonLdFromHtml(filePath));
 
 if (

@@ -4,3 +4,4 @@ lxml>=5.0.0
 opencc-python-reimplemented>=0.1.7
 emoji>=2.0.0
 markdown>=3.0.0
+psycopg[binary]>=3.2,<4
