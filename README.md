@@ -115,6 +115,7 @@
 | Emmanuel Macron | [@emmanuelmacron](https://t.me/emmanuelmacron) | 32,247 | Président de la。 |
 | Telegram Info English | [@tginfoen](https://t.me/tginfoen) | 31,886 | This is the Eng。 |
 | 不良林 | [@buliang00](https://t.me/buliang00) | 30,125 | 科学上网。 |
+| AI一线 | [@followbun](https://t.me/followbun) | 25,586 | AI 工具、开源项目与产品资讯，含推广信息。 |
 | 上班划水之无聊图 | [@goworkbitch](https://t.me/goworkbitch) | 24,666 | 活干完了吗。 |
 | Telegram Geeks | [@geekschannel](https://t.me/geekschannel) | 23,607 | Join the Telegr。 |
 | Google Voice 靓号 | [@voice_google](https://t.me/voice_google) | 23,472 | 本频道用于 Google Vo。 |
@@ -141,6 +142,7 @@
 | 链闻 ChainNews | [@chainnews](https://t.me/chainnews) | 7,961 | 链闻 ChainNews -。 |
 | 此岸情报局 | [@JustReformation](https://t.me/JustReformation) | 7,410 | 资源情报资讯更新板。 |
 | 时间的切片 | [@mactalk](https://t.me/mactalk) | 7,078 | Telegram 资源入口。 |
+| 向北的分享频道 | [@xiangbeichannel](https://t.me/xiangbeichannel) | 7,026 | NAS、数码设备与实用教程，含购物推广。 |
 | AI News | [@aigcnote](https://t.me/aigcnote) | 6,965 | 只记录 AI 业界大新闻和最有。 |
 | 今天abc看了啥 | [@abcthoughts](https://t.me/abcthoughts) | 6,274 | 现在我也不知道这频道发了啥了。 |
 | PagerMaid-Modify Update | [@PagerMaid_Modify](https://t.me/PagerMaid_Modify) | 6,251 | PagerMaid Teleg。 |
@@ -206,6 +208,7 @@
 | 程序员资源分享频道 | [@gotoshare](https://t.me/gotoshare) | 17,574 | 程序员资源分享频道。 |
 | python-telegram-bot | [@pythontelegrambotchannel](https://t.me/pythontelegrambotchannel) | 17,072 | The official ch。 |
 | mini | [@Orzmini](https://t.me/Orzmini) | 15,028 | 讨论群组 项目地址 mini计。 |
+| BennyThink’s Blog | [@mikuri520](https://t.me/mikuri520) | 12,157 | 开发者的开源工具、技术折腾与生活随笔。 |
 | 靠谱VPS推荐(默认带aff） - VPS仓/古博 | [@vpscang](https://t.me/vpscang) | 11,601 | VPS推荐。 |
 | Arch Linux Chinese Messages | [@archlinuxcn](https://t.me/archlinuxcn) | 10,884 | Arch Linux 中文相关。 |
 | GitHub Trends | [@githubtrending](https://t.me/githubtrending) | 10,760 | See what the Gi。 |
@@ -266,6 +269,7 @@
 | 财联社VIP文章分享 | [@clsvip](https://t.me/clsvip) | 36,991 | 财联社 VIP文章即时更新：盘。 |
 | Appinn Feed 小众软件 | [@appinnfeed](https://t.me/appinnfeed) | 28,754 | 这里有小众软件和发现频道的内容。 |
 | 乱七八糟的储物箱 | [@xyxyspace](https://t.me/xyxyspace) | 27,948 | 本频道仅作为本人研究备份使用。 |
+| TGBot News | [@mybots](https://t.me/mybots) | 26,714 | Telegram 群管理机器人的功能公告与使用说明，含付费产品推广。 |
 | 「 彼岸情报！」薅羊毛情报（网站/资源/软件/限免APP）见闻社 | [@BaccanoSoul](https://t.me/BaccanoSoul) | 21,776 | 互联网优质羊毛资源共享集社。 |
 | 赚客吧 有奖一起赚 | [@zuanke8](https://t.me/zuanke8) | 20,975 | 全网电商平台。 |
 | 不要糖醋放椒盐 | [@saltplayerupdate](https://t.me/saltplayerupdate) | 17,269 | 椒盐音乐等播放器的版本更新、功能介绍与开发动态。 |
@@ -463,6 +467,7 @@
 | 小声读书 | [@weekly_books](https://t.me/weekly_books) | 37,791 | 在喧嚣的 AI 浪潮中。 |
 | 豆瓣精选 | [@douban_read](https://t.me/douban_read) | 37,658 | 感谢支持和关心我们众多读者朋友。 |
 | PDF图书联盟 链接收藏 电子书 | [@PDFtushuguan](https://t.me/PDFtushuguan) | 26,063 | 无规律无方向的持续分享一些书目。 |
+| 宇宙自然博物馆 | [@manhuadao04](https://t.me/manhuadao04) | 22,776 | 天文、地理与自然影像分享，更新节奏较慢。 |
 | hayami's blog 日常人间观察 | [@hayami_kiraa](https://t.me/hayami_kiraa) | 16,204 | 一个满足日常好奇心的私人博客。 |
 | PDF资料 | [@pdf_001](https://t.me/pdf_001) | 15,352 | 读秀/超星/全国图书馆咨询联盟。 |
 | Find Blog发现博客 | [@findblog](https://t.me/findblog) | 14,156 | 发现优秀的博客与创作者 发现博。 |
@@ -475,6 +480,7 @@
 | 日语学习 | [@jp_study](https://t.me/jp_study) | 6,096 | 关键词: 日语 日剧 学习 日。 |
 | Android Weekly Update | [@update4weekly](https://t.me/update4weekly) | 5,364 | 一份 Android 行业动态。 |
 | APOD 每日天文图片（中文转载） | [@apod_hans](https://t.me/apod_hans) | 5,095 | NASA APOD 天文图片与中文科普转载，非 NASA 官方频道。 |
+| 椒盐豆豉剪报 | [@mtfront](https://t.me/mtfront) | 4,961 | 个人博客、旅行、阅读与科技剪报，偶有理财话题。 |
 | 心理学笔记分享 | [@xlxbj](https://t.me/xlxbj) | 4,494 | 心理学一些相关的笔记分享。 |
 | 写作交流 | [@writing_discuss](https://t.me/writing_discuss) | 3,607 | 关键词：阅读 写作 交流 如果。 |
 | Word Power Made Easy | [@pieroots](https://t.me/pieroots) | 2,939 | 学英语来这就对啦。 |
@@ -574,8 +580,10 @@
 | 妮妮羊毛分享🅥 | [@NiNiShare](https://t.me/NiNiShare) | 4,058 | 妮妮羊毛。 |
 | Dynamic Wallpaper Club | [@dynamicwallpaperclub](https://t.me/dynamicwallpaperclub) | 2,791 | Get notificatio。 |
 | moke 的 日常分享、吐槽和动态 | [@mokeyjay_channel](https://t.me/mokeyjay_channel) | 2,691 | 超能小紫（ mok.moe ）。 |
+| 可爱小狗 | [@keaixiaogou](https://t.me/keaixiaogou) | 2,503 | 猫狗及其他动物的趣味图片与日常分享。 |
 | 数字优惠 | [@DigitalSpecialDeals](https://t.me/DigitalSpecialDeals) | 1,201 | 数字世界的各种优惠。 |
 | 中國地震速报（≥4.5级） | [@dizhen](https://t.me/dizhen) | 1,043 | ○ 信息来自中国地震台的官方微。 |
+| 猫咪都是天使！ | [@mastemeow](https://t.me/mastemeow) | 686 | 以自家猫咪为主的日常记录与萌宠影像。 |
 | Alan G • Wallpapers | [@G_Wallpapers](https://t.me/G_Wallpapers) | 565 | Official channe。 |
 | Ingress Chengdu&Chongqing | [@IngressChengduChongqing](https://t.me/IngressChengduChongqing) | 548 | 本频道用于发布川渝地区旅游相关。 |
 | 中转站 柯基犬的日常 - 吹水群 | [@UntitledGroup](https://t.me/UntitledGroup) | 270 | Telegram 资源入口。 |

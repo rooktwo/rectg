@@ -332,6 +332,150 @@
       "username": "fanyi_bot",
       "status": "excluded",
       "reason": "User explicitly removed this resource from the candidate list."
+    },
+    {
+      "username": "manhuadao04",
+      "status": "included",
+      "category": "📚 学习阅读",
+      "title": "宇宙自然博物馆",
+      "description": "天文、地理与自然影像分享，更新节奏较慢。",
+      "members": 22776,
+      "members_source": "PostgreSQL snapshot 2026-09-21/22",
+      "decision_source": "User approved all five priority and three reserve candidates on 2026-10-02.",
+      "evidence": {
+        "kind": "public_text_sample",
+        "post_count": 17,
+        "first_post": "manhuadao04/3569",
+        "last_post": "manhuadao04/3594",
+        "last_public_date": "2026-09-01"
+      },
+      "limitations": "Recent public samples only; linked videos, full history and bot functionality not fully reviewed."
+    },
+    {
+      "username": "keaixiaogou",
+      "status": "included",
+      "category": "👗 生活消费",
+      "title": "可爱小狗",
+      "description": "猫狗及其他动物的趣味图片与日常分享。",
+      "members": 2503,
+      "members_source": "PostgreSQL snapshot 2026-09-21/22",
+      "decision_source": "User approved all five priority and three reserve candidates on 2026-10-02.",
+      "evidence": {
+        "kind": "public_text_sample",
+        "post_count": 19,
+        "first_post": "keaixiaogou/6106",
+        "last_post": "keaixiaogou/6125",
+        "last_public_date": "2026-10-01"
+      },
+      "limitations": "Recent public samples only; linked videos, full history and bot functionality not fully reviewed."
+    },
+    {
+      "username": "mastemeow",
+      "status": "included",
+      "category": "👗 生活消费",
+      "title": "猫咪都是天使！",
+      "description": "以自家猫咪为主的日常记录与萌宠影像。",
+      "members": 686,
+      "members_source": "PostgreSQL snapshot 2026-09-21/22",
+      "decision_source": "User approved all five priority and three reserve candidates on 2026-10-02.",
+      "evidence": {
+        "kind": "public_text_sample",
+        "post_count": 16,
+        "first_post": "mastemeow/12423",
+        "last_post": "mastemeow/12442",
+        "last_public_date": "2026-10-02"
+      },
+      "limitations": "Recent public samples only; linked videos, full history and bot functionality not fully reviewed."
+    },
+    {
+      "username": "mtfront",
+      "status": "included",
+      "category": "📚 学习阅读",
+      "title": "椒盐豆豉剪报",
+      "description": "个人博客、旅行、阅读与科技剪报，偶有理财话题。",
+      "members": 4961,
+      "members_source": "PostgreSQL snapshot 2026-09-21/22",
+      "decision_source": "User approved all five priority and three reserve candidates on 2026-10-02.",
+      "evidence": {
+        "kind": "public_text_sample",
+        "post_count": 15,
+        "first_post": "mtfront/4358",
+        "last_post": "mtfront/4377",
+        "last_public_date": "2026-09-27"
+      },
+      "limitations": "Recent public samples only; linked videos, full history and bot functionality not fully reviewed."
+    },
+    {
+      "username": "xiangbeichannel",
+      "status": "included",
+      "category": "💻 数码科技",
+      "title": "向北的分享频道",
+      "description": "NAS、数码设备与实用教程，含购物推广。",
+      "members": 7026,
+      "members_source": "PostgreSQL snapshot 2026-09-21/22",
+      "decision_source": "User approved all five priority and three reserve candidates on 2026-10-02.",
+      "evidence": {
+        "kind": "public_text_sample",
+        "post_count": 17,
+        "first_post": "xiangbeiChannel/608",
+        "last_post": "xiangbeiChannel/630",
+        "last_public_date": "2026-09-30"
+      },
+      "limitations": "Recent public samples only; linked videos, full history and bot functionality not fully reviewed."
+    },
+    {
+      "username": "mikuri520",
+      "status": "included",
+      "category": "👨‍💻 开发运维",
+      "title": "BennyThink’s Blog",
+      "description": "开发者的开源工具、技术折腾与生活随笔。",
+      "members": 12157,
+      "members_source": "PostgreSQL snapshot 2026-09-21/22",
+      "decision_source": "User approved all five priority and three reserve candidates on 2026-10-02.",
+      "evidence": {
+        "kind": "public_text_sample",
+        "post_count": 20,
+        "first_post": "mikuri520/3586",
+        "last_post": "mikuri520/3607",
+        "last_public_date": "2026-09-22"
+      },
+      "limitations": "Recent public samples only; linked videos, full history and bot functionality not fully reviewed."
+    },
+    {
+      "username": "mybots",
+      "status": "included",
+      "category": "🧰 软件工具",
+      "title": "TGBot News",
+      "description": "Telegram 群管理机器人的功能公告与使用说明，含付费产品推广。",
+      "members": 26714,
+      "members_source": "PostgreSQL snapshot 2026-09-21/22",
+      "decision_source": "User approved all five priority and three reserve candidates on 2026-10-02.",
+      "evidence": {
+        "kind": "public_text_sample",
+        "post_count": 20,
+        "first_post": "mybots/4056",
+        "last_post": "mybots/4086",
+        "last_public_date": "2026-09-11"
+      },
+      "limitations": "Recent public samples only; linked videos, full history and bot functionality not fully reviewed."
+    },
+    {
+      "username": "followbun",
+      "status": "included",
+      "category": "💻 数码科技",
+      "title": "AI一线",
+      "description": "AI 工具、开源项目与产品资讯，含推广信息。",
+      "members": 25586,
+      "members_source": "PostgreSQL snapshot 2026-09-21/22",
+      "decision_source": "User approved all five priority and three reserve candidates on 2026-10-02.",
+      "evidence": {
+        "kind": "public_text_sample",
+        "post_count": 20,
+        "first_post": "FollowBun/2545",
+        "last_post": "FollowBun/2569",
+        "last_public_date": "2026-10-02"
+      },
+      "limitations": "Recent public samples only; linked videos, full history and bot functionality not fully reviewed."
     }
   ]
 }

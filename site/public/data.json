@@ -854,6 +854,13 @@
               "id": "buliang00"
             },
             {
+              "title": "AI一线",
+              "url": "https://t.me/followbun",
+              "countStr": "25,586",
+              "desc": "AI 工具、开源项目与产品资讯，含推广信息。",
+              "id": "followbun"
+            },
+            {
               "title": "上班划水之无聊图",
               "url": "https://t.me/goworkbitch",
               "countStr": "24,666",
@@ -1034,6 +1041,13 @@
               "countStr": "7,078",
               "desc": "Telegram 资源入口。",
               "id": "mactalk"
+            },
+            {
+              "title": "向北的分享频道",
+              "url": "https://t.me/xiangbeichannel",
+              "countStr": "7,026",
+              "desc": "NAS、数码设备与实用教程，含购物推广。",
+              "id": "xiangbeichannel"
             },
             {
               "title": "AI News",
@@ -1454,6 +1468,13 @@
               "id": "orzmini"
             },
             {
+              "title": "BennyThink’s Blog",
+              "url": "https://t.me/mikuri520",
+              "countStr": "12,157",
+              "desc": "开发者的开源工具、技术折腾与生活随笔。",
+              "id": "mikuri520"
+            },
+            {
               "title": "靠谱VPS推荐(默认带aff） - VPS仓/古博",
               "url": "https://t.me/vpscang",
               "countStr": "11,601",
@@ -1798,6 +1819,13 @@
               "countStr": "27,948",
               "desc": "本频道仅作为本人研究备份使用。",
               "id": "xyxyspace"
+            },
+            {
+              "title": "TGBot News",
+              "url": "https://t.me/mybots",
+              "countStr": "26,714",
+              "desc": "Telegram 群管理机器人的功能公告与使用说明，含付费产品推广。",
+              "id": "mybots"
             },
             {
               "title": "「 彼岸情报！」薅羊毛情报（网站/资源/软件/限免APP）见闻社",
@@ -2883,6 +2911,13 @@
               "id": "pdftushuguan"
             },
             {
+              "title": "宇宙自然博物馆",
+              "url": "https://t.me/manhuadao04",
+              "countStr": "22,776",
+              "desc": "天文、地理与自然影像分享，更新节奏较慢。",
+              "id": "manhuadao04"
+            },
+            {
               "title": "hayami's blog 日常人间观察",
               "url": "https://t.me/hayami_kiraa",
               "countStr": "16,204",
@@ -2965,6 +3000,13 @@
               "countStr": "5,095",
               "desc": "NASA APOD 天文图片与中文科普转载，非 NASA 官方频道。",
               "id": "apod_hans"
+            },
+            {
+              "title": "椒盐豆豉剪报",
+              "url": "https://t.me/mtfront",
+              "countStr": "4,961",
+              "desc": "个人博客、旅行、阅读与科技剪报，偶有理财话题。",
+              "id": "mtfront"
             },
             {
               "title": "心理学笔记分享",
@@ -3549,6 +3591,13 @@
               "id": "mokeyjay_channel"
             },
             {
+              "title": "可爱小狗",
+              "url": "https://t.me/keaixiaogou",
+              "countStr": "2,503",
+              "desc": "猫狗及其他动物的趣味图片与日常分享。",
+              "id": "keaixiaogou"
+            },
+            {
               "title": "数字优惠",
               "url": "https://t.me/digitalspecialdeals",
               "countStr": "1,201",
@@ -3561,6 +3610,13 @@
               "countStr": "1,043",
               "desc": "○ 信息来自中国地震台的官方微。",
               "id": "dizhen"
+            },
+            {
+              "title": "猫咪都是天使！",
+              "url": "https://t.me/mastemeow",
+              "countStr": "686",
+              "desc": "以自家猫咪为主的日常记录与萌宠影像。",
+              "id": "mastemeow"
             },
             {
               "title": "Alan G • Wallpapers",
