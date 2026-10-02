@@ -728,6 +728,13 @@
               "id": "duyaoss"
             },
             {
+              "title": "Newlearner 自留地",
+              "url": "https://t.me/newlearnerchannel",
+              "countStr": "67,451",
+              "desc": "科技周刊、数码资讯、应用推荐与 Python 开发资源。",
+              "id": "newlearnerchannel"
+            },
+            {
               "title": "Yummy",
               "url": "https://t.me/godlynews1",
               "countStr": "64,631",
@@ -938,6 +945,13 @@
               "id": "awesomechatgpt"
             },
             {
+              "title": "iBeta 尝鲜派",
+              "url": "https://t.me/ibeta_channel",
+              "countStr": "13,563",
+              "desc": "苹果系统版本更新通知、功能变化与使用体验。",
+              "id": "ibeta_channel"
+            },
+            {
               "title": "NewMobileLife",
               "url": "https://t.me/newmobilelife",
               "countStr": "12,762",
@@ -957,6 +971,13 @@
               "countStr": "12,370",
               "desc": "分享一些好看的Telegram。",
               "id": "beautifultgtheme"
+            },
+            {
+              "title": "AI Copilot",
+              "url": "https://t.me/ai_copilot_channel",
+              "countStr": "10,718",
+              "desc": "AI 产品更新、模型动态与工具使用提示。",
+              "id": "ai_copilot_channel"
             },
             {
               "title": "Unigram News",
@@ -1545,6 +1566,20 @@
               "id": "zzpiglet"
             },
             {
+              "title": "GitHub 开源观察",
+              "url": "https://t.me/githubtrendinghub",
+              "countStr": "914",
+              "desc": "精选 GitHub 开源项目、热门仓库与开发工具。",
+              "id": "githubtrendinghub"
+            },
+            {
+              "title": "NextTrace",
+              "url": "https://t.me/nexttrace",
+              "countStr": "910",
+              "desc": "开源网络路由追踪、链路诊断工具的版本与项目动态。",
+              "id": "nexttrace"
+            },
+            {
               "title": "Linux软件收录",
               "url": "https://t.me/linuxsoft_zh_cn",
               "countStr": "788",
@@ -1779,6 +1814,13 @@
               "id": "zuanke8"
             },
             {
+              "title": "不要糖醋放椒盐",
+              "url": "https://t.me/saltplayerupdate",
+              "countStr": "17,269",
+              "desc": "椒盐音乐等播放器的版本更新、功能介绍与开发动态。",
+              "id": "saltplayerupdate"
+            },
+            {
               "title": "Price Tag",
               "url": "https://t.me/appfans",
               "countStr": "15,774",
@@ -1791,6 +1833,13 @@
               "countStr": "12,823",
               "desc": "让雪花多些吧~ 分享实用快捷指。",
               "id": "xuehuashe"
+            },
+            {
+              "title": "AdClose",
+              "url": "https://t.me/adclose",
+              "countStr": "12,191",
+              "desc": "Android 广告拦截工具的版本发布、修复与功能更新。",
+              "id": "adclose"
             },
             {
               "title": "推特翻译",
@@ -1847,6 +1896,13 @@
               "countStr": "5,779",
               "desc": "简悦的发布通道。",
               "id": "simpread"
+            },
+            {
+              "title": "App Store 应用推荐",
+              "url": "https://t.me/app_store",
+              "countStr": "5,040",
+              "desc": "苹果应用商店的应用推荐、限免与降价信息。",
+              "id": "app_store"
             },
             {
               "title": "App TestFlight 资讯聚合",
@@ -2354,6 +2410,13 @@
               "id": "tingtalk_all"
             },
             {
+              "title": "音乐小本本",
+              "url": "https://t.me/paulsnote",
+              "countStr": "586",
+              "desc": "古典音乐欣赏、演奏分享与乐理随笔。",
+              "id": "paulsnote"
+            },
+            {
               "title": "津津乐道播客",
               "url": "https://t.me/jinjinledao",
               "countStr": "417",
@@ -2567,11 +2630,25 @@
               "id": "youxibanyunenen"
             },
             {
+              "title": "PlayStation 游戏资讯",
+              "url": "https://t.me/playstationnewssss",
+              "countStr": "3,161",
+              "desc": "PlayStation 游戏发售、版本更新与会员资讯转载。",
+              "id": "playstationnewssss"
+            },
+            {
               "title": "V1 Blog 科技 生活 主机评测 Apple",
               "url": "https://t.me/v1_blog",
               "countStr": "2,651",
               "desc": "V1 Blog 科技，生活。",
               "id": "v1_blog"
+            },
+            {
+              "title": "Epic 游戏限免提醒",
+              "url": "https://t.me/weeklyfreeepicgames",
+              "countStr": "2,373",
+              "desc": "Epic Games 正版游戏赠送活动与领取时间提醒。",
+              "id": "weeklyfreeepicgames"
             },
             {
               "title": "Host Testing and evaluation",
@@ -2881,6 +2958,13 @@
               "countStr": "5,364",
               "desc": "一份 Android 行业动态。",
               "id": "update4weekly"
+            },
+            {
+              "title": "APOD 每日天文图片（中文转载）",
+              "url": "https://t.me/apod_hans",
+              "countStr": "5,095",
+              "desc": "NASA APOD 天文图片与中文科普转载，非 NASA 官方频道。",
+              "id": "apod_hans"
             },
             {
               "title": "心理学笔记分享",
@@ -3531,6 +3615,13 @@
               "countStr": "750",
               "desc": "进群。",
               "id": "nanningtg"
+            },
+            {
+              "title": "广州天气速报",
+              "url": "https://t.me/cantonweather",
+              "countStr": "611",
+              "desc": "广州天气预报、雷雨提醒与气象预警转载。",
+              "id": "cantonweather"
             }
           ]
         },

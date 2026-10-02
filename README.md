@@ -97,6 +97,7 @@
 | Telegram X | [@tgx_android](https://t.me/tgx_android) | 68,976 | Developer's per。 |
 | 每日消费电子观察 | [@CE_Observe](https://t.me/CE_Observe) | 68,827 | 因广告机器人出没。 |
 | Duyao SpeedTest 科技生活 资讯转发 | [@DuyaoSS](https://t.me/DuyaoSS) | 68,423 | 不定期发布或转发一些资讯 测速。 |
+| Newlearner 自留地 | [@NewlearnerChannel](https://t.me/NewlearnerChannel) | 67,451 | 科技周刊、数码资讯、应用推荐与 Python 开发资源。 |
 | Yummy | [@GodlyNews1](https://t.me/GodlyNews1) | 64,631 | 本频道不定期推送科技数码类新资。 |
 | 极客分享 | [@geekshare](https://t.me/geekshare) | 62,716 | 专注分享各种高质量网站，工具。 |
 | 快乐星球 妹子图 收集器 | [@botmzt](https://t.me/botmzt) | 53,254 | 美女 #妹子 #精选 #全网。 |
@@ -127,9 +128,11 @@
 | AI一线 ShareCentre | [@sharecentre](https://t.me/sharecentre) | 14,830 | 每日更新最新最全AI新闻 免费。 |
 | Stop Child Abuse | [@stopCA](https://t.me/stopCA) | 14,687 | This channel pu。 |
 | ChatGPT 精选 | [@AwesomeChatGPT](https://t.me/AwesomeChatGPT) | 13,953 | ChatGPT 精选资源。 |
+| iBeta 尝鲜派 | [@ibeta_channel](https://t.me/ibeta_channel) | 13,563 | 苹果系统版本更新通知、功能变化与使用体验。 |
 | NewMobileLife | [@newmobilelife](https://t.me/newmobilelife) | 12,762 | 限時免費情報，Apple 消息。 |
 | 〄FW | [@JISFW](https://t.me/JISFW) | 12,626 | For Work 系列频道 梗。 |
 | 那些好看的Tg主题 | [@beautifultgtheme](https://t.me/beautifultgtheme) | 12,370 | 分享一些好看的Telegram。 |
+| AI Copilot | [@ai_copilot_channel](https://t.me/ai_copilot_channel) | 10,718 | AI 产品更新、模型动态与工具使用提示。 |
 | Unigram News | [@unigram](https://t.me/unigram) | 10,333 | Unigram is a Te。 |
 | LetITFly News | [@LetITFlyW](https://t.me/LetITFlyW) | 9,562 | 的频道。 |
 | iOS Releases | [@iOSUpdates](https://t.me/iOSUpdates) | 9,555 | iOS。 |
@@ -219,6 +222,8 @@
 | Data Science Archive | [@DataScienceArchive](https://t.me/DataScienceArchive) | 1,716 | 小熊猫的个人工具收纳箱。 |
 | Learn SwiftUI | [@learnswiftui](https://t.me/learnswiftui) | 1,207 | 每日分享 SwiftUI 相关。 |
 | zZPiglet | [@zZPiglet](https://t.me/zZPiglet) | 1,036 | 学习交流 自留地 问题反馈。 |
+| GitHub 开源观察 | [@githubtrendinghub](https://t.me/githubtrendinghub) | 914 | 精选 GitHub 开源项目、热门仓库与开发工具。 |
+| NextTrace | [@nexttrace](https://t.me/nexttrace) | 910 | 开源网络路由追踪、链路诊断工具的版本与项目动态。 |
 | Linux软件收录 | [@linuxsoft_zh_CN](https://t.me/linuxsoft_zh_CN) | 788 | Linux 日常软件收录 日常。 |
 | PWRTelegram API channel | [@Pwrtelegram](https://t.me/Pwrtelegram) | 724 | Official channe。 |
 | Arch Linux Updates | [@archlinuxcn_updates](https://t.me/archlinuxcn_updates) | 688 | Arch Linux 官方和中。 |
@@ -263,8 +268,10 @@
 | 乱七八糟的储物箱 | [@xyxyspace](https://t.me/xyxyspace) | 27,948 | 本频道仅作为本人研究备份使用。 |
 | 「 彼岸情报！」薅羊毛情报（网站/资源/软件/限免APP）见闻社 | [@BaccanoSoul](https://t.me/BaccanoSoul) | 21,776 | 互联网优质羊毛资源共享集社。 |
 | 赚客吧 有奖一起赚 | [@zuanke8](https://t.me/zuanke8) | 20,975 | 全网电商平台。 |
+| 不要糖醋放椒盐 | [@saltplayerupdate](https://t.me/saltplayerupdate) | 17,269 | 椒盐音乐等播放器的版本更新、功能介绍与开发动态。 |
 | Price Tag | [@appfans](https://t.me/appfans) | 15,774 | 推荐 App 限免降价。 |
 | Leeco-雪花社 | [@xuehuashe](https://t.me/xuehuashe) | 12,823 | 让雪花多些吧~ 分享实用快捷指。 |
+| AdClose | [@adclose](https://t.me/adclose) | 12,191 | Android 广告拦截工具的版本发布、修复与功能更新。 |
 | 推特翻译 | [@twitter_translate](https://t.me/twitter_translate) | 11,671 | 近来有很多朋友来问询转发相关事。 |
 | TG规则脚本信息分享器 | [@MRHXPJGG](https://t.me/MRHXPJGG) | 10,203 | 分享主题：包括但不限于关于机场。 |
 | Telegram Memes | [@MemesTelegram](https://t.me/MemesTelegram) | 9,169 | Your favorite a。 |
@@ -273,6 +280,7 @@
 | A Place Of Happiness | [@get_happiness](https://t.me/get_happiness) | 6,444 | Sometimes you n。 |
 | Fragment Monitor | [@Fragment_Monitor](https://t.me/Fragment_Monitor) | 6,020 | Fragment Monito。 |
 | 简悦 - SimpRead | [@simpread](https://t.me/simpread) | 5,779 | 简悦的发布通道。 |
+| App Store 应用推荐 | [@app_store](https://t.me/app_store) | 5,040 | 苹果应用商店的应用推荐、限免与降价信息。 |
 | App TestFlight 资讯聚合 | [@Appcn](https://t.me/Appcn) | 4,511 | App限免以及限时降价推送 T。 |
 | AppPie | [@AppPie](https://t.me/AppPie) | 3,386 | 网站 apppie.com A。 |
 | 中文社科讲座资讯 | [@chwebinars](https://t.me/chwebinars) | 2,709 | Hi，欢迎订阅中文社科讲座资讯。 |
@@ -361,6 +369,7 @@
 | 浅影随想 | [@lightFantasy](https://t.me/lightFantasy) | 1,455 | 如果，破碎是玻璃的必然结局。 |
 | 斯呆拉的中文播客精选 | [@greatpodcasts](https://t.me/greatpodcasts) | 904 | 分享精选优质中文播客节目。 |
 | 叨庭涂说 | [@tingtalk_all](https://t.me/tingtalk_all) | 837 | 说一些主频道 之外的糊涂话。 |
+| 音乐小本本 | [@paulsnote](https://t.me/paulsnote) | 586 | 古典音乐欣赏、演奏分享与乐理随笔。 |
 | 津津乐道播客 | [@jinjinledao](https://t.me/jinjinledao) | 417 | Telegram 资源入口。 |
 | Better Naming | [@rebornix](https://t.me/rebornix) | 292 | 记录自己实践或者看到的有趣的知。 |
 
@@ -402,7 +411,9 @@
 | 限時免費 LimitFree | [@limitfree](https://t.me/limitfree) | 6,509 | 可依照以下 Hashtag 搜。 |
 | 追尾游戏热点 | [@Vwyxrd](https://t.me/Vwyxrd) | 4,089 | 能聊与玩游戏真是太好了。 |
 | PC游戏搬运工 | [@youxibanyunenen](https://t.me/youxibanyunenen) | 3,445 | 搬运各种PC游戏。 |
+| PlayStation 游戏资讯 | [@playstationnewssss](https://t.me/playstationnewssss) | 3,161 | PlayStation 游戏发售、版本更新与会员资讯转载。 |
 | V1 Blog 科技 生活 主机评测 Apple | [@V1_BLOG](https://t.me/V1_BLOG) | 2,651 | V1 Blog 科技，生活。 |
+| Epic 游戏限免提醒 | [@weeklyfreeepicgames](https://t.me/weeklyfreeepicgames) | 2,373 | Epic Games 正版游戏赠送活动与领取时间提醒。 |
 | Host Testing and evaluation | [@HostEvaluate](https://t.me/HostEvaluate) | 2,224 | 主机测评 投稿，意见，建议。 |
 | 有意思的分享 | [@ziyouzengzhang](https://t.me/ziyouzengzhang) | 2,160 | 分享各种东西，优惠，互联网。 |
 | Hostloc 新帖图文推送 | [@HostlocPro](https://t.me/HostlocPro) | 1,787 | 本频道基本功能：爬取国内外有名。 |
@@ -463,6 +474,7 @@
 | 一天世界 博客 | [@yitianshijie](https://t.me/yitianshijie) | 6,168 | 新文章上线提醒及其它。 |
 | 日语学习 | [@jp_study](https://t.me/jp_study) | 6,096 | 关键词: 日语 日剧 学习 日。 |
 | Android Weekly Update | [@update4weekly](https://t.me/update4weekly) | 5,364 | 一份 Android 行业动态。 |
+| APOD 每日天文图片（中文转载） | [@apod_hans](https://t.me/apod_hans) | 5,095 | NASA APOD 天文图片与中文科普转载，非 NASA 官方频道。 |
 | 心理学笔记分享 | [@xlxbj](https://t.me/xlxbj) | 4,494 | 心理学一些相关的笔记分享。 |
 | 写作交流 | [@writing_discuss](https://t.me/writing_discuss) | 3,607 | 关键词：阅读 写作 交流 如果。 |
 | Word Power Made Easy | [@pieroots](https://t.me/pieroots) | 2,939 | 学英语来这就对啦。 |
@@ -577,6 +589,7 @@
 | --- | --- | ---: | --- |
 | 電報群組廣播 | [@FOCUSTELEGRAMGROUPLINK](https://t.me/FOCUSTELEGRAMGROUPLINK) | 18,771 | 本頻道只推送淨成員150以上的。 |
 | 广西聊天交友群 频道 | [@NanNingTG](https://t.me/NanNingTG) | 750 | 进群。 |
+| 广州天气速报 | [@cantonWeather](https://t.me/cantonWeather) | 611 | 广州天气预报、雷雨提醒与气象预警转载。 |
 
 <a id="section-channel-18"></a>
 ### 💬 闲聊交友

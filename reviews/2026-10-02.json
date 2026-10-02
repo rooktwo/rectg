@@ -1,0 +1,337 @@
+{
+  "reviewed_at": "2026-10-02",
+  "scope": "Incremental website inclusion; existing directory was not re-audited.",
+  "limitations": "Public text samples only; historical posts, media, comments, linked content and package safety were not fully reviewed. This record does not change database business lists or processor model-review results.",
+  "records": [
+    {
+      "username": "saltplayerupdate",
+      "status": "included",
+      "category": "🧰 软件工具",
+      "title": "不要糖醋放椒盐",
+      "description": "椒盐音乐等播放器的版本更新、功能介绍与开发动态。",
+      "members": 17269,
+      "members_source": "PostgreSQL snapshot 2026-09-21/22",
+      "evidence": {
+        "kind": "public_text_sample",
+        "post_count": 19,
+        "first_post": "saltplayerupdate/2397",
+        "last_post": "saltplayerupdate/2416",
+        "last_public_date": "2026-10-02"
+      }
+    },
+    {
+      "username": "apod_hans",
+      "status": "included",
+      "category": "📚 学习阅读",
+      "title": "APOD 每日天文图片（中文转载）",
+      "description": "NASA APOD 天文图片与中文科普转载，非 NASA 官方频道。",
+      "members": 5095,
+      "members_source": "PostgreSQL snapshot 2026-09-21/22",
+      "evidence": {
+        "kind": "public_text_sample",
+        "post_count": 20,
+        "first_post": "APOD_hans/4400",
+        "last_post": "APOD_hans/4419",
+        "last_public_date": "2026-10-02"
+      }
+    },
+    {
+      "username": "githubtrendinghub",
+      "status": "included",
+      "category": "👨‍💻 开发运维",
+      "title": "GitHub 开源观察",
+      "description": "精选 GitHub 开源项目、热门仓库与开发工具。",
+      "members": 914,
+      "members_source": "PostgreSQL snapshot 2026-09-21/22",
+      "evidence": {
+        "kind": "public_text_sample",
+        "post_count": 13,
+        "first_post": "GitHubTrendingHub/1331",
+        "last_post": "GitHubTrendingHub/1349",
+        "last_public_date": "2026-10-01"
+      }
+    },
+    {
+      "username": "NewlearnerChannel",
+      "status": "included",
+      "category": "💻 数码科技",
+      "title": "Newlearner 自留地",
+      "description": "科技周刊、数码资讯、应用推荐与 Python 开发资源。",
+      "members": 67451,
+      "members_source": "PostgreSQL snapshot 2026-09-21/22",
+      "evidence": {
+        "kind": "public_text_sample",
+        "post_count": 20,
+        "first_post": "NewlearnerChannel/15976",
+        "last_post": "NewlearnerChannel/15995",
+        "last_public_date": "2026-10-01"
+      }
+    },
+    {
+      "username": "ibeta_channel",
+      "status": "included",
+      "category": "💻 数码科技",
+      "title": "iBeta 尝鲜派",
+      "description": "苹果系统版本更新通知、功能变化与使用体验。",
+      "members": 13563,
+      "members_source": "PostgreSQL snapshot 2026-09-21/22",
+      "evidence": {
+        "kind": "public_text_sample",
+        "post_count": 19,
+        "first_post": "ibeta_channel/4878",
+        "last_post": "ibeta_channel/4898",
+        "last_public_date": "2026-09-29"
+      }
+    },
+    {
+      "username": "ai_copilot_channel",
+      "status": "included",
+      "category": "💻 数码科技",
+      "title": "AI Copilot",
+      "description": "AI 产品更新、模型动态与工具使用提示。",
+      "members": 10718,
+      "members_source": "PostgreSQL snapshot 2026-09-21/22",
+      "evidence": {
+        "kind": "public_text_sample",
+        "post_count": 20,
+        "first_post": "AI_Copilot_Channel/868",
+        "last_post": "AI_Copilot_Channel/887",
+        "last_public_date": "2026-10-01"
+      }
+    },
+    {
+      "username": "app_store",
+      "status": "included",
+      "category": "🧰 软件工具",
+      "title": "App Store 应用推荐",
+      "description": "苹果应用商店的应用推荐、限免与降价信息。",
+      "members": 5040,
+      "members_source": "PostgreSQL snapshot 2026-09-21/22",
+      "evidence": {
+        "kind": "public_text_sample",
+        "post_count": 20,
+        "first_post": "app_store/3421",
+        "last_post": "app_store/3440",
+        "last_public_date": "2026-09-29"
+      }
+    },
+    {
+      "username": "nexttrace",
+      "status": "included",
+      "category": "👨‍💻 开发运维",
+      "title": "NextTrace",
+      "description": "开源网络路由追踪、链路诊断工具的版本与项目动态。",
+      "members": 910,
+      "members_source": "PostgreSQL snapshot 2026-09-21/22",
+      "evidence": {
+        "kind": "public_text_sample",
+        "post_count": 19,
+        "first_post": "nexttrace/307",
+        "last_post": "nexttrace/328",
+        "last_public_date": "2026-09-17"
+      }
+    },
+    {
+      "username": "weeklyfreeepicgames",
+      "status": "included",
+      "category": "🎮 游戏娱乐",
+      "title": "Epic 游戏限免提醒",
+      "description": "Epic Games 正版游戏赠送活动与领取时间提醒。",
+      "members": 2373,
+      "members_source": "PostgreSQL snapshot 2026-09-21/22",
+      "evidence": {
+        "kind": "public_text_sample",
+        "post_count": 20,
+        "first_post": "WeeklyFreeEpicGames/511",
+        "last_post": "WeeklyFreeEpicGames/530",
+        "last_public_date": "2026-10-02"
+      }
+    },
+    {
+      "username": "playstationnewssss",
+      "status": "included",
+      "category": "🎮 游戏娱乐",
+      "title": "PlayStation 游戏资讯",
+      "description": "PlayStation 游戏发售、版本更新与会员资讯转载。",
+      "members": 3161,
+      "members_source": "PostgreSQL snapshot 2026-09-21/22",
+      "evidence": {
+        "kind": "public_text_sample",
+        "post_count": 16,
+        "first_post": "PlayStationNewssss/6909",
+        "last_post": "PlayStationNewssss/6928",
+        "last_public_date": "2026-10-01"
+      }
+    },
+    {
+      "username": "cantonWeather",
+      "status": "included",
+      "category": "🌍 地区社群",
+      "title": "广州天气速报",
+      "description": "广州天气预报、雷雨提醒与气象预警转载。",
+      "members": 611,
+      "members_source": "PostgreSQL snapshot 2026-09-21/22",
+      "evidence": {
+        "kind": "public_text_sample",
+        "post_count": 20,
+        "first_post": "cantonWeather/17980",
+        "last_post": "cantonWeather/17999",
+        "last_public_date": "2026-10-02"
+      }
+    },
+    {
+      "username": "paulsnote",
+      "status": "included",
+      "category": "🎵 音乐音频",
+      "title": "音乐小本本",
+      "description": "古典音乐欣赏、演奏分享与乐理随笔。",
+      "members": 586,
+      "members_source": "PostgreSQL snapshot 2026-09-21/22",
+      "evidence": {
+        "kind": "public_text_sample",
+        "post_count": 20,
+        "first_post": "PaulsNote/1125",
+        "last_post": "PaulsNote/1145",
+        "last_public_date": "2026-08-23"
+      }
+    },
+    {
+      "username": "adclose",
+      "status": "included",
+      "category": "🧰 软件工具",
+      "title": "AdClose",
+      "description": "Android 广告拦截工具的版本发布、修复与功能更新。",
+      "members": 12191,
+      "members_source": "PostgreSQL snapshot 2026-09-21/22",
+      "evidence": {
+        "kind": "public_text_sample",
+        "post_count": 20,
+        "first_post": "AdClose/449",
+        "last_post": "AdClose/477",
+        "last_public_date": "2026-07-29"
+      }
+    },
+    {
+      "username": "pythonzh",
+      "status": "pending",
+      "type": "group",
+      "title": "Python 中文交流群",
+      "reason": "Public profile only; group messages or bot functionality not reviewed."
+    },
+    {
+      "username": "Javaer",
+      "status": "pending",
+      "type": "group",
+      "title": "Java 编程语言",
+      "reason": "Public profile only; group messages or bot functionality not reviewed."
+    },
+    {
+      "username": "dockertutorial",
+      "status": "pending",
+      "type": "group",
+      "title": "Docker",
+      "reason": "Public profile only; group messages or bot functionality not reviewed."
+    },
+    {
+      "username": "archlinuxcn_group",
+      "status": "pending",
+      "type": "group",
+      "title": "#archlinux-cn",
+      "reason": "Public profile only; group messages or bot functionality not reviewed."
+    },
+    {
+      "username": "GolangCN",
+      "status": "pending",
+      "type": "group",
+      "title": "Go",
+      "reason": "Public profile only; group messages or bot functionality not reviewed."
+    },
+    {
+      "username": "bigdatazh",
+      "status": "pending",
+      "type": "group",
+      "title": "大数据杂谈",
+      "reason": "Public profile only; group messages or bot functionality not reviewed."
+    },
+    {
+      "username": "frontend_talk",
+      "status": "pending",
+      "type": "group",
+      "title": "Frontend 前端中文技术交流",
+      "reason": "Public profile only; group messages or bot functionality not reviewed."
+    },
+    {
+      "username": "centoszh",
+      "status": "pending",
+      "type": "group",
+      "title": "CentOS 中文",
+      "reason": "Public profile only; group messages or bot functionality not reviewed."
+    },
+    {
+      "username": "scala_zh",
+      "status": "pending",
+      "type": "group",
+      "title": "Scala User Group [zh]",
+      "reason": "Public profile only; group messages or bot functionality not reviewed."
+    },
+    {
+      "username": "typescriptzh",
+      "status": "pending",
+      "type": "group",
+      "title": "TypeScript 中文交流",
+      "reason": "Public profile only; group messages or bot functionality not reviewed."
+    },
+    {
+      "username": "julialangzh",
+      "status": "pending",
+      "type": "group",
+      "title": "Julia 编程语言交流",
+      "reason": "Public profile only; group messages or bot functionality not reviewed."
+    },
+    {
+      "username": "mpcblab",
+      "status": "pending",
+      "type": "group",
+      "title": "数理化生实验室",
+      "reason": "Public profile only; group messages or bot functionality not reviewed."
+    },
+    {
+      "username": "RustRssBot",
+      "status": "pending",
+      "type": "bot",
+      "title": "RSSBot",
+      "reason": "Public profile only; group messages or bot functionality not reviewed."
+    },
+    {
+      "username": "rssflowbot",
+      "status": "pending",
+      "type": "bot",
+      "title": "flowerss",
+      "reason": "Public profile only; group messages or bot functionality not reviewed."
+    },
+    {
+      "username": "RSSHub_bot",
+      "status": "pending",
+      "type": "bot",
+      "title": "RSSHubBot",
+      "reason": "Public profile only; group messages or bot functionality not reviewed."
+    },
+    {
+      "username": "policr_mini_bot",
+      "status": "pending",
+      "type": "bot",
+      "title": "Policr Mini (控制台版)",
+      "reason": "Public profile only; group messages or bot functionality not reviewed."
+    },
+    {
+      "username": "lanmaoshare",
+      "status": "excluded",
+      "reason": "User explicitly removed this resource from the candidate list."
+    },
+    {
+      "username": "fanyi_bot",
+      "status": "excluded",
+      "reason": "User explicitly removed this resource from the candidate list."
+    }
+  ]
+}
