@@ -201,6 +201,15 @@ mark { color: inherit; background: var(--accent-light); border-radius: 2px; }
 .back-to-top svg { transform: rotate(-90deg); }
 .detail-topbar { min-height: var(--header-height); display: flex; align-items: center; justify-content: space-between; gap: 25px; padding: 0 max(28px, calc((100vw - 1160px) / 2)); border-bottom: 1px solid var(--line); }
 .detail-container { max-width: 1160px; margin: 0 auto; padding: 32px 28px 0; }
+.not-found { max-width: 680px; margin: 40px auto 64px; }
+.not-found h1 { margin: 14px 0; font-size: clamp(26px, 5vw, 38px); line-height: 1.4; }
+.not-found-description { color: var(--text-secondary); line-height: 1.9; }
+.not-found-search { display: flex; gap: 10px; margin: 26px 0 18px; }
+.not-found-search input[type="search"] { flex: 1; min-width: 0; padding: 10px 12px; border: 1px solid var(--line-strong); border-radius: 7px; background: var(--bg-card); font-size: 16px; }
+.not-found-search button { flex-shrink: 0; }
+.not-found-categories { margin-top: 42px; }
+.not-found-categories h2 { margin-bottom: 16px; font-size: 14px; font-weight: 600; }
+.not-found-categories > div { display: flex; flex-wrap: wrap; gap: 10px; }
 .breadcrumb { display: flex; align-items: center; gap: 9px; color: var(--text-muted); font-size: 11px; }
 .breadcrumb a:hover { color: var(--accent); }
 .back-link { margin-top: 34px; }
