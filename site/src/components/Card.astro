@@ -24,7 +24,7 @@ const countLabel = typeName === '群组' ? '成员' : '订阅';
     <span class="resource-count"><strong>{countStr || '—'}</strong><span>{countLabel}</span></span>
     <div class="card-actions">
       <button class="icon-button card-copy-btn" type="button" aria-label={`复制 ${title} 的链接`} title="复制链接" data-copy-url={url}><Icon name="copy" size={15} /><span class="copy-label sr-only">复制链接</span></button>
-      <a class="card-action-primary" href={url} target="_blank" rel="noopener noreferrer" aria-label={`在 Telegram 打开 ${title}`}>Telegram <Icon name="external" size={15} /></a>
+      <a class="card-action-primary" href={url} target="_blank" rel="noopener noreferrer" aria-label={`在 Telegram 打开 ${title}`}>打开 Telegram <Icon name="external" size={15} /></a>
     </div>
   </div>
 </article>

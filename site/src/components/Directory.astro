@@ -50,6 +50,7 @@ const quickCategories = ['数码科技', '开发运维', '软件工具', '学习
         <input id="search-input" name="q" type="search" placeholder="搜索名称、简介或 t.me 地址" autocomplete="off" spellcheck="false" />
         <button id="clear-search-btn" class="icon-button" type="button" aria-label="清空搜索" hidden><Icon name="close" size={16} /></button>
         <kbd id="search-shortcut" aria-hidden="true">/</kbd>
+        <button class="search-submit" type="submit">搜索</button>
       </form>
       <div class="topbar-actions"><a class="text-link github-link" href="https://github.com/jackvale/rectg" target="_blank" rel="noopener noreferrer">GitHub <Icon name="external" size={14} /></a><span class="topbar-divider"></span><ThemeToggle /></div>
     </header>
@@ -61,8 +62,8 @@ const quickCategories = ['数码科技', '开发运维', '软件工具', '学习
     </nav>
     <div id="content-container">
       <section id="directory-intro" class="directory-intro" hidden={Boolean(active)} aria-labelledby="intro-title">
-        <div class="intro-copy"><p class="eyebrow"><span class="status-dot"></span>频道 · 群组 · 同好</p><h1 id="intro-title">Telegram 中文目录<span class="brand-dot">.</span></h1><p class="intro-description">从一个兴趣出发，找到值得停留的频道与社群。</p>
-          <div class="quick-links"><span>从这里开始</span>{quickCategories.map(name => <a data-section={name} href={categoryPath(name)}>{name}<Icon name="external" size={13} /></a>)}</div>
+        <div class="intro-copy"><p class="eyebrow"><span class="status-dot"></span>频道 · 群组 · 同好</p><h1 id="intro-title">Telegram 中文目录<span class="brand-dot">.</span></h1><p class="intro-description">按兴趣发现中文频道与群组，找到后直接在 Telegram 打开。</p>
+          <div class="quick-links"><span>从这里开始</span>{quickCategories.map(name => <a data-section={name} href={categoryPath(name)}>{name}<Icon name="arrow" size={13} /></a>)}</div>
         </div>
         <dl class="directory-stats"><div><dt>公开收录</dt><dd>{totalItems}<span>个</span></dd></div><div><dt>主题分类</dt><dd>{sections.length}<span>类</span></dd></div></dl>
       </section>
