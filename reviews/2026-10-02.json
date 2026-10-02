@@ -1,6 +1,6 @@
 {
   "reviewed_at": "2026-10-02",
-  "scope": "Incremental website inclusion; existing directory was not re-audited.",
+  "scope": "Incremental website inclusion. The third batch followed public-page screening of all 6,074 database usernames; this was not a full-history or complete media audit.",
   "limitations": "Public text samples only; historical posts, media, comments, linked content and package safety were not fully reviewed. This record does not change database business lists or processor model-review results.",
   "records": [
     {
@@ -476,6 +476,96 @@
         "last_public_date": "2026-10-02"
       },
       "limitations": "Recent public samples only; linked videos, full history and bot functionality not fully reviewed."
+    },
+    {
+      "username": "bakadog",
+      "status": "included",
+      "category": "💻 数码科技",
+      "title": "agou 的胡言乱语",
+      "description": "个人数码体验、产品设计观察与开发者生活随笔。",
+      "members": 883,
+      "members_source": "Telegram public page 2026-10-02; K/M values are approximate.",
+      "decision_source": "User approved all five recommended candidates after the full-database public-page screening on 2026-10-02.",
+      "evidence": {
+        "kind": "public_text_sample",
+        "post_count": 20,
+        "first_post": "bakadog/5687",
+        "last_post": "bakadog/5707",
+        "last_public_date": "2026-09-29"
+      },
+      "limitations": "Public text samples only; historical posts, media, comments, linked content and package safety were not fully reviewed. This record does not change database business lists or processor model-review results."
+    },
+    {
+      "username": "hanacs2",
+      "status": "included",
+      "category": "🎮 游戏娱乐",
+      "title": "Hana 的 CS 杂谈",
+      "description": "CS 电竞赛事、战队变动与赛程资讯，含外语转载。",
+      "members": 787,
+      "members_source": "Telegram public page 2026-10-02; K/M values are approximate.",
+      "decision_source": "User approved all five recommended candidates after the full-database public-page screening on 2026-10-02.",
+      "evidence": {
+        "kind": "public_text_sample",
+        "post_count": 20,
+        "first_post": "HanaCS2/2404",
+        "last_post": "HanaCS2/2424",
+        "last_public_date": "2026-10-01"
+      },
+      "limitations": "Public text samples only; historical posts, media, comments, linked content and package safety were not fully reviewed. This record does not change database business lists or processor model-review results."
+    },
+    {
+      "username": "isaiahsystem",
+      "status": "included",
+      "category": "🧰 软件工具",
+      "title": "404 KIDS SEE GHOSTS",
+      "description": "AI 工作流、笔记工具、开源应用与个人效率经验。",
+      "members": 13600,
+      "members_source": "Telegram public page 2026-10-02; K/M values are approximate.",
+      "decision_source": "User approved all five recommended candidates after the full-database public-page screening on 2026-10-02.",
+      "evidence": {
+        "kind": "public_text_sample",
+        "post_count": 19,
+        "first_post": "isaiahsystem/1577",
+        "last_post": "isaiahsystem/1598",
+        "last_public_date": "2026-09-28"
+      },
+      "limitations": "Public text samples only; historical posts, media, comments, linked content and package safety were not fully reviewed. This record does not change database business lists or processor model-review results."
+    },
+    {
+      "username": "dbinkbb",
+      "status": "included",
+      "category": "👨‍💻 开发运维",
+      "title": "DBin_K · Tingle 灵光一闪",
+      "description": "AI 编程、开源工具、技术会议与开发随笔。",
+      "members": 2270,
+      "members_source": "Telegram public page 2026-10-02; K/M values are approximate.",
+      "decision_source": "User approved all five recommended candidates after the full-database public-page screening on 2026-10-02.",
+      "evidence": {
+        "kind": "public_text_sample",
+        "post_count": 14,
+        "first_post": "DBinKBB/2694",
+        "last_post": "DBinKBB/2715",
+        "last_public_date": "2026-09-25"
+      },
+      "limitations": "Public text samples only; historical posts, media, comments, linked content and package safety were not fully reviewed. This record does not change database business lists or processor model-review results."
+    },
+    {
+      "username": "tsecrecord",
+      "status": "included",
+      "category": "🔒 信息安全",
+      "title": "网络安全笔记",
+      "description": "网络安全研究、事件响应与 AI 安全资料分享。",
+      "members": 7930,
+      "members_source": "Telegram public page 2026-10-02; K/M values are approximate.",
+      "decision_source": "User approved all five recommended candidates after the full-database public-page screening on 2026-10-02.",
+      "evidence": {
+        "kind": "public_text_sample",
+        "post_count": 20,
+        "first_post": "tsecrecord/1546",
+        "last_post": "tsecrecord/1565",
+        "last_public_date": "2026-09-27"
+      },
+      "limitations": "Public text samples only; historical posts, media, comments, linked content and package safety were not fully reviewed. This record does not change database business lists or processor model-review results."
     }
   ]
 }

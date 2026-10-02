@@ -172,6 +172,7 @@
 | MrKevin博客 资讯 分享 测评 | [@hilinuxcn](https://t.me/hilinuxcn) | 1,311 | 第三方独立测评网站（ mrke。 |
 | WooMai's Channel | [@WooMaiChannel](https://t.me/WooMaiChannel) | 1,001 | 个人 Channel。 |
 | Tesla News 🅥 | [@Teslacn](https://t.me/Teslacn) | 900 | ✿Tesla China Ne。 |
+| agou 的胡言乱语 | [@bakadog](https://t.me/bakadog) | 883 | 个人数码体验、产品设计观察与开发者生活随笔。 |
 | Apple Watch 用户 | [@apple_watch](https://t.me/apple_watch) | 878 | Apple Watch 大集合。 |
 | YanTai | [@yantaiinfo](https://t.me/yantaiinfo) | 863 | 醉美烟台欢迎您。 |
 | 烤苹果 | [@AppleCooked](https://t.me/AppleCooked) | 848 | 专业收集 bug，与信仰无关。 |
@@ -218,6 +219,7 @@
 | Python Telegram Network Rules | [@rules_for_python](https://t.me/rules_for_python) | 3,176 | Telegram 资源入口。 |
 | Stick Rules | [@usestick](https://t.me/usestick) | 2,710 | Stick Rules 专注实。 |
 | MATLAB TIPS | [@MATLAB_tips](https://t.me/MATLAB_tips) | 2,679 | Matlab的一些现成脚本。 |
+| DBin_K · Tingle 灵光一闪 | [@dbinkbb](https://t.me/dbinkbb) | 2,270 | AI 编程、开源工具、技术会议与开发随笔。 |
 | Rust 视界 | [@rust_daily_news](https://t.me/rust_daily_news) | 2,099 | Rust 热点，开源项目，动态。 |
 | SubConverter 更新频道 | [@subconverter](https://t.me/subconverter) | 2,016 | 在各种订阅格式之间进行转换的实。 |
 | pythonista 3 脚本通知频道 | [@pythonista3jiaoben](https://t.me/pythonista3jiaoben) | 1,759 | 群。 |
@@ -247,6 +249,7 @@
 | Telegram Tips | [@TelegramTips](https://t.me/TelegramTips) | 11,691,511 | Telegram stands。 |
 | Suggerimenti di Telegram | [@telegramtipsit](https://t.me/telegramtipsit) | 187,757 | Telegram è sino。 |
 | 信息安全技术频道 | [@tg_InternetSecurity](https://t.me/tg_InternetSecurity) | 10,903 | Telegram 资源入口。 |
+| 网络安全笔记 | [@tsecrecord](https://t.me/tsecrecord) | 7,930 | 网络安全研究、事件响应与 AI 安全资料分享。 |
 | AdGuard | [@adguarden](https://t.me/adguarden) | 7,183 | Everything abou。 |
 | AdGuard消息 | [@AdGuardcn](https://t.me/AdGuardcn) | 3,201 | 这里可以收到所有关于广告拦截和。 |
 | Anti Revoke Plugin - 防撤回插件 | [@AntiRevoke](https://t.me/AntiRevoke) | 1,895 | Telegram anti r。 |
@@ -274,6 +277,7 @@
 | 赚客吧 有奖一起赚 | [@zuanke8](https://t.me/zuanke8) | 20,975 | 全网电商平台。 |
 | 不要糖醋放椒盐 | [@saltplayerupdate](https://t.me/saltplayerupdate) | 17,269 | 椒盐音乐等播放器的版本更新、功能介绍与开发动态。 |
 | Price Tag | [@appfans](https://t.me/appfans) | 15,774 | 推荐 App 限免降价。 |
+| 404 KIDS SEE GHOSTS | [@isaiahsystem](https://t.me/isaiahsystem) | 13,600 | AI 工作流、笔记工具、开源应用与个人效率经验。 |
 | Leeco-雪花社 | [@xuehuashe](https://t.me/xuehuashe) | 12,823 | 让雪花多些吧~ 分享实用快捷指。 |
 | AdClose | [@adclose](https://t.me/adclose) | 12,191 | Android 广告拦截工具的版本发布、修复与功能更新。 |
 | 推特翻译 | [@twitter_translate](https://t.me/twitter_translate) | 11,671 | 近来有很多朋友来问询转发相关事。 |
@@ -423,6 +427,7 @@
 | Hostloc 新帖图文推送 | [@HostlocPro](https://t.me/HostlocPro) | 1,787 | 本频道基本功能：爬取国内外有名。 |
 | Telegreat Project | [@Telegreat](https://t.me/Telegreat) | 1,354 | Deprecated。 |
 | 主机贴士(zhujitips.com) | [@BWH1NET](https://t.me/BWH1NET) | 968 | 主机贴士引导频道。 |
+| Hana 的 CS 杂谈 | [@hanacs2](https://t.me/hanacs2) | 787 | CS 电竞赛事、战队变动与赛程资讯，含外语转载。 |
 | 主机情报 优惠 补货 测评 | [@hostcab](https://t.me/hostcab) | 540 | 推送主机/服务器优惠。 |
 | NintendoSwitchCN | [@nintendoswitch_cn](https://t.me/nintendoswitch_cn) | 116 | Twitter： Discor。 |
 

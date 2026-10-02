@@ -1253,6 +1253,13 @@
               "id": "teslacn"
             },
             {
+              "title": "agou 的胡言乱语",
+              "url": "https://t.me/bakadog",
+              "countStr": "883",
+              "desc": "个人数码体验、产品设计观察与开发者生活随笔。",
+              "id": "bakadog"
+            },
+            {
               "title": "Apple Watch 用户",
               "url": "https://t.me/apple_watch",
               "countStr": "878",
@@ -1538,6 +1545,13 @@
               "id": "matlab_tips"
             },
             {
+              "title": "DBin_K · Tingle 灵光一闪",
+              "url": "https://t.me/dbinkbb",
+              "countStr": "2,270",
+              "desc": "AI 编程、开源工具、技术会议与开发随笔。",
+              "id": "dbinkbb"
+            },
+            {
               "title": "Rust 视界",
               "url": "https://t.me/rust_daily_news",
               "countStr": "2,099",
@@ -1704,6 +1718,13 @@
               "id": "tg_internetsecurity"
             },
             {
+              "title": "网络安全笔记",
+              "url": "https://t.me/tsecrecord",
+              "countStr": "7,930",
+              "desc": "网络安全研究、事件响应与 AI 安全资料分享。",
+              "id": "tsecrecord"
+            },
+            {
               "title": "AdGuard",
               "url": "https://t.me/adguarden",
               "countStr": "7,183",
@@ -1854,6 +1875,13 @@
               "countStr": "15,774",
               "desc": "推荐 App 限免降价。",
               "id": "appfans"
+            },
+            {
+              "title": "404 KIDS SEE GHOSTS",
+              "url": "https://t.me/isaiahsystem",
+              "countStr": "13,600",
+              "desc": "AI 工作流、笔记工具、开源应用与个人效率经验。",
+              "id": "isaiahsystem"
             },
             {
               "title": "Leeco-雪花社",
@@ -2712,6 +2740,13 @@
               "countStr": "968",
               "desc": "主机贴士引导频道。",
               "id": "bwh1net"
+            },
+            {
+              "title": "Hana 的 CS 杂谈",
+              "url": "https://t.me/hanacs2",
+              "countStr": "787",
+              "desc": "CS 电竞赛事、战队变动与赛程资讯，含外语转载。",
+              "id": "hanacs2"
             },
             {
               "title": "主机情报 优惠 补货 测评",
