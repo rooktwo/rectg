@@ -64,7 +64,7 @@ const jsonLdContent = JSON.stringify(structuredData.length === 1 ? structuredDat
   <meta property="twitter:description" content={description} />
 
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <meta name="theme-color" content="#f8f9f6" id="theme-color-meta" />
+  <meta name="theme-color" content="#f7f8fa" id="theme-color-meta" />
   <link rel="manifest" href="/manifest.json" />
   <link rel="alternate" type="text/plain" title="llms.txt" href="/llms.txt" />
 
@@ -86,7 +86,7 @@ const jsonLdContent = JSON.stringify(structuredData.length === 1 ? structuredDat
         }
         document.getElementById('theme-color-meta')?.setAttribute(
           'content',
-          document.body.classList.contains('dark') ? '#171c19' : '#f8f9f6',
+          document.body.classList.contains('dark') ? '#11151d' : '#f7f8fa',
         );
       } catch (e) {}
     })();

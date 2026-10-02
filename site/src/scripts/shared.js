@@ -61,7 +61,7 @@ function init() {
   const toggle = document.getElementById('theme-toggle');
   const syncTheme = () => {
     const dark = document.body.classList.contains('dark');
-    document.getElementById('theme-color-meta')?.setAttribute('content', dark ? '#171c19' : '#f8f9f6');
+    document.getElementById('theme-color-meta')?.setAttribute('content', dark ? '#11151d' : '#f7f8fa');
     const label = dark ? '切换到浅色主题' : '切换到深色主题';
     toggle?.setAttribute('aria-pressed', String(dark));
     toggle?.setAttribute('aria-label', label);

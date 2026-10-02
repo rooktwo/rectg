@@ -1,38 +1,38 @@
 :root {
   color-scheme: light;
-  --bg-main: #f8f9f6;
+  --bg-main: #f7f8fa;
   --bg-card: #fff;
-  --bg-sidebar: #f1f3ee;
-  --bg-hover: #e9ede6;
-  --bg-subtle: #f3f5f0;
-  --text-main: #26362d;
-  --text-secondary: #5e6a61;
-  --text-muted: #657065;
-  --accent: #376b50;
-  --accent-strong: #27523b;
-  --accent-light: #e2eadf;
+  --bg-sidebar: #f0f2f6;
+  --bg-hover: #e8edf5;
+  --bg-subtle: #f1f4f9;
+  --text-main: #202938;
+  --text-secondary: #566276;
+  --text-muted: #626d80;
+  --accent: #315ed1;
+  --accent-strong: #2449a8;
+  --accent-light: #e8eefc;
   --accent-contrast: #fff;
-  --line: #e0e5dc;
-  --line-strong: #c7d1c3;
+  --line: #e0e5ed;
+  --line-strong: #c4cddd;
   --sidebar-width: 224px;
   --header-height: 76px;
 }
 body.dark {
   color-scheme: dark;
-  --bg-main: #171c19;
-  --bg-card: #1d241f;
-  --bg-sidebar: #141a16;
-  --bg-hover: #2a352d;
-  --bg-subtle: #232c25;
-  --text-main: #e2e9df;
-  --text-secondary: #a8b4a7;
-  --text-muted: #8b9b8a;
-  --accent: #a5c8a6;
-  --accent-strong: #c4dec2;
-  --accent-light: #2b3b2e;
-  --accent-contrast: #17281d;
-  --line: #303b32;
-  --line-strong: #526550;
+  --bg-main: #11151d;
+  --bg-card: #191f2b;
+  --bg-sidebar: #0e121a;
+  --bg-hover: #283247;
+  --bg-subtle: #202838;
+  --text-main: #e7ecf5;
+  --text-secondary: #aebbd0;
+  --text-muted: #95a3ba;
+  --accent: #9bb8ff;
+  --accent-strong: #c5d5ff;
+  --accent-light: #273858;
+  --accent-contrast: #111d38;
+  --line: #303a4d;
+  --line-strong: #52627d;
 }
 * { box-sizing: border-box; }
 body, h1, h2, h3, p, dl, dd { margin: 0; }
@@ -144,7 +144,7 @@ body.dark .sun-icon { display: block; }
 .card-header { display: flex; align-items: flex-start; min-width: 0; gap: 11px; }
 .card-icon { position: relative; display: flex; align-items: center; justify-content: center; width: 42px; height: 42px; flex: 0 0 42px; overflow: hidden; border-radius: 10px; font-size: 18px; font-weight: 500; }
 .card-icon img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
-.avatar-color-0 { background: #e4ede3; color: #426246; }
+.avatar-color-0 { background: #e5ebfa; color: #45629a; }
 .avatar-color-1 { background: #e5e9f1; color: #52658b; }
 .avatar-color-2 { background: #f1e9de; color: #886339; }
 .avatar-color-3 { background: #ede6f0; color: #7a598c; }
@@ -275,7 +275,7 @@ mark { color: inherit; background: var(--accent-light); border-radius: 2px; }
   .sidebar-header { min-height: 76px; }
   #close-sidebar-btn, #menu-btn { display: inline-flex; }
   .nav-item { min-height: 42px; font-size: 13px; }
-  #sidebar-overlay.open { display: block; position: fixed; inset: 0; z-index: 90; background: rgb(17 30 21 / 35%); }
+  #sidebar-overlay.open { display: block; position: fixed; inset: 0; z-index: 90; background: rgb(17 24 39 / 35%); }
   body.menu-open { overflow: hidden; }
   #app > main { margin-left: 0; }
   #app > main > header { display: grid; grid-template-columns: 34px 1fr auto; grid-template-rows: 40px 48px; padding: 9px 20px 12px; gap: 4px 8px; }
