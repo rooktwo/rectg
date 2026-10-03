@@ -1,7 +1,6 @@
-const CACHE_NAME = 'rectg-cache-v5';
+const CACHE_NAME = 'rectg-cache-v6';
 const PRECACHE_URLS = [
     '/',
-    '/index.html',
     '/manifest.json',
     '/favicon.png'
 ];
@@ -15,9 +14,8 @@ self.addEventListener('install', event => {
 });
 
 self.addEventListener('fetch', event => {
-    if (!event.request.url.startsWith(self.location.origin)) return;
-
     const url = new URL(event.request.url);
+    if (event.request.method !== 'GET' || url.origin !== self.location.origin) return;
 
     if (url.pathname === '/data.json' || event.request.mode === 'navigate') {
         event.respondWith(networkFirst(event.request));
@@ -49,7 +47,9 @@ async function networkFirst(request) {
         }
         return response;
     } catch {
-        return caches.match(request) || caches.match('/index.html');
+        return await cache.match(request)
+            || (request.mode === 'navigate' ? await cache.match('/') : undefined)
+            || Response.error();
     }
 }
 
