@@ -111,16 +111,9 @@ function init() {
         clearTimeout(copyTimers.get(copy));
         copyTimers.set(copy, setTimeout(() => { copy.classList.remove('copied'); copy.title = '复制链接'; }, 2000));
         showToast('链接已复制');
-        window.rectgTrack?.('copy_link', { resource_id: copy.closest('[data-id]')?.dataset.id || '' });
       } catch { showToast('复制失败，请长按或右键复制链接'); }
       return;
     }
-    const direct = event.target.closest('.card-action-primary, .action-primary');
-    const detail = event.target.closest('.card-title');
-    if (direct || detail) window.rectgTrack?.(direct ? 'telegram_click' : 'resource_detail', {
-      resource_id: event.target.closest('[data-id]')?.dataset.id || '',
-      type: event.target.closest('[data-type]')?.dataset.type || '',
-    });
   });
   try {
     const returnPath = sessionStorage.getItem('rectg:directory-return');

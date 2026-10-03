@@ -13,9 +13,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@vercel/analytics": "^2.0.1",
-    "@vercel/speed-insights": "^2.0.0",
     "astro": "^7.3.2",
     "pinyin-match": "^1.2.10"
+  },
+  "devDependencies": {
+    "wrangler": "4.147.0"
   }
 }

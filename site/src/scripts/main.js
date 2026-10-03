@@ -233,7 +233,6 @@ function commitSearch() {
   if (composing) return;
   const hadQuery = Boolean(state.q);
   changeState({ q: search.value.trim() }, { replace: hadQuery, syncInput: false });
-  window.rectgTrack?.('resource_search', { query_length: state.q.length, result_count: filteredItems.length });
 }
 search.addEventListener('input', () => {
   clearTimeout(searchTimer);
@@ -268,7 +267,6 @@ document.addEventListener('click', event => {
     closeSidebar();
     changeState({ section: nav.dataset.section, q: '', type: 'all', sort: 'default' }, { scroll: true });
     document.querySelector('.mobile-category-item.active')?.scrollIntoView({ block: 'nearest', inline: 'nearest' });
-    window.rectgTrack?.('category_view', { category: state.section });
   }
   const type = event.target.closest('[data-type]');
   if (type?.tagName === 'BUTTON') changeState({ type: type.dataset.type });

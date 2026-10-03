@@ -100,7 +100,9 @@ const jsonLdContent = JSON.stringify(structuredData.length === 1 ? structuredDat
   <slot />
   <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
   <script src="../scripts/shared.js"></script>
-  <script src="../scripts/metrics.js"></script>
+  {import.meta.env.PROD && (
+    <script is:inline type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"d5fe4316860043f9aed5d60be2e3f637"}'></script>
+  )}
   <script>
     // Register Service Worker
     const browserNavigator = window.navigator;

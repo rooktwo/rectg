@@ -38,11 +38,13 @@ npm run preview
 
 `check` 检查资源唯一性、站点地图、结构化数据和样式约定，需要先完成构建。
 
-## Vercel 部署
+## Cloudflare 部署
 
-项目的 Root Directory 设置为 `site`，配置文件位于 `site/vercel.json`。构建命令为 `npm run build`，输出目录为 `dist`。
+使用 Cloudflare Workers Static Assets，配置文件为 `site/wrangler.jsonc`，静态目录为 `dist`，不存在的路径返回自定义 404 页面。无需 Astro 服务端适配器或数据库连接。
 
-忽略构建命令在 `site/` 内执行，检测当前目录及上级 `README.md` 的提交变更：网站代码或目录数据变化时构建；仅爬虫、数据库等文件变化时跳过。没有父提交时执行构建。
+在 Workers Builds 中连接 `rooktwo/rectg` 的 `main` 分支，根目录设置为 `site`，构建命令为 `npm run build && npm run check`，部署命令为 `npx wrangler deploy`。正式网址保持 `https://www.rectg.com`，裸域名跳转到同一路径的 www 域名。
+
+访问量与页面性能使用 Cloudflare Web Analytics，在账号中选择手动安装 JS Snippet，脚本由公共布局统一加载。页面中的 token 是公开的站点统计标识，不是 API 密钥。原 Vercel Analytics、Speed Insights 和自定义事件上报已移除；Cloudflare Web Analytics 不提供搜索、复制或 Telegram 点击的自定义事件统计，历史 Vercel 数据不会迁入。
 
 ## 界面与交互
 
