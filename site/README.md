@@ -42,7 +42,7 @@ npm run preview
 
 使用 Cloudflare Workers Static Assets，配置文件为 `site/wrangler.jsonc`，静态目录为 `dist`，不存在的路径返回自定义 404 页面。无需 Astro 服务端适配器或数据库连接。
 
-在 Workers Builds 中连接 `rooktwo/rectg` 的 `main` 分支，根目录设置为 `site`，构建命令为 `npm run build && npm run check`，部署命令为 `npx wrangler deploy`。正式网址保持 `https://www.rectg.com`，裸域名跳转到同一路径的 www 域名。
+在 Workers Builds 中连接 `rooktwo/rectg` 的 `main` 分支，根目录设置为 `site`，构建命令为 `npm run build && npm run check`，部署命令为 `npx wrangler deploy`，构建变量 `NODE_VERSION=22.19.0`。两个正式域名由 Wrangler 的 `routes` 管理；正式网址保持 `https://www.rectg.com`。Cloudflare Redirect Rules 中的 `rectg apex to www` 规则将裸域名永久跳转到 www，并保留路径和查询参数。
 
 访问量与页面性能使用 Cloudflare Web Analytics，在账号中选择手动安装 JS Snippet，脚本由公共布局统一加载。页面中的 token 是公开的站点统计标识，不是 API 密钥。原 Vercel Analytics、Speed Insights 和自定义事件上报已移除；Cloudflare Web Analytics 不提供搜索、复制或 Telegram 点击的自定义事件统计，历史 Vercel 数据不会迁入。
 
