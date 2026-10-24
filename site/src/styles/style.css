@@ -104,6 +104,14 @@ kbd { display: inline-flex; justify-content: center; align-items: center; width:
 .sun-icon, body.dark .moon-icon { display: none; }
 body.dark .sun-icon { display: block; }
 #content-container { max-width: 1450px; margin: 0 auto; padding: 42px 40px 0; }
+.official-channel { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; margin-bottom: 28px; padding: 18px 20px; border: 1px solid var(--line-strong); border-radius: 8px; background: var(--accent-light); }
+.official-channel-copy { min-width: 0; }
+.official-channel-title { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 10px; }
+.official-channel-title strong { font-size: 14px; }
+.official-channel-title > span:last-child { color: var(--text-secondary); font-size: 12px; }
+.official-badge { padding: 2px 8px; border-radius: 4px; color: var(--accent-contrast); background: var(--accent); font-size: 11px; font-weight: 600; }
+.official-channel-copy > p + p { margin-top: 7px; color: var(--text-secondary); font-size: 12px; }
+.official-channel > a { flex-shrink: 0; }
 .directory-intro { display: flex; justify-content: space-between; align-items: center; gap: 36px; padding: 5px 0 34px; margin-bottom: 33px; border-bottom: 1px solid var(--line); }
 .eyebrow { display: flex; align-items: center; gap: 7px; font-size: 10px; font-weight: 500; letter-spacing: 1.2px; color: var(--text-muted); }
 .status-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--accent); }

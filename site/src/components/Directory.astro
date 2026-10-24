@@ -61,6 +61,13 @@ const quickCategories = ['数码科技', '开发运维', '软件工具', '学习
       {sections.map(section => <a class:list={['mobile-category-item', { active: activeId === section.id }]} data-section={section.id} href={categoryPath(section.id)}>{section.name}</a>)}
     </nav>
     <div id="content-container">
+      <aside class="official-channel" aria-label="官方频道">
+        <div class="official-channel-copy">
+          <p class="official-channel-title"><span class="official-badge">官方</span><strong>Telegram 频道群组推荐</strong><span>@tgtuijian</span></p>
+          <p>持续推荐值得加入的 Telegram 频道与群组。</p>
+        </div>
+        <a class="button action-primary" href="https://t.me/tgtuijian" target="_blank" rel="noopener noreferrer">关注官方频道<Icon name="external" size={16} /></a>
+      </aside>
       <section id="directory-intro" class="directory-intro" hidden={Boolean(active)} aria-labelledby="intro-title">
         <div class="intro-copy"><p class="eyebrow"><span class="status-dot"></span>频道 · 群组 · 同好</p><h1 id="intro-title">Telegram 中文目录<span class="brand-dot">.</span></h1><p class="intro-description">按兴趣发现中文频道与群组，找到后直接在 Telegram 打开。</p>
           <div class="quick-links"><span>从这里开始</span>{quickCategories.map(name => <a data-section={name} href={categoryPath(name)}>{name}<Icon name="arrow" size={13} /></a>)}</div>
