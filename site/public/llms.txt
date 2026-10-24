@@ -19,7 +19,7 @@ rectg 是一个中文 Telegram 频道、群组和机器人资源索引站，整�
 - 🔒 信息安全: https://www.rectg.com/category/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8/，共 11 个资源，频道 11
 - 🧰 软件工具: https://www.rectg.com/category/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/，共 42 个资源，频道 42
 - ☁️ 网盘资源: https://www.rectg.com/category/%E7%BD%91%E7%9B%98%E8%B5%84%E6%BA%90/，共 14 个资源，频道 14
-- 🎬 影视剧集: https://www.rectg.com/category/%E5%BD%B1%E8%A7%86%E5%89%A7%E9%9B%86/，共 27 个资源，频道 27
+- 🎬 影视剧集: https://www.rectg.com/category/%E5%BD%B1%E8%A7%86%E5%89%A7%E9%9B%86/，共 28 个资源，频道 28
 - 🎵 音乐音频: https://www.rectg.com/category/%E9%9F%B3%E4%B9%90%E9%9F%B3%E9%A2%91/，共 16 个资源，频道 16
 - 🎐 动漫次元: https://www.rectg.com/category/%E5%8A%A8%E6%BC%AB%E6%AC%A1%E5%85%83/，共 20 个资源，频道 20
 - 🎮 游戏娱乐: https://www.rectg.com/category/%E6%B8%B8%E6%88%8F%E5%A8%B1%E4%B9%90/，共 18 个资源，频道 18
@@ -36,7 +36,7 @@ rectg 是一个中文 Telegram 频道、群组和机器人资源索引站，整�
 
 ## 数据说明
 
-- 当前公开目录共 704 个资源。
+- 当前公开目录共 705 个资源。
 - 每个资源通常包含名称、Telegram 链接、订阅数或成员数、简介、类型和分类。
 - 订阅数或成员数仅作浏览参考，可能随 Telegram 实际数据变化。
 - 目录数据来自 README 生成流程，站点不手工维护 public/data.json。

@@ -331,6 +331,7 @@
 
 | 名称 | 链接 | 人数 | 简介 |
 | --- | --- | ---: | --- |
+| 凡人修仙传4K「每周六11点更新」 | [@fanren4k](https://t.me/fanren4k) | 1 | 每周六更新凡人修仙传4K。 |
 | Shavkat Mirziyoyev_press-service | [@shmirziyoyev](https://t.me/shmirziyoyev) | 240,691 | Veb-sayt:  Face。 |
 | 阿里、夸克、百度网盘4K影视资源 | [@Aliyun_4K_Movies](https://t.me/Aliyun_4K_Movies) | 208,231 | 欢迎你来到4K影视频道。 |
 | 4K影视屋(分屋）-蓝光无损电影 | [@dianying4K](https://t.me/dianying4K) | 80,887 | 广告建议。 |

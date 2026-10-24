@@ -101,7 +101,7 @@ function getFeaturedItems(items: DirectoryItem[], size = 18): DirectoryItem[] {
     .sort((a, b) => {
       const scoreA = hashText(`${a.id}:${a.title}:featured`);
       const scoreB = hashText(`${b.id}:${b.title}:featured`);
-      return scoreA - scoreB;
+      return Number(b.id === 'fanren4k') - Number(a.id === 'fanren4k') || scoreA - scoreB;
     })
     .slice(0, size);
 }
@@ -139,7 +139,7 @@ export function buildDirectoryData(data = loadSiteData()): DirectoryData {
     .filter((group) => group.items.length > 0)
     .map((group) => ({
       ...group,
-      items: [...group.items].sort((a, b) => parseCount(b.countStr) - parseCount(a.countStr)),
+      items: [...group.items].sort((a, b) => Number(b.id === 'fanren4k') - Number(a.id === 'fanren4k') || parseCount(b.countStr) - parseCount(a.countStr)),
     }));
 
   const allItems = validSections.flatMap((group) => group.items);
