@@ -15,7 +15,7 @@ const countLabel = typeName === '群组' ? '成员' : '订阅';
     </div>
     <div class="card-title-wrap">
       <a href={itemPath(id)} class="card-title" title={title}>{title}</a>
-      <div class="card-meta"><span class="card-type">{typeName}</span><span aria-hidden="true">·</span><span class="card-category">{category}</span></div>
+      <div class="card-meta"><span class="card-type">{typeName}</span><span class="card-category">{category}</span></div>
     </div>
     <button class="icon-button bookmark-button" type="button" data-bookmark={id} aria-label={`收藏 ${title}`} aria-pressed="false" title="收藏"><Icon name="bookmark" size={17} /></button>
   </div>

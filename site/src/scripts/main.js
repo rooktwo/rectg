@@ -331,4 +331,8 @@ try {
 search.value = state.q;
 syncView();
 render();
+const categoryStrip = document.querySelector('.mobile-category-strip');
+if (categoryStrip && getComputedStyle(categoryStrip).display !== 'none') {
+  categoryStrip.querySelector('.mobile-category-item.active')?.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+}
 if (restoreY) requestAnimationFrame(() => window.scrollTo({ top: restoreY, behavior: 'instant' }));

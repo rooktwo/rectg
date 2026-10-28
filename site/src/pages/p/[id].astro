@@ -124,7 +124,7 @@ const detailJsonLd = [
         <article class="resource-card" data-id={item.id} data-type={typeName}>
           <header class="resource-header">
             <div class={`resource-avatar ${colorClass}`} aria-hidden="true"><span>{firstLetter}</span>{avatarUrl && <img src={avatarUrl} alt="" width="72" height="72" decoding="async" onerror="this.hidden=true" />}</div>
-            <div class="resource-identity"><p class="eyebrow">{typeName}<span> / </span><a href={categoryHref}>{resolvedCategoryName}</a></p><h1>{item.title}</h1><p class="resource-username">{telegramLabel}</p></div>
+            <div class="resource-identity"><p class="eyebrow"><span class="type-badge" data-kind={typeName}>{typeName}</span><a href={categoryHref}>{resolvedCategoryName}</a></p><h1>{item.title}</h1><p class="resource-username">{telegramLabel}</p></div>
           </header>
           <div class="detail-actions" aria-label="资源操作">
             <a href={item.url} target="_blank" rel="noopener noreferrer" class="button action-primary"><Icon name="telegram" size={18} />{openLabel}<Icon name="external" size={16} /></a>

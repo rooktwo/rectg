@@ -4,8 +4,8 @@
     "description": "公开 Telegram 中文频道与群组目录",
     "start_url": "/",
     "display": "standalone",
-    "background_color": "#f7f8fa",
-    "theme_color": "#315ed1",
+    "background_color": "#f5f7fb",
+    "theme_color": "#2a4fbe",
     "icons": [
         {
             "src": "/og-image.png",
