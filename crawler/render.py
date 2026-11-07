@@ -5,7 +5,7 @@ import re
 from typing import Optional
 from .categorize import clean_text_advanced, clean_title_advanced, determine_category
 
-README_DESC_LIMIT = 16
+README_DESC_LIMIT = 100
 
 # 一级大类
 TYPE_ORDER = [
@@ -102,30 +102,20 @@ def rewrite_description(text: str, limit: int = README_DESC_LIMIT) -> str:
     text = text.replace("|", "，")
     if text.strip().lower().rstrip(".") == "you can view and join right away":
         return "Telegram 资源入口。"
-    clauses = [
-        part.strip(" ，,、:：")
-        for part in re.split(r"[。！？；;]+", text)
-        if part.strip(" ，,、:：")
-    ]
-    if not clauses:
+    # The budget is soft: a complete first sentence is better than a broken
+    # word or a Chinese fragment disguised as a full sentence. Preserve source
+    # punctuation and never invent the missing ending of a description.
+    text = compact_text(text).strip(" ，,、:：")
+    if not text:
         return ""
-
-    pieces = [
-        piece.strip(" ，,、:：")
-        for piece in re.split(r"[，,、]+", clauses[0])
-        if piece.strip(" ，,、:：")
-    ]
-    sentence_parts = []
-    content_limit = max(1, limit - 1)
-    for piece in pieces:
-        candidate = "，".join(sentence_parts + [piece])
-        if sentence_parts and len(candidate) > content_limit:
+    clauses = re.split(r"(?<=[。！？；;])\s*|(?<=[.!?])\s+", text)
+    sentence = ""
+    for clause in filter(None, clauses):
+        candidate = (sentence + " " + clause).strip()
+        if sentence and len(candidate) > limit:
             break
-        sentence_parts.append(piece)
-    sentence = "，".join(sentence_parts) or clauses[0]
-    if len(sentence) > content_limit:
-        sentence = sentence[:content_limit].rstrip(" ，,、")
-    return sentence.rstrip(" ，,、") + "。"
+        sentence = candidate
+    return sentence
 
 
 def render_desc_cell(text: str) -> str:

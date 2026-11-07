@@ -173,7 +173,7 @@
               "title": "Solidot",
               "url": "https://t.me/solidot",
               "countStr": "43,434",
-              "desc": "solidot.org 非官方。",
+              "desc": "solidot.org 非官方 RSS 推送频道。",
               "id": "solidot"
             },
             {
@@ -194,7 +194,7 @@
               "title": "cnBeta.COM中文业界资讯站",
               "url": "https://t.me/cnbeta_com",
               "countStr": "27,412",
-              "desc": "cnBeta.COM中文业界资。",
+              "desc": "cnBeta 中文 IT 新闻、技术文章与评论资讯。",
               "id": "cnbeta_com"
             },
             {
@@ -215,7 +215,7 @@
               "title": "华尔街日报 RSS",
               "url": "https://t.me/wsj_rss",
               "countStr": "19,102",
-              "desc": "RSS 地址： RSS 频道收。",
+              "desc": "华尔街日报的 RSS 转发频道。",
               "id": "wsj_rss"
             },
             {
@@ -278,7 +278,7 @@
               "title": "RSSHub News",
               "url": "https://t.me/awesomersshub",
               "countStr": "12,432",
-              "desc": "Everything is R。",
+              "desc": "RSSHub、RSSHub Radar 的更新与项目动态。",
               "id": "awesomersshub"
             },
             {
@@ -341,7 +341,7 @@
               "title": "财经快讯",
               "url": "https://t.me/fnnew",
               "countStr": "8,253",
-              "desc": "最新最全全球财经资讯24小时不。",
+              "desc": "最新最全全球财经资讯24小时不间断直播，A股美股操盘必备，帮您第一时间掌握消息面的因素，把握大局、运筹帷幄、决胜千里！",
               "id": "fnnew"
             },
             {
@@ -404,7 +404,7 @@
               "title": "经济学人(英文) RSS",
               "url": "https://t.me/economist_rss",
               "countStr": "5,022",
-              "desc": "RSS 地址： 感谢原RSS链。",
+              "desc": "《经济学人》英文内容的 RSS 转发频道。",
               "id": "economist_rss"
             },
             {
@@ -474,7 +474,7 @@
               "title": "The Sociologist",
               "url": "https://t.me/thesoc",
               "countStr": "3,677",
-              "desc": "On ne parle tan。",
+              "desc": "On ne parle tant de mémoire que parce qu'il n'y en a plus.",
               "id": "thesoc"
             },
             {
@@ -586,7 +586,7 @@
               "title": "信号旗规则",
               "url": "https://t.me/xhq_rule",
               "countStr": "933",
-              "desc": "VPS信号旗播报及风向旗参考快。",
+              "desc": "VPS信号旗播报及风向旗参考快讯运营规则和评论管理准则。",
               "id": "xhq_rule"
             },
             {
@@ -623,6 +623,69 @@
               "countStr": "86",
               "desc": "新闻联播语音。",
               "id": "cctvnewsbroadcast"
+            },
+            {
+              "title": "Jair M. Bolsonaro 1",
+              "url": "https://t.me/jairbolsonarobrasil",
+              "countStr": "1,159,185",
+              "desc": "Jair Bolsonaro 的个人频道，发布政治与公共事务相关内容。",
+              "id": "jairbolsonarobrasil"
+            },
+            {
+              "title": "Zelenskiy / Official",
+              "url": "https://t.me/v_zelenskiy_official",
+              "countStr": "674,576",
+              "desc": "乌克兰总统泽连斯基的官方频道。",
+              "id": "v_zelenskiy_official"
+            },
+            {
+              "title": "Reuters: World",
+              "url": "https://t.me/reutersworldchannel",
+              "countStr": "48,747",
+              "desc": "转载 Reuters 国际新闻与分析的非官方频道。",
+              "id": "reutersworldchannel"
+            },
+            {
+              "title": "Emmanuel Macron",
+              "url": "https://t.me/emmanuelmacron",
+              "countStr": "32,247",
+              "desc": "法国总统 Emmanuel Macron 的频道。",
+              "id": "emmanuelmacron"
+            },
+            {
+              "title": "Ukraine NOW German",
+              "url": "https://t.me/ukrainenowgerman",
+              "countStr": "5,776",
+              "desc": "以德语发布乌克兰新闻与官方信息。",
+              "id": "ukrainenowgerman"
+            },
+            {
+              "title": "Ukraine NOW Italian",
+              "url": "https://t.me/ukrainenowitalian",
+              "countStr": "4,572",
+              "desc": "以意大利语发布乌克兰新闻与官方信息。",
+              "id": "ukrainenowitalian"
+            },
+            {
+              "title": "Ukraine NOW Spanish",
+              "url": "https://t.me/ukrainenowspanish",
+              "countStr": "3,068",
+              "desc": "以西班牙语发布乌克兰新闻与官方信息。",
+              "id": "ukrainenowspanish"
+            },
+            {
+              "title": "Ukraine NOW French",
+              "url": "https://t.me/ukrainenowfrench",
+              "countStr": "2,840",
+              "desc": "以法语发布乌克兰新闻与官方信息。",
+              "id": "ukrainenowfrench"
+            },
+            {
+              "title": "Ukraine NOW Poland",
+              "url": "https://t.me/ukrainenowpoland",
+              "countStr": "2,621",
+              "desc": "Ukraine NOW 的波兰语频道。",
+              "id": "ukrainenowpoland"
             }
           ]
         },
@@ -633,35 +696,21 @@
               "title": "Nicegram",
               "url": "https://t.me/nicegramapp",
               "countStr": "1,898,469",
-              "desc": "Nicegram - is t。",
+              "desc": "Nicegram Telegram 客户端介绍、下载与功能信息。",
               "id": "nicegramapp"
-            },
-            {
-              "title": "Jair M. Bolsonaro 1",
-              "url": "https://t.me/jairbolsonarobrasil",
-              "countStr": "1,159,185",
-              "desc": "Canal Pessoal d。",
-              "id": "jairbolsonarobrasil"
             },
             {
               "title": "Dicas do Telegram",
               "url": "https://t.me/telegramtipsbr",
               "countStr": "763,502",
-              "desc": "Telegram é sinô。",
+              "desc": "Telegram é sinônimo de liberdade e privacidade, e tem várias funcionalidades fáceis de usar.",
               "id": "telegramtipsbr"
-            },
-            {
-              "title": "Zelenskiy / Official",
-              "url": "https://t.me/v_zelenskiy_official",
-              "countStr": "674,576",
-              "desc": "Офіційний канал。",
-              "id": "v_zelenskiy_official"
             },
             {
               "title": "Telegram Contests",
               "url": "https://t.me/contest",
               "countStr": "236,249",
-              "desc": "Here we announc。",
+              "desc": "Telegram 编程竞赛公告，涉及 Android、iOS 与网页开发。",
               "id": "contest"
             },
             {
@@ -672,25 +721,11 @@
               "id": "testflightcn"
             },
             {
-              "title": "PC Games Reserve",
-              "url": "https://t.me/pcgameslist",
-              "countStr": "132,239",
-              "desc": "PC Games Reserv。",
-              "id": "pcgameslist"
-            },
-            {
               "title": "Science in telegram",
               "url": "https://t.me/science",
               "countStr": "121,512",
               "desc": "Science that ma。",
               "id": "science"
-            },
-            {
-              "title": "Programmer Jokes",
-              "url": "https://t.me/programmerjokes",
-              "countStr": "108,771",
-              "desc": "This channel wi。",
-              "id": "programmerjokes"
             },
             {
               "title": "油油の科技软件资源分享",
@@ -703,14 +738,14 @@
               "title": "Telegram Info",
               "url": "https://t.me/tginfo",
               "countStr": "81,762",
-              "desc": "Новости о Teleg。",
+              "desc": "Telegram 新闻、功能更新与使用信息。",
               "id": "tginfo"
             },
             {
               "title": "Telegram X",
               "url": "https://t.me/tgx_android",
               "countStr": "68,976",
-              "desc": "Developer's per。",
+              "desc": "Developer's personal channel.",
               "id": "tgx_android"
             },
             {
@@ -738,7 +773,7 @@
               "title": "Yummy",
               "url": "https://t.me/godlynews1",
               "countStr": "64,631",
-              "desc": "本频道不定期推送科技数码类新资。",
+              "desc": "本频道不定期推送科技数码类新资讯，欢迎关注！",
               "id": "godlynews1"
             },
             {
@@ -749,24 +784,10 @@
               "id": "geekshare"
             },
             {
-              "title": "快乐星球 妹子图 收集器",
-              "url": "https://t.me/botmzt",
-              "countStr": "53,254",
-              "desc": "美女 #妹子 #精选 #全网。",
-              "id": "botmzt"
-            },
-            {
-              "title": "Reuters: World",
-              "url": "https://t.me/reutersworldchannel",
-              "countStr": "48,747",
-              "desc": "Your source for。",
-              "id": "reutersworldchannel"
-            },
-            {
               "title": "Shadowrocket News",
               "url": "https://t.me/shadowrocketnews",
               "countStr": "45,039",
-              "desc": "Shadowrocket 只有。",
+              "desc": "Shadowrocket 的 iOS、iPadOS 与 tvOS 版本相关信息。",
               "id": "shadowrocketnews"
             },
             {
@@ -822,7 +843,7 @@
               "title": "少数派sspai",
               "url": "https://t.me/sspai",
               "countStr": "34,196",
-              "desc": "少数派 (sspai.com)。",
+              "desc": "少数派 (sspai.com) 官方频道。",
               "id": "sspai"
             },
             {
@@ -833,17 +854,10 @@
               "id": "pdcn1"
             },
             {
-              "title": "Emmanuel Macron",
-              "url": "https://t.me/emmanuelmacron",
-              "countStr": "32,247",
-              "desc": "Président de la。",
-              "id": "emmanuelmacron"
-            },
-            {
               "title": "Telegram Info English",
               "url": "https://t.me/tginfoen",
               "countStr": "31,886",
-              "desc": "This is the Eng。",
+              "desc": "Telegram Info 的英文资讯频道。",
               "id": "tginfoen"
             },
             {
@@ -861,31 +875,24 @@
               "id": "followbun"
             },
             {
-              "title": "上班划水之无聊图",
-              "url": "https://t.me/goworkbitch",
-              "countStr": "24,666",
-              "desc": "活干完了吗。",
-              "id": "goworkbitch"
-            },
-            {
               "title": "Telegram Geeks",
               "url": "https://t.me/geekschannel",
               "countStr": "23,607",
-              "desc": "Join the Telegr。",
+              "desc": "Join the Telegram Army!",
               "id": "geekschannel"
             },
             {
               "title": "Google Voice 靓号",
               "url": "https://t.me/voice_google",
               "countStr": "23,472",
-              "desc": "本频道用于 Google Vo。",
+              "desc": "本频道用于 Google Voice (GV/googlevoice) 靓号，漂亮邮箱账号的发布。",
               "id": "voice_google"
             },
             {
               "title": "Clash for Windows 汉化公告板",
               "url": "https://t.me/clashr_for_windows_channel",
               "countStr": "20,114",
-              "desc": "讨论组： Clash汉化补丁项。",
+              "desc": "Clash for Windows 汉化补丁与相关项目公告。",
               "id": "clashr_for_windows_channel"
             },
             {
@@ -917,17 +924,10 @@
               "id": "zrj96"
             },
             {
-              "title": "ISIS Watch",
-              "url": "https://t.me/isiswatch",
-              "countStr": "15,193",
-              "desc": "This channel pu。",
-              "id": "isiswatch"
-            },
-            {
               "title": "Flippy_Openwrt",
               "url": "https://t.me/openwrt_flippy",
               "countStr": "15,118",
-              "desc": "Flippy的Openwrt/。",
+              "desc": "Flippy 的 OpenWrt 与 Armbian 固件信息。",
               "id": "openwrt_flippy"
             },
             {
@@ -936,13 +936,6 @@
               "countStr": "14,830",
               "desc": "每日更新最新最全AI新闻 免费。",
               "id": "sharecentre"
-            },
-            {
-              "title": "Stop Child Abuse",
-              "url": "https://t.me/stopca",
-              "countStr": "14,687",
-              "desc": "This channel pu。",
-              "id": "stopca"
             },
             {
               "title": "ChatGPT 精选",
@@ -966,13 +959,6 @@
               "id": "newmobilelife"
             },
             {
-              "title": "〄FW",
-              "url": "https://t.me/jisfw",
-              "countStr": "12,626",
-              "desc": "For Work 系列频道 梗。",
-              "id": "jisfw"
-            },
-            {
               "title": "那些好看的Tg主题",
               "url": "https://t.me/beautifultgtheme",
               "countStr": "12,370",
@@ -990,7 +976,7 @@
               "title": "Unigram News",
               "url": "https://t.me/unigram",
               "countStr": "10,333",
-              "desc": "Unigram is a Te。",
+              "desc": "Unigram is a Telegram desktop app made for Windows.",
               "id": "unigram"
             },
             {
@@ -1011,7 +997,7 @@
               "title": "64Gram Release",
               "url": "https://t.me/tg_x64",
               "countStr": "8,323",
-              "desc": "Unofficial Tele。",
+              "desc": "Unofficial Telegram client based on Telegram Desktop, with additional features.",
               "id": "tg_x64"
             },
             {
@@ -1020,13 +1006,6 @@
               "countStr": "8,011",
               "desc": "官网： 官方： 各位有任何问题。",
               "id": "macapp_channel"
-            },
-            {
-              "title": "链闻 ChainNews",
-              "url": "https://t.me/chainnews",
-              "countStr": "7,961",
-              "desc": "链闻 ChainNews -。",
-              "id": "chainnews"
             },
             {
               "title": "此岸情报局",
@@ -1053,7 +1032,7 @@
               "title": "AI News",
               "url": "https://t.me/aigcnote",
               "countStr": "6,965",
-              "desc": "只记录 AI 业界大新闻和最有。",
+              "desc": "只记录 AI 业界大新闻和最有趣的新产品。",
               "id": "aigcnote"
             },
             {
@@ -1067,15 +1046,8 @@
               "title": "PagerMaid-Modify Update",
               "url": "https://t.me/pagermaid_modify",
               "countStr": "6,251",
-              "desc": "PagerMaid Teleg。",
+              "desc": "PagerMaid Telegram 用户机器人及插件更新。",
               "id": "pagermaid_modify"
-            },
-            {
-              "title": "Ukraine NOW German",
-              "url": "https://t.me/ukrainenowgerman",
-              "countStr": "5,776",
-              "desc": "Die wichtigste。",
-              "id": "ukrainenowgerman"
             },
             {
               "title": "unwire.hk 生活科技頻道",
@@ -1088,7 +1060,7 @@
               "title": "Telegram Stable Releases",
               "url": "https://t.me/tgstable",
               "countStr": "5,284",
-              "desc": "Every (official。",
+              "desc": "Every (official) stable release, of every (official) Telegram client app, in every store, for every supported OS.",
               "id": "tgstable"
             },
             {
@@ -1097,13 +1069,6 @@
               "countStr": "4,701",
               "desc": "Hi。",
               "id": "seanchannel"
-            },
-            {
-              "title": "Ukraine NOW Italian",
-              "url": "https://t.me/ukrainenowitalian",
-              "countStr": "4,572",
-              "desc": "La principale f。",
-              "id": "ukrainenowitalian"
             },
             {
               "title": "Apple Tv Plus",
@@ -1116,7 +1081,7 @@
               "title": "Telegram iOS Beta Slots",
               "url": "https://t.me/tgslots",
               "countStr": "4,454",
-              "desc": "This channel wi。",
+              "desc": "This channel will automatically notify you if there are any available slots on TestFlight Telegram beta.",
               "id": "tgslots"
             },
             {
@@ -1125,27 +1090,6 @@
               "countStr": "4,443",
               "desc": "iOS 越狱插件更新与发布信息。",
               "id": "jailbreak_tweaks"
-            },
-            {
-              "title": "DLK搞笑趣闻情报站",
-              "url": "https://t.me/dlkqingbaozhan",
-              "countStr": "3,828",
-              "desc": "本频道是dlk奔放交流时间的子。",
-              "id": "dlkqingbaozhan"
-            },
-            {
-              "title": "AIM扩散力场",
-              "url": "https://t.me/nekosc",
-              "countStr": "3,572",
-              "desc": "本频道会不定时推送一些段子。",
-              "id": "nekosc"
-            },
-            {
-              "title": "Ukraine NOW Spanish",
-              "url": "https://t.me/ukrainenowspanish",
-              "countStr": "3,068",
-              "desc": "La principal fu。",
-              "id": "ukrainenowspanish"
             },
             {
               "title": "Milkice's 生而喵喵",
@@ -1162,25 +1106,11 @@
               "id": "tesla_share"
             },
             {
-              "title": "Ukraine NOW French",
-              "url": "https://t.me/ukrainenowfrench",
-              "countStr": "2,840",
-              "desc": "La source princ。",
-              "id": "ukrainenowfrench"
-            },
-            {
               "title": "蛋挞观察室",
               "url": "https://t.me/ijustseesee",
               "countStr": "2,680",
               "desc": "频道主 投食 ＿＿＿＿＿＿＿＿。",
               "id": "ijustseesee"
-            },
-            {
-              "title": "Ukraine NOW Poland",
-              "url": "https://t.me/ukrainenowpoland",
-              "countStr": "2,621",
-              "desc": "关于 Ukraine NOW。",
-              "id": "ukrainenowpoland"
             },
             {
               "title": "theBlock",
@@ -1200,7 +1130,7 @@
               "title": "Windows软件资源汇总频道",
               "url": "https://t.me/huizong0917",
               "countStr": "2,215",
-              "desc": "收集TG与互联网的Window。",
+              "desc": "收集 Telegram 与互联网中的 Windows 软件资源。",
               "id": "huizong0917"
             },
             {
@@ -1214,7 +1144,7 @@
               "title": "Kotatogram",
               "url": "https://t.me/kotatogram",
               "countStr": "1,886",
-              "desc": "Experimental fo。",
+              "desc": "基于 Telegram Desktop 的实验性客户端。",
               "id": "kotatogram"
             },
             {
@@ -1228,7 +1158,7 @@
               "title": " Apple Spyder 果蛛",
               "url": "https://t.me/applespyder",
               "countStr": "1,376",
-              "desc": "由 开发的 Apple 监控服。",
+              "desc": "Apple 软件与 AirPods 固件更新及服务状态监控。",
               "id": "applespyder"
             },
             {
@@ -1267,39 +1197,11 @@
               "id": "apple_watch"
             },
             {
-              "title": "YanTai",
-              "url": "https://t.me/yantaiinfo",
-              "countStr": "863",
-              "desc": "醉美烟台欢迎您。",
-              "id": "yantaiinfo"
-            },
-            {
               "title": "烤苹果",
               "url": "https://t.me/applecooked",
               "countStr": "848",
               "desc": "专业收集 bug，与信仰无关。",
               "id": "applecooked"
-            },
-            {
-              "title": "GitHub Trending Daily",
-              "url": "https://t.me/githubdailys",
-              "countStr": "768",
-              "desc": "See what the Gi。",
-              "id": "githubdailys"
-            },
-            {
-              "title": "R.O.D.",
-              "url": "https://t.me/read_or_dead",
-              "countStr": "728",
-              "desc": "日常读书吐槽，博客。",
-              "id": "read_or_dead"
-            },
-            {
-              "title": "ex-Nicegram Dev",
-              "url": "https://t.me/nicegramdev",
-              "countStr": "719",
-              "desc": "Python dev agai。",
-              "id": "nicegramdev"
             },
             {
               "title": "車車的阁楼",
@@ -1340,7 +1242,7 @@
               "title": "码力全开工作室",
               "url": "https://t.me/maliquankai",
               "countStr": "282",
-              "desc": "码力全开工作室（maliqua。",
+              "desc": "码力全开工作室动态，以及开发、设计、产品与独立开发者作品分享。",
               "id": "maliquankai"
             },
             {
@@ -1363,13 +1265,6 @@
               "countStr": "154",
               "desc": "托尔的拆机频道。",
               "id": "tooruteardowns"
-            },
-            {
-              "title": "BeijingAir",
-              "url": "https://t.me/beijingair",
-              "countStr": "143",
-              "desc": "Data Source: St。",
-              "id": "beijingair"
             },
             {
               "title": "Aikes’s channel",
@@ -1404,6 +1299,20 @@
         {
           "fullName": "👨‍💻 开发运维",
           "items": [
+            {
+              "title": "GitHub Trending Daily",
+              "url": "https://t.me/githubdailys",
+              "countStr": "768",
+              "desc": "分享 GitHub 社区当天热门项目。",
+              "id": "githubdailys"
+            },
+            {
+              "title": "ex-Nicegram Dev",
+              "url": "https://t.me/nicegramdev",
+              "countStr": "719",
+              "desc": "Nicegram 开发者的开发经历与产品相关记录。",
+              "id": "nicegramdev"
+            },
             {
               "title": "BotsArchive",
               "url": "https://t.me/botsarchive",
@@ -1499,7 +1408,7 @@
               "title": "GitHub Trends",
               "url": "https://t.me/githubtrending",
               "countStr": "10,760",
-              "desc": "See what the Gi。",
+              "desc": "See what the GitHub community is most excited about today.",
               "id": "githubtrending"
             },
             {
@@ -1562,7 +1471,7 @@
               "title": "SubConverter 更新频道",
               "url": "https://t.me/subconverter",
               "countStr": "2,016",
-              "desc": "在各种订阅格式之间进行转换的实。",
+              "desc": "在各种订阅格式之间进行转换的实用程序。",
               "id": "subconverter"
             },
             {
@@ -1625,7 +1534,7 @@
               "title": "PWRTelegram API channel",
               "url": "https://t.me/pwrtelegram",
               "countStr": "724",
-              "desc": "Official channe。",
+              "desc": "Official channel for the PWRTelegram bot API.",
               "id": "pwrtelegram"
             },
             {
@@ -1646,7 +1555,7 @@
               "title": "内核怕怕 - 辣鸡 Linux",
               "url": "https://t.me/kernelscared",
               "countStr": "456",
-              "desc": "收集分享 Linux 平台好看。",
+              "desc": "收集分享 Linux 平台好看、好玩的 bug。",
               "id": "kernelscared"
             },
             {
@@ -1697,17 +1606,31 @@
           "fullName": "🔒 信息安全",
           "items": [
             {
+              "title": "ISIS Watch",
+              "url": "https://t.me/isiswatch",
+              "countStr": "15,193",
+              "desc": "发布 Telegram 封禁恐怖主义内容的每日统计。",
+              "id": "isiswatch"
+            },
+            {
+              "title": "Stop Child Abuse",
+              "url": "https://t.me/stopca",
+              "countStr": "14,687",
+              "desc": "发布 Telegram 封禁儿童虐待相关内容的每日统计。",
+              "id": "stopca"
+            },
+            {
               "title": "Telegram Tips",
               "url": "https://t.me/telegramtips",
               "countStr": "11,691,511",
-              "desc": "Telegram stands。",
+              "desc": "Telegram stands for freedom and privacy and has many easy to use features.",
               "id": "telegramtips"
             },
             {
               "title": "Suggerimenti di Telegram",
               "url": "https://t.me/telegramtipsit",
               "countStr": "187,757",
-              "desc": "Telegram è sino。",
+              "desc": "Telegram è sinonimo di libertà e privacy e ha molte funzionalità facili da usare.",
               "id": "telegramtipsit"
             },
             {
@@ -1728,7 +1651,7 @@
               "title": "AdGuard",
               "url": "https://t.me/adguarden",
               "countStr": "7,183",
-              "desc": "Everything abou。",
+              "desc": "Everything about online privacy and ad blocking — news, memes etc.",
               "id": "adguarden"
             },
             {
@@ -1742,7 +1665,7 @@
               "title": "Anti Revoke Plugin - 防撤回插件",
               "url": "https://t.me/antirevoke",
               "countStr": "1,895",
-              "desc": "Telegram anti r。",
+              "desc": "Telegram anti revoke plugin channel.",
               "id": "antirevoke"
             },
             {
@@ -1796,7 +1719,7 @@
               "title": "Telegram APKs for Android",
               "url": "https://t.me/tandroidapk",
               "countStr": "256,540",
-              "desc": "Official channe。",
+              "desc": "Official channel for Telegram Android APKs.",
               "id": "tandroidapk"
             },
             {
@@ -1810,7 +1733,7 @@
               "title": "Nekogram APKs",
               "url": "https://t.me/nekogramapks",
               "countStr": "41,802",
-              "desc": "The official AP。",
+              "desc": "The official APKs channel for Nekogram.",
               "id": "nekogramapks"
             },
             {
@@ -1831,7 +1754,7 @@
               "title": "Appinn Feed 小众软件",
               "url": "https://t.me/appinnfeed",
               "countStr": "28,754",
-              "desc": "这里有小众软件和发现频道的内容。",
+              "desc": "这里有小众软件和发现频道的内容更新，以及一个绑定的私有群组。",
               "id": "appinnfeed"
             },
             {
@@ -1901,14 +1824,14 @@
               "title": "推特翻译",
               "url": "https://t.me/twitter_translate",
               "countStr": "11,671",
-              "desc": "近来有很多朋友来问询转发相关事。",
+              "desc": "近来有很多朋友来问询转发相关事宜，这边再次统一回复：都可以转发。",
               "id": "twitter_translate"
             },
             {
               "title": "TG规则脚本信息分享器",
               "url": "https://t.me/mrhxpjgg",
               "countStr": "10,203",
-              "desc": "分享主题：包括但不限于关于机场。",
+              "desc": "分享主题：包括但不限于关于机场、政治、吹水、不露点NSFW等…同时讨论任何有关捷径规则、JSBOX脚本、APP STORE旧版本抓包下载、付费软件破解、开车软件分享和破解VIP等…本频道所有内容基本为搬运，侵删。",
               "id": "mrhxpjgg"
             },
             {
@@ -1922,7 +1845,7 @@
               "title": "Apps推荐&抽奖&活动",
               "url": "https://t.me/appssweepstakesnews",
               "countStr": "8,605",
-              "desc": "推送不限于Apps抽奖活动相关。",
+              "desc": "推送不限于Apps抽奖活动相关资讯，欢迎转发！",
               "id": "appssweepstakesnews"
             },
             {
@@ -1936,7 +1859,7 @@
               "title": "A Place Of Happiness",
               "url": "https://t.me/get_happiness",
               "countStr": "6,444",
-              "desc": "Sometimes you n。",
+              "desc": "Sometimes you need places like this.",
               "id": "get_happiness"
             },
             {
@@ -2359,7 +2282,7 @@
               "title": "David’s YouTube 频道推荐",
               "url": "https://t.me/davidsyoutube",
               "countStr": "290",
-              "desc": "Recommend vario。",
+              "desc": "Recommend various interesting YouTube channels.",
               "id": "davidsyoutube"
             },
             {
@@ -2509,7 +2432,7 @@
               "title": "PIXIV站每日 Top50搬运 动漫 ACG 二次元 每日精选图片 動漫 P站",
               "url": "https://t.me/pixiv_top50",
               "countStr": "87,828",
-              "desc": "搬運PIXIV每天綜合排行榜前。",
+              "desc": "搬運PIXIV每天綜合排行榜前50圖片資源，不定時更新。",
               "id": "pixiv_top50"
             },
             {
@@ -2593,7 +2516,7 @@
               "title": "ACG Stickers",
               "url": "https://t.me/acgstickers",
               "countStr": "8,322",
-              "desc": "Sharing some cu。",
+              "desc": "Sharing some cute stickers and GIFs!",
               "id": "acgstickers"
             },
             {
@@ -2614,7 +2537,7 @@
               "title": "Menhera-Channel",
               "url": "https://t.me/nanasekurumi",
               "countStr": "1,579",
-              "desc": "Channel for the。",
+              "desc": "Channel for the distribution of media about Menhera-chan!",
               "id": "nanasekurumi"
             },
             {
@@ -2644,10 +2567,17 @@
           "fullName": "🎮 游戏娱乐",
           "items": [
             {
+              "title": "PC Games Reserve",
+              "url": "https://t.me/pcgameslist",
+              "countStr": "132,239",
+              "desc": "PC Games Reserve 的游戏频道。",
+              "id": "pcgameslist"
+            },
+            {
               "title": "TestFlightX",
               "url": "https://t.me/testflightx",
               "countStr": "45,905",
-              "desc": "Sharing TestFli。",
+              "desc": "Sharing TestFlight links available for download.",
               "id": "testflightx"
             },
             {
@@ -2675,7 +2605,7 @@
               "title": "限時免費 LimitFree",
               "url": "https://t.me/limitfree",
               "countStr": "6,509",
-              "desc": "可依照以下 Hashtag 搜。",
+              "desc": "可依照以下 Hashtag 搜尋您要的系統喔!",
               "id": "limitfree"
             },
             {
@@ -2731,7 +2661,7 @@
               "title": "Hostloc 新帖图文推送",
               "url": "https://t.me/hostlocpro",
               "countStr": "1,787",
-              "desc": "本频道基本功能：爬取国内外有名。",
+              "desc": "本频道基本功能：爬取国内外有名的主机论坛Hostloc新帖，为订阅者提供一手图文资讯！",
               "id": "hostlocpro"
             },
             {
@@ -2792,7 +2722,7 @@
               "title": "Lee Hsien Loong",
               "url": "https://t.me/leehsienloong",
               "countStr": "17,006",
-              "desc": "Official Telegr。",
+              "desc": "Official Telegram channel of Mr Lee Hsien Loong, Senior Minister in the Prime Minister’s Office and Member of Parliament for Ang Mo Kio GRC.",
               "id": "leehsienloong"
             },
             {
@@ -2820,7 +2750,7 @@
               "title": "Surge News",
               "url": "https://t.me/surgenews",
               "countStr": "5,459",
-              "desc": "本频道致力于搜集整理 Surg。",
+              "desc": "本频道致力于搜集整理 Surge 使用相关问题及其它网文信息！",
               "id": "surgenews"
             },
             {
@@ -2855,7 +2785,7 @@
               "title": "Gramip Channel",
               "url": "https://t.me/gramip",
               "countStr": "1,911",
-              "desc": "（1）發布MTP/SOCKS5。",
+              "desc": "（1）發布MTP/SOCKS5電報內置代理.",
               "id": "gramip"
             },
             {
@@ -2892,6 +2822,13 @@
           "fullName": "🪙 加密货币",
           "items": [
             {
+              "title": "链闻 ChainNews",
+              "url": "https://t.me/chainnews",
+              "countStr": "7,961",
+              "desc": "链闻 ChainNews 的区块链资讯频道。",
+              "id": "chainnews"
+            },
+            {
               "title": "Telo News 简体中文 - 加密货币 DeFi Web3",
               "url": "https://t.me/telonews_cn",
               "countStr": "91,573",
@@ -2902,7 +2839,7 @@
               "title": "BlockBeats",
               "url": "https://t.me/theblockbeats",
               "countStr": "36,690",
-              "desc": "BlockBeats-专业的区。",
+              "desc": "BlockBeats-专业的区块链研究机构与资讯平台。",
               "id": "theblockbeats"
             },
             {
@@ -2924,6 +2861,13 @@
         {
           "fullName": "📚 学习阅读",
           "items": [
+            {
+              "title": "R.O.D.",
+              "url": "https://t.me/read_or_dead",
+              "countStr": "728",
+              "desc": "日常读书吐槽与博客分享。",
+              "id": "read_or_dead"
+            },
             {
               "title": "电子书/听书/期刊/课程资源",
               "url": "https://t.me/sharebooks4you/5698",
@@ -3033,7 +2977,7 @@
               "title": "Android Weekly Update",
               "url": "https://t.me/update4weekly",
               "countStr": "5,364",
-              "desc": "一份 Android 行业动态。",
+              "desc": "一份 Android 行业动态分析专栏计划 / 周报。",
               "id": "update4weekly"
             },
             {
@@ -3103,14 +3047,14 @@
               "title": "Telegram Blog Secrets",
               "url": "https://t.me/tgblog_secrets",
               "countStr": "1,591",
-              "desc": "Here we will po。",
+              "desc": "Here we will post all of the secret messages from the official Telegram Blog.",
               "id": "tgblog_secrets"
             },
             {
               "title": "Kindle 特价书",
               "url": "https://t.me/kindlebookdeals",
               "countStr": "1,195",
-              "desc": "Kindle 特价书推送 Ch。",
+              "desc": "Kindle 特价书推送 Channel。",
               "id": "kindlebookdeals"
             },
             {
@@ -3138,7 +3082,7 @@
               "title": "Kindle 电子书精品降价",
               "url": "https://t.me/kindleprice",
               "countStr": "1,016",
-              "desc": "本频道专注于分享 kindle。",
+              "desc": "本频道专注于分享 kindle 电子书降价信息。",
               "id": "kindleprice"
             },
             {
@@ -3194,14 +3138,14 @@
               "title": "中文维基 求闻 - Qiuwen Chinese Wikipedia",
               "url": "https://t.me/qiuwen",
               "countStr": "373",
-              "desc": "《求闻》是由中国大陆维基人用户。",
+              "desc": "《求闻》是由中国大陆维基人用户组运营的新闻服务，报道维基媒体相关的新闻。",
               "id": "qiuwen"
             },
             {
               "title": "維基人 官方推播頻道",
               "url": "https://t.me/the_wikipedian",
               "countStr": "243",
-              "desc": "《維基人》是由中文維基人自主編。",
+              "desc": "《維基人》是由中文維基人自主編撰出版的刊物。",
               "id": "the_wikipedian"
             },
             {
@@ -3220,14 +3164,14 @@
               "title": "Telegram Designers",
               "url": "https://t.me/designers",
               "countStr": "72,474",
-              "desc": "Feature suggest。",
+              "desc": "Feature suggestions for Telegram from designers all over the world.",
               "id": "designers"
             },
             {
               "title": "@BooksThief",
               "url": "https://t.me/booksthief",
               "countStr": "53,580",
-              "desc": "You ask what we。",
+              "desc": "You ask what we do?",
               "id": "booksthief"
             },
             {
@@ -3241,7 +3185,7 @@
               "title": "Creative Motion",
               "url": "https://t.me/creativemotion",
               "countStr": "22,535",
-              "desc": "Канал по анимац。",
+              "desc": "Канал по анимационной графике, она же моушн-графика.",
               "id": "creativemotion"
             },
             {
@@ -3283,7 +3227,7 @@
               "title": "南国微雪 一切，都很美丽。",
               "url": "https://t.me/tinysnow4yi",
               "countStr": "2,782",
-              "desc": "The idiot's cha。",
+              "desc": "The idiot's channel.",
               "id": "tinysnow4yi"
             },
             {
@@ -3297,7 +3241,7 @@
               "title": "Popular Design Articles流行设计文章资源",
               "url": "https://t.me/designtaalk",
               "countStr": "1,523",
-              "desc": "频道偶尔会分享一些国外优秀设计。",
+              "desc": "频道偶尔会分享一些国外优秀设计文章资源。",
               "id": "designtaalk"
             },
             {
@@ -3465,6 +3409,20 @@
           "fullName": "👗 生活消费",
           "items": [
             {
+              "title": "快乐星球 妹子图 收集器",
+              "url": "https://t.me/botmzt",
+              "countStr": "53,254",
+              "desc": "人像与写真图片收集频道。",
+              "id": "botmzt"
+            },
+            {
+              "title": "BeijingAir",
+              "url": "https://t.me/beijingair",
+              "countStr": "143",
+              "desc": "发布北京空气质量监测数据，来源为美国驻北京使馆监测站。",
+              "id": "beijingair"
+            },
+            {
               "title": "语不惊人死不休 文案馆",
               "url": "https://t.me/wenanba",
               "countStr": "54,707",
@@ -3566,7 +3524,7 @@
               "title": "Google Play限免信息",
               "url": "https://t.me/playsales",
               "countStr": "6,567",
-              "desc": "不定时推介Play Store。",
+              "desc": "不定时推介Play Store上的限免游戏，应用喵。",
               "id": "playsales"
             },
             {
@@ -3650,7 +3608,7 @@
               "title": "中國地震速报（≥4.5级）",
               "url": "https://t.me/dizhen",
               "countStr": "1,043",
-              "desc": "○ 信息来自中国地震台的官方微。",
+              "desc": "○ 信息来自中国地震台的官方微博（暂坏待修），以及 USGS 的测定消息，接近实时（是指和源站发布消息时间接近，不是地震发生时间）。",
               "id": "dizhen"
             },
             {
@@ -3671,7 +3629,7 @@
               "title": "Ingress Chengdu&Chongqing",
               "url": "https://t.me/ingresschengduchongqing",
               "countStr": "548",
-              "desc": "本频道用于发布川渝地区旅游相关。",
+              "desc": "本频道用于发布川渝地区旅游相关资讯，提供美食，任务，交通攻略等信息，以服务更多玩家。",
               "id": "ingresschengduchongqing"
             },
             {
@@ -3701,6 +3659,13 @@
           "fullName": "🌍 地区社群",
           "items": [
             {
+              "title": "YanTai",
+              "url": "https://t.me/yantaiinfo",
+              "countStr": "863",
+              "desc": "烟台相关信息频道。",
+              "id": "yantaiinfo"
+            },
+            {
               "title": "電報群組廣播",
               "url": "https://t.me/focustelegramgrouplink",
               "countStr": "18,771",
@@ -3726,6 +3691,41 @@
         {
           "fullName": "💬 闲聊交友",
           "items": [
+            {
+              "title": "Programmer Jokes",
+              "url": "https://t.me/programmerjokes",
+              "countStr": "108,771",
+              "desc": "分享程序员笑话与编程相关趣闻。",
+              "id": "programmerjokes"
+            },
+            {
+              "title": "上班划水之无聊图",
+              "url": "https://t.me/goworkbitch",
+              "countStr": "24,666",
+              "desc": "搞笑图片与上班闲暇趣闻。",
+              "id": "goworkbitch"
+            },
+            {
+              "title": "〄FW",
+              "url": "https://t.me/jisfw",
+              "countStr": "12,626",
+              "desc": "For Work 系列的梗图频道。",
+              "id": "jisfw"
+            },
+            {
+              "title": "DLK搞笑趣闻情报站",
+              "url": "https://t.me/dlkqingbaozhan",
+              "countStr": "3,828",
+              "desc": "分享搞笑图片与趣闻的频道。",
+              "id": "dlkqingbaozhan"
+            },
+            {
+              "title": "AIM扩散力场",
+              "url": "https://t.me/nekosc",
+              "countStr": "3,572",
+              "desc": "不定期分享段子与趣闻。",
+              "id": "nekosc"
+            },
             {
               "title": "白丝即正义",
               "url": "https://t.me/baisi",
@@ -3870,7 +3870,7 @@
               "title": "polyhedron",
               "url": "https://t.me/polyhedron",
               "countStr": "2,520",
-              "desc": "polyhedron 的自媒體。",
+              "desc": "polyhedron 的自媒體備份。",
               "id": "polyhedron"
             },
             {
@@ -3884,14 +3884,14 @@
               "title": "Rachel 碎碎念",
               "url": "https://t.me/rachelblahblah",
               "countStr": "1,921",
-              "desc": "欢迎你订阅 Rachel 的个。",
+              "desc": "欢迎你订阅 Rachel 的个人碎碎念频道！",
               "id": "rachelblahblah"
             },
             {
               "title": "糗事百科",
               "url": "https://t.me/qiushibaike",
               "countStr": "1,890",
-              "desc": "糗事百科是一个原创的糗事笑话分。",
+              "desc": "糗事百科是一个原创的糗事笑话分享社区,糗百网友分享的搞笑段子、搞笑图片大全,都是糗友最珍贵的开心经历,爆笑糗事笑话只在糗事百科！",
               "id": "qiushibaike"
             },
             {
@@ -3992,28 +3992,28 @@
               "title": "Pavel Durov",
               "url": "https://t.me/durov",
               "countStr": "11,152,084",
-              "desc": "Founder of Tele。",
+              "desc": "Founder of Telegram.",
               "id": "durov"
             },
             {
               "title": "Telegram News",
               "url": "https://t.me/telegram",
               "countStr": "10,484,169",
-              "desc": "The official Te。",
+              "desc": "The official Telegram on Telegram.",
               "id": "telegram"
             },
             {
               "title": "Tips de Telegram",
               "url": "https://t.me/telegramtipses",
               "countStr": "1,640,867",
-              "desc": "Telegram es sin。",
+              "desc": "Telegram es sinónimo de libertad y privacidad y tiene muchas funciones fáciles de usar.",
               "id": "telegramtipses"
             },
             {
               "title": "Telegram Usernames",
               "url": "https://t.me/username",
               "countStr": "1,300,931",
-              "desc": "This channel is。",
+              "desc": "This channel is managed by the Telegram team to inform users about updates related to auctions for usernames and other items on the Telegram platform.",
               "id": "username"
             },
             {
@@ -4027,7 +4027,7 @@
               "title": "Tips Telegram",
               "url": "https://t.me/telegramtipsid",
               "countStr": "507,536",
-              "desc": "Telegram adalah。",
+              "desc": "Telegram adalah sebuah ide tentang kebebasan dan privasi, memiliki banyak fitur yang mudah digunakan.",
               "id": "telegramtipsid"
             },
             {
@@ -4048,21 +4048,21 @@
               "title": "Abiy Ahmed Ali",
               "url": "https://t.me/abiyahmedaliofficial",
               "countStr": "170,787",
-              "desc": "ነጻነት ለህዝባችን - ብ。",
+              "desc": "ነጻነት ለህዝባችን - ብልጽግና ለአገራችን!",
               "id": "abiyahmedaliofficial"
             },
             {
               "title": "Noticias de Telegram",
               "url": "https://t.me/telegrames",
               "countStr": "148,589",
-              "desc": "Canal oficial d。",
+              "desc": "Canal oficial de noticias de Telegram en español.",
               "id": "telegrames"
             },
             {
               "title": "BotNews",
               "url": "https://t.me/botnews",
               "countStr": "127,384",
-              "desc": "The official so。",
+              "desc": "The official source for news about the Telegram Bot API.",
               "id": "botnews"
             },
             {
@@ -4076,21 +4076,21 @@
               "title": "Telegram Brasil",
               "url": "https://t.me/telegrambr",
               "countStr": "119,626",
-              "desc": "Canal oficial d。",
+              "desc": "Canal oficial do Telegram, no Telegram, sobre o Telegram (Wow) com detalhes das atualizações e novidades.",
               "id": "telegrambr"
             },
             {
               "title": "Discuss That!",
               "url": "https://t.me/discussthis",
               "countStr": "65,813",
-              "desc": "This channel is。",
+              "desc": "This channel is meant to post things that can be discussed.",
               "id": "discussthis"
             },
             {
               "title": "PixelExperience",
               "url": "https://t.me/pixelexperience",
               "countStr": "41,949",
-              "desc": "Official chat i。",
+              "desc": "Official chat is there!",
               "id": "pixelexperience"
             },
             {
@@ -4118,21 +4118,21 @@
               "title": "Telegram (DE)",
               "url": "https://t.me/telegramde",
               "countStr": "27,305",
-              "desc": "Der deutschspra。",
+              "desc": "Der deutschsprachige Infokanal.",
               "id": "telegramde"
             },
             {
               "title": "Telegram Desktop",
               "url": "https://t.me/desktop",
               "countStr": "27,277",
-              "desc": "The official Te。",
+              "desc": "The official Telegram Desktop channel, firsthand information from the developer.",
               "id": "desktop"
             },
             {
               "title": "GroupOwnerBots",
               "url": "https://t.me/groupownerbots",
               "countStr": "24,007",
-              "desc": "Just useful bot。",
+              "desc": "Just useful bots for group owners.",
               "id": "groupownerbots"
             },
             {
@@ -4167,7 +4167,7 @@
               "title": "iPhone Telegram Themes",
               "url": "https://t.me/iostelegramthemes",
               "countStr": "17,720",
-              "desc": "Make your feeli。",
+              "desc": "Make your feeling better with my themes.",
               "id": "iostelegramthemes"
             },
             {
@@ -4181,7 +4181,7 @@
               "title": "Animated Emojis",
               "url": "https://t.me/animatedemojis",
               "countStr": "15,148",
-              "desc": "List of all Tel。",
+              "desc": "List of all Telegram Animated Emojis.",
               "id": "animatedemojis"
             },
             {
@@ -4195,14 +4195,14 @@
               "title": "Equal Leaks",
               "url": "https://t.me/equalleaks",
               "countStr": "12,726",
-              "desc": "This channel de。",
+              "desc": "This channel deals with mobile leaks, rumours, news, Technology, A.I., Gaming.",
               "id": "equalleaks"
             },
             {
               "title": "Notizie da Telegram",
               "url": "https://t.me/telegramit",
               "countStr": "11,849",
-              "desc": "Il canale uffic。",
+              "desc": "Il canale ufficiale di Telegram in italiano.",
               "id": "telegramit"
             },
             {
@@ -4216,14 +4216,14 @@
               "title": "XDA-Hub",
               "url": "https://t.me/xdadevelopershub",
               "countStr": "10,029",
-              "desc": "Find your Teleg。",
+              "desc": "Find your Telegram group here!",
               "id": "xdadevelopershub"
             },
             {
               "title": "Instant View Contest News",
               "url": "https://t.me/ivcontest",
               "countStr": "8,976",
-              "desc": "The official ch。",
+              "desc": "The official channel for news about Telegram's Instant View Template Competition.",
               "id": "ivcontest"
             },
             {
@@ -4244,14 +4244,14 @@
               "title": "缤纷世界的彩色冒险",
               "url": "https://t.me/bunte_welt",
               "countStr": "7,670",
-              "desc": "Herzlich willko。",
+              "desc": "Herzlich willkommen bei der bunte Welt !",
               "id": "bunte_welt"
             },
             {
               "title": "Office Tool Plus",
               "url": "https://t.me/otp_channel",
               "countStr": "7,042",
-              "desc": "Office Tool Plu。",
+              "desc": "Office Tool Plus 的官方频道。",
               "id": "otp_channel"
             },
             {
@@ -4286,7 +4286,7 @@
               "title": "Z-Turns",
               "url": "https://t.me/z_turns",
               "countStr": "5,805",
-              "desc": "The world is ou。",
+              "desc": "The world is ours, become a contributor.",
               "id": "z_turns"
             },
             {
@@ -4356,7 +4356,7 @@
               "title": "報導者 The Reporter",
               "url": "https://t.me/tw_reporter_org",
               "countStr": "4,818",
-              "desc": "台灣第一個由公益基金會成立的網。",
+              "desc": "台灣第一個由公益基金會成立的網路媒體，秉持深度、開放、非營利的精神，致力於公共領域調查報導，與社會共同打造多元進步的媒體環境。",
               "id": "tw_reporter_org"
             },
             {
@@ -4391,7 +4391,7 @@
               "title": "Cydia Updates",
               "url": "https://t.me/cydiaupdate",
               "countStr": "4,297",
-              "desc": "Notifications o。",
+              "desc": "Notifications of updates to packages on popular Cydia repos.",
               "id": "cydiaupdate"
             },
             {
@@ -4433,7 +4433,7 @@
               "title": "AnXray",
               "url": "https://t.me/anxray",
               "countStr": "3,852",
-              "desc": "Another Xray fo。",
+              "desc": "Another Xray for Android.",
               "id": "anxray"
             },
             {
@@ -4783,7 +4783,7 @@
               "title": "Connectivity Test",
               "url": "https://t.me/connectivity_test",
               "countStr": "668",
-              "desc": "This place is n。",
+              "desc": "This place is not a place of honor.",
               "id": "connectivity_test"
             },
             {
@@ -4818,14 +4818,14 @@
               "title": "FlyingSky's Channel",
               "url": "https://t.me/flyingsky233",
               "countStr": "524",
-              "desc": "No longer exist。",
+              "desc": "No longer exists.",
               "id": "flyingsky233"
             },
             {
               "title": "Niantic Spatial又给大家拉了什么",
               "url": "https://t.me/shitofniantic",
               "countStr": "513",
-              "desc": "Niantic Spatial。",
+              "desc": "Niantic Spatial迷惑 bugs/运营行为大赏，分享今天 Niantic Spatial又给玩家喂了什么屎。",
               "id": "shitofniantic"
             },
             {
@@ -4881,7 +4881,7 @@
               "title": "庭说 - 海贼王 TingTalk One Piece",
               "url": "https://t.me/tingtalk_op",
               "countStr": "391",
-              "desc": "I'm Gonna Be Ki。",
+              "desc": "I'm Gonna Be King of the Pirates!",
               "id": "tingtalk_op"
             },
             {
@@ -4916,14 +4916,14 @@
               "title": "无籽水稻种植基地",
               "url": "https://t.me/seedless_channel",
               "countStr": "334",
-              "desc": "本频道所有非转发信息遵循 知识。",
+              "desc": "本频道所有非转发信息遵循 知识共享 署名-相同方式共享 4.0 国际 (CC BY-SA 4.0) 协议发布。",
               "id": "seedless_channel"
             },
             {
               "title": "Die Lichtung 林間空地",
               "url": "https://t.me/dielichtung",
               "countStr": "313",
-              "desc": "weird wacky and。",
+              "desc": "weird wacky and energetic.可能是一個閒暇時用來探索好奇心的空間.",
               "id": "dielichtung"
             },
             {
@@ -5126,7 +5126,7 @@
               "title": "𝐕 𝐀 𝐆 𝐔 𝐄 - 針",
               "url": "https://t.me/oz_sensei",
               "countStr": "37",
-              "desc": "Cover scars wit。",
+              "desc": "Cover scars with scars, 傷で傷を補う.",
               "id": "oz_sensei"
             },
             {

@@ -1,0 +1,1079 @@
+{
+  "reviewed_at": "2026-11-07",
+  "scope": "Incremental repair of existing directory only; no additions, exclusions, counts or curated review decisions changed.",
+  "evidence": "Current README and matching profiles in the committed SQLite snapshot. Historical source text is not a new verification of channel availability or ownership.",
+  "category_changes": [
+    {
+      "username": "jairbolsonarobrasil",
+      "old_category": "💻 数码科技",
+      "category": "📰 新闻快讯"
+    },
+    {
+      "username": "v_zelenskiy_official",
+      "old_category": "💻 数码科技",
+      "category": "📰 新闻快讯"
+    },
+    {
+      "username": "pcgameslist",
+      "old_category": "💻 数码科技",
+      "category": "🎮 游戏娱乐"
+    },
+    {
+      "username": "programmerjokes",
+      "old_category": "💻 数码科技",
+      "category": "💬 闲聊交友"
+    },
+    {
+      "username": "botmzt",
+      "old_category": "💻 数码科技",
+      "category": "👗 生活消费"
+    },
+    {
+      "username": "reutersworldchannel",
+      "old_category": "💻 数码科技",
+      "category": "📰 新闻快讯"
+    },
+    {
+      "username": "emmanuelmacron",
+      "old_category": "💻 数码科技",
+      "category": "📰 新闻快讯"
+    },
+    {
+      "username": "goworkbitch",
+      "old_category": "💻 数码科技",
+      "category": "💬 闲聊交友"
+    },
+    {
+      "username": "isiswatch",
+      "old_category": "💻 数码科技",
+      "category": "🔒 信息安全"
+    },
+    {
+      "username": "stopca",
+      "old_category": "💻 数码科技",
+      "category": "🔒 信息安全"
+    },
+    {
+      "username": "jisfw",
+      "old_category": "💻 数码科技",
+      "category": "💬 闲聊交友"
+    },
+    {
+      "username": "chainnews",
+      "old_category": "💻 数码科技",
+      "category": "🪙 加密货币"
+    },
+    {
+      "username": "ukrainenowgerman",
+      "old_category": "💻 数码科技",
+      "category": "📰 新闻快讯"
+    },
+    {
+      "username": "ukrainenowitalian",
+      "old_category": "💻 数码科技",
+      "category": "📰 新闻快讯"
+    },
+    {
+      "username": "dlkqingbaozhan",
+      "old_category": "💻 数码科技",
+      "category": "💬 闲聊交友"
+    },
+    {
+      "username": "nekosc",
+      "old_category": "💻 数码科技",
+      "category": "💬 闲聊交友"
+    },
+    {
+      "username": "ukrainenowspanish",
+      "old_category": "💻 数码科技",
+      "category": "📰 新闻快讯"
+    },
+    {
+      "username": "ukrainenowfrench",
+      "old_category": "💻 数码科技",
+      "category": "📰 新闻快讯"
+    },
+    {
+      "username": "ukrainenowpoland",
+      "old_category": "💻 数码科技",
+      "category": "📰 新闻快讯"
+    },
+    {
+      "username": "yantaiinfo",
+      "old_category": "💻 数码科技",
+      "category": "🌍 地区社群"
+    },
+    {
+      "username": "githubdailys",
+      "old_category": "💻 数码科技",
+      "category": "👨‍💻 开发运维"
+    },
+    {
+      "username": "read_or_dead",
+      "old_category": "💻 数码科技",
+      "category": "📚 学习阅读"
+    },
+    {
+      "username": "nicegramdev",
+      "old_category": "💻 数码科技",
+      "category": "👨‍💻 开发运维"
+    },
+    {
+      "username": "beijingair",
+      "old_category": "💻 数码科技",
+      "category": "👗 生活消费"
+    }
+  ],
+  "description_changes": [
+    {
+      "username": "solidot",
+      "old_description": "solidot.org 非官方。",
+      "description": "solidot.org 非官方 RSS 推送频道。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "cnbeta_com",
+      "old_description": "cnBeta.COM中文业界资。",
+      "description": "cnBeta 中文 IT 新闻、技术文章与评论资讯。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "wsj_rss",
+      "old_description": "RSS 地址： RSS 频道收。",
+      "description": "华尔街日报的 RSS 转发频道。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "awesomersshub",
+      "old_description": "Everything is R。",
+      "description": "RSSHub、RSSHub Radar 的更新与项目动态。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "fnnew",
+      "old_description": "最新最全全球财经资讯24小时不。",
+      "description": "最新最全全球财经资讯24小时不间断直播，A股美股操盘必备，帮您第一时间掌握消息面的因素，把握大局、运筹帷幄、决胜千里！",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "economist_rss",
+      "old_description": "RSS 地址： 感谢原RSS链。",
+      "description": "《经济学人》英文内容的 RSS 转发频道。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "thesoc",
+      "old_description": "On ne parle tan。",
+      "description": "On ne parle tant de mémoire que parce qu'il n'y en a plus.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "xhq_rule",
+      "old_description": "VPS信号旗播报及风向旗参考快。",
+      "description": "VPS信号旗播报及风向旗参考快讯运营规则和评论管理准则。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "nicegramapp",
+      "old_description": "Nicegram - is t。",
+      "description": "Nicegram Telegram 客户端介绍、下载与功能信息。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "jairbolsonarobrasil",
+      "old_description": "Canal Pessoal d。",
+      "description": "Jair Bolsonaro 的个人频道，发布政治与公共事务相关内容。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "telegramtipsbr",
+      "old_description": "Telegram é sinô。",
+      "description": "Telegram é sinônimo de liberdade e privacidade, e tem várias funcionalidades fáceis de usar.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "v_zelenskiy_official",
+      "old_description": "Офіційний канал。",
+      "description": "乌克兰总统泽连斯基的官方频道。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "contest",
+      "old_description": "Here we announc。",
+      "description": "Telegram 编程竞赛公告，涉及 Android、iOS 与网页开发。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "pcgameslist",
+      "old_description": "PC Games Reserv。",
+      "description": "PC Games Reserve 的游戏频道。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "programmerjokes",
+      "old_description": "This channel wi。",
+      "description": "分享程序员笑话与编程相关趣闻。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "tginfo",
+      "old_description": "Новости о Teleg。",
+      "description": "Telegram 新闻、功能更新与使用信息。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "tgx_android",
+      "old_description": "Developer's per。",
+      "description": "Developer's personal channel.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "godlynews1",
+      "old_description": "本频道不定期推送科技数码类新资。",
+      "description": "本频道不定期推送科技数码类新资讯，欢迎关注！",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "botmzt",
+      "old_description": "美女 #妹子 #精选 #全网。",
+      "description": "人像与写真图片收集频道。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "reutersworldchannel",
+      "old_description": "Your source for。",
+      "description": "转载 Reuters 国际新闻与分析的非官方频道。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "shadowrocketnews",
+      "old_description": "Shadowrocket 只有。",
+      "description": "Shadowrocket 的 iOS、iPadOS 与 tvOS 版本相关信息。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "sspai",
+      "old_description": "少数派 (sspai.com)。",
+      "description": "少数派 (sspai.com) 官方频道。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "emmanuelmacron",
+      "old_description": "Président de la。",
+      "description": "法国总统 Emmanuel Macron 的频道。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "tginfoen",
+      "old_description": "This is the Eng。",
+      "description": "Telegram Info 的英文资讯频道。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "goworkbitch",
+      "old_description": "活干完了吗。",
+      "description": "搞笑图片与上班闲暇趣闻。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "geekschannel",
+      "old_description": "Join the Telegr。",
+      "description": "Join the Telegram Army!",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "voice_google",
+      "old_description": "本频道用于 Google Vo。",
+      "description": "本频道用于 Google Voice (GV/googlevoice) 靓号，漂亮邮箱账号的发布。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "clashr_for_windows_channel",
+      "old_description": "讨论组： Clash汉化补丁项。",
+      "description": "Clash for Windows 汉化补丁与相关项目公告。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "isiswatch",
+      "old_description": "This channel pu。",
+      "description": "发布 Telegram 封禁恐怖主义内容的每日统计。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "openwrt_flippy",
+      "old_description": "Flippy的Openwrt/。",
+      "description": "Flippy 的 OpenWrt 与 Armbian 固件信息。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "stopca",
+      "old_description": "This channel pu。",
+      "description": "发布 Telegram 封禁儿童虐待相关内容的每日统计。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "jisfw",
+      "old_description": "For Work 系列频道 梗。",
+      "description": "For Work 系列的梗图频道。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "unigram",
+      "old_description": "Unigram is a Te。",
+      "description": "Unigram is a Telegram desktop app made for Windows.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "tg_x64",
+      "old_description": "Unofficial Tele。",
+      "description": "Unofficial Telegram client based on Telegram Desktop, with additional features.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "chainnews",
+      "old_description": "链闻 ChainNews -。",
+      "description": "链闻 ChainNews 的区块链资讯频道。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "aigcnote",
+      "old_description": "只记录 AI 业界大新闻和最有。",
+      "description": "只记录 AI 业界大新闻和最有趣的新产品。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "pagermaid_modify",
+      "old_description": "PagerMaid Teleg。",
+      "description": "PagerMaid Telegram 用户机器人及插件更新。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "ukrainenowgerman",
+      "old_description": "Die wichtigste。",
+      "description": "以德语发布乌克兰新闻与官方信息。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "tgstable",
+      "old_description": "Every (official。",
+      "description": "Every (official) stable release, of every (official) Telegram client app, in every store, for every supported OS.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "ukrainenowitalian",
+      "old_description": "La principale f。",
+      "description": "以意大利语发布乌克兰新闻与官方信息。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "tgslots",
+      "old_description": "This channel wi。",
+      "description": "This channel will automatically notify you if there are any available slots on TestFlight Telegram beta.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "dlkqingbaozhan",
+      "old_description": "本频道是dlk奔放交流时间的子。",
+      "description": "分享搞笑图片与趣闻的频道。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "nekosc",
+      "old_description": "本频道会不定时推送一些段子。",
+      "description": "不定期分享段子与趣闻。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "ukrainenowspanish",
+      "old_description": "La principal fu。",
+      "description": "以西班牙语发布乌克兰新闻与官方信息。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "ukrainenowfrench",
+      "old_description": "La source princ。",
+      "description": "以法语发布乌克兰新闻与官方信息。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "ukrainenowpoland",
+      "old_description": "关于 Ukraine NOW。",
+      "description": "Ukraine NOW 的波兰语频道。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "huizong0917",
+      "old_description": "收集TG与互联网的Window。",
+      "description": "收集 Telegram 与互联网中的 Windows 软件资源。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "kotatogram",
+      "old_description": "Experimental fo。",
+      "description": "基于 Telegram Desktop 的实验性客户端。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "applespyder",
+      "old_description": "由 开发的 Apple 监控服。",
+      "description": "Apple 软件与 AirPods 固件更新及服务状态监控。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "yantaiinfo",
+      "old_description": "醉美烟台欢迎您。",
+      "description": "烟台相关信息频道。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "githubdailys",
+      "old_description": "See what the Gi。",
+      "description": "分享 GitHub 社区当天热门项目。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "read_or_dead",
+      "old_description": "日常读书吐槽，博客。",
+      "description": "日常读书吐槽与博客分享。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "nicegramdev",
+      "old_description": "Python dev agai。",
+      "description": "Nicegram 开发者的开发经历与产品相关记录。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "maliquankai",
+      "old_description": "码力全开工作室（maliqua。",
+      "description": "码力全开工作室动态，以及开发、设计、产品与独立开发者作品分享。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "beijingair",
+      "old_description": "Data Source: St。",
+      "description": "发布北京空气质量监测数据，来源为美国驻北京使馆监测站。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "githubtrending",
+      "old_description": "See what the Gi。",
+      "description": "See what the GitHub community is most excited about today.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "subconverter",
+      "old_description": "在各种订阅格式之间进行转换的实。",
+      "description": "在各种订阅格式之间进行转换的实用程序。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "pwrtelegram",
+      "old_description": "Official channe。",
+      "description": "Official channel for the PWRTelegram bot API.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "kernelscared",
+      "old_description": "收集分享 Linux 平台好看。",
+      "description": "收集分享 Linux 平台好看、好玩的 bug。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "telegramtips",
+      "old_description": "Telegram stands。",
+      "description": "Telegram stands for freedom and privacy and has many easy to use features.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "telegramtipsit",
+      "old_description": "Telegram è sino。",
+      "description": "Telegram è sinonimo di libertà e privacy e ha molte funzionalità facili da usare.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "adguarden",
+      "old_description": "Everything abou。",
+      "description": "Everything about online privacy and ad blocking — news, memes etc.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "antirevoke",
+      "old_description": "Telegram anti r。",
+      "description": "Telegram anti revoke plugin channel.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "tandroidapk",
+      "old_description": "Official channe。",
+      "description": "Official channel for Telegram Android APKs.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "nekogramapks",
+      "old_description": "The official AP。",
+      "description": "The official APKs channel for Nekogram.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "appinnfeed",
+      "old_description": "这里有小众软件和发现频道的内容。",
+      "description": "这里有小众软件和发现频道的内容更新，以及一个绑定的私有群组。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "twitter_translate",
+      "old_description": "近来有很多朋友来问询转发相关事。",
+      "description": "近来有很多朋友来问询转发相关事宜，这边再次统一回复：都可以转发。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "mrhxpjgg",
+      "old_description": "分享主题：包括但不限于关于机场。",
+      "description": "分享主题：包括但不限于关于机场、政治、吹水、不露点NSFW等…同时讨论任何有关捷径规则、JSBOX脚本、APP STORE旧版本抓包下载、付费软件破解、开车软件分享和破解VIP等…本频道所有内容基本为搬运，侵删。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "appssweepstakesnews",
+      "old_description": "推送不限于Apps抽奖活动相关。",
+      "description": "推送不限于Apps抽奖活动相关资讯，欢迎转发！",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "get_happiness",
+      "old_description": "Sometimes you n。",
+      "description": "Sometimes you need places like this.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "davidsyoutube",
+      "old_description": "Recommend vario。",
+      "description": "Recommend various interesting YouTube channels.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "pixiv_top50",
+      "old_description": "搬運PIXIV每天綜合排行榜前。",
+      "description": "搬運PIXIV每天綜合排行榜前50圖片資源，不定時更新。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "acgstickers",
+      "old_description": "Sharing some cu。",
+      "description": "Sharing some cute stickers and GIFs!",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "nanasekurumi",
+      "old_description": "Channel for the。",
+      "description": "Channel for the distribution of media about Menhera-chan!",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "testflightx",
+      "old_description": "Sharing TestFli。",
+      "description": "Sharing TestFlight links available for download.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "limitfree",
+      "old_description": "可依照以下 Hashtag 搜。",
+      "description": "可依照以下 Hashtag 搜尋您要的系統喔!",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "hostlocpro",
+      "old_description": "本频道基本功能：爬取国内外有名。",
+      "description": "本频道基本功能：爬取国内外有名的主机论坛Hostloc新帖，为订阅者提供一手图文资讯！",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "leehsienloong",
+      "old_description": "Official Telegr。",
+      "description": "Official Telegram channel of Mr Lee Hsien Loong, Senior Minister in the Prime Minister’s Office and Member of Parliament for Ang Mo Kio GRC.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "surgenews",
+      "old_description": "本频道致力于搜集整理 Surg。",
+      "description": "本频道致力于搜集整理 Surge 使用相关问题及其它网文信息！",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "gramip",
+      "old_description": "（1）發布MTP/SOCKS5。",
+      "description": "（1）發布MTP/SOCKS5電報內置代理.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "theblockbeats",
+      "old_description": "BlockBeats-专业的区。",
+      "description": "BlockBeats-专业的区块链研究机构与资讯平台。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "update4weekly",
+      "old_description": "一份 Android 行业动态。",
+      "description": "一份 Android 行业动态分析专栏计划 / 周报。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "tgblog_secrets",
+      "old_description": "Here we will po。",
+      "description": "Here we will post all of the secret messages from the official Telegram Blog.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "kindlebookdeals",
+      "old_description": "Kindle 特价书推送 Ch。",
+      "description": "Kindle 特价书推送 Channel。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "kindleprice",
+      "old_description": "本频道专注于分享 kindle。",
+      "description": "本频道专注于分享 kindle 电子书降价信息。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "qiuwen",
+      "old_description": "《求闻》是由中国大陆维基人用户。",
+      "description": "《求闻》是由中国大陆维基人用户组运营的新闻服务，报道维基媒体相关的新闻。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "the_wikipedian",
+      "old_description": "《維基人》是由中文維基人自主編。",
+      "description": "《維基人》是由中文維基人自主編撰出版的刊物。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "designers",
+      "old_description": "Feature suggest。",
+      "description": "Feature suggestions for Telegram from designers all over the world.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "booksthief",
+      "old_description": "You ask what we。",
+      "description": "You ask what we do?",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "creativemotion",
+      "old_description": "Канал по анимац。",
+      "description": "Канал по анимационной графике, она же моушн-графика.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "tinysnow4yi",
+      "old_description": "The idiot's cha。",
+      "description": "The idiot's channel.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "designtaalk",
+      "old_description": "频道偶尔会分享一些国外优秀设计。",
+      "description": "频道偶尔会分享一些国外优秀设计文章资源。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "playsales",
+      "old_description": "不定时推介Play Store。",
+      "description": "不定时推介Play Store上的限免游戏，应用喵。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "dizhen",
+      "old_description": "○ 信息来自中国地震台的官方微。",
+      "description": "○ 信息来自中国地震台的官方微博（暂坏待修），以及 USGS 的测定消息，接近实时（是指和源站发布消息时间接近，不是地震发生时间）。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "ingresschengduchongqing",
+      "old_description": "本频道用于发布川渝地区旅游相关。",
+      "description": "本频道用于发布川渝地区旅游相关资讯，提供美食，任务，交通攻略等信息，以服务更多玩家。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "polyhedron",
+      "old_description": "polyhedron 的自媒體。",
+      "description": "polyhedron 的自媒體備份。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "rachelblahblah",
+      "old_description": "欢迎你订阅 Rachel 的个。",
+      "description": "欢迎你订阅 Rachel 的个人碎碎念频道！",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "qiushibaike",
+      "old_description": "糗事百科是一个原创的糗事笑话分。",
+      "description": "糗事百科是一个原创的糗事笑话分享社区,糗百网友分享的搞笑段子、搞笑图片大全,都是糗友最珍贵的开心经历,爆笑糗事笑话只在糗事百科！",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "durov",
+      "old_description": "Founder of Tele。",
+      "description": "Founder of Telegram.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "telegram",
+      "old_description": "The official Te。",
+      "description": "The official Telegram on Telegram.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "telegramtipses",
+      "old_description": "Telegram es sin。",
+      "description": "Telegram es sinónimo de libertad y privacidad y tiene muchas funciones fáciles de usar.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "username",
+      "old_description": "This channel is。",
+      "description": "This channel is managed by the Telegram team to inform users about updates related to auctions for usernames and other items on the Telegram platform.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "telegramtipsid",
+      "old_description": "Telegram adalah。",
+      "description": "Telegram adalah sebuah ide tentang kebebasan dan privasi, memiliki banyak fitur yang mudah digunakan.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "abiyahmedaliofficial",
+      "old_description": "ነጻነት ለህዝባችን - ብ。",
+      "description": "ነጻነት ለህዝባችን - ብልጽግና ለአገራችን!",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "telegrames",
+      "old_description": "Canal oficial d。",
+      "description": "Canal oficial de noticias de Telegram en español.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "botnews",
+      "old_description": "The official so。",
+      "description": "The official source for news about the Telegram Bot API.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "telegrambr",
+      "old_description": "Canal oficial d。",
+      "description": "Canal oficial do Telegram, no Telegram, sobre o Telegram (Wow) com detalhes das atualizações e novidades.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "discussthis",
+      "old_description": "This channel is。",
+      "description": "This channel is meant to post things that can be discussed.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "pixelexperience",
+      "old_description": "Official chat i。",
+      "description": "Official chat is there!",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "telegramde",
+      "old_description": "Der deutschspra。",
+      "description": "Der deutschsprachige Infokanal.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "desktop",
+      "old_description": "The official Te。",
+      "description": "The official Telegram Desktop channel, firsthand information from the developer.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "groupownerbots",
+      "old_description": "Just useful bot。",
+      "description": "Just useful bots for group owners.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "iostelegramthemes",
+      "old_description": "Make your feeli。",
+      "description": "Make your feeling better with my themes.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "animatedemojis",
+      "old_description": "List of all Tel。",
+      "description": "List of all Telegram Animated Emojis.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "equalleaks",
+      "old_description": "This channel de。",
+      "description": "This channel deals with mobile leaks, rumours, news, Technology, A.I., Gaming.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "telegramit",
+      "old_description": "Il canale uffic。",
+      "description": "Il canale ufficiale di Telegram in italiano.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "xdadevelopershub",
+      "old_description": "Find your Teleg。",
+      "description": "Find your Telegram group here!",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "ivcontest",
+      "old_description": "The official ch。",
+      "description": "The official channel for news about Telegram's Instant View Template Competition.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "bunte_welt",
+      "old_description": "Herzlich willko。",
+      "description": "Herzlich willkommen bei der bunte Welt !",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "otp_channel",
+      "old_description": "Office Tool Plu。",
+      "description": "Office Tool Plus 的官方频道。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "z_turns",
+      "old_description": "The world is ou。",
+      "description": "The world is ours, become a contributor.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "tw_reporter_org",
+      "old_description": "台灣第一個由公益基金會成立的網。",
+      "description": "台灣第一個由公益基金會成立的網路媒體，秉持深度、開放、非營利的精神，致力於公共領域調查報導，與社會共同打造多元進步的媒體環境。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "cydiaupdate",
+      "old_description": "Notifications o。",
+      "description": "Notifications of updates to packages on popular Cydia repos.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "anxray",
+      "old_description": "Another Xray fo。",
+      "description": "Another Xray for Android.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "connectivity_test",
+      "old_description": "This place is n。",
+      "description": "This place is not a place of honor.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "flyingsky233",
+      "old_description": "No longer exist。",
+      "description": "No longer exists.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "shitofniantic",
+      "old_description": "Niantic Spatial。",
+      "description": "Niantic Spatial迷惑 bugs/运营行为大赏，分享今天 Niantic Spatial又给玩家喂了什么屎。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "tingtalk_op",
+      "old_description": "I'm Gonna Be Ki。",
+      "description": "I'm Gonna Be King of the Pirates!",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "seedless_channel",
+      "old_description": "本频道所有非转发信息遵循 知识。",
+      "description": "本频道所有非转发信息遵循 知识共享 署名-相同方式共享 4.0 国际 (CC BY-SA 4.0) 协议发布。",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "dielichtung",
+      "old_description": "weird wacky and。",
+      "description": "weird wacky and energetic.可能是一個閒暇時用來探索好奇心的空間.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    },
+    {
+      "username": "oz_sensei",
+      "old_description": "Cover scars wit。",
+      "description": "Cover scars with scars, 傷で傷を補う.",
+      "source": "db/sqlite/rectg.db (existing historical snapshot; not a live profile check)"
+    }
+  ],
+  "unresolved_truncated_descriptions": [
+    "zhihuribao_rss",
+    "shuangyunews_rss",
+    "testflights",
+    "aboutrss",
+    "jp_rss",
+    "yuan_en",
+    "jin10news",
+    "korea_rss",
+    "newsforbitcoin",
+    "bidaily",
+    "mattershub",
+    "zhongyaokuaixun",
+    "cailianshe",
+    "nifengpress",
+    "pushings",
+    "fhs_publictransport_zone",
+    "science",
+    "duyaoss",
+    "zrj96",
+    "sharecentre",
+    "beautifultgtheme",
+    "macapp_channel",
+    "appletvplus",
+    "jailbreak_tweaks",
+    "ijustseesee",
+    "theblockclub",
+    "hilinuxcn",
+    "teslacn",
+    "botsarchive",
+    "https1024",
+    "hacker_news_feed",
+    "projectxtls",
+    "acl4ssr",
+    "pythontelegrambotchannel",
+    "orzmini",
+    "archlinuxcn",
+    "cloudflare_cn",
+    "usestick",
+    "linuxdotcn",
+    "learnswiftui",
+    "linuxsoft_zh_cn",
+    "archlinuxcn_updates",
+    "jiandan_bored",
+    "rachelnotice",
+    "adguardcn",
+    "zhuyianquan",
+    "trumpjr",
+    "xplus_channel",
+    "appdodo",
+    "clsvip",
+    "xuehuashe",
+    "memestelegram",
+    "ziyuan917",
+    "fragment_monitor",
+    "appcn",
+    "apppie",
+    "gboxtgc",
+    "tgx_android_translate",
+    "nlpfw",
+    "alistshare",
+    "hao12news",
+    "privatetrackernews",
+    "movieanywhere",
+    "hellcellzc123",
+    "xinhanewsagency",
+    "doubanchannel",
+    "macaodaily",
+    "zuoluotvofficial",
+    "wenanguan_botjihuo",
+    "vitamineepodcast",
+    "bookcn",
+    "billchenla",
+    "rebornix",
+    "galgamer_channel",
+    "moeisland",
+    "yxhmd",
+    "img2d",
+    "pixivshare",
+    "moepic",
+    "jumpto22222",
+    "drawing1024",
+    "steamny",
+    "nintendoswitch_cn",
+    "quanxnews",
+    "autofreevpn",
+    "rocketcool",
+    "clashdotnetframeworkanncmnt",
+    "qureiconset",
+    "flysocks",
+    "legolimens",
+    "pdf_001",
+    "findblog",
+    "xiaozhangdubao",
+    "tingtalk",
+    "jp_study",
+    "writing_discuss",
+    "miaotonychannel",
+    "readingeventhosting",
+    "butnothinghappened",
+    "pikapush",
+    "tastegirl",
+    "agentone_r",
+    "pfff_wall",
+    "reddit_one",
+    "zuimeibizhi",
+    "daily_read",
+    "weiboresou",
+    "fanfou_daily",
+    "dms_share",
+    "wenanba",
+    "foolishtracewind",
+    "kanxiaojiejie",
+    "yangwangpindao",
+    "acgwallpaper",
+    "dynamicwallpaperclub",
+    "mokeyjay_channel",
+    "g_wallpapers",
+    "godaregirls",
+    "xiao_man_tou",
+    "focustelegramgrouplink",
+    "baisi",
+    "shortcutscn",
+    "merlinclashcat",
+    "ruheyushadiaoxiangchu",
+    "animatedstickers",
+    "miaowu",
+    "gfwr16",
+    "stickersxjbg",
+    "twapplefansannounce",
+    "sitandrelaxw",
+    "tgtrillion",
+    "tgcn_wiki",
+    "plusmsgr",
+    "proxyme",
+    "ar72014",
+    "oneplus",
+    "nianticofficial",
+    "illusory_world",
+    "linkpush",
+    "vanillatg",
+    "sukkachannel",
+    "lowendaff_blog",
+    "telegramindonesia",
+    "keralagramchannel",
+    "sharedresources",
+    "meetashare",
+    "tooruchan_memes",
+    "yixiuer",
+    "papercliphub",
+    "jacobemk",
+    "meowminimeow",
+    "sitandrelaxlabs",
+    "typechodev",
+    "tgdailigg",
+    "polls_channel",
+    "thespeechless",
+    "sitandrelaxlab",
+    "my_ali_bot",
+    "classical_chinese",
+    "telegramnl",
+    "aliyundrive_backup",
+    "product_hunt_hot"
+  ]
+}

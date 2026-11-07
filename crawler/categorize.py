@@ -92,16 +92,6 @@ def clean_text_advanced(text: str, title: str = "") -> str:
     # 去除两端或多余的标点
     text = re.sub(r'^[、，。！？：；\-|~= \*\#]+|[、，。！？：；\-|~= \*\#]+$', '', text.strip())
     
-    # 截断策略：如果还是太长，则截取 100 字，寻找标点符号断句
-    if len(text) > 100:
-        trunc = text[:95]
-        # 尝试在最后一个句号/叹号/逗号处截断
-        match = re.search(r'[。！？，；][^。！？，；]*$', trunc)
-        if match and match.start() > 50: # 如果后半段有标点符号
-            text = trunc[:match.start()+1] + "..."
-        else:
-            text = trunc + "..."
-            
     # 如果清洗完只剩下极少的字，且与 title 几乎一样，则加上“相关讨论与分享”
     if title and len(text) < 5 and text in title:
         text = f"关于 {title} 的相关讨论与分享频道。"
@@ -132,7 +122,8 @@ CATEGORIES = [
             "媒体", "报道", "爆料", "时政", "内幕", "时事", "环球",
             "端传媒", "rss", "数字时代", "南方周末", "纽约时报",
             "财经", "财新", "华尔街", "金融时报",
-            "吃瓜播报", "一手资讯", "热点追踪", "国际新闻"
+            "吃瓜播报", "一手资讯", "热点追踪", "国际新闻",
+            "reuters", "ukraine", "president", "presidente", "président", "президента"
         ]
     },
     {
@@ -315,6 +306,14 @@ CATEGORIES = [
 ]
 
 
+def matches_keyword(text: str, keyword: str) -> bool:
+    """Latin keywords are tokens, not substrings of unrelated names/words."""
+    keyword = keyword.lower()
+    if re.fullmatch(r"[a-z0-9][a-z0-9 +.-]*", keyword):
+        return re.search(r"(?<![a-z0-9])" + re.escape(keyword) + r"(?![a-z0-9])", text.lower()) is not None
+    return keyword in text.lower()
+
+
 def determine_category(title: str, desc: str) -> str:
     """根据关键词推断分类，带上下文感知。
     
@@ -327,7 +326,7 @@ def determine_category(title: str, desc: str) -> str:
     # 第一轮：仅匹配 title（高置信度）
     for cat in CATEGORIES:
         for kw in cat["keywords"]:
-            if kw.lower() in title_lower:
+            if matches_keyword(title_lower, kw):
                 return cat["name"]
     
     # 第二轮：匹配 title + desc（先剔除群规声明上下文）
@@ -336,7 +335,7 @@ def determine_category(title: str, desc: str) -> str:
     
     for cat in CATEGORIES:
         for kw in cat["keywords"]:
-            if kw.lower() in full_text_cleaned:
+            if matches_keyword(full_text_cleaned, kw):
                 return cat["name"]
     
     return "🌐 综合其他"
