@@ -9,11 +9,15 @@
 
 | 名称 | 链接 | 人数 | 简介 |
 | --- | --- | ---: | --- |
+| Jair M. Bolsonaro 1 | [@jairbolsonarobrasil](https://t.me/jairbolsonarobrasil) | 1,159,185 | Jair Bolsonaro 的个人频道，发布政治与公共事务相关内容。 |
+| Zelenskiy / Official | [@V_Zelenskiy_official](https://t.me/V_Zelenskiy_official) | 674,576 | 乌克兰总统泽连斯基的官方频道。 |
 | 风向旗参考快讯 | [@xhqcankao](https://t.me/xhqcankao) | 149,790 | 风闻奏事，遍查访知。 |
 | 电报时报 | [@times001](https://t.me/times001) | 85,600 | 投稿点频道左下角对话图标。 |
 | 华尔街见闻 - 财经时讯 AI 实时互动 | [@FinanceNewsDaily](https://t.me/FinanceNewsDaily) | 51,410 | 中国领先的金融信息平台。 |
+| Reuters: World | [@ReutersWorldChannel](https://t.me/ReutersWorldChannel) | 48,747 | 转载 Reuters 国际新闻与分析的非官方频道。 |
 | Solidot | [@solidot](https://t.me/solidot) | 43,434 | solidot.org 非官方 RSS 推送频道。 |
 | zaobao.sg 早报 | [@zaobaosg](https://t.me/zaobaosg) | 32,551 | 以睿智亲和的内容。 |
+| Emmanuel Macron | [@emmanuelmacron](https://t.me/emmanuelmacron) | 32,247 | 法国总统 Emmanuel Macron 的频道。 |
 | 外滩读书会-最新报纸、杂志、财经报告及流行电子书分享 | [@readingclubus](https://t.me/readingclubus) | 29,961 | 以英文为主的报纸，杂志。 |
 | cnBeta.COM中文业界资讯站 | [@cnbeta_com](https://t.me/cnbeta_com) | 27,412 | cnBeta 中文 IT 新闻、技术文章与评论资讯。 |
 | 𝚂𝚙𝚎𝚎𝚍𝙲𝚎𝚗𝚝𝚛𝚎 | [@speedcentre](https://t.me/speedcentre) | 23,797 | 二手机场交易 欢迎各位关注。 |
@@ -43,10 +47,12 @@
 | 小林家的托尔 | [@TooruchanNews](https://t.me/TooruchanNews) | 6,920 | 非资讯向的个人自媒体。 |
 | RSS 频道收集 | [@rss_channels](https://t.me/rss_channels) | 6,832 | 收集推送 RSS 的频道。 |
 | Yuan的记事本 分享 软件 新闻 Yuan's Notepad | [@Yuan_En](https://t.me/Yuan_En) | 6,150 | 整理搬运一些奇奇怪怪有趣的事～。 |
+| Ukraine NOW German | [@UkraineNowGerman](https://t.me/UkraineNowGerman) | 5,776 | 以德语发布乌克兰新闻与官方信息。 |
 | 金十数据 闪电资讯 | [@jin10news](https://t.me/jin10news) | 5,740 | 实时推送 7x24小时股市闪电。 |
 | 乙烷日报 | [@OverDaily](https://t.me/OverDaily) | 5,365 | 读者群 本频道文字内容以CC。 |
 | 经济学人(英文) RSS | [@economist_rss](https://t.me/economist_rss) | 5,022 | 《经济学人》英文内容的 RSS 转发频道。 |
 | 新闻实验室 | [@newslab2020](https://t.me/newslab2020) | 4,919 | 新闻实验室的频道 >>> 会员。 |
+| Ukraine NOW Italian | [@UkraineNowItalian](https://t.me/UkraineNowItalian) | 4,572 | 以意大利语发布乌克兰新闻与官方信息。 |
 | 韩国 中央日报 朝鲜日报 | [@korea_rss](https://t.me/korea_rss) | 4,449 | 知乎日报 纽约时报 BBC中文。 |
 | &'a ::rynco::UntitledChannel | [@rynif](https://t.me/rynif) | 4,364 | 西郊林密无处去，北城雾沉晚风凉。 |
 | 7x24投资快讯 | [@golden_wind_news](https://t.me/golden_wind_news) | 4,322 | 24 小时投资相关的快讯。 |
@@ -58,6 +64,9 @@
 | The Sociologist | [@thesoc](https://t.me/thesoc) | 3,677 | On ne parle tant de mémoire que parce qu'il n'y en a plus. |
 | 币圈日报 | [@bidaily](https://t.me/bidaily) | 3,480 | 币圈日报-每日最前沿的币圈新闻。 |
 | Matters 閲讀精選 | [@MattersHub](https://t.me/MattersHub) | 3,476 | Matters.news 一個。 |
+| Ukraine NOW Spanish | [@UkraineNowSpanish](https://t.me/UkraineNowSpanish) | 3,068 | 以西班牙语发布乌克兰新闻与官方信息。 |
+| Ukraine NOW French | [@UkraineNowFrench](https://t.me/UkraineNowFrench) | 2,840 | 以法语发布乌克兰新闻与官方信息。 |
+| Ukraine NOW Poland | [@UkraineNowPoland](https://t.me/UkraineNowPoland) | 2,621 | Ukraine NOW 的波兰语频道。 |
 | DecoHack-独立产品周刊 | [@decohack](https://t.me/decohack) | 2,295 | 每周推荐好玩有趣的产品，APP。 |
 | OurBits RSS频道 | [@OurBits_RSS](https://t.me/OurBits_RSS) | 1,922 | OurBits 官种发布提醒。 |
 | 开发者日报 | [@cndevdaily](https://t.me/cndevdaily) | 1,901 | 一个勤劳的机器人，只爬取热门。 |
@@ -77,15 +86,6 @@
 | 公共交通部落 | [@fhs_publictransport_zone](https://t.me/fhs_publictransport_zone) | 605 | 本频道为个人频道 今日炸山 鸽。 |
 | 耳目 | [@earsandeyes](https://t.me/earsandeyes) | 236 | (Seit 10. Dez.。 |
 | 新闻联播 | [@CCTVNewsBroadcast](https://t.me/CCTVNewsBroadcast) | 86 | 新闻联播语音。 |
-| Jair M. Bolsonaro 1 | [@jairbolsonarobrasil](https://t.me/jairbolsonarobrasil) | 1,159,185 | Jair Bolsonaro 的个人频道，发布政治与公共事务相关内容。 |
-| Zelenskiy / Official | [@V_Zelenskiy_official](https://t.me/V_Zelenskiy_official) | 674,576 | 乌克兰总统泽连斯基的官方频道。 |
-| Reuters: World | [@ReutersWorldChannel](https://t.me/ReutersWorldChannel) | 48,747 | 转载 Reuters 国际新闻与分析的非官方频道。 |
-| Emmanuel Macron | [@emmanuelmacron](https://t.me/emmanuelmacron) | 32,247 | 法国总统 Emmanuel Macron 的频道。 |
-| Ukraine NOW German | [@UkraineNowGerman](https://t.me/UkraineNowGerman) | 5,776 | 以德语发布乌克兰新闻与官方信息。 |
-| Ukraine NOW Italian | [@UkraineNowItalian](https://t.me/UkraineNowItalian) | 4,572 | 以意大利语发布乌克兰新闻与官方信息。 |
-| Ukraine NOW Spanish | [@UkraineNowSpanish](https://t.me/UkraineNowSpanish) | 3,068 | 以西班牙语发布乌克兰新闻与官方信息。 |
-| Ukraine NOW French | [@UkraineNowFrench](https://t.me/UkraineNowFrench) | 2,840 | 以法语发布乌克兰新闻与官方信息。 |
-| Ukraine NOW Poland | [@UkraineNowPoland](https://t.me/UkraineNowPoland) | 2,621 | Ukraine NOW 的波兰语频道。 |
 
 <a id="section-channel-2"></a>
 ### 💻 数码科技
@@ -184,8 +184,6 @@
 
 | 名称 | 链接 | 人数 | 简介 |
 | --- | --- | ---: | --- |
-| GitHub Trending Daily | [@GitHubDailys](https://t.me/GitHubDailys) | 768 | 分享 GitHub 社区当天热门项目。 |
-| ex-Nicegram Dev | [@nicegramdev](https://t.me/nicegramdev) | 719 | Nicegram 开发者的开发经历与产品相关记录。 |
 | BotsArchive | [@BotsArchive](https://t.me/BotsArchive) | 110,034 | Bot: Website: G。 |
 | VPS信号旗播报 | [@vps_xhq](https://t.me/vps_xhq) | 45,261 | VPS新闻频道。 |
 | 互联网从业者充电站 | [@https1024](https://t.me/https1024) | 29,200 | 互联网从业者专属 内容多为技术。 |
@@ -217,7 +215,9 @@
 | GitHub 开源观察 | [@githubtrendinghub](https://t.me/githubtrendinghub) | 914 | 精选 GitHub 开源项目、热门仓库与开发工具。 |
 | NextTrace | [@nexttrace](https://t.me/nexttrace) | 910 | 开源网络路由追踪、链路诊断工具的版本与项目动态。 |
 | Linux软件收录 | [@linuxsoft_zh_CN](https://t.me/linuxsoft_zh_CN) | 788 | Linux 日常软件收录 日常。 |
+| GitHub Trending Daily | [@GitHubDailys](https://t.me/GitHubDailys) | 768 | 分享 GitHub 社区当天热门项目。 |
 | PWRTelegram API channel | [@Pwrtelegram](https://t.me/Pwrtelegram) | 724 | Official channel for the PWRTelegram bot API. |
+| ex-Nicegram Dev | [@nicegramdev](https://t.me/nicegramdev) | 719 | Nicegram 开发者的开发经历与产品相关记录。 |
 | Arch Linux Updates | [@archlinuxcn_updates](https://t.me/archlinuxcn_updates) | 688 | Arch Linux 官方和中。 |
 | 副业 | [@sidehustleus](https://t.me/sidehustleus) | 522 | 专注于 MVP 验证。 |
 | 内核怕怕 - 辣鸡 Linux | [@kernelscared](https://t.me/kernelscared) | 456 | 收集分享 Linux 平台好看、好玩的 bug。 |
@@ -233,10 +233,10 @@
 
 | 名称 | 链接 | 人数 | 简介 |
 | --- | --- | ---: | --- |
-| ISIS Watch | [@IsisWatch](https://t.me/IsisWatch) | 15,193 | 发布 Telegram 封禁恐怖主义内容的每日统计。 |
-| Stop Child Abuse | [@stopCA](https://t.me/stopCA) | 14,687 | 发布 Telegram 封禁儿童虐待相关内容的每日统计。 |
 | Telegram Tips | [@TelegramTips](https://t.me/TelegramTips) | 11,691,511 | Telegram stands for freedom and privacy and has many easy to use features. |
 | Suggerimenti di Telegram | [@telegramtipsit](https://t.me/telegramtipsit) | 187,757 | Telegram è sinonimo di libertà e privacy e ha molte funzionalità facili da usare. |
+| ISIS Watch | [@IsisWatch](https://t.me/IsisWatch) | 15,193 | 发布 Telegram 封禁恐怖主义内容的每日统计。 |
+| Stop Child Abuse | [@stopCA](https://t.me/stopCA) | 14,687 | 发布 Telegram 封禁儿童虐待相关内容的每日统计。 |
 | 信息安全技术频道 | [@tg_InternetSecurity](https://t.me/tg_InternetSecurity) | 10,903 | Telegram 资源入口。 |
 | 网络安全笔记 | [@tsecrecord](https://t.me/tsecrecord) | 7,930 | 网络安全研究、事件响应与 AI 安全资料分享。 |
 | AdGuard | [@adguarden](https://t.me/adguarden) | 7,183 | Everything about online privacy and ad blocking — news, memes etc. |
@@ -449,10 +449,10 @@
 
 | 名称 | 链接 | 人数 | 简介 |
 | --- | --- | ---: | --- |
-| 链闻 ChainNews | [@chainnews](https://t.me/chainnews) | 7,961 | 链闻 ChainNews 的区块链资讯频道。 |
 | Telo News 简体中文 - 加密货币 DeFi Web3 | [@telonews_cn](https://t.me/telonews_cn) | 91,573 | 最新的加密货币新闻。 |
 | BlockBeats | [@theblockbeats](https://t.me/theblockbeats) | 36,690 | BlockBeats-专业的区块链研究机构与资讯平台。 |
 | 币圈动态 | [@biquan321](https://t.me/biquan321) | 15,615 | 持有任何加密币的我们都是刁民。 |
+| 链闻 ChainNews | [@chainnews](https://t.me/chainnews) | 7,961 | 链闻 ChainNews 的区块链资讯频道。 |
 | 摄神取念 | [@Legolimens](https://t.me/Legolimens) | 267 | There's somethi。 |
 
 <a id="section-channel-13"></a>
@@ -460,7 +460,6 @@
 
 | 名称 | 链接 | 人数 | 简介 |
 | --- | --- | ---: | --- |
-| R.O.D. | [@read_or_dead](https://t.me/read_or_dead) | 728 | 日常读书吐槽与博客分享。 |
 | 电子书/听书/期刊/课程资源 | [@sharebooks4you](https://t.me/sharebooks4you/5698) | 125,715 | 商务 搜书 导航。 |
 | 小声读书 | [@weekly_books](https://t.me/weekly_books) | 37,791 | 在喧嚣的 AI 浪潮中。 |
 | 豆瓣精选 | [@douban_read](https://t.me/douban_read) | 37,658 | 感谢支持和关心我们众多读者朋友。 |
@@ -494,6 +493,7 @@
 | Kindle 电子书精品降价 | [@kindlePrice](https://t.me/kindlePrice) | 1,016 | 本频道专注于分享 kindle 电子书降价信息。 |
 | 無次元 博客 | [@wuciyuan](https://t.me/wuciyuan) | 941 | Lawrence Li 主理。 |
 | Hexo 博客交流 | [@hexozh](https://t.me/hexozh) | 858 | Hexo 是一个快速。 |
+| R.O.D. | [@read_or_dead](https://t.me/read_or_dead) | 728 | 日常读书吐槽与博客分享。 |
 | 冷眼向洋 | [@lengyanxiangyang](https://t.me/lengyanxiangyang) | 624 | 博客 任何反馈。 |
 | Jerry Zhang 的频道 | [@JerryZhang](https://t.me/JerryZhang) | 608 | 有关我喜欢的一切，by。 |
 | 一任阶前点滴到天明 | [@hearrain](https://t.me/hearrain) | 409 | 读书，生活，互联网。 |
@@ -554,9 +554,8 @@
 
 | 名称 | 链接 | 人数 | 简介 |
 | --- | --- | ---: | --- |
-| 快乐星球 妹子图 收集器 | [@botmzt](https://t.me/botmzt) | 53,254 | 人像与写真图片收集频道。 |
-| BeijingAir | [@BeijingAir](https://t.me/BeijingAir) | 143 | 发布北京空气质量监测数据，来源为美国驻北京使馆监测站。 |
 | 语不惊人死不休 文案馆 | [@WenAnBa](https://t.me/WenAnBa) | 54,707 | 心心念念是旧人 笔笔写下是旧情。 |
+| 快乐星球 妹子图 收集器 | [@botmzt](https://t.me/botmzt) | 53,254 | 人像与写真图片收集频道。 |
 | 朱颜别镜 妹子图 美女图 | [@meizitu3](https://t.me/meizitu3) | 47,601 | 全网美女。 |
 | 颜值即正义 | [@yzjzy](https://t.me/yzjzy) | 25,571 | 颜值即正义。 |
 | 壁纸 Wallpaper | [@bizhi123](https://t.me/bizhi123) | 24,946 | 喜欢请多多分享，谢谢。 |
@@ -588,6 +587,7 @@
 | Ingress Chengdu&Chongqing | [@IngressChengduChongqing](https://t.me/IngressChengduChongqing) | 548 | 本频道用于发布川渝地区旅游相关资讯，提供美食，任务，交通攻略等信息，以服务更多玩家。 |
 | 中转站 柯基犬的日常 - 吹水群 | [@UntitledGroup](https://t.me/UntitledGroup) | 270 | Telegram 资源入口。 |
 | 文案吧 | [@Godaregirls](https://t.me/Godaregirls) | 188 | 文案 #壁纸 #背景图 #头像。 |
+| BeijingAir | [@BeijingAir](https://t.me/BeijingAir) | 143 | 发布北京空气质量监测数据，来源为美国驻北京使馆监测站。 |
 | 馒头&雪糕的日常 | [@xiao_man_tou](https://t.me/xiao_man_tou) | 122 | feedId:71390808。 |
 
 <a id="section-channel-17"></a>
@@ -595,8 +595,8 @@
 
 | 名称 | 链接 | 人数 | 简介 |
 | --- | --- | ---: | --- |
-| YanTai | [@yantaiinfo](https://t.me/yantaiinfo) | 863 | 烟台相关信息频道。 |
 | 電報群組廣播 | [@FOCUSTELEGRAMGROUPLINK](https://t.me/FOCUSTELEGRAMGROUPLINK) | 18,771 | 本頻道只推送淨成員150以上的。 |
+| YanTai | [@yantaiinfo](https://t.me/yantaiinfo) | 863 | 烟台相关信息频道。 |
 | 广西聊天交友群 频道 | [@NanNingTG](https://t.me/NanNingTG) | 750 | 进群。 |
 | 广州天气速报 | [@cantonWeather](https://t.me/cantonWeather) | 611 | 广州天气预报、雷雨提醒与气象预警转载。 |
 
@@ -605,13 +605,9 @@
 
 | 名称 | 链接 | 人数 | 简介 |
 | --- | --- | ---: | --- |
-| Programmer Jokes | [@programmerjokes](https://t.me/programmerjokes) | 108,771 | 分享程序员笑话与编程相关趣闻。 |
-| 上班划水之无聊图 | [@goworkbitch](https://t.me/goworkbitch) | 24,666 | 搞笑图片与上班闲暇趣闻。 |
-| 〄FW | [@JISFW](https://t.me/JISFW) | 12,626 | For Work 系列的梗图频道。 |
-| DLK搞笑趣闻情报站 | [@dlkqingbaozhan](https://t.me/dlkqingbaozhan) | 3,828 | 分享搞笑图片与趣闻的频道。 |
-| AIM扩散力场 | [@nekosc](https://t.me/nekosc) | 3,572 | 不定期分享段子与趣闻。 |
 | 白丝即正义 | [@baisi](https://t.me/baisi) | 161,031 | 本频道会不定时推送一些绅士老爷。 |
 | 每日沙雕墙 | [@woshadiao](https://t.me/woshadiao) | 114,444 | 恕我直言。 |
+| Programmer Jokes | [@programmerjokes](https://t.me/programmerjokes) | 108,771 | 分享程序员笑话与编程相关趣闻。 |
 | 树洞群友问有点意思 | [@ShortcutsCN](https://t.me/ShortcutsCN) | 88,429 | 洞友频道投稿： （选择群友问投。 |
 | Stickers Channel | [@stickersChannel](https://t.me/stickersChannel) | 76,324 | FUN CHANNELS /。 |
 | Trending Stickers | [@TrendingStickers](https://t.me/TrendingStickers) | 57,074 | Telegram 资源入口。 |
@@ -620,12 +616,16 @@
 | 如何与沙雕相处 | [@ruheyushadiaoxiangchu](https://t.me/ruheyushadiaoxiangchu) | 29,510 | 投稿Bot： 友链： - 心惊。 |
 | 每天趣事 | [@Meitian](https://t.me/Meitian) | 29,250 | 本频道内容： 多样沙雕冷笑话。 |
 | Animated Stickers | [@AnimatedStickers](https://t.me/AnimatedStickers) | 27,158 | Submit Stickers。 |
+| 上班划水之无聊图 | [@goworkbitch](https://t.me/goworkbitch) | 24,666 | 搞笑图片与上班闲暇趣闻。 |
 | 每日无数猫 | [@miaowu](https://t.me/miaowu) | 19,630 | 投稿请发至投稿机器人 有问题请。 |
 | 你不知道的冷知识 | [@knowledge1024](https://t.me/knowledge1024) | 18,748 | 冷知识分享 有趣的，无趣的。 |
 | 拾趣 | [@peekfun](https://t.me/peekfun) | 13,442 | 分享一点有趣的事情，有用的东西。 |
+| 〄FW | [@JISFW](https://t.me/JISFW) | 12,626 | For Work 系列的梗图频道。 |
 | 撸猫社 | [@lumaoshe](https://t.me/lumaoshe) | 5,281 | 爱猫人士云吸猫特供。 |
+| DLK搞笑趣闻情报站 | [@dlkqingbaozhan](https://t.me/dlkqingbaozhan) | 3,828 | 分享搞笑图片与趣闻的频道。 |
 | 情话箱 | [@qinghua_box](https://t.me/qinghua_box) | 3,741 | 我遇见你，我记得你。 |
 | GFW R16 | [@GfWR16](https://t.me/GfWR16) | 3,601 | Graphics For Wo。 |
+| AIM扩散力场 | [@nekosc](https://t.me/nekosc) | 3,572 | 不定期分享段子与趣闻。 |
 | 音游沙雕频道 | [@yingyoushadiao](https://t.me/yingyoushadiao) | 3,414 | 相关合作群组。 |
 | Stickers Winners | [@topanimated](https://t.me/topanimated) | 3,170 | Telegram 资源入口。 |
 | Sticker_tw | [@sticker_tw](https://t.me/sticker_tw) | 3,065 | 貼圖圖床，請自由加入轉貼。 |

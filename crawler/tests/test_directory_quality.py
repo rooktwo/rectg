@@ -53,6 +53,23 @@ class DirectoryQualityTests(unittest.TestCase):
         self.assertIn('&lt;tools&gt;', render_desc_cell('Python | Linux <tools>.'))
         self.assertNotIn('https://', render_desc_cell('Useful tools. https://example.com'))
 
+    def test_readme_counts_descend_after_owner_pinned_entry(self):
+        categories = {}
+        category = None
+        for line in (ROOT / 'README.md').read_text().splitlines():
+            if line.startswith('### '):
+                category = line[4:]
+                categories[category] = []
+            if line.startswith('| ') and '(https://t.me/' in line:
+                cells = [cell.strip() for cell in line.split('|')[1:-1]]
+                username = re.search(r'https://t.me/([^)?]+)', cells[1])[1].lower()
+                categories[category].append((username, int(cells[2].replace(',', ''))))
+        self.assertEqual(categories['🎬 影视剧集'][0][0], 'fanren4k')
+        for category, rows in categories.items():
+            counts = [count for username, count in rows if username != 'fanren4k']
+            with self.subTest(category=category):
+                self.assertEqual(counts, sorted(counts, reverse=True))
+
     def test_reviewed_changes_and_curated_entries(self):
         readme = (ROOT / 'README.md').read_text()
         current = {}

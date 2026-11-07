@@ -149,6 +149,20 @@
           "fullName": "📰 新闻快讯",
           "items": [
             {
+              "title": "Jair M. Bolsonaro 1",
+              "url": "https://t.me/jairbolsonarobrasil",
+              "countStr": "1,159,185",
+              "desc": "Jair Bolsonaro 的个人频道，发布政治与公共事务相关内容。",
+              "id": "jairbolsonarobrasil"
+            },
+            {
+              "title": "Zelenskiy / Official",
+              "url": "https://t.me/v_zelenskiy_official",
+              "countStr": "674,576",
+              "desc": "乌克兰总统泽连斯基的官方频道。",
+              "id": "v_zelenskiy_official"
+            },
+            {
               "title": "风向旗参考快讯",
               "url": "https://t.me/xhqcankao",
               "countStr": "149,790",
@@ -170,6 +184,13 @@
               "id": "financenewsdaily"
             },
             {
+              "title": "Reuters: World",
+              "url": "https://t.me/reutersworldchannel",
+              "countStr": "48,747",
+              "desc": "转载 Reuters 国际新闻与分析的非官方频道。",
+              "id": "reutersworldchannel"
+            },
+            {
               "title": "Solidot",
               "url": "https://t.me/solidot",
               "countStr": "43,434",
@@ -182,6 +203,13 @@
               "countStr": "32,551",
               "desc": "以睿智亲和的内容。",
               "id": "zaobaosg"
+            },
+            {
+              "title": "Emmanuel Macron",
+              "url": "https://t.me/emmanuelmacron",
+              "countStr": "32,247",
+              "desc": "法国总统 Emmanuel Macron 的频道。",
+              "id": "emmanuelmacron"
             },
             {
               "title": "外滩读书会-最新报纸、杂志、财经报告及流行电子书分享",
@@ -387,6 +415,13 @@
               "id": "yuan_en"
             },
             {
+              "title": "Ukraine NOW German",
+              "url": "https://t.me/ukrainenowgerman",
+              "countStr": "5,776",
+              "desc": "以德语发布乌克兰新闻与官方信息。",
+              "id": "ukrainenowgerman"
+            },
+            {
               "title": "金十数据 闪电资讯",
               "url": "https://t.me/jin10news",
               "countStr": "5,740",
@@ -413,6 +448,13 @@
               "countStr": "4,919",
               "desc": "新闻实验室的频道 >>> 会员。",
               "id": "newslab2020"
+            },
+            {
+              "title": "Ukraine NOW Italian",
+              "url": "https://t.me/ukrainenowitalian",
+              "countStr": "4,572",
+              "desc": "以意大利语发布乌克兰新闻与官方信息。",
+              "id": "ukrainenowitalian"
             },
             {
               "title": "韩国 中央日报 朝鲜日报",
@@ -490,6 +532,27 @@
               "countStr": "3,476",
               "desc": "Matters.news 一個。",
               "id": "mattershub"
+            },
+            {
+              "title": "Ukraine NOW Spanish",
+              "url": "https://t.me/ukrainenowspanish",
+              "countStr": "3,068",
+              "desc": "以西班牙语发布乌克兰新闻与官方信息。",
+              "id": "ukrainenowspanish"
+            },
+            {
+              "title": "Ukraine NOW French",
+              "url": "https://t.me/ukrainenowfrench",
+              "countStr": "2,840",
+              "desc": "以法语发布乌克兰新闻与官方信息。",
+              "id": "ukrainenowfrench"
+            },
+            {
+              "title": "Ukraine NOW Poland",
+              "url": "https://t.me/ukrainenowpoland",
+              "countStr": "2,621",
+              "desc": "Ukraine NOW 的波兰语频道。",
+              "id": "ukrainenowpoland"
             },
             {
               "title": "DecoHack-独立产品周刊",
@@ -623,69 +686,6 @@
               "countStr": "86",
               "desc": "新闻联播语音。",
               "id": "cctvnewsbroadcast"
-            },
-            {
-              "title": "Jair M. Bolsonaro 1",
-              "url": "https://t.me/jairbolsonarobrasil",
-              "countStr": "1,159,185",
-              "desc": "Jair Bolsonaro 的个人频道，发布政治与公共事务相关内容。",
-              "id": "jairbolsonarobrasil"
-            },
-            {
-              "title": "Zelenskiy / Official",
-              "url": "https://t.me/v_zelenskiy_official",
-              "countStr": "674,576",
-              "desc": "乌克兰总统泽连斯基的官方频道。",
-              "id": "v_zelenskiy_official"
-            },
-            {
-              "title": "Reuters: World",
-              "url": "https://t.me/reutersworldchannel",
-              "countStr": "48,747",
-              "desc": "转载 Reuters 国际新闻与分析的非官方频道。",
-              "id": "reutersworldchannel"
-            },
-            {
-              "title": "Emmanuel Macron",
-              "url": "https://t.me/emmanuelmacron",
-              "countStr": "32,247",
-              "desc": "法国总统 Emmanuel Macron 的频道。",
-              "id": "emmanuelmacron"
-            },
-            {
-              "title": "Ukraine NOW German",
-              "url": "https://t.me/ukrainenowgerman",
-              "countStr": "5,776",
-              "desc": "以德语发布乌克兰新闻与官方信息。",
-              "id": "ukrainenowgerman"
-            },
-            {
-              "title": "Ukraine NOW Italian",
-              "url": "https://t.me/ukrainenowitalian",
-              "countStr": "4,572",
-              "desc": "以意大利语发布乌克兰新闻与官方信息。",
-              "id": "ukrainenowitalian"
-            },
-            {
-              "title": "Ukraine NOW Spanish",
-              "url": "https://t.me/ukrainenowspanish",
-              "countStr": "3,068",
-              "desc": "以西班牙语发布乌克兰新闻与官方信息。",
-              "id": "ukrainenowspanish"
-            },
-            {
-              "title": "Ukraine NOW French",
-              "url": "https://t.me/ukrainenowfrench",
-              "countStr": "2,840",
-              "desc": "以法语发布乌克兰新闻与官方信息。",
-              "id": "ukrainenowfrench"
-            },
-            {
-              "title": "Ukraine NOW Poland",
-              "url": "https://t.me/ukrainenowpoland",
-              "countStr": "2,621",
-              "desc": "Ukraine NOW 的波兰语频道。",
-              "id": "ukrainenowpoland"
             }
           ]
         },
@@ -1300,20 +1300,6 @@
           "fullName": "👨‍💻 开发运维",
           "items": [
             {
-              "title": "GitHub Trending Daily",
-              "url": "https://t.me/githubdailys",
-              "countStr": "768",
-              "desc": "分享 GitHub 社区当天热门项目。",
-              "id": "githubdailys"
-            },
-            {
-              "title": "ex-Nicegram Dev",
-              "url": "https://t.me/nicegramdev",
-              "countStr": "719",
-              "desc": "Nicegram 开发者的开发经历与产品相关记录。",
-              "id": "nicegramdev"
-            },
-            {
               "title": "BotsArchive",
               "url": "https://t.me/botsarchive",
               "countStr": "110,034",
@@ -1531,11 +1517,25 @@
               "id": "linuxsoft_zh_cn"
             },
             {
+              "title": "GitHub Trending Daily",
+              "url": "https://t.me/githubdailys",
+              "countStr": "768",
+              "desc": "分享 GitHub 社区当天热门项目。",
+              "id": "githubdailys"
+            },
+            {
               "title": "PWRTelegram API channel",
               "url": "https://t.me/pwrtelegram",
               "countStr": "724",
               "desc": "Official channel for the PWRTelegram bot API.",
               "id": "pwrtelegram"
+            },
+            {
+              "title": "ex-Nicegram Dev",
+              "url": "https://t.me/nicegramdev",
+              "countStr": "719",
+              "desc": "Nicegram 开发者的开发经历与产品相关记录。",
+              "id": "nicegramdev"
             },
             {
               "title": "Arch Linux Updates",
@@ -1606,20 +1606,6 @@
           "fullName": "🔒 信息安全",
           "items": [
             {
-              "title": "ISIS Watch",
-              "url": "https://t.me/isiswatch",
-              "countStr": "15,193",
-              "desc": "发布 Telegram 封禁恐怖主义内容的每日统计。",
-              "id": "isiswatch"
-            },
-            {
-              "title": "Stop Child Abuse",
-              "url": "https://t.me/stopca",
-              "countStr": "14,687",
-              "desc": "发布 Telegram 封禁儿童虐待相关内容的每日统计。",
-              "id": "stopca"
-            },
-            {
               "title": "Telegram Tips",
               "url": "https://t.me/telegramtips",
               "countStr": "11,691,511",
@@ -1632,6 +1618,20 @@
               "countStr": "187,757",
               "desc": "Telegram è sinonimo di libertà e privacy e ha molte funzionalità facili da usare.",
               "id": "telegramtipsit"
+            },
+            {
+              "title": "ISIS Watch",
+              "url": "https://t.me/isiswatch",
+              "countStr": "15,193",
+              "desc": "发布 Telegram 封禁恐怖主义内容的每日统计。",
+              "id": "isiswatch"
+            },
+            {
+              "title": "Stop Child Abuse",
+              "url": "https://t.me/stopca",
+              "countStr": "14,687",
+              "desc": "发布 Telegram 封禁儿童虐待相关内容的每日统计。",
+              "id": "stopca"
             },
             {
               "title": "信息安全技术频道",
@@ -2822,13 +2822,6 @@
           "fullName": "🪙 加密货币",
           "items": [
             {
-              "title": "链闻 ChainNews",
-              "url": "https://t.me/chainnews",
-              "countStr": "7,961",
-              "desc": "链闻 ChainNews 的区块链资讯频道。",
-              "id": "chainnews"
-            },
-            {
               "title": "Telo News 简体中文 - 加密货币 DeFi Web3",
               "url": "https://t.me/telonews_cn",
               "countStr": "91,573",
@@ -2850,6 +2843,13 @@
               "id": "biquan321"
             },
             {
+              "title": "链闻 ChainNews",
+              "url": "https://t.me/chainnews",
+              "countStr": "7,961",
+              "desc": "链闻 ChainNews 的区块链资讯频道。",
+              "id": "chainnews"
+            },
+            {
               "title": "摄神取念",
               "url": "https://t.me/legolimens",
               "countStr": "267",
@@ -2861,13 +2861,6 @@
         {
           "fullName": "📚 学习阅读",
           "items": [
-            {
-              "title": "R.O.D.",
-              "url": "https://t.me/read_or_dead",
-              "countStr": "728",
-              "desc": "日常读书吐槽与博客分享。",
-              "id": "read_or_dead"
-            },
             {
               "title": "电子书/听书/期刊/课程资源",
               "url": "https://t.me/sharebooks4you/5698",
@@ -3098,6 +3091,13 @@
               "countStr": "858",
               "desc": "Hexo 是一个快速。",
               "id": "hexozh"
+            },
+            {
+              "title": "R.O.D.",
+              "url": "https://t.me/read_or_dead",
+              "countStr": "728",
+              "desc": "日常读书吐槽与博客分享。",
+              "id": "read_or_dead"
             },
             {
               "title": "冷眼向洋",
@@ -3409,25 +3409,18 @@
           "fullName": "👗 生活消费",
           "items": [
             {
-              "title": "快乐星球 妹子图 收集器",
-              "url": "https://t.me/botmzt",
-              "countStr": "53,254",
-              "desc": "人像与写真图片收集频道。",
-              "id": "botmzt"
-            },
-            {
-              "title": "BeijingAir",
-              "url": "https://t.me/beijingair",
-              "countStr": "143",
-              "desc": "发布北京空气质量监测数据，来源为美国驻北京使馆监测站。",
-              "id": "beijingair"
-            },
-            {
               "title": "语不惊人死不休 文案馆",
               "url": "https://t.me/wenanba",
               "countStr": "54,707",
               "desc": "心心念念是旧人 笔笔写下是旧情。",
               "id": "wenanba"
+            },
+            {
+              "title": "快乐星球 妹子图 收集器",
+              "url": "https://t.me/botmzt",
+              "countStr": "53,254",
+              "desc": "人像与写真图片收集频道。",
+              "id": "botmzt"
             },
             {
               "title": "朱颜别镜 妹子图 美女图",
@@ -3647,6 +3640,13 @@
               "id": "godaregirls"
             },
             {
+              "title": "BeijingAir",
+              "url": "https://t.me/beijingair",
+              "countStr": "143",
+              "desc": "发布北京空气质量监测数据，来源为美国驻北京使馆监测站。",
+              "id": "beijingair"
+            },
+            {
               "title": "馒头&雪糕的日常",
               "url": "https://t.me/xiao_man_tou",
               "countStr": "122",
@@ -3659,18 +3659,18 @@
           "fullName": "🌍 地区社群",
           "items": [
             {
-              "title": "YanTai",
-              "url": "https://t.me/yantaiinfo",
-              "countStr": "863",
-              "desc": "烟台相关信息频道。",
-              "id": "yantaiinfo"
-            },
-            {
               "title": "電報群組廣播",
               "url": "https://t.me/focustelegramgrouplink",
               "countStr": "18,771",
               "desc": "本頻道只推送淨成員150以上的。",
               "id": "focustelegramgrouplink"
+            },
+            {
+              "title": "YanTai",
+              "url": "https://t.me/yantaiinfo",
+              "countStr": "863",
+              "desc": "烟台相关信息频道。",
+              "id": "yantaiinfo"
             },
             {
               "title": "广西聊天交友群 频道",
@@ -3692,41 +3692,6 @@
           "fullName": "💬 闲聊交友",
           "items": [
             {
-              "title": "Programmer Jokes",
-              "url": "https://t.me/programmerjokes",
-              "countStr": "108,771",
-              "desc": "分享程序员笑话与编程相关趣闻。",
-              "id": "programmerjokes"
-            },
-            {
-              "title": "上班划水之无聊图",
-              "url": "https://t.me/goworkbitch",
-              "countStr": "24,666",
-              "desc": "搞笑图片与上班闲暇趣闻。",
-              "id": "goworkbitch"
-            },
-            {
-              "title": "〄FW",
-              "url": "https://t.me/jisfw",
-              "countStr": "12,626",
-              "desc": "For Work 系列的梗图频道。",
-              "id": "jisfw"
-            },
-            {
-              "title": "DLK搞笑趣闻情报站",
-              "url": "https://t.me/dlkqingbaozhan",
-              "countStr": "3,828",
-              "desc": "分享搞笑图片与趣闻的频道。",
-              "id": "dlkqingbaozhan"
-            },
-            {
-              "title": "AIM扩散力场",
-              "url": "https://t.me/nekosc",
-              "countStr": "3,572",
-              "desc": "不定期分享段子与趣闻。",
-              "id": "nekosc"
-            },
-            {
               "title": "白丝即正义",
               "url": "https://t.me/baisi",
               "countStr": "161,031",
@@ -3739,6 +3704,13 @@
               "countStr": "114,444",
               "desc": "恕我直言。",
               "id": "woshadiao"
+            },
+            {
+              "title": "Programmer Jokes",
+              "url": "https://t.me/programmerjokes",
+              "countStr": "108,771",
+              "desc": "分享程序员笑话与编程相关趣闻。",
+              "id": "programmerjokes"
             },
             {
               "title": "树洞群友问有点意思",
@@ -3797,6 +3769,13 @@
               "id": "animatedstickers"
             },
             {
+              "title": "上班划水之无聊图",
+              "url": "https://t.me/goworkbitch",
+              "countStr": "24,666",
+              "desc": "搞笑图片与上班闲暇趣闻。",
+              "id": "goworkbitch"
+            },
+            {
               "title": "每日无数猫",
               "url": "https://t.me/miaowu",
               "countStr": "19,630",
@@ -3818,11 +3797,25 @@
               "id": "peekfun"
             },
             {
+              "title": "〄FW",
+              "url": "https://t.me/jisfw",
+              "countStr": "12,626",
+              "desc": "For Work 系列的梗图频道。",
+              "id": "jisfw"
+            },
+            {
               "title": "撸猫社",
               "url": "https://t.me/lumaoshe",
               "countStr": "5,281",
               "desc": "爱猫人士云吸猫特供。",
               "id": "lumaoshe"
+            },
+            {
+              "title": "DLK搞笑趣闻情报站",
+              "url": "https://t.me/dlkqingbaozhan",
+              "countStr": "3,828",
+              "desc": "分享搞笑图片与趣闻的频道。",
+              "id": "dlkqingbaozhan"
             },
             {
               "title": "情话箱",
@@ -3837,6 +3830,13 @@
               "countStr": "3,601",
               "desc": "Graphics For Wo。",
               "id": "gfwr16"
+            },
+            {
+              "title": "AIM扩散力场",
+              "url": "https://t.me/nekosc",
+              "countStr": "3,572",
+              "desc": "不定期分享段子与趣闻。",
+              "id": "nekosc"
             },
             {
               "title": "音游沙雕频道",
