@@ -18,6 +18,16 @@ class DirectoryQualityTests(unittest.TestCase):
             with self.subTest(text=text):
                 self.assertFalse(matches_keyword(text, keyword))
 
+    def test_rsshub_alias_preserves_news_category_without_substring_matching(self):
+        self.assertEqual(determine_category('RSSHub News', 'Everything is RSSible.'),
+                         '📰 新闻快讯')
+        self.assertEqual(determine_category('RSSHub Radar', ''), '📰 新闻快讯')
+        self.assertEqual(determine_category('rsshub', ''), '📰 新闻快讯')
+        self.assertFalse(matches_keyword('RSSHub', 'rss'))
+        self.assertFalse(matches_keyword('RSSHubber', 'rsshub'))
+        self.assertFalse(matches_keyword('Jair', 'ai'))
+        self.assertFalse(matches_keyword('Macron', 'mac'))
+
     def test_real_keywords_still_match(self):
         for text, keyword in [('AI中文社区', 'ai'), ('iOS 更新', 'ios'),
                               ('Mac 软件', 'mac'), ('ChatGPT', 'chatgpt'),
