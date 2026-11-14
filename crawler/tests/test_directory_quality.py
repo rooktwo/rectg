@@ -80,6 +80,19 @@ class DirectoryQualityTests(unittest.TestCase):
             with self.subTest(category=category):
                 self.assertEqual(counts, sorted(counts, reverse=True))
 
+    def test_generated_data_retains_maintenance_metadata(self):
+        maintenance = json.loads((ROOT / 'site/public/maintenance.json').read_text())
+        data = json.loads((ROOT / 'site/public/data.json').read_text())
+        for resource_type in data['types']:
+            for category in resource_type['categories']:
+                for item in category['items']:
+                    source = maintenance['resources'].get(item['id'], {})
+                    with self.subTest(username=item['id']):
+                        self.assertEqual(item['countCheckedAt'], source.get('countCheckedAt') or None)
+                        self.assertEqual(item['countStale'], source.get('countStale') is True)
+                        self.assertEqual(item['reviewPending'], source.get('reviewPending') is not False)
+                        self.assertEqual(item['listConflict'], source.get('listConflict') is True)
+
     def test_reviewed_changes_and_curated_entries(self):
         readme = (ROOT / 'README.md').read_text()
         current = {}
@@ -93,14 +106,24 @@ class DirectoryQualityTests(unittest.TestCase):
                 self.assertNotIn(username, current)
                 current[username] = (category, cells[3])
         review = json.loads((ROOT / 'reviews/2026-11-07-directory-quality.json').read_text())
+        reconciliation = json.loads((ROOT / 'reviews/2026-11-14-reconciliation.json').read_text())
+        removed = set(reconciliation['removed_since_repair'])
+        for username in removed:
+            self.assertNotIn(username, current)
         for change in review['category_changes']:
+            if change['username'] in removed:
+                continue
             self.assertEqual(current[change['username']][0], change['category'])
         for change in review['description_changes']:
+            if change['username'] in removed:
+                continue
             self.assertEqual(current[change['username']][1], change['description'])
         curated = json.loads((ROOT / 'reviews/2026-10-02.json').read_text())
         for item in curated['records']:
             username = item['username'].lower()
-            if item['status'] == 'included':
+            if username in removed:
+                self.assertNotIn(username, current)
+            elif item['status'] == 'included':
                 self.assertIn(username, current)
                 self.assertEqual(current[username][0], item['category'])
                 self.assertEqual(current[username][1], item['description'])

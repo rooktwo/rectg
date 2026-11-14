@@ -1,11 +1,12 @@
 ---
 import Icon from './Icon.astro';
+import { capturedDate } from '../scripts/captured-date.js';
 import { getAvatarColorClass, getTelegramUsername, itemPath } from '../utils/data';
-export interface Props { id: string; title: string; desc: string; url: string; typeName: string; countStr: string; category: string }
-const { id, title, desc, url, typeName, countStr, category } = Astro.props;
+export interface Props { id: string; title: string; desc: string; url: string; typeName: string; countStr: string; category: string; countCheckedAt?: string | null; countStale?: boolean; reviewPending?: boolean }
+const { id, title, desc, url, typeName, countStr, category, countCheckedAt, countStale, reviewPending = true } = Astro.props;
 const username = getTelegramUsername(url);
 const firstLetter = Array.from(title || '?')[0].toUpperCase();
-const countLabel = typeName === '群组' ? '成员' : '订阅';
+const countLabel = typeName === '群组' ? '成员' : typeName === '机器人' ? '月活' : '订阅';
 ---
 <article class="card" data-id={id} data-type={typeName}>
   <div class="card-header">
@@ -20,6 +21,7 @@ const countLabel = typeName === '群组' ? '成员' : '订阅';
     <button class="icon-button bookmark-button" type="button" data-bookmark={id} aria-label={`收藏 ${title}`} aria-pressed="false" title="收藏"><Icon name="bookmark" size={17} /></button>
   </div>
   <p class="card-desc">{desc || '暂无简介，前往 Telegram 了解更多。'}</p>
+  <p class="resource-freshness"><time class="count-date" datetime={countCheckedAt || undefined}>{capturedDate(countCheckedAt) ? `${countStale ? '人数未刷新，上次采集' : '人数采集'}：${capturedDate(countCheckedAt)}` : '人数未刷新'}</time><span class="review-status">{reviewPending ? ' · 内容待复核' : ' · 文本样本已审核'}</span></p>
   <div class="card-footer">
     <span class="resource-count"><strong>{countStr || '—'}</strong><span>{countLabel}</span></span>
     <div class="card-actions">

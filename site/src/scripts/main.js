@@ -1,3 +1,4 @@
+import { capturedDate } from './captured-date.js';
 import PinyinMatchModule from 'pinyin-match';
 import { getSavedIds, readStorage, writeStorage, syncBookmarks } from './shared';
 
@@ -87,8 +88,12 @@ function createCard(item) {
   card.querySelector('.card-type').textContent = item.typeName;
   card.querySelector('.card-category').textContent = item.categoryName;
   highlight(card.querySelector('.card-desc'), item.desc || '暂无简介，前往 Telegram 了解更多。', match?.desc);
+  card.querySelector('.count-date').textContent = capturedDate(item.countCheckedAt) ? `${item.countStale ? '人数未刷新，上次采集' : '人数采集'}：${capturedDate(item.countCheckedAt)}` : '人数未刷新';
+  if (capturedDate(item.countCheckedAt)) card.querySelector('.count-date').setAttribute('datetime', item.countCheckedAt);
+  else card.querySelector('.count-date').removeAttribute('datetime');
+  card.querySelector('.review-status').textContent = item.reviewPending === false ? ' · 文本样本已审核' : ' · 内容待复核';
   card.querySelector('.resource-count strong').textContent = item.countStr || '—';
-  card.querySelector('.resource-count span').textContent = item.typeName === '群组' ? '成员' : '订阅';
+  card.querySelector('.resource-count span').textContent = item.typeName === '群组' ? '成员' : item.typeName === '机器人' ? '月活' : '订阅';
   const copy = card.querySelector('[data-copy-url]');
   copy.dataset.copyUrl = item.url;
   copy.setAttribute('aria-label', `复制 ${item.title} 的链接`);

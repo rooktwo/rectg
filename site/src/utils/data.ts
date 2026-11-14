@@ -24,6 +24,9 @@ export interface CategoryMeta {
 }
 
 export interface RawItem {
+  countCheckedAt?: string | null;
+  countStale?: boolean;
+  reviewPending?: boolean;
   title: string;
   url: string;
   countStr: string;

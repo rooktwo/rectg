@@ -12,6 +12,8 @@ const SITE_URL = 'https://www.rectg.com';
 
 function main() {
     const content = fs.readFileSync(README_PATH, 'utf-8');
+    const maintenancePath = path.join(OUT_DIR, 'maintenance.json');
+    const maintenance = fs.existsSync(maintenancePath) ? JSON.parse(fs.readFileSync(maintenancePath, 'utf-8')).resources : {};
     const lines = content.split('\n');
 
     const data = {
@@ -79,6 +81,10 @@ function main() {
         const telegram = getTelegramParts(item.url);
         return {
             ...item,
+            countCheckedAt: maintenance?.[telegram?.id || item.id]?.countCheckedAt || null,
+            countStale: maintenance?.[telegram?.id || item.id]?.countStale === true,
+            reviewPending: maintenance?.[telegram?.id || item.id]?.reviewPending !== false,
+            listConflict: maintenance?.[telegram?.id || item.id]?.listConflict === true,
             url: telegram?.url || item.url,
             id: telegram?.id || item.id || getItemId(item.title || '', item.url || ''),
         };
