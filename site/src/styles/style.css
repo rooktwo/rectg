@@ -388,3 +388,5 @@ mark { color: inherit; background: var(--accent-light); border-radius: 2px; }
   .resource-identity h1 { font-size: 21px; }
 }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; } }
+
+.resource-freshness { color: var(--text-muted); font-size: 0.75rem; margin: 0 0 0.5rem; line-height: 1.5; }

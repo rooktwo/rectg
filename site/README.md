@@ -59,3 +59,7 @@ npm run preview
 - 样式集中在 `src/styles/style.css`，主题颜色使用同一组 CSS 变量。
 
 本地回归重点：桌面与 320px / 390px 手机布局、主题切换、搜索无结果恢复、收藏 / 取消收藏、复制、加载更多、详情返回和键盘操作。
+
+## 维护状态
+
+Oracle 的增量维护保留人工分类和简介，以 README 为发布基准；`public/maintenance.json` 补充每个资源的人数采集时间和内容待复核状态。人数日期统一按越南时间显示；机器人使用月活标签。`reviewPending=false` 仅表示本次文本样本通过，不代表媒体画面及所有历史已审核。不要使用全库 `crawler export` 替代增量发布。
