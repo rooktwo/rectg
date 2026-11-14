@@ -19,7 +19,7 @@
 | 𝚂𝚙𝚎𝚎𝚍𝙲𝚎𝚗𝚝𝚛𝚎 | [@speedcentre](https://t.me/speedcentre) | 23,797 | 二手机场交易 欢迎各位关注。 |
 | 不求甚解 | [@fakeye](https://t.me/fakeye?boost) | 19,608 | 在这里分享我日常的所见所思。 |
 | 华尔街日报 RSS | [@wsj_rss](https://t.me/wsj_rss) | 19,102 | RSS 地址： RSS 频道收。 |
-| ChatGPT / AI新闻聚合 | [@AI_News_CN](https://t.me/AI_News_CN) | 18,058 | 主流AI服务状态页通知。 |
+| ChatGPT / AI新闻聚合 | [@AI_News_CN](https://t.me/AI_News_CN) | 23,405 | 主流AI服务状态页通知。 |
 | 云上报刊亭 精选 🅥 -- 新闻，报纸，杂志，电子书，资料 PDF | [@magazinesclubnew](https://t.me/magazinesclubnew) | 18,014 | 新闻，报纸，杂志，电子书。 |
 | 荔枝木 | [@lychee_wood](https://t.me/lychee_wood) | 17,344 | 这个世界很复杂。 |
 | 知乎日报 全文 实时推送 | [@zhihuribao_rss](https://t.me/zhihuribao_rss) | 16,552 | 知乎日报 纽约时报 BBC中文。 |
@@ -31,7 +31,7 @@
 | 乌鸦观察 | [@bigcrowdev](https://t.me/bigcrowdev) | 11,515 | 不定期推送新闻和杂谈。 |
 | 经济信息联播 | [@eco_cn](https://t.me/eco_cn) | 11,074 | 独立，个性的财经，金融资讯早报。 |
 | TestFlight News | [@testflights](https://t.me/testflights) | 10,076 | 收集分享IOS的TestFli。 |
-| ALL About RSS | [@aboutrss](https://t.me/aboutrss) | 9,721 | 关于 #RSS 技术的 #应用。 |
+| ALL About RSS | [@aboutrss](https://t.me/aboutrss) | 9,449 | 关于 #RSS 技术的 #应用。 |
 | 竹新资料库 | [@kt_database](https://t.me/kt_database) | 9,119 | 分享新闻资料。 |
 | 层叠 - The Cascading | [@outvivid](https://t.me/outvivid) | 8,564 | 主要话题大概是开源业界新闻。 |
 | 突发新闻 | [@breakingnews_t](https://t.me/breakingnews_t) | 8,430 | 突发新闻推送服务（简体中文）。 |
@@ -107,9 +107,9 @@
 | 52破解信息 | [@wuaipojie](https://t.me/wuaipojie) | 37,430 | Telegram 资源入口。 |
 | Think Positive Words | [@thinkpositivewords](https://t.me/thinkpositivewords) | 37,396 | Daily Positive。 |
 | AI中文社区 | [@LptTech](https://t.me/LptTech) | 36,772 | AI一年。 |
-| AI探索指南 | [@aigc1024](https://t.me/aigc1024) | 36,042 | 关于AIGC人工智能，思维方式。 |
+| AI探索指南 | [@aigc1024](https://t.me/aigc1024) | 37,643 | 关于AIGC人工智能，思维方式。 |
 | 科技&趣闻&杂记 | [@kejiqu](https://t.me/kejiqu) | 35,945 | 分享有价值，有趣的信息。 |
-|  Apple Nuts | [@AppleNuts](https://t.me/AppleNuts) | 35,884 | 一个特别的 Apple 频道。 |
+|  Apple Nuts | [@AppleNuts](https://t.me/AppleNuts) | 37,722 | 一个特别的 Apple 频道。 |
 | 少数派sspai | [@sspai](https://t.me/sspai) | 34,196 | 少数派 (sspai.com)。 |
 | 老毛子Padavan固件发布 | [@pdcn1](https://t.me/pdcn1) | 32,369 | 老毛子Padavan固件自助。 |
 | Emmanuel Macron | [@emmanuelmacron](https://t.me/emmanuelmacron) | 32,247 | Président de la。 |
@@ -133,7 +133,7 @@
 | NewMobileLife | [@newmobilelife](https://t.me/newmobilelife) | 12,762 | 限時免費情報，Apple 消息。 |
 | 〄FW | [@JISFW](https://t.me/JISFW) | 12,626 | For Work 系列频道 梗。 |
 | 那些好看的Tg主题 | [@beautifultgtheme](https://t.me/beautifultgtheme) | 12,370 | 分享一些好看的Telegram。 |
-| AI Copilot | [@ai_copilot_channel](https://t.me/ai_copilot_channel) | 10,718 | AI 产品更新、模型动态与工具使用提示。 |
+| AI Copilot | [@ai_copilot_channel](https://t.me/ai_copilot_channel) | 11,438 | AI 产品更新、模型动态与工具使用提示。 |
 | Unigram News | [@unigram](https://t.me/unigram) | 10,333 | Unigram is a Te。 |
 | LetITFly News | [@LetITFlyW](https://t.me/LetITFlyW) | 9,562 | 的频道。 |
 | iOS Releases | [@iOSUpdates](https://t.me/iOSUpdates) | 9,555 | iOS。 |
@@ -143,15 +143,14 @@
 | 此岸情报局 | [@JustReformation](https://t.me/JustReformation) | 7,410 | 资源情报资讯更新板。 |
 | 时间的切片 | [@mactalk](https://t.me/mactalk) | 7,078 | Telegram 资源入口。 |
 | 向北的分享频道 | [@xiangbeichannel](https://t.me/xiangbeichannel) | 7,026 | NAS、数码设备与实用教程，含购物推广。 |
-| AI News | [@aigcnote](https://t.me/aigcnote) | 6,965 | 只记录 AI 业界大新闻和最有。 |
-| 今天abc看了啥 | [@abcthoughts](https://t.me/abcthoughts) | 6,274 | 现在我也不知道这频道发了啥了。 |
+| 今天abc看了啥 | [@abcthoughts](https://t.me/abcthoughts) | 7,149 | 现在我也不知道这频道发了啥了。 |
 | PagerMaid-Modify Update | [@PagerMaid_Modify](https://t.me/PagerMaid_Modify) | 6,251 | PagerMaid Teleg。 |
 | Ukraine NOW German | [@UkraineNowGerman](https://t.me/UkraineNowGerman) | 5,776 | Die wichtigste。 |
 | unwire.hk 生活科技頻道 | [@unwire](https://t.me/unwire) | 5,383 | 每日接收免費生活科技情報。 |
 | Telegram Stable Releases | [@tgstable](https://t.me/tgstable) | 5,284 | Every (official。 |
 | Sean | [@SeanChannel](https://t.me/SeanChannel) | 4,701 | Hi。 |
 | Ukraine NOW Italian | [@UkraineNowItalian](https://t.me/UkraineNowItalian) | 4,572 | La principale f。 |
-| Apple Tv Plus | [@AppleTVPlus](https://t.me/AppleTVPlus) | 4,521 | streamingunity.。 |
+| Apple Tv Plus | [@AppleTVPlus](https://t.me/AppleTVPlus) | 4,351 | streamingunity.。 |
 | Telegram iOS Beta Slots | [@tgslots](https://t.me/tgslots) | 4,454 | This channel wi。 |
 | iOS 越狱插件更新信息 | [@Jailbreak_Tweaks](https://t.me/Jailbreak_Tweaks) | 4,443 | iOS 越狱插件更新与发布信息。 |
 | DLK搞笑趣闻情报站 | [@dlkqingbaozhan](https://t.me/dlkqingbaozhan) | 3,828 | 本频道是dlk奔放交流时间的子。 |
@@ -168,14 +167,14 @@
 | 男士日常消费穿搭 (衣&裤&鞋&护肤&数码) | [@mandailywear](https://t.me/mandailywear) | 2,185 | 空闲时间。 |
 | Kotatogram | [@kotatogram](https://t.me/kotatogram) | 1,886 | Experimental fo。 |
 | Parallel Experiments | [@LinghaoCh](https://t.me/LinghaoCh) | 1,748 | Stay informed.。 |
-|  Apple Spyder 果蛛 | [@AppleSpyder](https://t.me/AppleSpyder) | 1,376 | 由 开发的 Apple 监控服。 |
+|  Apple Spyder 果蛛 | [@AppleSpyder](https://t.me/AppleSpyder) | 1,332 | 由 开发的 Apple 监控服。 |
 | MrKevin博客 资讯 分享 测评 | [@hilinuxcn](https://t.me/hilinuxcn) | 1,311 | 第三方独立测评网站（ mrke。 |
 | WooMai's Channel | [@WooMaiChannel](https://t.me/WooMaiChannel) | 1,001 | 个人 Channel。 |
 | Tesla News 🅥 | [@Teslacn](https://t.me/Teslacn) | 900 | ✿Tesla China Ne。 |
 | agou 的胡言乱语 | [@bakadog](https://t.me/bakadog) | 883 | 个人数码体验、产品设计观察与开发者生活随笔。 |
-| Apple Watch 用户 | [@apple_watch](https://t.me/apple_watch) | 878 | Apple Watch 大集合。 |
+| Apple Watch 用户 | [@apple_watch](https://t.me/apple_watch) | 688 | Apple Watch 大集合。 |
 | YanTai | [@yantaiinfo](https://t.me/yantaiinfo) | 863 | 醉美烟台欢迎您。 |
-| 烤苹果 | [@AppleCooked](https://t.me/AppleCooked) | 848 | 专业收集 bug，与信仰无关。 |
+| 烤苹果 | [@AppleCooked](https://t.me/AppleCooked) | 850 | 专业收集 bug，与信仰无关。 |
 | GitHub Trending Daily | [@GitHubDailys](https://t.me/GitHubDailys) | 768 | See what the Gi。 |
 | R.O.D. | [@read_or_dead](https://t.me/read_or_dead) | 728 | 日常读书吐槽，博客。 |
 | ex-Nicegram Dev | [@nicegramdev](https://t.me/nicegramdev) | 719 | Python dev agai。 |
@@ -185,13 +184,13 @@
 | 科技无意义 | [@technical_with_love](https://t.me/technical_with_love) | 340 | 一个简单的人。 |
 | X86,ARM,NAS研究群 | [@DHDAXCW](https://t.me/DHDAXCW) | 284 | Telegram 资源入口。 |
 | 码力全开工作室 | [@maliquankai](https://t.me/maliquankai) | 282 | 码力全开工作室（maliqua。 |
-| Airplanse | [@Airplanese](https://t.me/Airplanese) | 206 | Самалёты。 |
+| Airplanse | [@Airplanese](https://t.me/Airplanese) | 196 | Самалёты。 |
 | LifeAnalysis Lab 更新 | [@lalab](https://t.me/lalab) | 170 | 造物志： 任何问题请进群。 |
 | 托尔随便拆拆 | [@TooruTeardowns](https://t.me/TooruTeardowns) | 154 | 托尔的拆机频道。 |
 | BeijingAir | [@BeijingAir](https://t.me/BeijingAir) | 143 | Data Source: St。 |
-| Aikes’s channel | [@aikes_blog](https://t.me/aikes_blog) | 107 | Once。 |
+| Aikes’s channel | [@aikes_blog](https://t.me/aikes_blog) | 113 | Once。 |
 | 「降价」-「iOS」iWall-动态桌面 | [@gxzyzd](https://t.me/gxzyzd) | 81 | Telegram 资源入口。 |
-| ALL Investing | [@AI_newsletter](https://t.me/AI_newsletter) | 62 | Telegram 资源入口。 |
+| ALL Investing | [@AI_newsletter](https://t.me/AI_newsletter) | 63 | Telegram 资源入口。 |
 | Mdssioscloud | [@mdssios](https://t.me/mdssios) | 33 | Telegram 资源入口。 |
 
 <a id="section-channel-3"></a>
@@ -204,14 +203,14 @@
 | 互联网从业者充电站 | [@https1024](https://t.me/https1024) | 29,200 | 互联网从业者专属 内容多为技术。 |
 | Hacker News | [@hacker_news_feed](https://t.me/hacker_news_feed) | 28,410 | Top stories fro。 |
 | Project X Channel | [@projectXtls](https://t.me/projectXtls) | 27,014 | Donation: 中文群组：。 |
-| ACL4SSR | [@ACL4SSR](https://t.me/ACL4SSR) | 24,939 | 打开支付宝首页搜"711629。 |
+| ACL4SSR | [@ACL4SSR](https://t.me/ACL4SSR) | 24,257 | 打开支付宝首页搜"711629。 |
 | 如有乐享 | [@ruyoblog](https://t.me/ruyoblog) | 23,424 | 主要更新如有乐享博客内容。 |
 | 程序员资源分享频道 | [@gotoshare](https://t.me/gotoshare) | 17,574 | 程序员资源分享频道。 |
 | python-telegram-bot | [@pythontelegrambotchannel](https://t.me/pythontelegrambotchannel) | 17,072 | The official ch。 |
 | mini | [@Orzmini](https://t.me/Orzmini) | 15,028 | 讨论群组 项目地址 mini计。 |
 | BennyThink’s Blog | [@mikuri520](https://t.me/mikuri520) | 12,157 | 开发者的开源工具、技术折腾与生活随笔。 |
 | 靠谱VPS推荐(默认带aff） - VPS仓/古博 | [@vpscang](https://t.me/vpscang) | 11,601 | VPS推荐。 |
-| Arch Linux Chinese Messages | [@archlinuxcn](https://t.me/archlinuxcn) | 10,884 | Arch Linux 中文相关。 |
+| Arch Linux Chinese Messages | [@archlinuxcn](https://t.me/archlinuxcn) | 11,276 | Arch Linux 中文相关。 |
 | GitHub Trends | [@githubtrending](https://t.me/githubtrending) | 10,760 | See what the Gi。 |
 | 程序员之家 | [@useless_project_ideas](https://t.me/useless_project_ideas) | 6,784 | 关键词：程序员 coding。 |
 | Cloudflare 在中国频道 | [@Cloudflare_CN](https://t.me/Cloudflare_CN) | 5,175 | Cloudflare 在中国群。 |
@@ -231,7 +230,7 @@
 | NextTrace | [@nexttrace](https://t.me/nexttrace) | 910 | 开源网络路由追踪、链路诊断工具的版本与项目动态。 |
 | Linux软件收录 | [@linuxsoft_zh_CN](https://t.me/linuxsoft_zh_CN) | 788 | Linux 日常软件收录 日常。 |
 | PWRTelegram API channel | [@Pwrtelegram](https://t.me/Pwrtelegram) | 724 | Official channe。 |
-| Arch Linux Updates | [@archlinuxcn_updates](https://t.me/archlinuxcn_updates) | 688 | Arch Linux 官方和中。 |
+| Arch Linux Updates | [@archlinuxcn_updates](https://t.me/archlinuxcn_updates) | 724 | Arch Linux 官方和中。 |
 | 副业 | [@sidehustleus](https://t.me/sidehustleus) | 522 | 专注于 MVP 验证。 |
 | 内核怕怕 - 辣鸡 Linux | [@kernelscared](https://t.me/kernelscared) | 456 | 收集分享 Linux 平台好看。 |
 | 煎蛋无聊图 | [@jiandan_bored](https://t.me/jiandan_bored) | 379 | 爬取 jiandan.net/。 |
@@ -250,13 +249,12 @@
 | Suggerimenti di Telegram | [@telegramtipsit](https://t.me/telegramtipsit) | 187,757 | Telegram è sino。 |
 | 信息安全技术频道 | [@tg_InternetSecurity](https://t.me/tg_InternetSecurity) | 10,903 | Telegram 资源入口。 |
 | 网络安全笔记 | [@tsecrecord](https://t.me/tsecrecord) | 7,930 | 网络安全研究、事件响应与 AI 安全资料分享。 |
-| AdGuard | [@adguarden](https://t.me/adguarden) | 7,183 | Everything abou。 |
-| AdGuard消息 | [@AdGuardcn](https://t.me/AdGuardcn) | 3,201 | 这里可以收到所有关于广告拦截和。 |
-| Anti Revoke Plugin - 防撤回插件 | [@AntiRevoke](https://t.me/AntiRevoke) | 1,895 | Telegram anti r。 |
+| AdGuard | [@adguarden](https://t.me/adguarden) | 7,467 | Everything abou。 |
+| AdGuard消息 | [@AdGuardcn](https://t.me/AdGuardcn) | 2,342 | 这里可以收到所有关于广告拦截和。 |
 | 电脑安防等技术资料频道 | [@zhuyianquan](https://t.me/zhuyianquan) | 1,017 | 本频道整理发布一些电安全防护等。 |
 | XDDOS压力测试 | [@xddos2](https://t.me/xddos2) | 690 | XDDOS信息发布频道。 |
 | iQZone - Privacy First | [@iQ_Zone](https://t.me/iQ_Zone) | 640 | 本服务为公益性非盈利性服务。 |
-| Adguard News | [@AdguardNews](https://t.me/AdguardNews) | 560 | Telegram 资源入口。 |
+| Adguard News | [@AdguardNews](https://t.me/AdguardNews) | 529 | Telegram 资源入口。 |
 
 <a id="section-channel-5"></a>
 ### 🧰 软件工具
@@ -266,31 +264,31 @@
 | Donald Trump Jr | [@TrumpJr](https://t.me/TrumpJr) | 385,176 | EVP of Developm。 |
 | X Plus Channel | [@XPlus_Channel](https://t.me/XPlus_Channel) | 272,357 | X Plus Messenge。 |
 | Telegram APKs for Android | [@TAndroidAPK](https://t.me/TAndroidAPK) | 256,540 | Official channe。 |
-| APP喵-软件资源共享 | [@appmew](https://t.me/appmew) | 170,112 | 发现分享好用 APP 软件。 |
+| APP喵-软件资源共享 | [@appmew](https://t.me/appmew) | 171,994 | 发现分享好用 APP 软件。 |
 | Nekogram APKs | [@NekogramAPKs](https://t.me/NekogramAPKs) | 41,802 | The official AP。 |
-| APPDO 数字生活指南 | [@appdodo](https://t.me/appdodo) | 38,912 | 互联网/数码/App/羊毛/相。 |
+| APPDO 数字生活指南 | [@appdodo](https://t.me/appdodo) | 40,994 | 互联网/数码/App/羊毛/相。 |
 | 财联社VIP文章分享 | [@clsvip](https://t.me/clsvip) | 36,991 | 财联社 VIP文章即时更新：盘。 |
-| Appinn Feed 小众软件 | [@appinnfeed](https://t.me/appinnfeed) | 28,754 | 这里有小众软件和发现频道的内容。 |
+| Appinn Feed 小众软件 | [@appinnfeed](https://t.me/appinnfeed) | 34,995 | 这里有小众软件和发现频道的内容。 |
 | 乱七八糟的储物箱 | [@xyxyspace](https://t.me/xyxyspace) | 27,948 | 本频道仅作为本人研究备份使用。 |
 | TGBot News | [@mybots](https://t.me/mybots) | 26,714 | Telegram 群管理机器人的功能公告与使用说明，含付费产品推广。 |
 | 「 彼岸情报！」薅羊毛情报（网站/资源/软件/限免APP）见闻社 | [@BaccanoSoul](https://t.me/BaccanoSoul) | 21,776 | 互联网优质羊毛资源共享集社。 |
 | 赚客吧 有奖一起赚 | [@zuanke8](https://t.me/zuanke8) | 20,975 | 全网电商平台。 |
 | 不要糖醋放椒盐 | [@saltplayerupdate](https://t.me/saltplayerupdate) | 17,269 | 椒盐音乐等播放器的版本更新、功能介绍与开发动态。 |
-| Price Tag | [@appfans](https://t.me/appfans) | 15,774 | 推荐 App 限免降价。 |
+| Price Tag | [@appfans](https://t.me/appfans) | 14,736 | 推荐 App 限免降价。 |
 | 404 KIDS SEE GHOSTS | [@isaiahsystem](https://t.me/isaiahsystem) | 13,600 | AI 工作流、笔记工具、开源应用与个人效率经验。 |
 | Leeco-雪花社 | [@xuehuashe](https://t.me/xuehuashe) | 12,823 | 让雪花多些吧~ 分享实用快捷指。 |
-| AdClose | [@adclose](https://t.me/adclose) | 12,191 | Android 广告拦截工具的版本发布、修复与功能更新。 |
+| AdClose | [@adclose](https://t.me/adclose) | 12,463 | Android 广告拦截工具的版本发布、修复与功能更新。 |
 | 推特翻译 | [@twitter_translate](https://t.me/twitter_translate) | 11,671 | 近来有很多朋友来问询转发相关事。 |
 | TG规则脚本信息分享器 | [@MRHXPJGG](https://t.me/MRHXPJGG) | 10,203 | 分享主题：包括但不限于关于机场。 |
 | Telegram Memes | [@MemesTelegram](https://t.me/MemesTelegram) | 9,169 | Your favorite a。 |
-| Apps推荐&抽奖&活动 | [@AppsSweepstakesNews](https://t.me/AppsSweepstakesNews) | 8,605 | 推送不限于Apps抽奖活动相关。 |
+| Apps推荐&抽奖&活动 | [@AppsSweepstakesNews](https://t.me/AppsSweepstakesNews) | 8,455 | 推送不限于Apps抽奖活动相关。 |
 | 优质网站汇总频道 | [@ziyuan917](https://t.me/ziyuan917) | 6,837 | 频道收集推广优质网站与油猴脚本。 |
 | A Place Of Happiness | [@get_happiness](https://t.me/get_happiness) | 6,444 | Sometimes you n。 |
 | Fragment Monitor | [@Fragment_Monitor](https://t.me/Fragment_Monitor) | 6,020 | Fragment Monito。 |
 | 简悦 - SimpRead | [@simpread](https://t.me/simpread) | 5,779 | 简悦的发布通道。 |
-| App Store 应用推荐 | [@app_store](https://t.me/app_store) | 5,040 | 苹果应用商店的应用推荐、限免与降价信息。 |
-| App TestFlight 资讯聚合 | [@Appcn](https://t.me/Appcn) | 4,511 | App限免以及限时降价推送 T。 |
-| AppPie | [@AppPie](https://t.me/AppPie) | 3,386 | 网站 apppie.com A。 |
+| App Store 应用推荐 | [@app_store](https://t.me/app_store) | 5,044 | 苹果应用商店的应用推荐、限免与降价信息。 |
+| App TestFlight 资讯聚合 | [@Appcn](https://t.me/Appcn) | 4,208 | App限免以及限时降价推送 T。 |
+| AppPie | [@AppPie](https://t.me/AppPie) | 3,530 | 网站 apppie.com A。 |
 | 中文社科讲座资讯 | [@chwebinars](https://t.me/chwebinars) | 2,709 | Hi，欢迎订阅中文社科讲座资讯。 |
 | GBox 官方频道 | [@GBoxTGC](https://t.me/GBoxTGC) | 2,573 | GBox是一款免越狱可给app。 |
 | 無逸齋隨筆 | [@todayread](https://t.me/todayread) | 2,493 | Work when busy。 |
@@ -315,14 +313,14 @@
 | Google Drive 资源 New @gdurl | [@gdsharing](https://t.me/gdsharing) | 123,787 | 很高兴你来到新的 频道。 |
 | Widget软件工具资源分享 | [@WidgetChannel](https://t.me/WidgetChannel) | 84,876 | 每日推送有用有趣的内容。 |
 | 飞鱼资源分享 冲浪指南 软件工具 | [@feiyu123](https://t.me/feiyu123) | 57,891 | 分享一些工具，软件。 |
-| Alist资源频道 | [@alistshare](https://t.me/alistshare) | 22,523 | 收集推荐网盘资源站点（不局限于。 |
+| Alist资源频道 | [@alistshare](https://t.me/alistshare) | 22,377 | 收集推荐网盘资源站点（不局限于。 |
 | TGBot News | [@Hao12News](https://t.me/Hao12News) | 22,023 | ● 记录 最新消息 会员专属版。 |
 | PT资讯频道 | [@privatetrackernews](https://t.me/privatetrackernews) | 19,405 | PT开放注册信息推送 Open。 |
 | Cool Scripts | [@cool_scripts](https://t.me/cool_scripts) | 16,316 | QuanX，Loon。 |
 | 飞享一刻 频道 | [@w37fhy](https://t.me/w37fhy) | 12,071 | 【加入讨论群。 |
 | Chavy Scripts | [@chavyscripts](https://t.me/chavyscripts) | 10,342 | Telegram 资源入口。 |
 | Pure Writer Releases | [@purewriter](https://t.me/purewriter/) | 3,233 | Changelogs in t。 |
-| Aptitude Test Updates | [@AptitudeTestContest](https://t.me/AptitudeTestContest) | 1,633 | Telegram 资源入口。 |
+| Aptitude Test Updates | [@AptitudeTestContest](https://t.me/AptitudeTestContest) | 1,528 | Telegram 资源入口。 |
 | 无意识电波配送 确信 | [@justAboringchannel](https://t.me/justAboringchannel) | 728 | 的个人频道。 |
 | 客服咨询中心 | [@TGreCAPTCHABot](https://t.me/TGreCAPTCHABot) | 30 | Telegram 资源入口。 |
 
@@ -331,16 +329,15 @@
 
 | 名称 | 链接 | 人数 | 简介 |
 | --- | --- | ---: | --- |
-| 凡人修仙传4K「每周六11点更新」 | [@fanren4k](https://t.me/fanren4k) | 1 | 每周六更新凡人修仙传4K。 |
+| 凡人修仙传4K「每周六11点更新」 | [@fanren4k](https://t.me/fanren4k) | 109 | 每周六更新凡人修仙传4K。 |
 | Shavkat Mirziyoyev_press-service | [@shmirziyoyev](https://t.me/shmirziyoyev) | 240,691 | Veb-sayt:  Face。 |
-| 阿里、夸克、百度网盘4K影视资源 | [@Aliyun_4K_Movies](https://t.me/Aliyun_4K_Movies) | 208,231 | 欢迎你来到4K影视频道。 |
+| 阿里、夸克、百度网盘4K影视资源 | [@Aliyun_4K_Movies](https://t.me/Aliyun_4K_Movies) | 221,337 | 欢迎你来到4K影视频道。 |
 | 4K影视屋(分屋）-蓝光无损电影 | [@dianying4K](https://t.me/dianying4K) | 80,887 | 广告建议。 |
 | 懒狗集中营-115/阿里/百度/迅雷/夸克 影视分享 阿里云盘百度网盘115网盘 | [@vip115hot](https://t.me/vip115hot) | 48,007 | 建议，投稿，广告，合作。 |
 | Zapro Notice | [@zaproshare](https://t.me/zaproshare) | 29,740 | 软件，电影。 |
 | TVBox | [@TVbox888](https://t.me/TVbox888) | 29,059 | Tvbox，猫影视TV。 |
 | Emby影视资源发布 | [@Plus_Movie_Best](https://t.me/Plus_Movie_Best) | 28,668 | 普拉斯影业资源发布频道。 |
 | 电影爱好者 | [@MovieAnywhere](https://t.me/MovieAnywhere) | 28,238 | 影迷交流： 音乐库 网络资源共。 |
-| 阿里云盘影视大全-日更 | [@aliyunys](https://t.me/aliyunys) | 22,611 | 需要阿里云盘资源关注我就够了。 |
 | 影视资源联盟 | [@yszylm](https://t.me/yszylm) | 15,173 | 高分剧集资源发布。 |
 | 國家地理雜誌 中文版 | [@natgeomedia](https://t.me/natgeomedia) | 14,450 | Hi 探險家。 |
 | Hell Cell 功能教学 | [@HellCellZC123](https://t.me/HellCellZC123) | 10,987 | YouTube视频教学频道 商。 |
@@ -400,7 +397,7 @@
 | 萌图 | [@ovov1234](https://t.me/ovov1234) | 12,150 | 分享来自 pixiv 和 X。 |
 | 萌图志 | [@moepic](https://t.me/moepic) | 11,525 | 本频道会不定时推送一些二次元插。 |
 | 目录频道 | [@jumpto22222](https://t.me/jumpto22222) | 9,963 | 系列频道 漫画书籍资源整合 普。 |
-| ACG Stickers | [@ACGStickers](https://t.me/ACGStickers) | 8,322 | Sharing some cu。 |
+| ACG Stickers | [@ACGStickers](https://t.me/ACGStickers) | 8,286 | Sharing some cu。 |
 | 完美弧度 | [@wanmeihudu](https://t.me/wanmeihudu) | 5,185 | 每日更新 精挑细选 只为完美。 |
 | 瘦瘦的绘画世界 | [@drawing1024](https://t.me/drawing1024) | 3,287 | 记录自己的绘画作品 平时的素描。 |
 | Menhera-Channel | [@nanasekurumi](https://t.me/nanasekurumi) | 1,579 | Channel for the。 |
@@ -442,7 +439,7 @@
 | Lee Hsien Loong | [@leehsienloong](https://t.me/leehsienloong) | 17,006 | Official Telegr。 |
 | 科学上网资讯整合 | [@ysl_channel](https://t.me/ysl_channel) | 16,353 | 工具软件。 |
 | Quantumult X JS 收集分享 | [@QuanXJS](https://t.me/QuanXJS) | 9,056 | 自用JS收集…。 |
-| 每日免费节点 | [@autofreevpn](https://t.me/autofreevpn) | 6,030 | 每天中午12点准时刷新每日免费。 |
+| 每日免费节点 | [@autofreevpn](https://t.me/autofreevpn) | 5,709 | 每天中午12点准时刷新每日免费。 |
 | Surge News | [@surgenews](https://t.me/surgenews) | 5,459 | 本频道致力于搜集整理 Surg。 |
 | 火箭酷🅥「TG代理」 | [@Rocketcool](https://t.me/Rocketcool) | 3,094 | 『No one can dep。 |
 | ClashR频道 | [@ClashR_News](https://t.me/ClashR_News) | 2,849 | 关于 ClashR 的一切。 |
@@ -485,7 +482,7 @@
 | 一天世界 博客 | [@yitianshijie](https://t.me/yitianshijie) | 6,168 | 新文章上线提醒及其它。 |
 | 日语学习 | [@jp_study](https://t.me/jp_study) | 6,096 | 关键词: 日语 日剧 学习 日。 |
 | Android Weekly Update | [@update4weekly](https://t.me/update4weekly) | 5,364 | 一份 Android 行业动态。 |
-| APOD 每日天文图片（中文转载） | [@apod_hans](https://t.me/apod_hans) | 5,095 | NASA APOD 天文图片与中文科普转载，非 NASA 官方频道。 |
+| APOD 每日天文图片（中文转载） | [@apod_hans](https://t.me/apod_hans) | 5,086 | NASA APOD 天文图片与中文科普转载，非 NASA 官方频道。 |
 | 椒盐豆豉剪报 | [@mtfront](https://t.me/mtfront) | 4,961 | 个人博客、旅行、阅读与科技剪报，偶有理财话题。 |
 | 心理学笔记分享 | [@xlxbj](https://t.me/xlxbj) | 4,494 | 心理学一些相关的笔记分享。 |
 | 写作交流 | [@writing_discuss](https://t.me/writing_discuss) | 3,607 | 关键词：阅读 写作 交流 如果。 |
@@ -509,7 +506,6 @@
 | 通天阁_不止于学习 | [@tongtiange](https://t.me/tongtiange) | 399 | 闷骚发育，温润尔雅。 |
 | 中文维基 求闻 - Qiuwen Chinese Wikipedia | [@Qiuwen](https://t.me/Qiuwen) | 373 | 《求闻》是由中国大陆维基人用户。 |
 | 維基人 官方推播頻道 | [@the_Wikipedian](https://t.me/the_Wikipedian) | 243 | 《維基人》是由中文維基人自主編。 |
-| 深夜博客 | [@late_night_blog](https://t.me/late_night_blog) | 46 | Telegram 资源入口。 |
 
 <a id="section-channel-14"></a>
 ### 🎨 创意设计
@@ -521,7 +517,7 @@
 | Tech Guide | [@TechGuide](https://t.me/TechGuide) | 42,746 | Android，iOS。 |
 | Creative Motion | [@creativemotion](https://t.me/creativemotion) | 22,535 | Канал по анимац。 |
 | 少女实在是太美好了 | [@tastegirl](https://t.me/tastegirl) | 21,335 | 关于发布内容审美说明 简单说就。 |
-| R探长 | [@agentONE_R](https://t.me/agentONE_R) | 11,159 | Web SSH Smart T。 |
+| R探长 | [@agentONE_R](https://t.me/agentONE_R) | 11,220 | Web SSH Smart T。 |
 | 秋水逸冰 | [@qiushuiyibing](https://t.me/qiushuiyibing) | 6,897 | 这里是秋水逸冰的个人频道。 |
 | Wallpapers And Art | [@pfff_wall](https://t.me/pfff_wall) | 6,563 | Beautiful pictu。 |
 | SSPanel-UIM | [@sspanel_Uim](https://t.me/sspanel_Uim) | 3,543 | Telegram 资源入口。 |
@@ -570,14 +566,14 @@
 | Foolish TraceWind | [@FoolishTraceWind](https://t.me/FoolishTraceWind) | 16,519 | 本频道创立于2018年8月12。 |
 | Fndroid的日常 | [@fndroid_news](https://t.me/fndroid_news) | 16,440 | Telegram 资源入口。 |
 | 看小姐姐 | [@kanxiaojiejie](https://t.me/kanxiaojiejie) | 10,722 | 本频道始建于2018年12月1。 |
-| 高分壁纸推荐 Anime gallery | [@acgzhenghe](https://t.me/acgzhenghe) | 9,336 | 高分动漫壁纸。 |
+| 高分壁纸推荐 Anime gallery | [@acgzhenghe](https://t.me/acgzhenghe) | 8,993 | 高分动漫壁纸。 |
 | Hk3ToN - Wallpaper | [@Hk3To](https://t.me/Hk3To) | 8,559 | Wallpapers All。 |
 | rvalue的生草日常 | [@rvalue_daily](https://t.me/rvalue_daily) | 8,067 | (可能位于火星的)大 草 原(。 |
 | 笔记本：Lin's 文字世界 : 个人见闻/B站视频/网络见闻 | [@LinsBookA](https://t.me/LinsBookA) | 7,924 | 频道始于2019年6月。 |
 | 羊王频道 神价捡漏群 | [@yangwangpindao](https://t.me/yangwangpindao) | 7,841 | 共享ID 独享ID 兑换码ch。 |
 | 每日摄影观察 | [@cnphotog_collect](https://t.me/cnphotog_collect) | 6,760 | 一个不严肃的摄影频道 群组。 |
 | Google Play限免信息 | [@playsales](https://t.me/playsales) | 6,567 | 不定时推介Play Store。 |
-| ANIME Wallpaper | [@acgwallpaper](https://t.me/acgwallpaper) | 5,879 | 壁纸 Wallpaper 每天。 |
+| ANIME Wallpaper | [@acgwallpaper](https://t.me/acgwallpaper) | 6,124 | 壁纸 Wallpaper 每天。 |
 | 高清壁纸 | [@jingxu6](https://t.me/jingxu6) | 5,626 | 高清壁纸美女模特美图。 |
 | 免費資源網路社群 Free Group | [@Free_Group](https://t.me/Free_Group) | 5,313 | 相關頻道: (熱門限免通知)。 |
 | 短句文案 | [@yidu520](https://t.me/yidu520) | 4,996 | 故事很短 满是遗憾。 |
@@ -619,7 +615,7 @@
 | 表情包贴纸 | [@tiezhia](https://t.me/tiezhia) | 33,779 | 电报专业贴纸。 |
 | 如何与沙雕相处 | [@ruheyushadiaoxiangchu](https://t.me/ruheyushadiaoxiangchu) | 29,510 | 投稿Bot： 友链： - 心惊。 |
 | 每天趣事 | [@Meitian](https://t.me/Meitian) | 29,250 | 本频道内容： 多样沙雕冷笑话。 |
-| Animated Stickers | [@AnimatedStickers](https://t.me/AnimatedStickers) | 27,158 | Submit Stickers。 |
+| Animated Stickers | [@AnimatedStickers](https://t.me/AnimatedStickers) | 26,393 | Submit Stickers。 |
 | 每日无数猫 | [@miaowu](https://t.me/miaowu) | 19,630 | 投稿请发至投稿机器人 有问题请。 |
 | 你不知道的冷知识 | [@knowledge1024](https://t.me/knowledge1024) | 18,748 | 冷知识分享 有趣的，无趣的。 |
 | 拾趣 | [@peekfun](https://t.me/peekfun) | 13,442 | 分享一点有趣的事情，有用的东西。 |
@@ -664,16 +660,16 @@
 | Telegram Usernames | [@username](https://t.me/username) | 1,300,931 | This channel is。 |
 | Plus Messenger official | [@plusmsgr](https://t.me/plusmsgr) | 859,104 | Official Plus M。 |
 | Tips Telegram | [@telegramtipsID](https://t.me/telegramtipsID) | 507,536 | Telegram adalah。 |
-| Android Themes Channel | [@AndroidThemes](https://t.me/AndroidThemes) | 285,368 | Android Themes。 |
+| Android Themes Channel | [@AndroidThemes](https://t.me/AndroidThemes) | 275,403 | Android Themes。 |
 | Free Telegram proxy | [@proxyme](https://t.me/proxyme) | 273,619 | Free proxies fo。 |
-| Abiy Ahmed Ali | [@AbiyAhmedAliofficial](https://t.me/AbiyAhmedAliofficial) | 170,787 | ነጻነት ለህዝባችን - ብ。 |
+| Abiy Ahmed Ali | [@AbiyAhmedAliofficial](https://t.me/AbiyAhmedAliofficial) | 188,204 | ነጻነት ለህዝባችን - ብ。 |
 | Noticias de Telegram | [@TelegramES](https://t.me/TelegramES) | 148,589 | Canal oficial d。 |
 | BotNews | [@BotNews](https://t.me/BotNews) | 127,384 | The official so。 |
 | Desktop Themes Channel | [@themes](https://t.me/themes) | 122,174 | Desktop Themes。 |
 | Telegram Brasil | [@TelegramBR](https://t.me/TelegramBR) | 119,626 | Canal oficial d。 |
 | Discuss That! | [@DiscussThis](https://t.me/DiscussThis) | 65,813 | This channel is。 |
 | PixelExperience | [@PixelExperience](https://t.me/PixelExperience) | 41,949 | Official chat i。 |
-| @AR72014 | [@AR72014](https://t.me/AR72014) | 34,460 | Tech Content Cr。 |
+| @AR72014 | [@AR72014](https://t.me/AR72014) | 31,990 | Tech Content Cr。 |
 | OnePlus | [@OnePlus](https://t.me/OnePlus) | 30,659 | Everything OneP。 |
 | Surfboard News | [@surfboardnews](https://t.me/surfboardnews) | 28,065 | Telegram 资源入口。 |
 | Telegram (DE) | [@TelegramDE](https://t.me/TelegramDE) | 27,305 | Der deutschspra。 |
@@ -685,7 +681,7 @@
 | Ingress | [@NianticOfficial](https://t.me/NianticOfficial) | 18,315 | Official Ingres。 |
 | iPhone Telegram Themes | [@IOSTelegramThemes](https://t.me/IOSTelegramThemes) | 17,720 | Make your feeli。 |
 | Digital Immigrants丨Want Want Channel | [@Licensesss](https://t.me/Licensesss) | 16,536 | 合租群组。 |
-| Animated Emojis | [@AnimatedEmojis](https://t.me/AnimatedEmojis) | 15,148 | List of all Tel。 |
+| Animated Emojis | [@AnimatedEmojis](https://t.me/AnimatedEmojis) | 14,841 | List of all Tel。 |
 | Android Software Hub | [@ksc666](https://t.me/ksc666) | 14,844 | Telegram 资源入口。 |
 | Equal Leaks | [@EqualLeaks](https://t.me/EqualLeaks) | 12,726 | This channel de。 |
 | Notizie da Telegram | [@TelegramIT](https://t.me/TelegramIT) | 11,849 | Il canale uffic。 |
@@ -721,14 +717,14 @@
 | Null | [@shuziyimin](https://t.me/shuziyimin) | 4,169 | Telegram 资源入口。 |
 | KeralaGram Official | [@KeralaGramChannel](https://t.me/KeralaGramChannel) | 4,004 | Official Channe。 |
 | Yachen's Channel | [@yachme](https://t.me/yachme) | 3,951 | Telegram 资源入口。 |
-| AnXray | [@AnXray](https://t.me/AnXray) | 3,852 | Another Xray fo。 |
+| AnXray | [@AnXray](https://t.me/AnXray) | 3,603 | Another Xray fo。 |
 | GroupHub广播站 | [@GroupHub](https://t.me/GroupHub) | 3,633 | Telegram 资源入口。 |
 | Ingress 中文 | [@IngressChinese](https://t.me/IngressChinese) | 3,626 | 世界並非如你所見。 |
 | 螺莉莉的黑板报 | [@im_RORIRI](https://t.me/im_RORIRI) | 3,445 | Telegram 资源入口。 |
 | 今天又发现了哪个漂亮小姐姐 | [@xiaojiejiexixi](https://t.me/xiaojiejiexixi) | 3,262 | 好看的皮囊，并非千篇一律。 |
 | 资源速递 | [@SharedResources](https://t.me/SharedResources) | 3,184 | 60秒读懂世界 所有资源来源于。 |
 | iBytebox 「Meeta」 | [@meetashare](https://t.me/meetashare) | 2,551 | iBytebox 分享频道 t。 |
-| ARK官方频道 | [@arktochannel](https://t.me/arktochannel) | 2,453 | 官方网站： 客户服务BOT。 |
+| ARK官方频道 | [@arktochannel](https://t.me/arktochannel) | 2,348 | 官方网站： 客户服务BOT。 |
 | Snipaste 通知 | [@snipaste](https://t.me/snipaste) | 2,430 | 官网： 讨论群。 |
 | 托尔酱的梗图与FW | [@TooruChan_Memes](https://t.me/TooruChan_Memes) | 2,413 | 本频道属于 Tooruchan。 |
 | 一休兒之學習動態 | [@yixiuer](https://t.me/yixiuer) | 2,157 | Πάντες ἄνθρωποι。 |
@@ -798,7 +794,7 @@
 | MeowThemesJoin | [@MeowThemes](https://t.me/MeowThemes) | 228 | Telegram 资源入口。 |
 | Real Donald Trump | [@realDonaldTrumpTwitter](https://t.me/realDonaldTrumpTwitter) | 226 | 关于 Real Donald。 |
 | 技术拾荒者 | [@tech_scavenger](https://t.me/tech_scavenger) | 222 | Telegram 资源入口。 |
-| Aliyundrive Backup | [@aliyundrive_backup](https://t.me/aliyundrive_backup) | 214 | Personal Favour。 |
+| Aliyundrive Backup | [@aliyundrive_backup](https://t.me/aliyundrive_backup) | 190 | Personal Favour。 |
 | 跑路公告板 | [@Paolutongzhi](https://t.me/Paolutongzhi) | 212 | Telegram 资源入口。 |
 | PhilTalk | [@philchannel](https://t.me/philchannel) | 211 | 大部分是我看到，读到的东西。 |
 | paypal | [@dotplayer](https://t.me/dotplayer) | 209 | Telegram 资源入口。 |
@@ -816,7 +812,7 @@
 | WSU_A | [@wikipedia_zh_wsu](https://t.me/wikipedia_zh_wsu) | 68 | 維基學生會佔位符。 |
 | 引流 | [@PremiumCounterBot](https://t.me/PremiumCounterBot) | 57 | Telegram 资源入口。 |
 | Tbo 交流群 | [@TboJiangGroup](https://t.me/TboJiangGroup) | 55 | Telegram 资源入口。 |
-| Affyuncom-每日offers推送 | [@affyunpush](https://t.me/affyunpush) | 48 | Telegram 资源入口。 |
+| Affyuncom-每日offers推送 | [@affyunpush](https://t.me/affyunpush) | 64 | Telegram 资源入口。 |
 | omgfriends | [@omgfriends](https://t.me/omgfriends) | 44 | Telegram 资源入口。 |
 | @MyTeleCloudBot | [@MyTeleCloudBot](https://t.me/MyTeleCloudBot) | 39 | Telegram 资源入口。 |
 | WhaleDiscovery | [@whalediscovery](https://t.me/whalediscovery) | 38 | Telegram 资源入口。 |
@@ -826,5 +822,5 @@
 | TetgramC | [@TetgramC](https://t.me/TetgramC) | 29 | Telegram 资源入口。 |
 | EnglishSlice | [@englishslice](https://t.me/englishslice) | 11 | Telegram 资源入口。 |
 | 地主精品用户名10 | [@xiaoxi](https://t.me/xiaoxi) | 11 | Telegram 资源入口。 |
-| allthechannel | [@AlltheChannel](https://t.me/AlltheChannel) | 2 | Telegram 资源入口。 |
+| allthechannel | [@AlltheChannel](https://t.me/AlltheChannel) | 30 | Telegram 资源入口。 |
 | visionarysub | [@VisionarySub](https://t.me/VisionarySub) | 1 | Telegram 资源入口。 |
