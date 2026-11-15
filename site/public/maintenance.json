@@ -1,10 +1,13 @@
 {
   "added": [],
-  "generated_at": "2026-11-14T22:30:06.293013+00:00",
-  "readme_sha256": "971b683267833e5ddf6245c9ab41c42c8d3ede1aa859583b3c0751c446829576",
+  "generated_at": "2026-11-15T22:30:06.627319+00:00",
+  "readme_sha256": "5c271e27b20afb0f380488a1ea380e1c784e843f6d1fb988a7cc7e56003e3233",
   "removed": [
-    "applespyder",
-    "appcn"
+    "chainnews",
+    "apple_watch",
+    "cloudflare_cn",
+    "cyanch",
+    "awesome_collection"
   ],
   "resources": {
     "abcthoughts": {
@@ -170,10 +173,10 @@
       "reviewPending": true
     },
     "apod_hans": {
-      "countCheckedAt": "2026-11-14T12:43:18.727316+00:00",
+      "countCheckedAt": "2026-11-14T18:04:28.669067+00:00",
       "countStale": false,
       "listConflict": false,
-      "reviewPending": true
+      "reviewPending": false
     },
     "app_store": {
       "countCheckedAt": "2026-11-14T12:43:28.740854+00:00",
@@ -195,12 +198,6 @@
     },
     "appinnfeed": {
       "countCheckedAt": "2026-11-14T12:44:08.765906+00:00",
-      "countStale": false,
-      "listConflict": false,
-      "reviewPending": true
-    },
-    "apple_watch": {
-      "countCheckedAt": "2026-11-14T12:44:18.775182+00:00",
       "countStale": false,
       "listConflict": false,
       "reviewPending": true
@@ -260,10 +257,10 @@
       "reviewPending": true
     },
     "archlinuxcn_updates": {
-      "countCheckedAt": "2026-11-14T12:46:08.965606+00:00",
+      "countCheckedAt": "2026-11-14T19:48:14.763074+00:00",
       "countStale": false,
       "listConflict": false,
-      "reviewPending": true
+      "reviewPending": false
     },
     "arktochannel": {
       "countCheckedAt": "2026-11-14T12:46:18.868798+00:00",
@@ -275,12 +272,6 @@
       "countCheckedAt": "2026-11-14T12:46:28.903038+00:00",
       "countStale": false,
       "listConflict": true,
-      "reviewPending": true
-    },
-    "awesome_collection": {
-      "countCheckedAt": null,
-      "countStale": true,
-      "listConflict": false,
       "reviewPending": true
     },
     "awesomechatgpt": {
@@ -476,7 +467,7 @@
       "reviewPending": true
     },
     "butnothinghappened": {
-      "countCheckedAt": "2026-11-14T18:08:50.973314+00:00",
+      "countCheckedAt": "2026-11-15T19:04:13.718520+00:00",
       "countStale": false,
       "listConflict": false,
       "reviewPending": true
@@ -500,7 +491,7 @@
       "reviewPending": true
     },
     "cantonweather": {
-      "countCheckedAt": "2026-11-14T18:09:32.848676+00:00",
+      "countCheckedAt": "2026-11-15T18:32:04.888785+00:00",
       "countStale": false,
       "listConflict": false,
       "reviewPending": true
@@ -513,12 +504,6 @@
     },
     "ce_observe": {
       "countCheckedAt": "2026-11-14T18:09:53.768598+00:00",
-      "countStale": false,
-      "listConflict": false,
-      "reviewPending": true
-    },
-    "chainnews": {
-      "countCheckedAt": "2026-11-14T18:10:04.237722+00:00",
       "countStale": false,
       "listConflict": false,
       "reviewPending": true
@@ -583,12 +568,6 @@
       "listConflict": false,
       "reviewPending": true
     },
-    "cloudflare_cn": {
-      "countCheckedAt": "2026-11-14T18:13:24.884793+00:00",
-      "countStale": false,
-      "listConflict": false,
-      "reviewPending": true
-    },
     "clsvip": {
       "countCheckedAt": "2026-11-14T18:13:45.928065+00:00",
       "countStale": false,
@@ -649,12 +628,6 @@
       "listConflict": false,
       "reviewPending": true
     },
-    "cyanch": {
-      "countCheckedAt": "2026-11-14T18:16:44.904394+00:00",
-      "countStale": false,
-      "listConflict": false,
-      "reviewPending": true
-    },
     "cydiaupdate": {
       "countCheckedAt": "2026-11-14T18:16:55.368794+00:00",
       "countStale": false,
@@ -698,7 +671,7 @@
       "reviewPending": true
     },
     "dbinkbb": {
-      "countCheckedAt": "2026-11-14T18:18:08.768534+00:00",
+      "countCheckedAt": "2026-11-15T18:03:45.609225+00:00",
       "countStale": false,
       "listConflict": false,
       "reviewPending": true
@@ -1052,7 +1025,7 @@
       "reviewPending": true
     },
     "free_group": {
-      "countCheckedAt": "2026-11-14T18:36:13.854609+00:00",
+      "countCheckedAt": "2026-11-15T18:00:35.368216+00:00",
       "countStale": false,
       "listConflict": false,
       "reviewPending": true
@@ -1706,7 +1679,7 @@
       "reviewPending": true
     },
     "lihaiba": {
-      "countCheckedAt": "2026-11-14T19:01:58.960725+00:00",
+      "countCheckedAt": "2026-11-15T18:33:39.324694+00:00",
       "countStale": false,
       "listConflict": false,
       "reviewPending": true
@@ -1802,7 +1775,7 @@
       "reviewPending": true
     },
     "lumaoshe": {
-      "countCheckedAt": "2026-11-14T19:06:42.731001+00:00",
+      "countCheckedAt": "2026-11-15T18:30:29.938132+00:00",
       "countStale": false,
       "listConflict": false,
       "reviewPending": true
@@ -1982,7 +1955,7 @@
       "reviewPending": true
     },
     "misakatech": {
-      "countCheckedAt": "2026-11-14T19:13:24.397733+00:00",
+      "countCheckedAt": "2026-11-15T19:02:06.032385+00:00",
       "countStale": false,
       "listConflict": false,
       "reviewPending": true
@@ -2618,7 +2591,7 @@
       "reviewPending": true
     },
     "rachelblahblah": {
-      "countCheckedAt": "2026-11-14T19:50:31.376503+00:00",
+      "countCheckedAt": "2026-11-15T18:02:10.557345+00:00",
       "countStale": false,
       "listConflict": false,
       "reviewPending": true
@@ -3014,7 +2987,7 @@
       "reviewPending": true
     },
     "switchnewcn": {
-      "countCheckedAt": "2026-11-14T20:12:37.949456+00:00",
+      "countCheckedAt": "2026-11-15T19:31:26.600347+00:00",
       "countStale": false,
       "listConflict": false,
       "reviewPending": true
@@ -3380,7 +3353,7 @@
       "reviewPending": true
     },
     "timehorizonx": {
-      "countCheckedAt": "2026-11-14T20:31:15.703167+00:00",
+      "countCheckedAt": "2026-11-15T19:00:30.338740+00:00",
       "countStale": false,
       "listConflict": false,
       "reviewPending": true
@@ -3428,7 +3401,7 @@
       "reviewPending": true
     },
     "today_bean": {
-      "countCheckedAt": "2026-11-14T20:34:47.161736+00:00",
+      "countCheckedAt": "2026-11-15T19:30:23.476650+00:00",
       "countStale": false,
       "listConflict": false,
       "reviewPending": true
@@ -4203,233 +4176,14 @@
     }
   },
   "updated_counts": [
-    "xhqcankao",
-    "times001",
-    "solidot",
-    "zaobaosg",
-    "speedcentre",
-    "wsj_rss",
-    "zhihuribao_rss",
-    "wublock",
-    "steamsteam",
-    "shuangyunews_rss",
-    "testflights",
     "switchnewcn",
-    "todayfreedom",
-    "tooruchannews",
-    "yuan_en",
-    "thesoc",
-    "zhongyaokuaixun",
-    "tggeeknews",
-    "xhq_rule",
-    "tsbblog",
-    "telegramtipsbr",
-    "v_zelenskiy_official",
-    "testflightcn",
-    "youyousharechannel",
-    "tginfo",
-    "tgx_android",
-    "wuaipojie",
-    "thinkpositivewords",
-    "sspai",
-    "tginfoen",
-    "voice_google",
-    "zrj96",
-    "stopca",
-    "unigram",
-    "tg_x64",
-    "xiangbeichannel",
-    "ukrainenowgerman",
-    "unwire",
-    "tgstable",
-    "ukrainenowitalian",
-    "tgslots",
-    "ukrainenowspanish",
-    "tesla_share",
-    "ukrainenowfrench",
-    "ukrainenowpoland",
-    "theblockclub",
-    "woomaichannel",
-    "teslacn",
-    "yantaiinfo",
-    "universityalliance_info",
-    "technical_with_love",
-    "tooruteardowns",
-    "vps_xhq",
-    "vpscang",
-    "useless_project_ideas",
-    "usestick",
-    "subconverter",
-    "zzpiglet",
-    "sidehustleus",
-    "who_channel",
-    "telegramtips",
-    "telegramtipsit",
-    "tg_internetsecurity",
-    "tsecrecord",
-    "zhuyianquan",
-    "xddos2",
-    "trumpjr",
-    "xplus_channel",
-    "tandroidapk",
-    "xyxyspace",
-    "zuanke8",
-    "xuehuashe",
-    "twitter_translate",
-    "ziyuan917",
-    "simpread",
-    "todayread",
-    "tempestapp",
-    "tgx_android_translate",
-    "widgetchannel",
-    "w37fhy",
-    "tgrecaptchabot",
-    "shmirziyoyev",
-    "vip115hot",
-    "zaproshare",
-    "tvbox888",
-    "yszylm",
-    "xinhanewsagency",
-    "yyets_subtitles",
-    "zuoluotvofficial",
-    "wenanguan_botjihuo",
-    "vitamineepodcast",
-    "tingtalk_all",
-    "sizukon",
-    "someacg",
-    "yeqingjie_gjg666",
-    "yxhmd",
-    "wanmeihudu",
-    "xqsranimegif",
-    "testflightx",
-    "steamny",
-    "zhujiwiki_info",
-    "vwyxrd",
-    "youxibanyunenen",
-    "v1_blog",
-    "weeklyfreeepicgames",
-    "ziyouzengzhang",
-    "telegreat",
-    "ysl_channel",
-    "surgenews",
-    "xianyuxmpd",
-    "telonews_cn",
-    "theblockbeats",
-    "weekly_books",
-    "xiaozhangdubao",
-    "tingtalk",
-    "zreadpush",
-    "yitianshijie",
-    "update4weekly",
-    "xlxbj",
-    "writing_discuss",
-    "tgblog_secrets",
-    "world2us",
-    "wuciyuan",
-    "tongtiange",
-    "the_wikipedian",
-    "techguide",
-    "tastegirl",
-    "sspanel_uim",
-    "tinysnow4yi",
-    "sweet_kartoshka",
-    "tefuirzidu",
-    "tgguidehub",
-    "tgbeta",
+    "lihaiba",
+    "misakatech",
+    "dbinkbb",
+    "butnothinghappened",
     "timehorizonx",
-    "wechatessence",
-    "twitter_read",
-    "weibo_one",
-    "zuimeibizhi",
-    "weiboresou",
-    "xiaodiaodaya",
-    "weibo_hot",
-    "wenanba",
-    "yzjzy",
-    "yangwangpindao",
-    "yidu520",
-    "sohadays",
-    "untitledgroup",
-    "xiao_man_tou",
-    "woshadiao",
-    "shortcutscn",
-    "stickerschannel",
-    "trendingstickers",
-    "tiezhia",
-    "yingyoushadiao",
-    "topanimated",
-    "sticker_tw",
-    "today_bean",
-    "stickersxjbg",
-    "twapplefansannounce",
-    "sitandrelaxw",
-    "v2exfeed",
-    "tele_zh_tw",
-    "tgtrillion",
-    "tgcn_wiki",
-    "telegram",
-    "telegramtipses",
-    "username",
-    "telegramtipsid",
-    "telegrames",
-    "themes",
-    "telegrambr",
-    "surfboardnews",
-    "telegramde",
-    "shenkey",
-    "titan_pain",
-    "telegramit",
-    "xdadevelopershub",
-    "yinghexiaozu",
-    "vanillatg",
-    "sukkachannel",
-    "z_turns",
-    "xdanews",
-    "telegramindonesia",
-    "unigramappx",
-    "wikinews_zh_broadcast",
-    "tw_reporter_org",
-    "telebookstall",
-    "timmychannel",
-    "tuweishenghuo",
-    "shuziyimin",
-    "yachme",
-    "xiaojiejiexixi",
-    "snipaste",
-    "tooruchan_memes",
-    "yixiuer",
-    "shukerxiaoxi",
-    "wushuwang",
-    "xbchat",
-    "uselessideas",
-    "webnotes2",
-    "tgdict",
-    "teleplus_channel",
-    "thorhcc",
-    "tieliu",
-    "sitandrelaxlabs",
-    "typechodev",
-    "tgdailigg",
-    "thespeechless",
-    "tualatrix_says",
-    "sitandrelaxlab",
-    "zaawuu",
-    "shitofniantic",
-    "tgchinanews",
-    "tgpill",
-    "spotifynews",
-    "wolleynews",
-    "tingtalk_op",
-    "telegramnl",
-    "videomessages",
-    "tech_scavenger",
-    "zuragram",
-    "zeronetzh",
-    "wikipedia_zh_wsu",
-    "tbojianggroup",
-    "whalediscovery",
-    "tetgramc",
-    "xiaoxi",
-    "visionarysub"
+    "free_group",
+    "lumaoshe",
+    "rachelblahblah"
   ]
 }
