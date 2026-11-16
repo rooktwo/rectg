@@ -1,13 +1,19 @@
 {
   "added": [],
-  "generated_at": "2026-11-15T22:30:06.627319+00:00",
-  "readme_sha256": "5c271e27b20afb0f380488a1ea380e1c784e843f6d1fb988a7cc7e56003e3233",
+  "generated_at": "2026-11-16T22:30:15.214467+00:00",
+  "readme_sha256": "63f4f615f8c9864c3bc67431666b84ad08be74297f1c6d0b806598464b079276",
   "removed": [
-    "chainnews",
-    "apple_watch",
-    "cloudflare_cn",
-    "cyanch",
-    "awesome_collection"
+    "fakeye",
+    "caixin_web",
+    "chinesenewss",
+    "cctvnewsbroadcast",
+    "dlkqingbaozhan",
+    "douban_read",
+    "english_learning_discuss",
+    "fanfou_daily",
+    "fanfou_weekly",
+    "eessej",
+    "classical_chinese"
   ],
   "resources": {
     "abcthoughts": {
@@ -449,10 +455,10 @@
       "reviewPending": true
     },
     "btcnewsdaily": {
-      "countCheckedAt": "2026-11-14T18:08:19.578655+00:00",
+      "countCheckedAt": "2026-11-15T18:10:46.288701+00:00",
       "countStale": false,
       "listConflict": false,
-      "reviewPending": true
+      "reviewPending": false
     },
     "buliang00": {
       "countCheckedAt": "2026-11-14T18:08:30.048332+00:00",
@@ -484,20 +490,8 @@
       "listConflict": false,
       "reviewPending": true
     },
-    "caixin_web": {
-      "countCheckedAt": "2026-11-14T18:09:22.380592+00:00",
-      "countStale": false,
-      "listConflict": false,
-      "reviewPending": true
-    },
     "cantonweather": {
       "countCheckedAt": "2026-11-15T18:32:04.888785+00:00",
-      "countStale": false,
-      "listConflict": false,
-      "reviewPending": true
-    },
-    "cctvnewsbroadcast": {
-      "countCheckedAt": "2026-11-14T18:09:43.307279+00:00",
       "countStale": false,
       "listConflict": false,
       "reviewPending": true
@@ -516,12 +510,6 @@
     },
     "chinesedocumentary": {
       "countCheckedAt": "2026-11-14T18:10:25.272755+00:00",
-      "countStale": false,
-      "listConflict": false,
-      "reviewPending": true
-    },
-    "chinesenewss": {
-      "countCheckedAt": "2026-11-14T18:10:35.734492+00:00",
       "countStale": false,
       "listConflict": false,
       "reviewPending": true
@@ -562,12 +550,6 @@
       "listConflict": true,
       "reviewPending": true
     },
-    "classical_chinese": {
-      "countCheckedAt": "2026-11-14T18:13:03.953392+00:00",
-      "countStale": false,
-      "listConflict": false,
-      "reviewPending": true
-    },
     "clsvip": {
       "countCheckedAt": "2026-11-14T18:13:45.928065+00:00",
       "countStale": false,
@@ -575,16 +557,16 @@
       "reviewPending": true
     },
     "cnbeta_com": {
-      "countCheckedAt": "2026-11-14T18:14:07.005517+00:00",
+      "countCheckedAt": "2026-11-15T20:35:03.588416+00:00",
       "countStale": false,
       "listConflict": false,
-      "reviewPending": true
+      "reviewPending": false
     },
     "cndevdaily": {
-      "countCheckedAt": "2026-11-14T18:14:28.116321+00:00",
+      "countCheckedAt": "2026-11-15T20:43:38.890557+00:00",
       "countStale": false,
       "listConflict": false,
-      "reviewPending": true
+      "reviewPending": false
     },
     "cnphotog_collect": {
       "countCheckedAt": "2026-11-14T18:14:49.249938+00:00",
@@ -641,7 +623,7 @@
       "reviewPending": true
     },
     "daily5kong": {
-      "countCheckedAt": "2026-11-14T18:17:16.373091+00:00",
+      "countCheckedAt": "2026-11-16T18:03:32.468148+00:00",
       "countStale": false,
       "listConflict": false,
       "reviewPending": true
@@ -755,16 +737,10 @@
       "reviewPending": true
     },
     "dizhen": {
-      "countCheckedAt": "2026-11-14T18:22:10.544195+00:00",
+      "countCheckedAt": "2026-11-16T18:07:54.437055+00:00",
       "countStale": false,
       "listConflict": false,
-      "reviewPending": true
-    },
-    "dlkqingbaozhan": {
-      "countCheckedAt": "2026-11-14T18:22:31.626195+00:00",
-      "countStale": false,
-      "listConflict": false,
-      "reviewPending": true
+      "reviewPending": false
     },
     "dms_share": {
       "countCheckedAt": "2026-11-14T18:22:52.708899+00:00",
@@ -774,12 +750,6 @@
     },
     "dotplayer": {
       "countCheckedAt": "2026-11-14T18:23:13.805258+00:00",
-      "countStale": false,
-      "listConflict": false,
-      "reviewPending": true
-    },
-    "douban_read": {
-      "countCheckedAt": "2026-11-14T18:23:34.858690+00:00",
       "countStale": false,
       "listConflict": false,
       "reviewPending": true
@@ -844,12 +814,6 @@
       "listConflict": false,
       "reviewPending": true
     },
-    "eessej": {
-      "countCheckedAt": "2026-11-14T18:27:27.107713+00:00",
-      "countStale": false,
-      "listConflict": false,
-      "reviewPending": true
-    },
     "elecv2": {
       "countCheckedAt": "2026-11-14T18:27:48.143288+00:00",
       "countStale": false,
@@ -860,12 +824,6 @@
       "countCheckedAt": "2026-11-14T18:28:09.220234+00:00",
       "countStale": false,
       "listConflict": true,
-      "reviewPending": true
-    },
-    "english_learning_discuss": {
-      "countCheckedAt": "2026-11-14T18:28:30.279770+00:00",
-      "countStale": false,
-      "listConflict": false,
       "reviewPending": true
     },
     "englishslice": {
@@ -889,24 +847,6 @@
     "faangbbs": {
       "countCheckedAt": null,
       "countStale": true,
-      "listConflict": false,
-      "reviewPending": true
-    },
-    "fakeye": {
-      "countCheckedAt": "2026-11-14T18:30:15.763140+00:00",
-      "countStale": false,
-      "listConflict": false,
-      "reviewPending": true
-    },
-    "fanfou_daily": {
-      "countCheckedAt": "2026-11-14T18:30:36.843157+00:00",
-      "countStale": false,
-      "listConflict": false,
-      "reviewPending": true
-    },
-    "fanfou_weekly": {
-      "countCheckedAt": "2026-11-14T18:30:57.787329+00:00",
-      "countStale": false,
       "listConflict": false,
       "reviewPending": true
     },
@@ -4176,14 +4116,9 @@
     }
   },
   "updated_counts": [
-    "switchnewcn",
-    "lihaiba",
-    "misakatech",
-    "dbinkbb",
-    "butnothinghappened",
-    "timehorizonx",
-    "free_group",
-    "lumaoshe",
-    "rachelblahblah"
+    "cnbeta_com",
+    "btcnewsdaily",
+    "cndevdaily",
+    "dizhen"
   ]
 }

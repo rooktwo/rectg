@@ -15,9 +15,8 @@
 | Solidot | [@solidot](https://t.me/solidot) | 48,872 | solidot.org 非官方。 |
 | zaobao.sg 早报 | [@zaobaosg](https://t.me/zaobaosg) | 46,518 | 以睿智亲和的内容。 |
 | 外滩读书会-最新报纸、杂志、财经报告及流行电子书分享 | [@readingclubus](https://t.me/readingclubus) | 28,717 | 以英文为主的报纸，杂志。 |
-| cnBeta.COM中文业界资讯站 | [@cnbeta_com](https://t.me/cnbeta_com) | 27,403 | cnBeta.COM中文业界资。 |
+| cnBeta.COM中文业界资讯站 | [@cnbeta_com](https://t.me/cnbeta_com) | 27,404 | cnBeta.COM中文业界资。 |
 | 𝚂𝚙𝚎𝚎𝚍𝙲𝚎𝚗𝚝𝚛𝚎 | [@speedcentre](https://t.me/speedcentre) | 25,287 | 二手机场交易 欢迎各位关注。 |
-| 不求甚解 | [@fakeye](https://t.me/fakeye?boost) | 18,858 | 在这里分享我日常的所见所思。 |
 | 华尔街日报 RSS | [@wsj_rss](https://t.me/wsj_rss) | 17,482 | RSS 地址： RSS 频道收。 |
 | ChatGPT / AI新闻聚合 | [@AI_News_CN](https://t.me/AI_News_CN) | 23,405 | 主流AI服务状态页通知。 |
 | 云上报刊亭 精选 🅥 -- 新闻，报纸，杂志，电子书，资料 PDF | [@magazinesclubnew](https://t.me/magazinesclubnew) | 18,661 | 新闻，报纸，杂志，电子书。 |
@@ -51,16 +50,15 @@
 | &'a ::rynco::UntitledChannel | [@rynif](https://t.me/rynif) | 4,547 | 西郊林密无处去，北城雾沉晚风凉。 |
 | 7x24投资快讯 | [@golden_wind_news](https://t.me/golden_wind_news) | 4,820 | 24 小时投资相关的快讯。 |
 | Python潮流周刊 | [@pythontrendingweekly](https://t.me/pythontrendingweekly) | 4,581 | 由豌豆花下猫主理。 |
-| 币圈快讯 | [@btcnewsdaily](https://t.me/btcnewsdaily) | 5,056 | 币圈快讯，掌握币圈动态。 |
+| 币圈快讯 | [@btcnewsdaily](https://t.me/btcnewsdaily) | 5,073 | 币圈快讯，掌握币圈动态。 |
 | 一起偷偷观察 DIYgod | [@awesomeDIYgod](https://t.me/awesomeDIYgod) | 4,087 | 频道由 RSSHub 强力驱动。 |
-| 财新网 RSS | [@caixin_web](https://t.me/caixin_web) | 3,962 | 财新网与财新《财新周刊》。 |
 | 0x Meme/项目/空投 | [@newsforbitcoin](https://t.me/newsforbitcoin) | 3,561 | 定期发送Web3 空投/项目/。 |
 | The Sociologist | [@thesoc](https://t.me/thesoc) | 3,485 | On ne parle tan。 |
 | 币圈日报 | [@bidaily](https://t.me/bidaily) | 3,526 | 币圈日报-每日最前沿的币圈新闻。 |
 | Matters 閲讀精選 | [@MattersHub](https://t.me/MattersHub) | 3,259 | Matters.news 一個。 |
 | DecoHack-独立产品周刊 | [@decohack](https://t.me/decohack) | 2,199 | 每周推荐好玩有趣的产品，APP。 |
 | OurBits RSS频道 | [@OurBits_RSS](https://t.me/OurBits_RSS) | 1,858 | OurBits 官种发布提醒。 |
-| 开发者日报 | [@cndevdaily](https://t.me/cndevdaily) | 2,069 | 一个勤劳的机器人，只爬取热门。 |
+| 开发者日报 | [@cndevdaily](https://t.me/cndevdaily) | 2,067 | 一个勤劳的机器人，只爬取热门。 |
 | 快讯猎手（重要版） | [@zhongyaokuaixun](https://t.me/zhongyaokuaixun) | 1,690 | 「快讯猎手 重要版」 币猎手机。 |
 | 大咕咕咕鸡 | [@dagudu](https://t.me/dagudu) | 1,776 | 大咕咕咕鸡，微博知名博主。 |
 | 财联社 | [@cailianshe](https://t.me/cailianshe) | 1,745 | 财联社 7*24小时不间断提供。 |
@@ -69,14 +67,12 @@
 | 悦读「优质少量RSS聚合」 | [@dailyrss](https://t.me/dailyrss) | 1,722 | 文章，图片，视频，音乐。 |
 | PUSH科技快讯 | [@Pushings](https://t.me/Pushings) | 1,370 | 本频道不定期推送相关资讯 如你。 |
 | 𝗧𝗚𝗴𝗲𝗲𝗸 极客新闻 | [@TGgeekNews](https://t.me/TGgeekNews) | 930 | Telegram 资源入口。 |
-| 电报新闻 | [@chinesenewss](https://t.me/chinesenewss) | 1,089 | 本频道旨在中文类新闻聚合阅读。 |
 | 辣鸡咕鸽毁我信仰 #CurryMyLife | [@googleshit](https://t.me/googleshit) | 1,140 | 今天份的 Google 药丸。 |
 | 信号旗规则 | [@xhq_rule](https://t.me/xhq_rule) | 887 | VPS信号旗播报及风向旗参考快。 |
 | T 备忘录 | [@tsbblog](https://t.me/tsbblog) | 726 | 影子的私人频道。 |
 | 自言自语 | [@bettergoods](https://t.me/bettergoods) | 587 | 自己的日常分享，有新闻，有音乐。 |
 | 公共交通部落 | [@fhs_publictransport_zone](https://t.me/fhs_publictransport_zone) | 582 | 本频道为个人频道 今日炸山 鸽。 |
 | 耳目 | [@earsandeyes](https://t.me/earsandeyes) | 236 | (Seit 10. Dez.。 |
-| 新闻联播 | [@CCTVNewsBroadcast](https://t.me/CCTVNewsBroadcast) | 86 | 新闻联播语音。 |
 
 <a id="section-channel-2"></a>
 ### 💻 数码科技
@@ -152,7 +148,6 @@
 | Apple Tv Plus | [@AppleTVPlus](https://t.me/AppleTVPlus) | 4,351 | streamingunity.。 |
 | Telegram iOS Beta Slots | [@tgslots](https://t.me/tgslots) | 4,257 | This channel wi。 |
 | iOS 越狱插件更新信息 | [@Jailbreak_Tweaks](https://t.me/Jailbreak_Tweaks) | 4,250 | iOS 越狱插件更新与发布信息。 |
-| DLK搞笑趣闻情报站 | [@dlkqingbaozhan](https://t.me/dlkqingbaozhan) | 3,568 | 本频道是dlk奔放交流时间的子。 |
 | AIM扩散力场 | [@nekosc](https://t.me/nekosc) | 3,515 | 本频道会不定时推送一些段子。 |
 | Ukraine NOW Spanish | [@UkraineNowSpanish](https://t.me/UkraineNowSpanish) | 2,894 | La principal fu。 |
 | Milkice's 生而喵喵 | [@milkice_portal](https://t.me/milkice_portal) | 3,397 | 个人频道 音游 / 科技 /。 |
@@ -461,14 +456,12 @@
 | --- | --- | ---: | --- |
 | 电子书/听书/期刊/课程资源 | [@sharebooks4you](https://t.me/sharebooks4you/5698) | 134,839 | 商务 搜书 导航。 |
 | 小声读书 | [@weekly_books](https://t.me/weekly_books) | 38,224 | 在喧嚣的 AI 浪潮中。 |
-| 豆瓣精选 | [@douban_read](https://t.me/douban_read) | 35,176 | 感谢支持和关心我们众多读者朋友。 |
 | PDF图书联盟 链接收藏 电子书 | [@PDFtushuguan](https://t.me/PDFtushuguan) | 24,998 | 无规律无方向的持续分享一些书目。 |
 | 宇宙自然博物馆 | [@manhuadao04](https://t.me/manhuadao04) | 32,583 | 天文、地理与自然影像分享，更新节奏较慢。 |
 | hayami's blog 日常人间观察 | [@hayami_kiraa](https://t.me/hayami_kiraa) | 15,347 | 一个满足日常好奇心的私人博客。 |
 | PDF资料 | [@pdf_001](https://t.me/pdf_001) | 14,622 | 读秀/超星/全国图书馆咨询联盟。 |
 | Find Blog发现博客 | [@findblog](https://t.me/findblog) | 13,754 | 发现优秀的博客与创作者 发现博。 |
 | Leonn的博客 | [@liyuans](https://t.me/liyuans) | 14,352 | 主要内容为低价主机资源。 |
-| 英文学习桌 | [@english_learning_discuss](https://t.me/english_learning_discuss) | 11,178 | 学习英语，了解世界。 |
 | 校长读报 | [@XiaoZhangDuBao](https://t.me/XiaoZhangDuBao) | 9,495 | 多读书 多看报 感谢关注 感谢。 |
 | 庭说 TingTalk | [@tingtalk](https://t.me/tingtalk) | 8,281 | 保持蓬勃的好奇心 TG 新手指。 |
 | zread (推) - 什么书值得读 | [@zreadpush](https://t.me/zreadpush) | 8,108 | 或许你正在寻觅，那一隅祥和。 |
@@ -541,9 +534,7 @@
 | 每日文章精选 | [@daily_read](https://t.me/daily_read) | 2,119 | 关键词：每日 文章 精选 微信。 |
 | 微博热搜 | [@weiboresou](https://t.me/weiboresou) | 1,574 | 微博热搜 curated by。 |
 | 笑掉大牙 | [@xiaodiaodaya](https://t.me/xiaodiaodaya) | 1,134 | 开心一刻，笑话大全。 |
-| 饭否每日精选 | [@fanfou_daily](https://t.me/fanfou_daily) | 568 | 每天8点5分推送饭否精选 建议。 |
 | 微博热搜 | [@weibo_hot](https://t.me/weibo_hot) | 425 | Telegram 资源入口。 |
-| 饭否每周精选 | [@fanfou_weekly](https://t.me/fanfou_weekly) | 226 | 每周一 12 点推送饭否精选。 |
 | 碎嘴老鼠 | [@dms_share](https://t.me/dms_share) | 169 | 小老鼠分享自己看到的各种有趣东。 |
 
 <a id="section-channel-16"></a>
@@ -577,7 +568,7 @@
 | moke 的 日常分享、吐槽和动态 | [@mokeyjay_channel](https://t.me/mokeyjay_channel) | 2,749 | 超能小紫（ mok.moe ）。 |
 | 可爱小狗 | [@keaixiaogou](https://t.me/keaixiaogou) | 2,511 | 猫狗及其他动物的趣味图片与日常分享。 |
 | 数字优惠 | [@DigitalSpecialDeals](https://t.me/DigitalSpecialDeals) | 1,147 | 数字世界的各种优惠。 |
-| 中國地震速报（≥4.5级） | [@dizhen](https://t.me/dizhen) | 988 | ○ 信息来自中国地震台的官方微。 |
+| 中國地震速报（≥4.5级） | [@dizhen](https://t.me/dizhen) | 987 | ○ 信息来自中国地震台的官方微。 |
 | 猫咪都是天使！ | [@mastemeow](https://t.me/mastemeow) | 676 | 以自家猫咪为主的日常记录与萌宠影像。 |
 | Alan G • Wallpapers | [@G_Wallpapers](https://t.me/G_Wallpapers) | 128 | Official channe。 |
 | Ingress Chengdu&Chongqing | [@IngressChengduChongqing](https://t.me/IngressChengduChongqing) | 538 | 本频道用于发布川渝地区旅游相关。 |
@@ -757,7 +748,6 @@
 | Speechlessness | [@thespeechless](https://t.me/thespeechless) | 573 | Just sharing be。 |
 | KZRGJGQO | [@GroupHub_Chat](https://t.me/GroupHub_Chat) | 574 | Telegram 资源入口。 |
 | 图图广播 | [@tualatrix_says](https://t.me/tualatrix_says) | 719 | 分享图拉鼎的所见，所闻，所想。 |
-| 天才儿童小博士 | [@eessej](https://t.me/eessej) | 733 | ǝssǝɾ(裏)的垃圾堆。 |
 | HEMC Tech Tips | [@SitandRelaxLab](https://t.me/SitandRelaxLab) | 716 | Check all my ch。 |
 | 胖客十袋 | [@pankt](https://t.me/pankt) | 665 | Telegram 资源入口。 |
 | Connectivity Test | [@connectivity_test](https://t.me/connectivity_test) | 649 | This place is n。 |
@@ -772,7 +762,6 @@
 | Spotify News | [@spotifynews](https://t.me/spotifynews) | 824 | Spotify Addict。 |
 | Wolley News | [@wolleynews](https://t.me/wolleynews) | 462 | 求真。 |
 | Aliexpress | [@my_ali_bot](https://t.me/my_ali_bot) | 400 | Лучшее из Aliex。 |
-| Telegram - 文言翻譯 | [@classical_chinese](https://t.me/classical_chinese) | 413 | 此電報文言翻譯之頻道 某等所以。 |
 | MoeMeta | [@MoeMeta](https://t.me/MoeMeta) | 487 | Telegram 资源入口。 |
 | 庭说 - 海贼王 TingTalk One Piece | [@tingtalk_op](https://t.me/tingtalk_op) | 365 | I'm Gonna Be Ki。 |
 | PVSZ for QuanX | [@PVSZforQuanX](https://t.me/PVSZforQuanX) | 346 | 参与讨论请到。 |
