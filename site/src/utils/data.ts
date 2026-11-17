@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 
 export const SITE_URL = 'https://www.rectg.com';
+const pinnedOrder: Record<string, number> = { fanren4k: 0, reejob: 1 };
 
 export function absoluteUrl(pathname = '/'): string {
   return new URL(pathname, SITE_URL).href;
@@ -104,7 +105,7 @@ function getFeaturedItems(items: DirectoryItem[], size = 18): DirectoryItem[] {
     .sort((a, b) => {
       const scoreA = hashText(`${a.id}:${a.title}:featured`);
       const scoreB = hashText(`${b.id}:${b.title}:featured`);
-      return Number(b.id === 'fanren4k') - Number(a.id === 'fanren4k') || scoreA - scoreB;
+      return (pinnedOrder[a.id] ?? 2) - (pinnedOrder[b.id] ?? 2) || scoreA - scoreB;
     })
     .slice(0, size);
 }
@@ -142,7 +143,7 @@ export function buildDirectoryData(data = loadSiteData()): DirectoryData {
     .filter((group) => group.items.length > 0)
     .map((group) => ({
       ...group,
-      items: [...group.items].sort((a, b) => Number(b.id === 'fanren4k') - Number(a.id === 'fanren4k') || parseCount(b.countStr) - parseCount(a.countStr)),
+      items: [...group.items].sort((a, b) => (pinnedOrder[a.id] ?? 2) - (pinnedOrder[b.id] ?? 2) || parseCount(b.countStr) - parseCount(a.countStr)),
     }));
 
   const allItems = validSections.flatMap((group) => group.items);
