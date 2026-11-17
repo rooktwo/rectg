@@ -1,19 +1,11 @@
 {
   "added": [],
-  "generated_at": "2026-11-16T22:30:15.214467+00:00",
-  "readme_sha256": "63f4f615f8c9864c3bc67431666b84ad08be74297f1c6d0b806598464b079276",
+  "generated_at": "2026-11-17T22:30:09.652510+00:00",
+  "readme_sha256": "44f4f16b7137a9254817749c1d152db510ccd917787b1c244bfb0f2159342444",
   "removed": [
-    "fakeye",
-    "caixin_web",
-    "chinesenewss",
-    "cctvnewsbroadcast",
-    "dlkqingbaozhan",
-    "douban_read",
-    "english_learning_discuss",
-    "fanfou_daily",
-    "fanfou_weekly",
-    "eessej",
-    "classical_chinese"
+    "githubtrendinghub",
+    "gujinpintan1",
+    "gaoxiaoshu"
   ],
   "resources": {
     "abcthoughts": {
@@ -994,12 +986,6 @@
       "listConflict": false,
       "reviewPending": true
     },
-    "gaoxiaoshu": {
-      "countCheckedAt": "2026-11-14T18:37:06.157160+00:00",
-      "countStale": false,
-      "listConflict": false,
-      "reviewPending": true
-    },
     "gboxtgc": {
       "countCheckedAt": "2026-11-14T18:37:16.683607+00:00",
       "countStale": false,
@@ -1052,12 +1038,6 @@
       "countCheckedAt": "2026-11-14T18:39:01.446391+00:00",
       "countStale": false,
       "listConflict": true,
-      "reviewPending": true
-    },
-    "githubtrendinghub": {
-      "countCheckedAt": "2026-11-14T18:39:22.455297+00:00",
-      "countStale": false,
-      "listConflict": false,
       "reviewPending": true
     },
     "go2cn": {
@@ -1142,12 +1122,6 @@
       "countCheckedAt": "2026-11-14T18:43:35.680312+00:00",
       "countStale": false,
       "listConflict": true,
-      "reviewPending": true
-    },
-    "gujinpintan1": {
-      "countCheckedAt": "2026-11-14T18:43:46.140898+00:00",
-      "countStale": false,
-      "listConflict": false,
       "reviewPending": true
     },
     "gxzyzd": {
@@ -1272,7 +1246,7 @@
     },
     "ijustseesee": {
       "countCheckedAt": "2026-11-14T18:48:50.663895+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -2590,6 +2564,12 @@
       "listConflict": false,
       "reviewPending": true
     },
+    "reejob": {
+      "countCheckedAt": null,
+      "countStale": true,
+      "listConflict": false,
+      "reviewPending": true
+    },
     "reference_error": {
       "countCheckedAt": "2026-11-14T19:56:49.600560+00:00",
       "countStale": false,
@@ -3354,7 +3334,7 @@
     },
     "todayread": {
       "countCheckedAt": "2026-11-14T20:35:29.593626+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -4113,18 +4093,7 @@
       "countStale": false,
       "listConflict": false,
       "reviewPending": true
-    },
-    "reejob": {
-      "countCheckedAt": "2026-11-17T04:46:24.279503+00:00",
-      "countStale": false,
-      "listConflict": false,
-      "reviewPending": false
     }
   },
-  "updated_counts": [
-    "cnbeta_com",
-    "btcnewsdaily",
-    "cndevdaily",
-    "dizhen"
-  ]
+  "updated_counts": []
 }

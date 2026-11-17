@@ -217,7 +217,6 @@
 | Data Science Archive | [@DataScienceArchive](https://t.me/DataScienceArchive) | 1,655 | 小熊猫的个人工具收纳箱。 |
 | Learn SwiftUI | [@learnswiftui](https://t.me/learnswiftui) | 1,120 | 每日分享 SwiftUI 相关。 |
 | zZPiglet | [@zZPiglet](https://t.me/zZPiglet) | 974 | 学习交流 自留地 问题反馈。 |
-| GitHub 开源观察 | [@githubtrendinghub](https://t.me/githubtrendinghub) | 352 | 精选 GitHub 开源项目、热门仓库与开发工具。 |
 | NextTrace | [@nexttrace](https://t.me/nexttrace) | 915 | 开源网络路由追踪、链路诊断工具的版本与项目动态。 |
 | Linux软件收录 | [@linuxsoft_zh_CN](https://t.me/linuxsoft_zh_CN) | 777 | Linux 日常软件收录 日常。 |
 | PWRTelegram API channel | [@Pwrtelegram](https://t.me/Pwrtelegram) | 718 | Official channe。 |
@@ -473,7 +472,6 @@
 | 心理学笔记分享 | [@xlxbj](https://t.me/xlxbj) | 4,427 | 心理学一些相关的笔记分享。 |
 | 写作交流 | [@writing_discuss](https://t.me/writing_discuss) | 3,487 | 关键词：阅读 写作 交流 如果。 |
 | Word Power Made Easy | [@pieroots](https://t.me/pieroots) | 2,756 | 学英语来这就对啦。 |
-| 在瓦尔登湖畔读书 | [@gujinpintan1](https://t.me/gujinpintan1) | 2,834 | 想象重塑自身的可能。 |
 | 豆瓣知乎简书微信公众号 | [@dbzhjs](https://t.me/dbzhjs) | 2,274 | 阅读，爱上书。 |
 | 电子书频道 | [@haoshufenxiang](https://t.me/haoshufenxiang) | 1,766 | Telegram 资源入口。 |
 | MiaoTony's Box 困困困 zzz | [@MiaoTonyChannel](https://t.me/MiaoTonyChannel) | 1,916 | Meow~ Welcome t。 |
@@ -615,7 +613,6 @@
 | TG表情包推送总部 | [@StickersXJBG](https://t.me/StickersXJBG) | 2,127 | 一个分享Telegram上各类。 |
 | Rachel 碎碎念 | [@RachelBlahblah](https://t.me/RachelBlahblah) | 2,053 | 欢迎你订阅 Rachel 的个。 |
 | 糗事百科 | [@qiushibaike](https://t.me/qiushibaike) | 1,815 | 糗事百科是一个原创的糗事笑话分。 |
-| 搞笑研究所 | [@gaoxiaoshu](https://t.me/gaoxiaoshu) | 1,551 | 有笑点。 |
 | 台灣蘋果同好群 - 佈告板 | [@TWAppleFansAnnounce](https://t.me/TWAppleFansAnnounce) | 991 |  本頻道為「台灣蘋果同好」（。 |
 | 坐和放宽的碎碎念 | [@SitandRelaxW](https://t.me/SitandRelaxW) | 828 | 从此处: 开始可查看坐和放宽的。 |
 | 沙雕根据地 | [@shadiaoo](https://t.me/shadiaoo) | 646 | Telegram 资源入口。 |
