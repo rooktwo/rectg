@@ -1,7 +1,8 @@
-const CACHE_NAME = 'rectg-cache-v6';
+const CACHE_NAME = 'rectg-cache-v7-logo';
 const PRECACHE_URLS = [
     '/',
     '/manifest.json',
+    '/favicon.svg',
     '/favicon.png'
 ];
 

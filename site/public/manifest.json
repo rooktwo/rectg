@@ -1,6 +1,6 @@
 {
-    "name": "rectg - Telegram 中文资源目录",
-    "short_name": "rectg",
+    "name": "RecTG - Telegram 中文资源目录",
+    "short_name": "RecTG",
     "description": "公开 Telegram 中文频道与群组目录",
     "start_url": "/",
     "display": "standalone",
@@ -8,7 +8,7 @@
     "theme_color": "#315ed1",
     "icons": [
         {
-            "src": "/og-image.png",
+            "src": "/favicon.png",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "any maskable"

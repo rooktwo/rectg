@@ -64,7 +64,7 @@ svg { flex-shrink: 0; vertical-align: middle; }
 .text-link:hover { color: var(--accent); }
 .brand { display: inline-flex; align-items: center; gap: 10px; }
 .brand strong, .mobile-brand { font-family: 'Arial', sans-serif; font-size: 25px; letter-spacing: -1.2px; line-height: 1; font-weight: 800; }
-.brand-mark { display: inline-flex; align-items: center; justify-content: center; height: 32px; width: 32px; color: var(--accent); }
+.brand-mark { display: block; flex: none; }
 .brand-dot { color: var(--accent); }
 .brand-caption { margin-left: 9px; padding-left: 18px; border-left: 1px solid var(--line); color: var(--text-muted); font-size: 12px; }
 #app { min-height: 100vh; }
@@ -287,7 +287,7 @@ mark { color: inherit; background: var(--accent-light); border-radius: 2px; }
   body.menu-open { overflow: hidden; }
   #app > main { margin-left: 0; }
   #app > main > header { display: grid; grid-template-columns: 34px 1fr auto; grid-template-rows: 40px 48px; padding: 9px 20px 12px; gap: 4px 8px; }
-  .mobile-brand { display: inline-flex; font-size: 22px; align-items: baseline; }
+  .mobile-brand { display: inline-flex; align-items: center; gap: 7px; font-size: 22px; }
   .topbar-actions { gap: 14px; }
   .search-box { grid-row: 2; grid-column: 1 / -1; width: 100%; padding: 3px 4px 3px 10px; gap: 8px; }
   .search-box input { height: 36px; font-size: 16px; }
