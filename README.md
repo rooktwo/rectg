@@ -49,7 +49,7 @@
 | 经济学人(英文) RSS | [@economist_rss](https://t.me/economist_rss) | 12 | 通过 RSS 订阅英文版《经济学人》。 |
 | 韩国 中央日报 朝鲜日报 | [@korea_rss](https://t.me/korea_rss) | 4,418 | 通过 RSS 汇总韩国《中央日报》和《朝鲜日报》的报道。 |
 | &'a ::rynco::UntitledChannel | [@rynif](https://t.me/rynif) | 4,547 | rynco 的个人频道，分享日常见闻与兴趣内容。 |
-| 7x24投资快讯 | [@golden_wind_news](https://t.me/golden_wind_news) | 4,820 | 24 小时投资相关的快讯。 |
+| 7x24投资快讯 | [@golden_wind_news](https://t.me/golden_wind_news) | 4,821 | 24 小时投资相关的快讯。 |
 | Python潮流周刊 | [@pythontrendingweekly](https://t.me/pythontrendingweekly) | 4,581 | 分享 Python 文章、教程和开源项目。 |
 | 币圈快讯 | [@btcnewsdaily](https://t.me/btcnewsdaily) | 5,073 | 币圈快讯，掌握币圈动态。 |
 | 一起偷偷观察 DIYgod | [@awesomeDIYgod](https://t.me/awesomeDIYgod) | 4,087 | 通过 RSSHub 汇总 DIYgod 的社交动态。 |
@@ -102,7 +102,7 @@
 | AIM扩散力场 | [@nekosc](https://t.me/nekosc) | 3,515 | 本频道会不定时推送一些段子。 |
 | Milkice's 生而喵喵 | [@milkice_portal](https://t.me/milkice_portal) | 3,397 | Milkice 的个人频道，分享音游、科技与日常。 |
 | Tesla特斯拉 AI & FSD News | [@Tesla_share](https://t.me/Tesla_share) | 3,400 | 追踪物理世界的人工智能进化。 |
-| 蛋挞观察室 | [@ijustseesee](https://t.me/ijustseesee) | 2,974 | 频道作者蛋挞的个人分享。 |
+| 蛋挞观察室 | [@ijustseesee](https://t.me/ijustseesee) | 2,980 | 频道作者蛋挞的个人分享。 |
 | theBlock | [@theBlockClub](https://t.me/theBlockClub) | 2,531 | Notion 使用方法、技巧和相关资讯。 |
 | NickTalk | [@nicktalk](https://t.me/nicktalk) | 2,252 | 格物致知，興趣相投。 |
 | Parallel Experiments | [@LinghaoCh](https://t.me/LinghaoCh) | 1,728 | Linghao 的个人选读和随想。 |
@@ -128,7 +128,6 @@
 | Python Telegram Network Rules | [@rules_for_python](https://t.me/rules_for_python) | 3,007 | Python Telegram Network 的英文群规与 Python、Django 讨论群入口。 |
 | MATLAB TIPS | [@MATLAB_tips](https://t.me/MATLAB_tips) | 2,618 | MATLAB 脚本、函数、技巧和教程。 |
 | DBin_K · Tingle 灵光一闪 | [@dbinkbb](https://t.me/dbinkbb) | 2,349 | AI 编程、开源工具、技术会议与开发随笔。 |
-| GitHub 开源观察 | [@githubtrendinghub](https://t.me/githubtrendinghub) | 352 | 精选 GitHub 开源项目、热门仓库与开发工具。 |
 | NextTrace | [@nexttrace](https://t.me/nexttrace) | 915 | 开源网络路由追踪、链路诊断工具的版本与项目动态。 |
 | PWRTelegram API channel | [@Pwrtelegram](https://t.me/Pwrtelegram) | 718 | PWRTelegram Bot API 的官方更新与安装说明。 |
 | Arch Linux Updates | [@archlinuxcn_updates](https://t.me/archlinuxcn_updates) | 724 | Arch Linux 官方及中文社区仓库的软件包更新。 |
@@ -165,7 +164,7 @@
 | App Store 应用推荐 | [@app_store](https://t.me/app_store) | 5,044 | 苹果应用商店的应用推荐、限免与降价信息。 |
 | AppPie | [@AppPie](https://t.me/AppPie) | 3,530 | Apple 产品动态与应用推荐。 |
 | GBox 官方频道 | [@GBoxTGC](https://t.me/GBoxTGC) | 2,469 | GBox 的应用签名与 IPA 安装工具更新。 |
-| 無逸齋隨筆 | [@todayread](https://t.me/todayread) | 2,490 | 分享工作、阅读和写作随笔。 |
+| 無逸齋隨筆 | [@todayread](https://t.me/todayread) | 2,487 | 分享工作、阅读和写作随笔。 |
 | MtalkRes 媒说资源 | [@mtalk](https://t.me/mtalk) | 741 | Mtalk 媒说墙外交流群的入口。 |
 | 小众软件 | [@niche_software](https://t.me/niche_software) | 406 | 介绍解决日常问题的软件和效率工具，附平台与使用限制。 |
 
@@ -305,8 +304,7 @@
 | rvalue的生草日常 | [@rvalue_daily](https://t.me/rvalue_daily) | 8,814 | rvalue 的个人频道与日常记录。 |
 | 笔记本：Lin's 文字世界 : 个人见闻/B站视频/网络见闻 | [@LinsBookA](https://t.me/LinsBookA) | 8,089 | Lin 的文字随笔、网络见闻与生活记录。 |
 | 每日摄影观察 | [@cnphotog_collect](https://t.me/cnphotog_collect) | 6,767 | 摄影作品与个人观察。 |
-| 免費資源網路社群 Free Group | [@Free_Group](https://t.me/Free_Group) | 5,330 | 免费网络资源和应用限免消息。 |
-| Soha 的日常 | [@sohadays](https://t.me/sohadays) | 4,830 | Sohajin 的日常分享。 |
+| Soha 的日常 | [@sohadays](https://t.me/sohadays) | 4,832 | Sohajin 的日常分享。 |
 | moke 的 日常分享、吐槽和动态 | [@mokeyjay_channel](https://t.me/mokeyjay_channel) | 2,749 | mokeyjay 关于 IT 和日常生活的见闻。 |
 | 可爱小狗 | [@keaixiaogou](https://t.me/keaixiaogou) | 2,511 | 猫狗及其他动物的趣味图片与日常分享。 |
 | 中國地震速报（≥4.5级） | [@dizhen](https://t.me/dizhen) | 987 | 汇集中国地震台网和美国地质调查局的地震测定消息。 |
