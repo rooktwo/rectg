@@ -6759,6 +6759,22 @@
         "last_public_content_at": "2026-11-17T18:55:06+00:00"
       },
       "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "githubtrendinghub",
+      "status": "included",
+      "reason_type": "single_release_inclusion",
+      "reason": "频道仍在更新，自动维护因订阅人数不足将其下架。站长确认仅在本次发布恢复收录，后续自动维护沿用原有规则。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "telegram_id": -1003793054106,
+        "references": [
+          "@githubtrendinghub",
+          "GitHubTrendingHub #1724"
+        ],
+        "last_public_content_at": "2026-11-17T20:03:27+00:00"
+      },
+      "rechecked_on": "2026-11-18"
     }
   ]
 }

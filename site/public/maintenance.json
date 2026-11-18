@@ -1,7 +1,9 @@
 {
-  "added": [],
-  "generated_at": "2026-11-18T02:21:30.128225+00:00",
-  "readme_sha256": "87a6cc8c9041ca2311e1d5150ee575e9ca434af266d86a858245eddcdee808a4",
+  "added": [
+    "githubtrendinghub"
+  ],
+  "generated_at": "2026-11-18T02:30:28.550347+00:00",
+  "readme_sha256": "22c74fc4dfe497af1f99fb4cb75e495054785ab60f2172b4648859cfe9a7a2f5",
   "removed": [
     "voice_google",
     "appletvplus",
@@ -414,8 +416,7 @@
     "moeisland",
     "vwyxrd",
     "biquan321",
-    "pfff_wall",
-    "githubtrendinghub"
+    "pfff_wall"
   ],
   "resources": {
     "abcthoughts": {
@@ -798,6 +799,12 @@
     },
     "githubtrending": {
       "countCheckedAt": "2026-11-14T18:39:01.446391+00:00",
+      "countStale": false,
+      "listConflict": true,
+      "reviewPending": true
+    },
+    "githubtrendinghub": {
+      "countCheckedAt": "2026-11-17T19:46:41.457918+00:00",
       "countStale": false,
       "listConflict": true,
       "reviewPending": true

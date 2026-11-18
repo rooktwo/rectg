@@ -1175,6 +1175,17 @@
               "listConflict": false
             },
             {
+              "title": "GitHub 开源观察",
+              "url": "https://t.me/githubtrendinghub",
+              "countStr": "352",
+              "desc": "精选 GitHub 开源项目、热门仓库与开发工具。",
+              "id": "githubtrendinghub",
+              "countCheckedAt": "2026-11-17T19:46:41.457918+00:00",
+              "countStale": false,
+              "reviewPending": true,
+              "listConflict": true
+            },
+            {
               "title": "NextTrace",
               "url": "https://t.me/nexttrace",
               "countStr": "915",

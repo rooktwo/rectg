@@ -128,6 +128,7 @@
 | Python Telegram Network Rules | [@rules_for_python](https://t.me/rules_for_python) | 3,007 | Python Telegram Network 的英文群规与 Python、Django 讨论群入口。 |
 | MATLAB TIPS | [@MATLAB_tips](https://t.me/MATLAB_tips) | 2,618 | MATLAB 脚本、函数、技巧和教程。 |
 | DBin_K · Tingle 灵光一闪 | [@dbinkbb](https://t.me/dbinkbb) | 2,349 | AI 编程、开源工具、技术会议与开发随笔。 |
+| GitHub 开源观察 | [@githubtrendinghub](https://t.me/githubtrendinghub) | 352 | 精选 GitHub 开源项目、热门仓库与开发工具。 |
 | NextTrace | [@nexttrace](https://t.me/nexttrace) | 915 | 开源网络路由追踪、链路诊断工具的版本与项目动态。 |
 | PWRTelegram API channel | [@Pwrtelegram](https://t.me/Pwrtelegram) | 718 | PWRTelegram Bot API 的官方更新与安装说明。 |
 | Arch Linux Updates | [@archlinuxcn_updates](https://t.me/archlinuxcn_updates) | 724 | Arch Linux 官方及中文社区仓库的软件包更新。 |
