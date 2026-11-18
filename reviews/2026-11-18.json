@@ -1,0 +1,6764 @@
+{
+  "reviewed_at": "2026-11-18",
+  "scope": "仅用于 README 和网站目录。普通频道超过 90 天无内容更新或明确停运、迁移时移出。群组与功能机器人入口按实际目标复核。实际商业推广、返佣、带货、成人内容、同类推荐目录和占位条目移出。仅留商务联系方式的正常频道可保留，具体疑点证据不足时记为待复核。",
+  "records": [
+    {
+      "username": "voice_google",
+      "status": "excluded",
+      "reason": "频道简介提供购买多个平台账号的入口，公开按号码和价格列出售卖信息。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@voice_google",
+          "voice_google #6163",
+          "voice_google #6164"
+        ]
+      }
+    },
+    {
+      "username": "appletvplus",
+      "status": "excluded",
+      "reason": "公开入口借用流媒体名称，正文只有指向简介外站的箭头与跳转提示。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "Apple_Tv_Plus_Film_Series #142",
+          "Apple_Tv_Plus_Film_Series #156"
+        ]
+      }
+    },
+    {
+      "username": "dhdaxcw",
+      "status": "excluded",
+      "reason": "原NAS研究群入口的多条公开帖现用于推广成人影片搜索和博彩红包。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "DHDAXCW #16",
+          "DHDAXCW #17",
+          "DHDAXCW #18"
+        ]
+      }
+    },
+    {
+      "username": "gxzyzd",
+      "status": "excluded",
+      "reason": "原iOS壁纸降价入口的公开帖现用于成人内容导流和博彩红包。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "gxzyzd #14",
+          "gxzyzd #15",
+          "gxzyzd #16"
+        ]
+      }
+    },
+    {
+      "username": "xddos2",
+      "status": "excluded",
+      "reason": "频道以出售流量压力测试服务的卡密及推广套餐为主，发布自助下单和付费推广。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "xddos2 #473",
+          "xddos2 #552",
+          "xddos2 #553"
+        ]
+      }
+    },
+    {
+      "username": "fanyi_group",
+      "status": "excluded",
+      "reason": "当前正文推广成人内容与黑产搜索，与原翻译机器人讨论无关。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "fanyi_group #2",
+          "fanyi_group #3"
+        ]
+      }
+    },
+    {
+      "username": "hyperapp",
+      "status": "excluded",
+      "reason": "原软件名下的公开内容只剩跨频道推广按钮，包含成人和交友入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@hyperapp"
+        ]
+      }
+    },
+    {
+      "username": "mwebapp",
+      "status": "excluded",
+      "reason": "现有频道用“最高100%利润”的加密货币返利话术揽客，已与软件资源无关。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "mwebapp #5"
+        ]
+      }
+    },
+    {
+      "username": "mozeapp",
+      "status": "excluded",
+      "reason": "公开帖反复推广成人影片搜索机器人。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "mozeapp #7",
+          "mozeapp #8"
+        ]
+      }
+    },
+    {
+      "username": "hao12news",
+      "status": "excluded",
+      "reason": "两个用户名解析到同一频道与相同的帖子；目录保留实际发布这些消息的mybots主入口。",
+      "evidence": {
+        "kind": "duplicate_telegram_channel",
+        "references": [
+          "@Hao12News",
+          "@mybots",
+          "mybots #4085"
+        ]
+      }
+    },
+    {
+      "username": "tgrecaptchabot",
+      "status": "excluded",
+      "reason": "唯一公开业务帖反复引导联系外部客服，没有可辨识的服务说明或原验证机器人内容。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "TGreCAPTCHABot #6"
+        ]
+      }
+    },
+    {
+      "username": "nfnfgroup",
+      "status": "excluded",
+      "reason": "多条公开帖使用相同的成人影片搜索和博彩推广模板，与影视推荐目录不符。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "nfnfgroup #17",
+          "nfnfgroup #18",
+          "nfnfgroup #19"
+        ]
+      }
+    },
+    {
+      "username": "picacg",
+      "status": "excluded",
+      "reason": "频道向其成人漫画平台导流，频道所列官网亦明确将内容标为成人漫画。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "reference": "picacomic.com 首页元数据将服务列为成人漫画",
+        "references": [
+          "@picacg",
+          "PicACG #3176"
+        ]
+      }
+    },
+    {
+      "username": "sizukon",
+      "status": "excluded",
+      "reason": "频道以足部性癖和制服诱惑写真套图招揽订阅，现有目录简介遮蔽了实际用途。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@sizukon",
+          "sizukon #2250"
+        ]
+      }
+    },
+    {
+      "username": "wanmeihudu",
+      "status": "excluded",
+      "reason": "频道以性癖写真招揽投稿，并发布成套成人影片的网盘下载推广。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@wanmeihudu",
+          "wanmeihudu #2425"
+        ]
+      }
+    },
+    {
+      "username": "tgguidehub",
+      "status": "excluded",
+      "reason": "唯一公开业务帖是批量导流搜索群的广告，与多个占用旧用户名的频道使用相同入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "TGGuideHub #2"
+        ]
+      }
+    },
+    {
+      "username": "g_wallpapers",
+      "status": "excluded",
+      "reason": "原壁纸条目的唯一业务帖要求验证钱包，按钮指向冒用Collab.Land名义的非官方机器人。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "official_reference": "https://collab.land/security",
+        "references": [
+          "g_wallpapers #2"
+        ]
+      }
+    },
+    {
+      "username": "godaregirls",
+      "status": "excluded",
+      "reason": "连续多次照抄同一组互推入口，所见业务帖基本为导流模板。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "godaregirls #13",
+          "godaregirls #21",
+          "godaregirls #25"
+        ]
+      }
+    },
+    {
+      "username": "shadiaoo",
+      "status": "excluded",
+      "reason": "现持有人公开说明取得该链接并拒绝归还原管理员，可见内容为占号交涉。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "shadiaoo #3",
+          "shadiaoo #4",
+          "shadiaoo #9"
+        ]
+      }
+    },
+    {
+      "username": "boringclass",
+      "status": "excluded",
+      "reason": "公开记录连续多次复制同一组跳转广告，缺少目录所需的独立内容。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "boringclass #9",
+          "boringclass #17",
+          "boringclass #21"
+        ]
+      }
+    },
+    {
+      "username": "thorhcc",
+      "status": "excluded",
+      "reason": "多条公开帖推广成人应用和相关影片平台的会员解锁、下载入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "ThorHCC #575",
+          "ThorHCC #596",
+          "ThorHCC #599"
+        ]
+      }
+    },
+    {
+      "username": "grouphub_chat",
+      "status": "excluded",
+      "reason": "现有频道发布与其他引流号相同的加密货币高回报招揽广告。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "grouphub_chat #5"
+        ]
+      }
+    },
+    {
+      "username": "bookworm_bibliophile",
+      "status": "excluded",
+      "reason": "原读书频道已转为以性剥削题材和灰产购卡返利广告诱导点击，公开样本与图书无关。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "Bookworm_Bibliophile #4"
+        ]
+      }
+    },
+    {
+      "username": "lingdutg",
+      "status": "excluded",
+      "reason": "公开业务帖是会员和账号购买入口，并指向另一个用户名作为官方频道。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "lingdutg #5",
+          "lingdutg #6"
+        ]
+      }
+    },
+    {
+      "username": "dotplayer",
+      "status": "excluded",
+      "reason": "公开帖按审核等级和批发价出售支付账户。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "dotplayer #3"
+        ]
+      }
+    },
+    {
+      "username": "zuragram",
+      "status": "excluded",
+      "reason": "标题标明用途为占位，唯一正文也明确提示访客找错了频道。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@zuragram",
+          "zuragram #2"
+        ]
+      }
+    },
+    {
+      "username": "freemorebest",
+      "status": "excluded",
+      "reason": "现有频道公开发布加密货币返利招揽广告，与其他引流频道使用相同话术。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "freemorebest #5"
+        ]
+      }
+    },
+    {
+      "username": "duzhe",
+      "status": "excluded",
+      "reason": "指向标价出售Telegram用户名的频道，公开价目表含该用户名。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@duzhe",
+          "huniu #15",
+          "huniu #16"
+        ]
+      }
+    },
+    {
+      "username": "homeassiant666",
+      "status": "excluded",
+      "reason": "公开业务帖重复要求验证钱包，两次按钮均指向冒用Collab.Land名义的非官方机器人。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "official_reference": "https://collab.land/security",
+        "references": [
+          "homeassiant666 #6",
+          "homeassiant666 #7"
+        ]
+      }
+    },
+    {
+      "username": "zeronetzh",
+      "status": "excluded",
+      "reason": "唯一公开业务帖反复推广同一个搜索群，与ZeroNet主题无关。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "zeronetzh #2"
+        ]
+      }
+    },
+    {
+      "username": "wikipedia_zh_wsu",
+      "status": "excluded",
+      "reason": "频道自述为维基学生会占位符，公开历史只有创建通知。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@wikipedia_zh_wsu"
+        ]
+      }
+    },
+    {
+      "username": "premiumcounterbot",
+      "status": "excluded",
+      "reason": "频道公开内容是批量群发服务的招揽广告，并导向销售频道。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "PremiumCounterBot #9"
+        ]
+      }
+    },
+    {
+      "username": "affyunpush",
+      "status": "excluded",
+      "reason": "多条公开帖转向推广成人影片搜索服务。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "affyunpush #18",
+          "affyunpush #19"
+        ]
+      }
+    },
+    {
+      "username": "omgfriends",
+      "status": "excluded",
+      "reason": "唯一公开业务帖反复推广同一个搜索群，和其他引流频道使用相同模板。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "omgfriends #2"
+        ]
+      }
+    },
+    {
+      "username": "microshit",
+      "status": "excluded",
+      "reason": "频道简介和多条帖子都用于出售用户名并招揽买家。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "microshit #9",
+          "microshit #10"
+        ]
+      }
+    },
+    {
+      "username": "tetgramc",
+      "status": "excluded",
+      "reason": "唯一公开业务帖反复推广同一搜索群，与其他引流频道使用相同模板。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "TetgramC #2"
+        ]
+      }
+    },
+    {
+      "username": "englishslice",
+      "status": "excluded",
+      "reason": "原英语学习入口现只重复推广同一搜索群，与其他引流频道使用相同模板。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "EnglishSlice #2"
+        ]
+      }
+    },
+    {
+      "username": "xiaoxi",
+      "status": "excluded",
+      "reason": "公开入口指向按用户名标价、招揽交易的列表。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@xiaoxi",
+          "dianwan #2",
+          "dianwan #4"
+        ]
+      }
+    },
+    {
+      "username": "allthechannel",
+      "status": "excluded",
+      "reason": "唯一业务帖使用钱包验证话术，按钮指向冒用Collab.Land名义的非官方机器人。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "official_reference": "https://collab.land/security",
+        "references": [
+          "allthechannel #2"
+        ]
+      }
+    },
+    {
+      "username": "visionarysub",
+      "status": "excluded",
+      "reason": "唯一业务帖使用钱包验证话术，与其他频道共用冒用Collab.Land名义的非官方机器人。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "official_reference": "https://collab.land/security",
+        "references": [
+          "visionarysub #2"
+        ]
+      }
+    },
+    {
+      "username": "rss_channels",
+      "status": "excluded",
+      "reason_type": "directory_scope_overlap",
+      "reason": "专门收集承载 RSS 订阅的 Telegram 频道，逐条推荐不同来源的频道地址。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@rss_channels",
+          "rss_channels #85",
+          "rss_channels #90"
+        ]
+      }
+    },
+    {
+      "username": "botsarchive",
+      "status": "excluded",
+      "reason_type": "directory_scope_overlap",
+      "reason": "为不同开发者的 Telegram 机器人建立目录，逐个刊登用途、用户名和评分。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@BotsArchive",
+          "BotsArchive #4010",
+          "BotsArchive #4012"
+        ]
+      }
+    },
+    {
+      "username": "ime_zhcn",
+      "status": "excluded",
+      "reason_type": "directory_scope_overlap",
+      "reason": "该频道是酷搜机器人的入口，主打按关键词查找 Telegram 群组和频道。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@IME_zhCN",
+          "IME_zhCN #4",
+          "IME_zhCN #5"
+        ]
+      }
+    },
+    {
+      "username": "focustelegramgrouplink",
+      "status": "excluded",
+      "reason_type": "directory_scope_overlap",
+      "reason": "接受群组投稿，按主题和成员人数刊登不同 Telegram 群组的加入链接。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@FOCUSTELEGRAMGROUPLINK",
+          "FOCUSTELEGRAMGROUPLINK #2917",
+          "FOCUSTELEGRAMGROUPLINK #2919"
+        ]
+      }
+    },
+    {
+      "username": "tgtrillion",
+      "status": "excluded",
+      "reason_type": "directory_scope_overlap",
+      "reason": "按主题汇集多个 Telegram 频道和群组，发布频道目录和精品排行榜。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@TgTrillion",
+          "TgTrillion #1160",
+          "TgTrillion #1162"
+        ]
+      }
+    },
+    {
+      "username": "xdadevelopershub",
+      "status": "excluded",
+      "reason_type": "directory_scope_overlap",
+      "reason": "专门列出 XDA 的 Telegram 讨论群，让读者按设备和厂商查找对应群组。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@xdadevelopershub",
+          "xdadevelopershub #7",
+          "xdadevelopershub #21"
+        ]
+      }
+    },
+    {
+      "username": "linkpush",
+      "status": "excluded",
+      "reason_type": "directory_scope_overlap",
+      "reason": "专门为新建或人数较少的 Telegram 群组发布带分类标签的推荐。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@linkpush",
+          "linkpush #2337",
+          "linkpush #2338"
+        ]
+      }
+    },
+    {
+      "username": "katalogtelegram",
+      "status": "excluded",
+      "reason_type": "directory_scope_overlap",
+      "reason": "接受投稿，通过目录介绍不同 Telegram 群组与频道并给出加入链接。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@katalogtelegram",
+          "katalogtelegram #1236",
+          "katalogtelegram #1313"
+        ]
+      }
+    },
+    {
+      "username": "tgdict",
+      "status": "excluded",
+      "reason_type": "directory_scope_overlap",
+      "reason": "按语言和主题整理各地的 Telegram 频道与群组链接，供读者查找。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@TgDict",
+          "TgDict #331",
+          "TgDict #332"
+        ]
+      }
+    },
+    {
+      "username": "zaawuu",
+      "status": "excluded",
+      "reason_type": "directory_scope_overlap",
+      "reason": "反复以频道标签推荐不同主题的 Telegram 账号，并整理可订阅的游戏频道清单。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@zaawuu",
+          "zaawuu #312",
+          "zaawuu #315",
+          "zaawuu #329"
+        ]
+      }
+    },
+    {
+      "username": "solidot",
+      "status": "included",
+      "reason_type": "active_content",
+      "reason": "公开帖持续转载 Solidot 科技报道。先前的推广判定只引用了简介里的广告联络入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@solidot",
+          "solidot #31297",
+          "solidot #31299"
+        ],
+        "last_public_content_at": "2026-11-17T16:45:39+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "readingclubus",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-04-16，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@readingclubus",
+          "readingclubus #45181"
+        ],
+        "last_public_content_at": "2025-04-16T01:07:53+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "speedcentre",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "多次推广付费服务的月费、年费和购买入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@speedcentre",
+          "speedcentre #14227",
+          "speedcentre #14228",
+          "speedcentre #14232"
+        ],
+        "last_public_content_at": "2026-11-17T13:00:00+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "wsj_rss",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-10-30，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@wsj_rss",
+          "wsj_rss #21951"
+        ],
+        "last_public_content_at": "2025-10-30T05:43:10+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "ai_news_cn",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "频道公开简介中已刊登第三方 AI 中转服务的广告，列出折扣、服务范围和购买入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@ai_news_cn"
+        ],
+        "last_public_content_at": "2026-11-17T20:35:02+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "bigcrowdev",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-01-25，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@bigcrowdev",
+          "bigcrowdev #23393"
+        ],
+        "last_public_content_at": "2023-01-25T12:19:57+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "kt_database",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-12-31，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@kt_database",
+          "kt_database #138"
+        ],
+        "last_public_content_at": "2025-12-31T10:01:27+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "readhub_cn",
+      "status": "included",
+      "reason_type": "active_content",
+      "reason": "近期持续发布科技新闻和早报。原依据是广告合作入口，抽查的新闻正文未见导购。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@readhub_cn",
+          "readhub_cn #361517",
+          "readhub_cn #361519"
+        ],
+        "last_public_content_at": "2026-11-17T19:20:03+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "jp_rss",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-07-10，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@jp_rss",
+          "jp_rss #66797"
+        ],
+        "last_public_content_at": "2026-07-10T06:44:04+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "todayfreedom",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-07-06，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@todayfreedom",
+          "todayfreedom #36459"
+        ],
+        "last_public_content_at": "2023-07-06T03:52:00+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "tooruchannews",
+      "status": "pending",
+      "reason_type": "pending_media",
+      "reason": "频道将读者引向标注 NSFW 与政治话题的附属群。群规只说明可讨论敏感话题，公开资料不足以确认是否传播成人内容。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@tooruchannews"
+        ],
+        "last_public_content_at": "2026-09-16T14:51:08+00:00",
+        "destinations": [
+          {
+            "title": "托尔offtopic",
+            "display": "71 members, 2 online",
+            "action": "Join Group"
+          },
+          {
+            "title": "多魔町",
+            "display": "183 members, 12 online",
+            "action": "Join Group"
+          }
+        ]
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "yuan_en",
+      "status": "included",
+      "reason_type": "active_content",
+      "reason": "原帖列明湖南移动套餐的资费、适用条件和运营商官方页面。近期内容仍以工具与资讯分享为主，未发现该帖招揽代理或使用返佣链接。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@yuan_en",
+          "Yuan_En #26826",
+          "Yuan_En #26890"
+        ],
+        "last_public_content_at": "2026-11-15T05:53:40+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "jin10news",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-09-07，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@jin10news",
+          "jin10news #812500"
+        ],
+        "last_public_content_at": "2022-09-07T13:40:57+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "overdaily",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-08-12，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@OverDaily",
+          "OverDaily #3442"
+        ],
+        "last_public_content_at": "2026-08-12T10:00:30+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "newslab2020",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-01-21，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@newslab2020",
+          "newslab2020 #35"
+        ],
+        "last_public_content_at": "2022-01-21T15:41:35+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "newsforbitcoin",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-07-11，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@newsforbitcoin",
+          "newsforbitcoin #809"
+        ],
+        "last_public_content_at": "2026-07-11T06:47:27+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "thesoc",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-03-03，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@thesoc",
+          "thesoc #476"
+        ],
+        "last_public_content_at": "2026-03-03T16:57:26+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "bidaily",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "资讯流中刊登第三方搜索机器人广告，带专属启动链接。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@bidaily",
+          "bidaily #40599"
+        ],
+        "last_public_content_at": "2026-11-17T15:08:09+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "mattershub",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-06-29，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@MattersHub",
+          "MattersHub #735"
+        ],
+        "last_public_content_at": "2023-06-29T08:42:29+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "decohack",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-10-14，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@decohack",
+          "decohack #69"
+        ],
+        "last_public_content_at": "2024-10-14T09:41:24+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "ourbits_rss",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-04-27，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@OurBits_RSS",
+          "OurBits_RSS #33726"
+        ],
+        "last_public_content_at": "2024-04-27T14:35:00+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "zhongyaokuaixun",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2021-10-09，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@zhongyaokuaixun",
+          "zhongyaokuaixun #72839"
+        ],
+        "last_public_content_at": "2021-10-09T06:29:07+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "dagudu",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-04-14，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@dagudu",
+          "dagudu #5462"
+        ],
+        "last_public_content_at": "2026-04-14T01:22:06+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "cailianshe",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-10-21，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@cailianshe",
+          "cailianshe #387618"
+        ],
+        "last_public_content_at": "2022-10-21T01:17:28+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "nifengpress",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2021-03-02，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@nifengpress",
+          "nifengpress #14898"
+        ],
+        "last_public_content_at": "2021-03-02T15:59:07+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "nnpai",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-09-16，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@nnpai",
+          "nnpai #265"
+        ],
+        "last_public_content_at": "2025-09-15T17:49:58+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "pushings",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-10-30，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@Pushings",
+          "Pushings #13188"
+        ],
+        "last_public_content_at": "2023-10-30T12:06:56+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "tggeeknews",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-02-04，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@TGgeekNews",
+          "TGgeeknews #26"
+        ],
+        "last_public_content_at": "2023-02-04T16:42:16+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "xhq_rule",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-06-29，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@xhq_rule",
+          "xhq_rule #73"
+        ],
+        "last_public_content_at": "2025-06-29T02:46:48+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "bettergoods",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "书籍推荐帖附京东推广短链，并引导直接打开购买。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@bettergoods",
+          "bettergoods #1517"
+        ],
+        "last_public_content_at": "2026-08-19T01:20:49+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "earsandeyes",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-06-25，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@earsandeyes",
+          "earsandeyes #783"
+        ],
+        "last_public_content_at": "2026-06-25T05:45:50+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "nicegramapp",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "频道发过第三方虚拟号码服务的黑五促销帖，附购买指引。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@nicegramapp",
+          "nicegramapp #161"
+        ],
+        "last_public_content_at": "2026-10-15T14:00:57+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "jairbolsonarobrasil",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-07-17，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@jairbolsonarobrasil",
+          "jairbolsonarobrasil #7389"
+        ],
+        "last_public_content_at": "2025-07-17T13:33:40+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "testflightcn",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "科技资讯之间实际刊登过标为 AD 的服务广告，给出注册链接和优惠。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@testflightcn",
+          "zaihuapd #43999"
+        ],
+        "last_public_content_at": "2026-11-17T17:55:38+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "pcgameslist",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2021-08-19，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@pcgameslist",
+          "pcgameslist #499"
+        ],
+        "last_public_content_at": "2021-08-19T16:32:49+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "youyousharechannel",
+      "status": "excluded",
+      "reason_type": "adult_content",
+      "reason": "公开帖将成人影片检索作为卖点，并附导流按钮。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@youyousharechannel",
+          "youyousharechannel #15426"
+        ],
+        "last_public_content_at": "2026-11-17T10:27:34+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "tgx_android",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-11-02，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@tgx_android",
+          "tgx_android #312"
+        ],
+        "last_public_content_at": "2025-11-01T19:10:37+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "godlynews1",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "公开帖自标付费推广，列出速卖通专属优惠、下单步骤和返现入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@godlynews1",
+          "GodlyNews1 #16756",
+          "GodlyNews1 #16857"
+        ],
+        "last_public_content_at": "2026-11-17T18:15:39+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "geekshare",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "频道主发布按年收费的 iCloud 合租广告，列出金额，并让读者私聊下单。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@geekshare",
+          "geekshare #7180",
+          "geekshare #7184"
+        ],
+        "last_public_content_at": "2026-11-16T01:46:12+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "botmzt",
+      "status": "excluded",
+      "reason_type": "adult_content",
+      "reason": "多次向读者推荐可私聊获取 NSFW 图片和视频的机器人。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@botmzt",
+          "botmzt #8599",
+          "botmzt #9148",
+          "botmzt #9471"
+        ],
+        "last_public_content_at": "2026-11-16T23:15:05+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "lihaiba",
+      "status": "excluded",
+      "reason_type": "adult_content",
+      "reason": "互推帖直接引向标为成人音声和成人小说的频道。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@lihaiba",
+          "lihaiba #7165"
+        ],
+        "last_public_content_at": "2026-11-17T04:52:45+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "wuaipojie",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-12-12，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@wuaipojie",
+          "wuaipojie #58553"
+        ],
+        "last_public_content_at": "2023-12-11T20:07:03+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "thinkpositivewords",
+      "status": "included",
+      "reason_type": "active_content",
+      "reason": "公开样本为励志语录及配图，上一轮依据是简介的广告合作入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@thinkpositivewords",
+          "thinkpositivewords #7491",
+          "thinkpositivewords #7492"
+        ],
+        "last_public_content_at": "2026-10-27T16:13:29+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "lpttech",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-08-02，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@LptTech",
+          "LptTech #816"
+        ],
+        "last_public_content_at": "2026-08-02T04:22:41+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "aigc1024",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "AI 资讯中反复插入博彩平台广告，含注册奖金和下注入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@aigc1024",
+          "aigc1024 #27127",
+          "aigc1024 #27138"
+        ],
+        "last_public_content_at": "2026-11-17T20:26:52+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "pdcn1",
+      "status": "included",
+      "reason_type": "available_entry",
+      "reason": "从原入口打开群组目标页并核对身份。老毛子Padavan固件自助交流群、老毛子Padavan固件IOS自助交流群。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@pdcn1",
+          "@pdcn2",
+          "@pdcn3"
+        ],
+        "last_public_content_at": "2026-03-04T06:33:12+00:00",
+        "destinations": [
+          {
+            "title": "老毛子Padavan固件自助交流群",
+            "display": "15 977 members, 113 online",
+            "action": "View in Telegram",
+            "username": "pdcn2"
+          },
+          {
+            "title": "老毛子Padavan固件IOS自助交流群",
+            "display": "5 390 members, 47 online",
+            "action": "View in Telegram",
+            "username": "pdcn3"
+          }
+        ]
+      },
+      "rechecked_on": "2026-11-18",
+      "description": "老毛子 Padavan 固件用户的自助交流群和 iOS 交流群入口。"
+    },
+    {
+      "username": "emmanuelmacron",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-05-14，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@emmanuelmacron",
+          "emmanuelmacron #639"
+        ],
+        "last_public_content_at": "2025-05-13T18:21:09+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "buliang00",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-12-13，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@buliang00",
+          "buliang00 #217"
+        ],
+        "last_public_content_at": "2025-12-13T11:47:19+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "followbun",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "资讯帖之间反复刊登同一搜索机器人的推荐广告，附专属启动参数。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@followbun",
+          "FollowBun #2572",
+          "FollowBun #2574"
+        ],
+        "last_public_content_at": "2026-11-06T06:36:03+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "geekschannel",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-08-27，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@geekschannel",
+          "geekschannel #1266"
+        ],
+        "last_public_content_at": "2024-08-26T21:36:06+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "clashr_for_windows_channel",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "反复发布付费套餐及同一组折扣码。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@ClashR_for_Windows_Channel",
+          "ClashR_for_Windows_Channel #997",
+          "ClashR_for_Windows_Channel #999"
+        ],
+        "last_public_content_at": "2026-11-04T14:02:33+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "desktopthemes",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2017-03-24，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@desktopThemes",
+          "desktopThemes #295"
+        ],
+        "last_public_content_at": "2017-03-24T16:01:17+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "limboprossr",
+      "status": "excluded",
+      "reason_type": "adult_content",
+      "reason": "简介直接将用户导向明确标为仅限成人的群组。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@limboprossr"
+        ],
+        "last_public_content_at": "2026-11-17T05:47:58+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "sharecentre",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "频道公开招揽广告投放，帖子附付费服务限时折扣和购买入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@sharecentre",
+          "ShareCentre #7823"
+        ],
+        "last_public_content_at": "2026-11-17T15:00:01+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "letitflyw",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "原来引用的联名卡文章为活动说明，但其他原帖发放以频道名命名的商家优惠码。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@letitflyw",
+          "LetITFlyW #335",
+          "LetITFlyW #4341"
+        ],
+        "last_public_content_at": "2026-11-17T15:20:41+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "iosupdates",
+      "status": "included",
+      "reason_type": "available_entry",
+      "reason": "从原入口打开机器人目标页并核对身份。Jailbreak Bot。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@iosupdates",
+          "@rjailbreakbot"
+        ],
+        "last_public_content_at": "2023-04-20T02:38:03+00:00",
+        "destinations": [
+          {
+            "title": "Jailbreak Bot",
+            "display": "@rjailbreakbot",
+            "action": "Start Bot",
+            "username": "rjailbreakbot"
+          }
+        ]
+      },
+      "rechecked_on": "2026-11-18",
+      "description": "iOS 固件查询机器人入口，提供机型、固件和系统签名相关工具的说明。"
+    },
+    {
+      "username": "macapp_channel",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "应用推荐中发布软件商城促销，并引导领取专用优惠券。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@macapp_channel",
+          "MacApp_Channel #819"
+        ],
+        "last_public_content_at": "2026-10-08T06:57:18+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "justreformation",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "反复推送淘宝、京东购物推广短链。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@JustReformation",
+          "JustReformation #3391",
+          "JustReformation #3394"
+        ],
+        "last_public_content_at": "2026-11-15T09:47:27+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "xiangbeichannel",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "在数码教程之外投放京东红包推广链接。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@xiangbeichannel",
+          "xiangbeiChannel #616"
+        ],
+        "last_public_content_at": "2026-11-07T06:48:58+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "pagermaid_modify",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-06-09，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@PagerMaid_Modify",
+          "PagerMaid_Modify #234"
+        ],
+        "last_public_content_at": "2025-06-09T15:52:52+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "ukrainenowgerman",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-11-24，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@UkraineNowGerman",
+          "UkraineNowGerman #14472"
+        ],
+        "last_public_content_at": "2025-11-24T13:39:46+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "unwire",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-12-13，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@unwire",
+          "unwire #47094"
+        ],
+        "last_public_content_at": "2024-12-13T04:05:22+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "seanchannel",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-05-18，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@SeanChannel",
+          "SeanChannel #118"
+        ],
+        "last_public_content_at": "2026-05-18T12:30:09+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "ukrainenowitalian",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-11-24，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@UkraineNowItalian",
+          "UkraineNowItalian #15112"
+        ],
+        "last_public_content_at": "2025-11-24T13:39:28+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "tgslots",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-06-13，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@tgslots",
+          "tgslots #4446"
+        ],
+        "last_public_content_at": "2024-06-12T22:30:13+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "jailbreak_tweaks",
+      "status": "excluded",
+      "reason_type": "closed_or_moved",
+      "reason": "最后的公告明确说明插件推送停更、配套搜索机器人关闭。机器人资料页仍显示启动按钮，运营方此后没有公告恢复。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@jailbreak_tweaks",
+          "Jailbreak_Tweaks #79333"
+        ],
+        "last_public_content_at": "2023-02-22T12:28:39+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "ukrainenowspanish",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-11-24，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@UkraineNowSpanish",
+          "UkraineNowSpanish #15378"
+        ],
+        "last_public_content_at": "2025-11-24T13:39:20+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "ukrainenowfrench",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-11-24，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@UkraineNowFrench",
+          "UkraineNowFrench #12660"
+        ],
+        "last_public_content_at": "2025-11-24T13:39:13+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "ukrainenowpoland",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-11-24，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@UkraineNowPoland",
+          "UkraineNowPoland #13622"
+        ],
+        "last_public_content_at": "2025-11-24T13:39:08+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "huizong0917",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-05-05，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@huizong0917",
+          "huizong0917 #123"
+        ],
+        "last_public_content_at": "2024-05-05T06:35:45+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "mandailywear",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-06-11，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@mandailywear",
+          "mandailywear #356"
+        ],
+        "last_public_content_at": "2026-06-11T03:16:06+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "kotatogram",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-01-02，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@kotatogram",
+          "kotatogram #247"
+        ],
+        "last_public_content_at": "2024-01-02T11:00:54+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "woomaichannel",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-12-31，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@WooMaiChannel",
+          "WooMaiChannel #4530"
+        ],
+        "last_public_content_at": "2025-12-31T16:03:58+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "teslacn",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-09-29，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@Teslacn",
+          "TeslaCn #1208"
+        ],
+        "last_public_content_at": "2024-09-28T17:32:00+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "yantaiinfo",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "公开帖直接招揽购买烟台樱桃，并给出下单联系方式。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@yantaiinfo",
+          "yantaiinfo #2038"
+        ],
+        "last_public_content_at": "2026-06-03T12:40:35+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "githubdailys",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-05-23，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@GitHubDailys",
+          "GitHubDailys #3848"
+        ],
+        "last_public_content_at": "2025-05-23T09:21:56+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "nicegramdev",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-02-12，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@nicegramdev",
+          "nicegramdev #231"
+        ],
+        "last_public_content_at": "2022-02-11T20:31:27+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "maliquankai",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-12-18，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@maliquankai",
+          "maliquankai #197"
+        ],
+        "last_public_content_at": "2022-12-18T04:31:59+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "airplanese",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-02-06，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@Airplanese",
+          "Airplanese #1843"
+        ],
+        "last_public_content_at": "2022-02-06T07:51:39+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "lalab",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-05-08，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@lalab",
+          "lalab #125"
+        ],
+        "last_public_content_at": "2026-05-08T05:08:11+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "tooruteardowns",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-01-27，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@TooruTeardowns",
+          "TooruTeardowns #167"
+        ],
+        "last_public_content_at": "2023-01-27T05:17:45+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "beijingair",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-03-11，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@BeijingAir",
+          "BeijingAir #64872"
+        ],
+        "last_public_content_at": "2025-03-10T23:21:20+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "aikes_blog",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-02-17，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@aikes_blog",
+          "aikes_blog #14"
+        ],
+        "last_public_content_at": "2025-02-17T07:40:35+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "ai_newsletter",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-08-24，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@AI_newsletter",
+          "AI_Newsletter #4"
+        ],
+        "last_public_content_at": "2023-08-23T22:06:48+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "mdssios",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "公开时间线仅有系统记录，最新一条为 2025-08-25，已超过 90 天无公开内容更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@mdssios",
+          "mdssios #1"
+        ],
+        "last_visible_event_at": "2025-08-25T10:46:18+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "vps_xhq",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "主机补货推荐中附带有返佣标识的购买链接。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@vps_xhq",
+          "vps_xhq #816"
+        ],
+        "last_public_content_at": "2026-11-17T07:08:46+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "https1024",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "多次刊登博彩平台的开户奖励和下注广告。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@https1024",
+          "https1024 #54792",
+          "https1024 #54794"
+        ],
+        "last_public_content_at": "2026-11-17T17:39:02+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "acl4ssr",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "简介招揽红包推广，正文另附商家优惠码和返佣链接。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@ACL4SSR",
+          "ACL4SSR #610",
+          "ACL4SSR #618",
+          "ACL4SSR #651"
+        ],
+        "last_public_content_at": "2026-10-20T12:02:05+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "ruyoblog",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "频道专门分享优惠活动，近期公开帖附订阅产品的促销购买入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@ruyoblog",
+          "ruyoblog #5729"
+        ],
+        "last_public_content_at": "2026-11-17T15:56:23+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "gotoshare",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-05-11，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@gotoshare",
+          "gotoshare #933"
+        ],
+        "last_public_content_at": "2023-05-11T03:28:53+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "pythontelegrambotchannel",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-06-12，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@pythontelegrambotchannel",
+          "pythontelegrambotchannel #166"
+        ],
+        "last_public_content_at": "2026-06-12T08:15:19+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "orzmini",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "发布个人资料查询服务的招揽广告，频道明确标为推广。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@Orzmini",
+          "Orzmini #1026",
+          "Orzmini #1027"
+        ],
+        "last_public_content_at": "2026-10-27T14:35:38+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "vpscang",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "VPS 推荐附购买链接，频道名称亦披露推广佣金。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@vpscang",
+          "vpscang #7888",
+          "vpscang #7889"
+        ],
+        "last_public_content_at": "2026-10-29T01:40:41+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "useless_project_ideas",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-04-23，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@useless_project_ideas",
+          "useless_project_ideas #690"
+        ],
+        "last_public_content_at": "2025-04-22T20:02:09+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "awesomeopensource",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-02-26，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@awesomeopensource",
+          "awesomeopensource #981"
+        ],
+        "last_public_content_at": "2024-02-26T08:35:42+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "rules_for_python",
+      "status": "included",
+      "reason_type": "available_entry",
+      "reason": "从原入口打开群组目标页并核对身份。Python、Django。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@rules_for_python",
+          "rules_for_python #2",
+          "@python",
+          "@django"
+        ],
+        "last_public_content_at": "2024-09-07T20:54:20+00:00",
+        "destinations": [
+          {
+            "title": "Python",
+            "display": "93 022 members, 3 562 online",
+            "action": "View in Telegram",
+            "username": "python"
+          },
+          {
+            "title": "Django",
+            "display": "11 361 members, 713 online",
+            "action": "View in Telegram",
+            "username": "django"
+          }
+        ]
+      },
+      "rechecked_on": "2026-11-18",
+      "description": "Python Telegram Network 的英文群规与 Python、Django 讨论群入口。"
+    },
+    {
+      "username": "usestick",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-01-28，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@usestick",
+          "usestick #137"
+        ],
+        "last_public_content_at": "2025-01-28T10:02:10+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "rust_daily_news",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-05-19，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@rust_daily_news",
+          "rust_daily_news #5885"
+        ],
+        "last_public_content_at": "2023-05-19T07:01:17+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "subconverter",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-04-08，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@subconverter",
+          "subconverter #36"
+        ],
+        "last_public_content_at": "2024-04-08T10:10:40+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "pythonista3jiaoben",
+      "status": "excluded",
+      "reason_type": "invalid_entry",
+      "reason": "原简介所列的交流群用户名现为订阅频道，公开帖已改为资源包引流，原 Pythonista 交流群入口失效。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@pythonista3jiaoben",
+          "Pythonista3jiaoliuqun #2"
+        ],
+        "last_public_content_at": "2019-09-16T15:50:13+00:00",
+        "destinations": [
+          {
+            "title": "Pythonista3jiaoliuqun",
+            "display": "4 subscribers",
+            "action": "View in Telegram",
+            "username": "pythonista3jiaoliuqun"
+          }
+        ]
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "linuxdotcn",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-02-21，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@linuxdotcn",
+          "linuxdotcn #7337"
+        ],
+        "last_public_content_at": "2024-02-21T13:43:26+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "datasciencearchive",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-04-01，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@DataScienceArchive",
+          "DataScienceArchive #126"
+        ],
+        "last_public_content_at": "2022-04-01T02:49:28+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "learnswiftui",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2020-05-08，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@learnswiftui",
+          "learnswiftui #117"
+        ],
+        "last_public_content_at": "2020-05-08T00:46:03+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "zzpiglet",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-05-27，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@zZPiglet",
+          "zZPiglet #170"
+        ],
+        "last_public_content_at": "2023-05-27T15:31:49+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "linuxsoft_zh_cn",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-09-30，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@linuxsoft_zh_CN",
+          "linuxsoft_zh_CN #437"
+        ],
+        "last_public_content_at": "2022-09-30T03:48:47+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "kernelscared",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-06-17，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@kernelscared",
+          "KernelScared #537"
+        ],
+        "last_public_content_at": "2026-06-16T20:47:39+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "jiandan_bored",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-07-17，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@jiandan_bored",
+          "jiandan_bored #878621"
+        ],
+        "last_public_content_at": "2026-07-17T01:56:07+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "reference_error",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2021-04-16，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@reference_error",
+          "reference_error #290"
+        ],
+        "last_public_content_at": "2021-04-16T08:58:55+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "who_channel",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-03-12，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@who_channel",
+          "who_channel #221"
+        ],
+        "last_public_content_at": "2023-03-12T15:02:46+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "adguarden",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "频道连发万圣节折扣及促销截止提醒，引导购买自家产品。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@adguarden",
+          "adguarden #1962",
+          "adguarden #1966"
+        ],
+        "last_public_content_at": "2026-11-17T15:19:47+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "adguardcn",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "频道发布双十一促销，招揽购买折扣产品。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@AdGuardcn",
+          "AdGuardcn #918"
+        ],
+        "last_public_content_at": "2026-11-11T10:40:30+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "zhuyianquan",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2021-09-07，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@zhuyianquan",
+          "zhuyianquan #253"
+        ],
+        "last_public_content_at": "2021-09-06T18:46:28+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "iq_zone",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-05-01，已超过 90 天未更新。 之后的系统通知未计为内容更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@iQ_Zone",
+          "iQ_Zone #1112",
+          "iQ_Zone #1114"
+        ],
+        "last_public_content_at": "2026-05-01T08:32:04+00:00",
+        "later_system_event_at": "2026-08-30T06:08:38+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "adguardnews",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-05-14，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@AdguardNews",
+          "AdguardNews #58"
+        ],
+        "last_public_content_at": "2022-05-13T17:03:59+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "appmew",
+      "status": "excluded",
+      "reason_type": "adult_content",
+      "reason": "推广支持生成成人内容的工具，并在软件资讯之间刊登搜索机器人广告。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@appmew",
+          "appmew #19396",
+          "appmew #19391"
+        ],
+        "last_public_content_at": "2026-11-17T14:50:42+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "appdodo",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "频道接受商务合作，购物推荐附商品购买入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@appdodo",
+          "AppDoDo #1605"
+        ],
+        "last_public_content_at": "2026-11-17T04:08:51+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "clsvip",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "财经资讯中穿插第三方搜索机器人的推广链接和激活按钮。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@clsvip",
+          "clsvip #37602"
+        ],
+        "last_public_content_at": "2026-11-17T14:42:56+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "appinnfeed",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "频道刊登软件商店促销，列出专属优惠码并引导购买。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@appinnfeed",
+          "appinnfeed #15390",
+          "appinnfeed #18525"
+        ],
+        "last_public_content_at": "2026-11-17T14:54:51+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "xyxyspace",
+      "status": "excluded",
+      "reason_type": "adult_content",
+      "reason": "发布并推荐用于浏览成人影片资料的客户端，帖子明确标注 NSFW。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@xyxyspace",
+          "xyxyspace #1827"
+        ],
+        "last_public_content_at": "2026-11-17T08:16:29+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "mybots",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "频道推销付费机器人会员，发布会员权益及付款方式。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@mybots",
+          "mybots #4062",
+          "mybots #4068"
+        ],
+        "last_public_content_at": "2026-09-08T05:17:02+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "baccanosoul",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "简介招揽广告及互推，正文带京东商品推广链接。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@BaccanoSoul",
+          "BaccanoSoul #604835",
+          "BaccanoSoul #604836"
+        ],
+        "last_public_content_at": "2026-11-17T16:18:35+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "zuanke8",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "促销信息附京东推广短链。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@zuanke8",
+          "zuanke8 #26306"
+        ],
+        "last_public_content_at": "2026-03-27T11:35:54+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "appfans",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "频道推介付费应用时发放专属优惠码，并给出自家商店及商品购买入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@appfans",
+          "appfans #458",
+          "appfans #1644"
+        ],
+        "last_public_content_at": "2026-04-17T10:55:29+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "xuehuashe",
+      "status": "included",
+      "reason_type": "active_content",
+      "reason": "开发者发布免费内测工具的功能说明和试用邀请码。原帖没有收费下单或邀请返佣。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@xuehuashe",
+          "xuehuashe #357",
+          "xuehuashe #360"
+        ],
+        "last_public_content_at": "2026-11-10T16:04:32+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "mrhxpjgg",
+      "status": "excluded",
+      "reason_type": "adult_content",
+      "reason": "除简介里的敏感内容提示外，公开帖实际分享了标有成人写真内容的网盘资源。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@mrhxpjgg",
+          "MRHXPJGG #8139"
+        ],
+        "last_public_content_at": "2026-11-15T12:36:44+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "memestelegram",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-06-02，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@MemesTelegram",
+          "MemesTelegram #91"
+        ],
+        "last_public_content_at": "2026-06-02T13:29:48+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "appssweepstakesnews",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "除免费应用兑换外，频道发过以自身用户名命名的专属优惠码，并引导读者下单。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@appssweepstakesnews",
+          "AppsSweepstakesNews #1487",
+          "AppsSweepstakesNews #1491"
+        ],
+        "last_public_content_at": "2026-11-13T02:11:13+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "ziyuan917",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-07-31，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@ziyuan917",
+          "ziyuan917 #968"
+        ],
+        "last_public_content_at": "2025-07-31T14:05:45+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "get_happiness",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-05-08，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@get_happiness",
+          "get_happiness #23692"
+        ],
+        "last_public_content_at": "2024-05-08T14:36:36+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "chwebinars",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-12-23，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@chwebinars",
+          "chwebinars #2606"
+        ],
+        "last_public_content_at": "2022-12-23T04:42:45+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "tempestapp",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2020-08-04，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@TempestApp",
+          "TempestApp #537"
+        ],
+        "last_public_content_at": "2020-08-03T18:54:24+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "tgx_android_translate",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2019-05-02，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@tgx_android_translate",
+          "tgx_android_translate #41"
+        ],
+        "last_public_content_at": "2019-05-01T22:50:44+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "poorrideoreception",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-10-14，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@poorRideoReception",
+          "poorRideoReception #202"
+        ],
+        "last_public_content_at": "2023-10-14T15:22:03+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "nlpfw",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-11-15，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@NLPfW",
+          "nlpfw #768"
+        ],
+        "last_public_content_at": "2025-11-15T06:31:21+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "mtalk",
+      "status": "included",
+      "reason_type": "available_entry",
+      "reason": "从原入口打开群组目标页并核对身份。MtalkRes 媒说墙外群。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@mtalk",
+          "@mtalk_group"
+        ],
+        "last_visible_event_at": "2020-01-04T02:18:41+00:00",
+        "destinations": [
+          {
+            "title": "MtalkRes 媒说墙外群",
+            "display": "135 members, 3 online",
+            "action": "View in Telegram",
+            "username": "mtalk_group"
+          }
+        ]
+      },
+      "rechecked_on": "2026-11-18",
+      "description": "Mtalk 媒说墙外交流群的入口。"
+    },
+    {
+      "username": "gdsharing",
+      "status": "excluded",
+      "reason_type": "closed_or_moved",
+      "reason": "公开标题标注新频道，简介引导读者改去新的 Google Drive 资源入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@gdsharing"
+        ]
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "widgetchannel",
+      "status": "excluded",
+      "reason_type": "adult_content",
+      "reason": "软件资讯中直接投放成人影音服务的推广帖。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@WidgetChannel",
+          "WidgetChannel #6023"
+        ],
+        "last_public_content_at": "2026-11-17T12:28:52+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "feiyu123",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "推荐付费 AI 服务的帖子附带返佣参数。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@feiyu123",
+          "feiyu123 #2835"
+        ],
+        "last_public_content_at": "2026-11-17T14:58:29+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "privatetrackernews",
+      "status": "excluded",
+      "reason_type": "adult_content",
+      "reason": "开放注册清单提供明确标为成人内容的站点及注册入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@privatetrackernews",
+          "PrivateTrackerNews #1084",
+          "PrivateTrackerNews #1087"
+        ],
+        "last_public_content_at": "2026-09-25T03:43:47+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "w37fhy",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "原讨论群用户名现为会所预约推广频道，公开介绍直接招揽预约。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@w37fhy"
+        ],
+        "last_public_content_at": "2023-05-06T05:17:02+00:00",
+        "destinations": [
+          {
+            "title": "全国莞式海选会所",
+            "display": "71 subscribers",
+            "action": "View in Telegram",
+            "username": "fhyw37"
+          }
+        ]
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "aptitudetestcontest",
+      "status": "excluded",
+      "reason_type": "closed_or_moved",
+      "reason": "主办方已宣布这项竞赛结束，Quiz Bot 用于参赛和编辑题目，竞赛公告本身已停办。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@aptitudetestcontest",
+          "AptitudeTestContest #21",
+          "AptitudeTestContest #22"
+        ],
+        "last_public_content_at": "2021-04-05T14:50:12+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "aliyun_4k_movies",
+      "status": "excluded",
+      "reason_type": "adult_content",
+      "reason": "网盘资源帖直接分发标题和说明明确标注为成人擦边短剧的内容。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@Aliyun_4K_Movies",
+          "Aliyun_4K_Movies #65637"
+        ],
+        "last_public_content_at": "2026-11-17T15:54:10+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "dianying4k",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "电影频道发布博彩平台首存返利和注册奖励广告。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@dianying4K",
+          "dianying4K #1764",
+          "dianying4K #1768"
+        ],
+        "last_public_content_at": "2026-11-16T16:34:53+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "vip115hot",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "频道刊登博彩平台的注册赠金广告，并附开户注册按钮。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@vip115hot",
+          "vip115hot #6356"
+        ],
+        "last_public_content_at": "2026-11-16T16:33:42+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "zaproshare",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "软件推送帖反复招揽广告位，另刊付费服务折扣推广。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@zaproshare",
+          "zaproshare #5467",
+          "zaproshare #5468",
+          "zaproshare #5487"
+        ],
+        "last_public_content_at": "2026-11-17T16:05:49+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "plus_movie_best",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-02-09，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@Plus_Movie_Best",
+          "Plus_Movie_Best #2027"
+        ],
+        "last_public_content_at": "2026-02-09T11:43:42+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "movieanywhere",
+      "status": "included",
+      "reason_type": "available_entry",
+      "reason": "从原入口打开群组目标页并核对身份。电影爱好者交流。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@movieanywhere",
+          "@moviemarket_group"
+        ],
+        "last_public_content_at": "2024-01-05T04:59:07+00:00",
+        "destinations": [
+          {
+            "title": "电影爱好者交流",
+            "display": "1 533 members, 16 online",
+            "action": "View in Telegram",
+            "username": "moviemarket_group"
+          }
+        ]
+      },
+      "rechecked_on": "2026-11-18",
+      "description": "电影爱好者讨论群入口，供影迷交流电影。"
+    },
+    {
+      "username": "yszylm",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-05-02，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@yszylm",
+          "yszylm #50"
+        ],
+        "last_public_content_at": "2025-05-02T07:13:39+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "hellcellzc123",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "教程频道刊登购物红包广告，并提供京东推广短链。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@HellCellZC123",
+          "HellCellZC123 #2209"
+        ],
+        "last_public_content_at": "2026-11-17T16:21:26+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "beyondhd",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-06-11，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@beyondHD",
+          "beyondHD #358"
+        ],
+        "last_public_content_at": "2026-06-11T13:13:25+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "chinesedocumentary",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2021-05-07，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@chinesedocumentary",
+          "chinesedocumentary #651"
+        ],
+        "last_public_content_at": "2021-05-07T13:52:23+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "doubanchannel",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-07-11，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@doubanchannel",
+          "doubanchannel #174"
+        ],
+        "last_public_content_at": "2026-07-11T11:10:23+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "macaodaily",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-12-31，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@macaodaily",
+          "macaodaily #8506"
+        ],
+        "last_public_content_at": "2025-12-31T02:19:54+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "phonedesctop",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-10-28，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@PhoneDesctop",
+          "PhoneDesctop #887"
+        ],
+        "last_public_content_at": "2024-10-27T17:30:03+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "davidsyoutube",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-02-02，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@davidsyoutube",
+          "davidsyoutube #127"
+        ],
+        "last_public_content_at": "2023-02-02T06:31:23+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "my4kmovieclub",
+      "status": "excluded",
+      "reason_type": "closed_or_moved",
+      "reason": "旧频道只用于保留用户名，公告将后续更新指向新频道。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@My4KmovieClub",
+          "My4KmovieClub #3"
+        ],
+        "last_public_content_at": "2021-03-19T17:25:16+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "wenanguan_botjihuo",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "文案之间实际刊登博彩广告，招募代理并列出返佣条件。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@wenanguan_botjihuo",
+          "WenAnGuan_botjihuo #4704",
+          "WenAnGuan_botjihuo #4804"
+        ],
+        "last_public_content_at": "2026-11-17T18:03:35+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "bookcn",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "多篇荐书帖附京东推广短链并邀请读者购买。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@bookcn",
+          "bookcn #2010",
+          "bookcn #2011"
+        ],
+        "last_public_content_at": "2026-10-08T11:41:22+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "mathematics_and_its_applications",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-11-07，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@mathematics_and_its_applications",
+          "mathematics_and_its_applications #1156"
+        ],
+        "last_public_content_at": "2024-11-07T16:53:04+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "ipnpodcast",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-02-02，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@ipnpodcast",
+          "ipnpodcast #1447"
+        ],
+        "last_public_content_at": "2025-02-02T04:07:36+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "o1xinsight",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "推荐付费应用时提供个人邀请码，承诺注册后赠送会员时长。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@o1xinsight",
+          "o1xinsight #1288"
+        ],
+        "last_public_content_at": "2026-10-22T05:35:41+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "popmusichistory",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-08-02，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@popmusichistory",
+          "popmusichistory #2805"
+        ],
+        "last_public_content_at": "2026-08-02T12:04:01+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "greatpodcasts",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-08-18，已超过 90 天未更新。 之后的系统通知未计为内容更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@greatpodcasts",
+          "greatpodcasts #546",
+          "greatpodcasts #547"
+        ],
+        "last_public_content_at": "2022-08-18T12:56:46+00:00",
+        "later_system_event_at": "2026-09-15T09:11:40+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "tingtalk_all",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-05-27，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@tingtalk_all",
+          "tingtalk_all #476"
+        ],
+        "last_public_content_at": "2026-05-26T17:41:10+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "jinjinledao",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-06-19，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@jinjinledao",
+          "jinjinledao #165"
+        ],
+        "last_public_content_at": "2023-06-19T07:36:15+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "rebornix",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-01-21，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@rebornix",
+          "rebornix #64"
+        ],
+        "last_public_content_at": "2023-01-20T22:36:21+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "pixiv_top50",
+      "status": "excluded",
+      "reason_type": "adult_content",
+      "reason": "公开互推帖含成人游戏及明确的成人图片入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@pixiv_top50",
+          "pixiv_top50 #71950"
+        ],
+        "last_public_content_at": "2026-11-16T12:05:02+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "img2d",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2021-05-06，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@IMG2D",
+          "IMG2D #209"
+        ],
+        "last_public_content_at": "2021-05-06T14:18:12+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "ovov1234",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-04-10，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@ovov1234",
+          "ovov1234 #18354"
+        ],
+        "last_public_content_at": "2026-04-10T13:10:40+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "moepic",
+      "status": "excluded",
+      "reason_type": "adult_content",
+      "reason": "公开帖实际提供 R18 插画作品的查看入口，作者也说明会以链接发布这类作品。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@moepic",
+          "moepic #6053",
+          "moepic #49195"
+        ],
+        "last_public_content_at": "2026-11-17T12:54:32+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "nanasekurumi",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-07-23，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@nanasekurumi",
+          "nanasekurumi #604"
+        ],
+        "last_public_content_at": "2023-07-23T11:48:05+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "memory_of_fish",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-12-24，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@Memory_Of_Fish",
+          "Memory_Of_Fish #1127"
+        ],
+        "last_public_content_at": "2025-12-24T05:02:37+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "xqsranimegif",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-05-23，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@xqsranimegif",
+          "xqsranimegif #279"
+        ],
+        "last_public_content_at": "2025-05-23T06:48:54+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "zhujiwiki_info",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "主机推荐附多家商户的促销码与购买入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@zhujiwiki_info",
+          "zhujiwiki_info #11274",
+          "zhujiwiki_info #11281"
+        ],
+        "last_public_content_at": "2026-11-17T14:18:04+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "limitfree",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-07-24，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@limitfree",
+          "limitfree #7219"
+        ],
+        "last_public_content_at": "2026-07-24T11:02:25+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "youxibanyunenen",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-10-17，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@youxibanyunenen",
+          "youxibanyunenen #184"
+        ],
+        "last_public_content_at": "2023-10-17T11:28:01+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "playstationnewssss",
+      "status": "included",
+      "reason_type": "active_content",
+      "reason": "黑五原帖整理 PlayStation 官方会员价格和活动日期，未附导购、优惠码或返佣链接。近期仍在发布游戏新闻。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@playstationnewssss",
+          "PlayStationNewssss #7098",
+          "PlayStationNewssss #7100"
+        ],
+        "last_public_content_at": "2026-11-17T06:17:32+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "v1_blog",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-06-12，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@V1_BLOG",
+          "V1_BLOG #2553"
+        ],
+        "last_public_content_at": "2023-06-12T15:13:33+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "hostevaluate",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-05-01，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@HostEvaluate",
+          "HostEvaluate #915"
+        ],
+        "last_public_content_at": "2026-05-01T08:42:01+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "ziyouzengzhang",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-08-28，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@ziyouzengzhang",
+          "ziyouzengzhang #450"
+        ],
+        "last_public_content_at": "2025-08-28T15:36:55+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "hostlocpro",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-09-12，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@HostlocPro",
+          "HostlocPro #416199"
+        ],
+        "last_public_content_at": "2025-09-11T17:12:06+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "telegreat",
+      "status": "excluded",
+      "reason_type": "closed_or_moved",
+      "reason": "开发者公告说明 Telegreat 已停止开发，并引导读者使用其他项目。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@Telegreat",
+          "Telegreat #67"
+        ],
+        "last_public_content_at": "2021-12-10T15:50:01+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "bwh1net",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-01-23，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@BWH1NET",
+          "BWH1NET #5"
+        ],
+        "last_public_content_at": "2022-01-23T12:37:40+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "hostcab",
+      "status": "excluded",
+      "reason_type": "closed_or_moved",
+      "reason": "最后一则公告明确说明已永久停止服务。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@hostcab",
+          "hostcab #4421"
+        ],
+        "last_public_content_at": "2023-08-04T19:18:23+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "nintendoswitch_cn",
+      "status": "pending",
+      "reason_type": "pending_entry",
+      "reason": "频道提供了 Nintendo Switch 讨论群链接，目标页显示没有成员，无法确认它仍是可加入使用的社群。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@nintendoswitch_cn"
+        ],
+        "last_public_content_at": "2023-05-13T23:00:25+00:00",
+        "destinations": [
+          {
+            "title": "NintendoSwitchCN聊天室",
+            "display": "no members",
+            "action": "View in Telegram",
+            "username": "nintendoswitch_cn_chat"
+          }
+        ]
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "nobyda",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "频道转发与商家联办的黑五推广抽奖，附参加按钮。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@NobyDa",
+          "NobyDa #1187"
+        ],
+        "last_public_content_at": "2026-11-17T15:44:25+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "ysl_channel",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-01-02，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@ysl_channel",
+          "ysl_channel #2363"
+        ],
+        "last_public_content_at": "2024-01-02T10:22:13+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "quanxjs",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-08-03，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@QuanXJS",
+          "QuanXJS #447"
+        ],
+        "last_public_content_at": "2025-08-03T03:31:10+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "autofreevpn",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "连续发布相同搜索机器人广告，带激活按钮。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@autofreevpn",
+          "autofreevpn #13138",
+          "autofreevpn #13139"
+        ],
+        "last_public_content_at": "2026-11-17T02:25:54+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "surgenews",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2019-06-07，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@surgenews",
+          "surgenews #48"
+        ],
+        "last_public_content_at": "2019-06-07T13:59:23+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "rocketcool",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2021-06-22，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@Rocketcool",
+          "Rocketcool #266"
+        ],
+        "last_public_content_at": "2021-06-22T09:05:38+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "clashr_news",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-04-05，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@ClashR_News",
+          "ClashR_News #88"
+        ],
+        "last_public_content_at": "2022-04-05T14:14:58+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "clashdotnetframeworkanncmnt",
+      "status": "excluded",
+      "reason_type": "closed_or_moved",
+      "reason": "频道简介说明原项目的公告用途已结束，控制权已经移交他人。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@ClashDotNetFrameworkAnncmnt"
+        ]
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "qureiconset",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-06-11，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@QureIconSet",
+          "QureIconSet #500"
+        ],
+        "last_public_content_at": "2024-06-11T07:40:14+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "gramip",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-12-24，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@Gramip",
+          "Gramip #926"
+        ],
+        "last_public_content_at": "2022-12-24T13:41:40+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "flysocks",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "频道主推付费套餐和节日促销活动。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@flysocks",
+          "flysocks #668"
+        ],
+        "last_public_content_at": "2025-12-10T08:53:41+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "clashminino1",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-09-11，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@ClashMiniNo1",
+          "ClashMiniNo1 #66"
+        ],
+        "last_public_content_at": "2022-09-11T08:07:25+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "xianyuxmpd",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "多条节点推送附付费服务推广，并给出返佣比例。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@xianyuxmpd",
+          "xianyuxmpd #555",
+          "xianyuxmpd #558"
+        ],
+        "last_public_content_at": "2026-11-17T01:10:56+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "telonews_cn",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-12-29，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@telonews_cn",
+          "telonews_cn #13077"
+        ],
+        "last_public_content_at": "2025-12-29T05:46:53+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "legolimens",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-01-19，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@Legolimens",
+          "Legolimens #546"
+        ],
+        "last_public_content_at": "2026-01-19T01:05:38+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "sharebooks4you",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "电子书频道刊登博彩推广，招募返佣代理并提供开户链接。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@sharebooks4you",
+          "sharebooks4you #13570"
+        ],
+        "last_public_content_at": "2026-11-17T00:59:30+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "pdftushuguan",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-06-27，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@PDFtushuguan",
+          "PDFtushuguan #11030"
+        ],
+        "last_public_content_at": "2026-06-27T08:07:16+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "hayami_kiraa",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-05-02，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@hayami_kiraa",
+          "hayami_kiraa #1421"
+        ],
+        "last_public_content_at": "2026-05-02T07:28:12+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "pdf_001",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2021-05-02，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@pdf_001",
+          "pdf_001 #1318"
+        ],
+        "last_public_content_at": "2021-05-02T15:45:41+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "findblog",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "频道招揽广告合作，并刊登电话卡的购买推广。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@findblog",
+          "FindBlog #662"
+        ],
+        "last_public_content_at": "2026-11-11T11:25:10+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "liyuans",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "多次发布主机商套餐广告、折扣码和购买入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@liyuans",
+          "liyuans #47994",
+          "liyuans #47995"
+        ],
+        "last_public_content_at": "2026-11-14T07:05:02+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "tingtalk",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-01-18，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@tingtalk",
+          "tingtalk #430"
+        ],
+        "last_public_content_at": "2026-01-18T14:57:19+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "zreadpush",
+      "status": "included",
+      "reason_type": "available_entry",
+      "reason": "从原入口打开群组和机器人目标页并核对身份。zread 读书会 📚、ReadBot (小君)。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@zreadpush",
+          "@zread",
+          "@zreadbot"
+        ],
+        "last_public_content_at": "2022-05-06T07:33:55+00:00",
+        "destinations": [
+          {
+            "title": "zread 读书会 📚",
+            "display": "4 622 members, 20 online",
+            "action": "View in Telegram",
+            "username": "zread"
+          },
+          {
+            "title": "ReadBot (小君)",
+            "display": "@zreadbot",
+            "action": "Start Bot",
+            "username": "zreadbot"
+          }
+        ]
+      },
+      "rechecked_on": "2026-11-18",
+      "description": "zread 读书会与阅读机器人入口，旧书讯推送已结束。"
+    },
+    {
+      "username": "jp_study",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-10-13，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@jp_study",
+          "jp_study #2313"
+        ],
+        "last_public_content_at": "2025-10-13T01:00:51+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "update4weekly",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-05-08，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@update4weekly",
+          "update4weekly #3285"
+        ],
+        "last_public_content_at": "2026-05-08T08:45:24+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "xlxbj",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2021-08-26，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@xlxbj",
+          "xlxbj #218"
+        ],
+        "last_public_content_at": "2021-08-26T11:25:18+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "writing_discuss",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-05-05，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@writing_discuss",
+          "writing_discuss #710"
+        ],
+        "last_public_content_at": "2026-05-05T15:10:41+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "pieroots",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-05-28，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@pieroots",
+          "pieroots #928"
+        ],
+        "last_public_content_at": "2024-05-28T02:51:28+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "gujinpintan1",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-07-15，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@gujinpintan1",
+          "gujinpintan1 #1087"
+        ],
+        "last_public_content_at": "2026-07-15T11:07:31+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "haoshufenxiang",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-12-04，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@haoshufenxiang",
+          "haoshufenxiang #2"
+        ],
+        "last_public_content_at": "2022-12-04T00:06:29+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "tgblog_secrets",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-04-01，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@tgblog_secrets",
+          "tgblog_secrets #659"
+        ],
+        "last_public_content_at": "2026-03-31T22:28:36+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "kindlebookdeals",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-06-14，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@KindleBookDeals",
+          "KindleBookDeals #8555"
+        ],
+        "last_public_content_at": "2022-06-14T03:00:00+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "readingeventhosting",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-04-13，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@readingeventhosting",
+          "readingeventhosting #241"
+        ],
+        "last_public_content_at": "2022-04-13T11:58:26+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "kindleprice",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-04-30，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@kindlePrice",
+          "kindlePrice #16473"
+        ],
+        "last_public_content_at": "2022-04-30T16:26:02+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "wuciyuan",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-02-18，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@wuciyuan",
+          "wuciyuan #1069"
+        ],
+        "last_public_content_at": "2026-02-18T02:18:24+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "hexozh",
+      "status": "included",
+      "reason_type": "available_entry",
+      "reason": "从原入口打开群组目标页并核对身份。Hexo 博客交流。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@hexozh",
+          "hexozh #64"
+        ],
+        "last_public_content_at": "2022-01-31T12:03:31+00:00",
+        "destinations": [
+          {
+            "title": "Hexo 博客交流",
+            "display": "765 members, 14 online",
+            "action": "Join Group"
+          }
+        ]
+      },
+      "rechecked_on": "2026-11-18",
+      "description": "Hexo 博客交流群入口，群邀请链接在频道的入群说明中更新。"
+    },
+    {
+      "username": "jerryzhang",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-04-21，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@JerryZhang",
+          "JerryZhang #421"
+        ],
+        "last_public_content_at": "2026-04-21T00:21:14+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "tongtiange",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2021-11-16，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@tongtiange",
+          "tongtiange #327"
+        ],
+        "last_public_content_at": "2021-11-15T18:02:06+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "qiuwen",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-04-01，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@Qiuwen",
+          "Qiuwen #163"
+        ],
+        "last_public_content_at": "2023-04-01T16:00:57+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "booksthief",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-01-23，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@BooksThief",
+          "BooksThief #8769"
+        ],
+        "last_public_content_at": "2026-01-23T07:23:01+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "techguide",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-07-31，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@TechGuide",
+          "techguide #13923"
+        ],
+        "last_public_content_at": "2025-07-31T15:56:41+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "tastegirl",
+      "status": "pending",
+      "reason_type": "pending_media",
+      "reason": "简介将读者引向放宽内容尺度的写真群。近期公开帖以无文字图片为主，暂从目录下架，待核实内容尺度。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@tastegirl",
+          "tastegirl #2562",
+          "tastegirl #2565"
+        ],
+        "last_public_content_at": "2026-10-30T10:31:08+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "sspanel_uim",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-07-10，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@sspanel_Uim",
+          "sspanel_Uim #187"
+        ],
+        "last_public_content_at": "2025-07-09T22:52:58+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "intheflux",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-06-28，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@intheflux",
+          "intheflux #2133"
+        ],
+        "last_public_content_at": "2026-06-28T12:06:20+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "designtaalk",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-04-23，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@designtaalk",
+          "designtaalk #4591"
+        ],
+        "last_public_content_at": "2024-04-23T16:26:42+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "feuilletons",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "公开时间线仅有系统记录，最新一条为 2022-12-10，已超过 90 天无公开内容更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@Feuilletons",
+          "feuilletons #1"
+        ],
+        "last_visible_event_at": "2022-12-10T16:17:32+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "free_stusio",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-01-03，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@free_stusio",
+          "free_stusio #771"
+        ],
+        "last_public_content_at": "2026-01-03T03:32:24+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "fireballnewsletter",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2018-12-04，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@fireballnewsletter",
+          "fireballnewsletter #200"
+        ],
+        "last_public_content_at": "2018-12-04T07:32:16+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "tefuirzidu",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "公开时间线仅有系统记录，最新一条为 2023-11-04，已超过 90 天无公开内容更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@TeFuirZIDu",
+          "TeFuirZIDu #1"
+        ],
+        "last_visible_event_at": "2023-11-04T14:57:59+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "tgbeta",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-08-25，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@tgbeta",
+          "tgbeta #4784"
+        ],
+        "last_public_content_at": "2024-08-25T04:37:14+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "wechatessence",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-08-26，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@WeChatEssence",
+          "WeChatEssence #11486"
+        ],
+        "last_public_content_at": "2024-08-26T04:47:53+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "twitter_read",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-04-22，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@twitter_read",
+          "twitter_read #65410"
+        ],
+        "last_public_content_at": "2026-04-22T11:48:23+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "weibo_one",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-05-09，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@weibo_one",
+          "weibo_one #131114"
+        ],
+        "last_public_content_at": "2026-05-09T12:56:47+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "reddit_one",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-11-11，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@reddit_one",
+          "reddit_one #7341"
+        ],
+        "last_public_content_at": "2024-11-11T14:40:49+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "zuimeibizhi",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-07-05，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@zuimeibizhi",
+          "zuimeibizhi #363"
+        ],
+        "last_public_content_at": "2022-07-05T09:21:04+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "daily_read",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-01-27，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@daily_read",
+          "daily_read #4923"
+        ],
+        "last_public_content_at": "2026-01-27T09:34:57+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "xiaodiaodaya",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2021-09-21，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@xiaodiaodaya",
+          "xiaodiaodaya #136294"
+        ],
+        "last_public_content_at": "2021-09-21T02:21:19+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "weibo_hot",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2021-09-23，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@weibo_hot",
+          "weibo_hot #21023"
+        ],
+        "last_public_content_at": "2021-09-23T05:21:07+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "dms_share",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-08-20，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@dms_share",
+          "dms_share #815"
+        ],
+        "last_public_content_at": "2025-08-20T11:37:58+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "wenanba",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "在文案之间刊登博彩平台广告，提供注册入口和优惠活动。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@wenanba",
+          "sucai939 #70314",
+          "sucai939 #70321"
+        ],
+        "last_public_content_at": "2026-11-17T12:29:33+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "meizitu3",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "频道招揽商业推广，在写真帖之间刊登订阅服务的折扣码。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@meizitu3",
+          "meizitu3 #15996"
+        ],
+        "last_public_content_at": "2026-11-17T10:00:00+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "yzjzy",
+      "status": "excluded",
+      "reason_type": "adult_content",
+      "reason": "公开推广成人色情频道，并刊登社群广告投放联系方式。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@yzjzy",
+          "yzjzy #14995",
+          "yzjzy #15263"
+        ],
+        "last_public_content_at": "2022-08-15T15:58:05+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "bizhi123",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-02-10，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@bizhi123",
+          "bizhi123 #10473"
+        ],
+        "last_public_content_at": "2026-02-10T14:02:42+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "foolishtracewind",
+      "status": "excluded",
+      "reason_type": "adult_content",
+      "reason": "公开帖推荐了明确写明以 R-18 图片为主的壁纸频道。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@foolishtracewind",
+          "FoolishTraceWind #1515"
+        ],
+        "last_public_content_at": "2026-11-17T17:41:29+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "fndroid_news",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-05-30，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@fndroid_news",
+          "fndroid_news #740"
+        ],
+        "last_public_content_at": "2025-05-30T06:22:47+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "kanxiaojiejie",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "频道明确为收费私房写真套图推广，列出每套价格和下载入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@kanxiaojiejie",
+          "kanxiaojiejie #3947"
+        ],
+        "last_public_content_at": "2026-11-17T17:53:18+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "acgzhenghe",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-05-08，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@acgzhenghe",
+          "acgzhenghe #298"
+        ],
+        "last_public_content_at": "2022-05-08T13:26:54+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "hk3to",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-01-06，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@Hk3To",
+          "Hk3To #18860"
+        ],
+        "last_public_content_at": "2025-01-06T11:19:50+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "yangwangpindao",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "发布带淘宝联盟跳转的商品优惠，并在简介招揽广告。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@yangwangpindao",
+          "yangwangpindao #489749"
+        ],
+        "last_public_content_at": "2026-11-17T17:52:54+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "playsales",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-05-30，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@playsales",
+          "playsales #5044"
+        ],
+        "last_public_content_at": "2024-05-30T00:02:09+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "acgwallpaper",
+      "status": "excluded",
+      "reason_type": "adult_content",
+      "reason": "多次互推成人漫画、成人动画与成人游戏频道。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@acgwallpaper",
+          "acgwallpaper #30671",
+          "acgwallpaper #30672",
+          "acgwallpaper #30683"
+        ],
+        "last_public_content_at": "2026-11-16T22:45:41+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "jingxu6",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-05-05，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@jingxu6",
+          "Jingxu6 #876"
+        ],
+        "last_public_content_at": "2022-05-05T13:27:52+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "yidu520",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-06-10，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@yidu520",
+          "yidu520 #776"
+        ],
+        "last_public_content_at": "2024-06-10T07:03:16+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "linyunbook2",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-07-05，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@linyunbook2",
+          "linyunbook2 #3877"
+        ],
+        "last_public_content_at": "2024-07-05T12:34:04+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "ninishare",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "频道反复发购物券、到手价与商品下单链接。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@NiNiShare",
+          "NiNiShare #2256",
+          "NiNiShare #2257",
+          "NiNiShare #2259"
+        ],
+        "last_public_content_at": "2026-11-10T15:31:54+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "dynamicwallpaperclub",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-11-24，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@dynamicwallpaperclub",
+          "dynamicwallpaperclub #5574"
+        ],
+        "last_public_content_at": "2023-11-24T08:29:10+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "digitalspecialdeals",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "以购物卡折扣和购买活动为主要内容，附零售商入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@DigitalSpecialDeals",
+          "DigitalSpecialDeals #27",
+          "DigitalSpecialDeals #28"
+        ],
+        "last_public_content_at": "2019-12-01T04:58:52+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "ingresschengduchongqing",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-07-20，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@IngressChengduChongqing",
+          "IngressChengduChongqing #1859"
+        ],
+        "last_public_content_at": "2026-07-20T10:51:12+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "untitledgroup",
+      "status": "included",
+      "reason_type": "available_entry",
+      "reason": "从原入口打开群组目标页并核对身份。柯基犬的日常 - 吹水群 - @UntitledGroup。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@untitledgroup",
+          "UntitledGroup #2"
+        ],
+        "last_public_content_at": "2025-10-07T12:53:39+00:00",
+        "destinations": [
+          {
+            "title": "柯基犬的日常 - 吹水群 - @UntitledGroup",
+            "display": "845 members, 19 online",
+            "action": "Join Group"
+          }
+        ]
+      },
+      "rechecked_on": "2026-11-18",
+      "description": "柯基犬的日常讨论群入口，入群说明附有邀请链接。"
+    },
+    {
+      "username": "nanningtg",
+      "status": "included",
+      "reason_type": "available_entry",
+      "reason": "从原入口打开群组目标页并核对身份。广西聊天交友群。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@nanningtg"
+        ],
+        "last_public_content_at": "2024-09-09T16:38:46+00:00",
+        "destinations": [
+          {
+            "title": "广西聊天交友群",
+            "display": "2 477 members, 17 online",
+            "action": "Join Group"
+          }
+        ]
+      },
+      "rechecked_on": "2026-11-18",
+      "description": "广西聊天交友群的加入入口。"
+    },
+    {
+      "username": "baisi",
+      "status": "excluded",
+      "reason_type": "adult_content",
+      "reason": "频道公告说明长期发布 NSFW 写真，后续投稿也明确标注成人内容。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@baisi",
+          "baisi #222",
+          "baisi #4827"
+        ],
+        "last_public_content_at": "2026-11-17T12:36:26+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "woshadiao",
+      "status": "excluded",
+      "reason_type": "adult_content",
+      "reason": "频道说明特定预警帖允许附 R18 内容，另有明确点名 R18 并带媒体的投稿。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@woshadiao",
+          "woshadiao #190068",
+          "woshadiao #207404"
+        ],
+        "last_public_content_at": "2026-11-17T20:13:45+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "stickerschannel",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-03-23，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@stickersChannel",
+          "stickersChannel #2929"
+        ],
+        "last_public_content_at": "2024-03-23T10:13:45+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "merlinclashcat",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "频道替商家发布年付套餐限时折扣和优惠码。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@merlinclashcat",
+          "merlinclashcat #831"
+        ],
+        "last_public_content_at": "2026-10-08T00:46:46+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "tiezhia",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-01-02，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@tiezhia",
+          "tiezhia #212"
+        ],
+        "last_public_content_at": "2025-01-02T15:17:59+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "meitian",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "频道实际发布标为广告的业务群招揽帖，附限时加入入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@meitian",
+          "meitian #29013"
+        ],
+        "last_public_content_at": "2026-11-15T21:26:34+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "animatedstickers",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-05-30，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@AnimatedStickers",
+          "AnimatedStickers #637"
+        ],
+        "last_public_content_at": "2025-05-30T13:34:47+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "knowledge1024",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "资讯流混入多家博彩平台的开户奖励及下注广告。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@knowledge1024",
+          "knowledge1024 #33432",
+          "knowledge1024 #33434"
+        ],
+        "last_public_content_at": "2026-11-17T18:52:13+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "qinghua_box",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-01-28，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@qinghua_box",
+          "qinghua_box #3682"
+        ],
+        "last_public_content_at": "2025-01-28T16:03:22+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "gfwr16",
+      "status": "excluded",
+      "reason_type": "adult_content",
+      "reason": "频道实际推送标记为 R-18 的插画作品，原帖有作品编号及查看入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@gfwr16",
+          "GfWR16 #76400",
+          "GfWR16 #79701"
+        ],
+        "last_public_content_at": "2026-11-17T11:42:47+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "topanimated",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2019-06-14，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@topanimated",
+          "topanimated #152"
+        ],
+        "last_public_content_at": "2019-06-13T22:10:43+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "sticker_tw",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2021-02-19，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@sticker_tw",
+          "sticker_tw #1264"
+        ],
+        "last_public_content_at": "2021-02-19T03:34:08+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "today_bean",
+      "status": "pending",
+      "reason_type": "pending_media",
+      "reason": "旧帖标有 18 禁或 NSFW，作者说明部分图片可能引起不适。公开可读文字不足以区分成人内容与惊悚图片。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@today_bean",
+          "today_bean #2903",
+          "today_bean #2954"
+        ],
+        "last_public_content_at": "2026-11-16T14:37:44+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "stickersxjbg",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-05-09，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@StickersXJBG",
+          "StickersXJBG #87"
+        ],
+        "last_public_content_at": "2022-05-08T22:25:50+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "qiushibaike",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2021-12-10，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@qiushibaike",
+          "qiushibaike #203979"
+        ],
+        "last_public_content_at": "2021-12-09T18:56:30+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "gaoxiaoshu",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-04-03，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@gaoxiaoshu",
+          "gaoxiaoshu #3553"
+        ],
+        "last_public_content_at": "2023-04-03T12:56:58+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "twapplefansannounce",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "苹果同好群入口可打开，公告频道确实刊登收费合租和 Anker 配件团购。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@twapplefansannounce",
+          "TWAppleFansAnnounce #48",
+          "TWAppleFansAnnounce #102"
+        ],
+        "last_public_content_at": "2026-06-17T09:09:39+00:00",
+        "later_system_event_at": "2026-09-11T05:06:41+00:00",
+        "destinations": [
+          {
+            "title": "台灣蘋果同好交流群",
+            "display": "3 562 members, 55 online",
+            "action": "View in Telegram",
+            "username": "taiwanapplefans"
+          }
+        ]
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "v2exfeed",
+      "status": "excluded",
+      "reason_type": "closed_or_moved",
+      "reason": "管理员宣布暂停频道的自动推送，目录下架这个旧入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@v2exfeed",
+          "v2exfeed #5923"
+        ],
+        "last_public_content_at": "2025-05-18T08:06:55+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "newworldviafu",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2021-11-26，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@newworldviafu",
+          "newworldviafu #327"
+        ],
+        "last_public_content_at": "2021-11-26T14:32:59+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "tele_zh_tw",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "公开时间线仅有系统记录，最新一条为 2015-09-24，已超过 90 天无公开内容更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@Tele_zh_TW",
+          "Tele_zh_TW #1"
+        ],
+        "last_visible_event_at": "2015-09-23T17:38:08+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "tgcn_wiki",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "Telegram 教程帖子列出会员代充的收费标准和购买入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@tgcn_wiki",
+          "tgcn_wiki #7"
+        ],
+        "last_public_content_at": "2026-07-23T02:32:41+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "go2cn",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-01-08，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@go2cn",
+          "go2cn #14"
+        ],
+        "last_public_content_at": "2025-01-07T20:21:56+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "renjianzhinan_channel",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-02-18，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@renjianzhinan_channel",
+          "renjianzhinan_channel #276"
+        ],
+        "last_public_content_at": "2026-02-18T11:41:55+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "username",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-03-29，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@username",
+          "username #13"
+        ],
+        "last_public_content_at": "2023-03-29T09:53:11+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "androidthemes",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2020-04-20，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@AndroidThemes",
+          "AndroidThemes #383"
+        ],
+        "last_public_content_at": "2020-04-20T08:54:44+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "proxyme",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-08-06，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@proxyme",
+          "proxyme #109"
+        ],
+        "last_public_content_at": "2023-08-06T14:38:01+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "themes",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2019-02-04，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@themes",
+          "themes #260"
+        ],
+        "last_public_content_at": "2019-02-04T08:25:45+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "discussthis",
+      "status": "included",
+      "reason_type": "available_entry",
+      "reason": "从原入口打开机器人目标页并核对身份。DiscussBot ✔。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@discussthis",
+          "DiscussThis #2",
+          "@discussbot"
+        ],
+        "last_public_content_at": "2019-05-31T17:18:08+00:00",
+        "destinations": [
+          {
+            "title": "DiscussBot ✔",
+            "display": "@discussbot 33 883 monthly users",
+            "action": "Start Bot",
+            "username": "discussbot"
+          }
+        ]
+      },
+      "rechecked_on": "2026-11-18",
+      "description": "DiscussBot 评论按钮的演示频道，附机器人启动入口。"
+    },
+    {
+      "username": "pixelexperience",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-04-24，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@PixelExperience",
+          "PixelExperience #9448"
+        ],
+        "last_public_content_at": "2024-04-24T13:05:16+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "ar72014",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-10-10，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@AR72014",
+          "AR72014 #10712"
+        ],
+        "last_public_content_at": "2024-10-09T17:24:01+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "oneplus",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-07-16，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@OnePlus",
+          "OnePlus #2119"
+        ],
+        "last_public_content_at": "2026-07-16T09:50:41+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "telegramde",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-03-02，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@TelegramDE",
+          "telegramDE #149"
+        ],
+        "last_public_content_at": "2022-03-02T14:15:09+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "desktop",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-11-05，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@desktop",
+          "desktop #68"
+        ],
+        "last_public_content_at": "2025-11-05T06:39:46+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "groupownerbots",
+      "status": "included",
+      "reason_type": "available_entry",
+      "reason": "从原入口打开机器人目标页并核对身份。AntiServiceMessageBot、AntiArabicScriptBot。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@groupownerbots",
+          "@antiservicemessagebot",
+          "@antiarabicscriptbot"
+        ],
+        "last_public_content_at": "2025-06-16T11:57:40+00:00",
+        "destinations": [
+          {
+            "title": "AntiServiceMessageBot",
+            "display": "@antiservicemessagebot",
+            "action": "Start Bot",
+            "username": "antiservicemessagebot"
+          },
+          {
+            "title": "AntiArabicScriptBot",
+            "display": "@antiarabicscriptbot",
+            "action": "Start Bot",
+            "username": "antiarabicscriptbot"
+          }
+        ]
+      },
+      "rechecked_on": "2026-11-18",
+      "description": "开发者的群管理机器人入口，可查看清理系统消息等工具的说明。"
+    },
+    {
+      "username": "shenkey",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-09-28，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@shenkey",
+          "shenkey #4392"
+        ],
+        "last_public_content_at": "2022-09-28T01:10:12+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "iostelegramthemes",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-03-07，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@IOSTelegramThemes",
+          "IOSTelegramThemes #906"
+        ],
+        "last_public_content_at": "2026-03-07T11:45:10+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "licensesss",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "公开帖实际招募付费订阅合租，说明按期收费、转账及入群方式。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@licensesss",
+          "Licensesss #10045"
+        ],
+        "last_public_content_at": "2026-11-17T13:49:07+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "animatedemojis",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-11-15，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@AnimatedEmojis",
+          "AnimatedEmojis #1895"
+        ],
+        "last_public_content_at": "2023-11-14T17:58:09+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "equalleaks",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "单独的商业推广帖为频道售卖浏览和互动数据，附试用及下单入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@equalleaks",
+          "EqualLeaks #59304"
+        ],
+        "last_public_content_at": "2026-11-06T17:12:43+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "ivcontest",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2019-05-10，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@IVcontest",
+          "IVcontest #34"
+        ],
+        "last_public_content_at": "2019-05-09T17:57:41+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "yinghexiaozu",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-10-07，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@yinghexiaozu",
+          "yinghexiaozu #1405"
+        ],
+        "last_public_content_at": "2024-10-07T14:38:26+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "z_turns",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "介绍付费订阅的返现活动，引导读者激活并通过指定支付渠道购买。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@Z_Turns",
+          "Z_Turns #1495"
+        ],
+        "last_public_content_at": "2026-11-08T05:32:50+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "xdanews",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-05-24，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@xdanews",
+          "xdanews #25564"
+        ],
+        "last_public_content_at": "2023-05-23T17:19:30+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "lowendaff_blog",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "主机报价附有专属折扣、优惠码和下单入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@lowendaff_blog",
+          "lowendaff_blog #4062",
+          "lowendaff_blog #4064"
+        ],
+        "last_public_content_at": "2026-11-16T17:01:12+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "newpin1channel",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "Pi 与 N1 群组公开可见，但公告频道两次刊登同一付费服务的八折优惠码并给出购买链接。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@newpin1channel",
+          "NewPiN1Channel #286",
+          "NewPiN1Channel #319"
+        ],
+        "last_public_content_at": "2026-02-11T06:29:40+00:00",
+        "destinations": [
+          {
+            "title": "ARM&X86&VPS&聊车玩家交流群，专业！",
+            "display": "7 779 members, 87 online",
+            "action": "View in Telegram",
+            "username": "pin1group"
+          }
+        ]
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "telegramindonesia",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-08-26，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@TelegramIndonesia",
+          "TelegramIndonesia #36"
+        ],
+        "last_public_content_at": "2024-08-26T07:06:21+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "divineengine",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-05-11，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@DivineEngine",
+          "DivineEngine #136"
+        ],
+        "last_public_content_at": "2022-05-11T04:30:10+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "finelygirls",
+      "status": "excluded",
+      "reason_type": "adult_content",
+      "reason": "频道简介直接引导读者通过私聊机器人获取标为 NSFW 的内容。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@finelygirls"
+        ],
+        "last_public_content_at": "2025-11-25T11:30:52+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "telebookstall",
+      "status": "included",
+      "reason_type": "active_content",
+      "reason": "原帖借梦境讨论现实与想象，省略了性行为细节。核对的其他公开文章也为读书和随笔。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@telebookstall",
+          "telebookstall #2717",
+          "telebookstall #2718",
+          "telebookstall #2720"
+        ],
+        "last_public_content_at": "2026-11-17T15:27:33+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "tuweishenghuo",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-04-23，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@tuweishenghuo",
+          "tuweishenghuo #5189"
+        ],
+        "last_public_content_at": "2025-04-23T13:44:20+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "cydiaupdate",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-07-31，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@cydiaupdate",
+          "cydiaupdate #60596"
+        ],
+        "last_public_content_at": "2023-07-30T19:14:18+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "meinvshouji",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-01-22，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@meinvshouji",
+          "meinvshouji #1336"
+        ],
+        "last_public_content_at": "2023-01-22T03:38:59+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "fengsharegroup",
+      "status": "included",
+      "reason_type": "available_entry",
+      "reason": "从原入口打开群组目标页并核对身份。峰哥分享技术交流超级群。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@fengsharegroup",
+          "fengsharegroup #5"
+        ],
+        "last_public_content_at": "2020-10-03T04:08:05+00:00",
+        "destinations": [
+          {
+            "title": "峰哥分享技术交流超级群",
+            "display": "7 961 members, 84 online",
+            "action": "Join Group"
+          }
+        ]
+      },
+      "rechecked_on": "2026-11-18",
+      "description": "峰哥分享技术交流群的入群指引。"
+    },
+    {
+      "username": "shuziyimin",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "公开时间线仅有系统记录，最新一条为 2024-06-12，已超过 90 天无公开内容更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@shuziyimin",
+          "shuziyimin #276"
+        ],
+        "last_visible_event_at": "2024-06-12T03:09:20+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "keralagramchannel",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-07-17，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@KeralaGramChannel",
+          "KeralagramChannel #2220"
+        ],
+        "last_public_content_at": "2026-07-17T07:05:09+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "yachme",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-06-06，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@yachme",
+          "yachme #52"
+        ],
+        "last_public_content_at": "2025-06-06T04:36:11+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "anxray",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2021-12-12，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@AnXray",
+          "AnXray #84"
+        ],
+        "last_public_content_at": "2021-12-12T13:58:47+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "grouphub",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "反复推送购物券、消费返现活动及加入店铺会员的导购说明。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@GroupHub",
+          "GroupHub #1102",
+          "GroupHub #1111"
+        ],
+        "last_public_content_at": "2022-01-10T13:04:03+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "xiaojiejiexixi",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-02-07，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@xiaojiejiexixi",
+          "xiaojiejiexixi #1384"
+        ],
+        "last_public_content_at": "2023-02-07T15:05:27+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "sharedresources",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-03-08，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@SharedResources",
+          "SharedResources #34"
+        ],
+        "last_public_content_at": "2024-03-08T02:05:16+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "arktochannel",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "服务公告中刊登付费套餐的新购和续费促销。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@arktochannel",
+          "arktochannel #90"
+        ],
+        "last_public_content_at": "2026-11-05T04:24:17+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "snipaste",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "软件讨论群入口可打开，原公告频道多次发布专业版限时折扣码，并引导读者从官网购买。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@snipaste",
+          "snipaste #200",
+          "snipaste #205"
+        ],
+        "last_public_content_at": "2026-07-28T01:01:47+00:00",
+        "destinations": [
+          {
+            "title": "Snipaste",
+            "display": "3 211 members, 45 online",
+            "action": "Join Group"
+          }
+        ]
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "tooruchan_memes",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-05-21，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@TooruChan_Memes",
+          "TooruChan_Memes #1973"
+        ],
+        "last_public_content_at": "2023-05-21T09:07:48+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "yixiuer",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-01-29，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@yixiuer",
+          "yixiuer #1714"
+        ],
+        "last_public_content_at": "2024-01-28T18:51:37+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "shukerxiaoxi",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2021-11-05，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@shukerxiaoxi",
+          "shukerxiaoxi #148"
+        ],
+        "last_public_content_at": "2021-11-05T06:32:51+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "elecv2",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2024-11-10，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@elecV2",
+          "elecV2 #142"
+        ],
+        "last_public_content_at": "2024-11-10T08:50:22+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "xbchat",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-01-04，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@xbchat",
+          "xbchat #3"
+        ],
+        "last_public_content_at": "2026-01-04T14:33:33+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "webnotes2",
+      "status": "excluded",
+      "reason_type": "adult_content",
+      "reason": "公开帖使用按钮直接引流至标为仅限成人的社群。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@WebNotes2",
+          "WebNotes2 #2"
+        ],
+        "last_public_content_at": "2023-01-05T03:30:12+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "bigdongdongchannel",
+      "status": "included",
+      "reason_type": "available_entry",
+      "reason": "从原入口打开群组目标页并核对身份。BDD@Tech。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@bigdongdongchannel",
+          "@bigdongdonggroup"
+        ],
+        "last_public_content_at": "2022-02-07T08:35:08+00:00",
+        "destinations": [
+          {
+            "title": "BDD@Tech",
+            "display": "39 233 members, 234 online",
+            "action": "View in Telegram",
+            "username": "bigdongdonggroup"
+          }
+        ]
+      },
+      "rechecked_on": "2026-11-18",
+      "description": "BDD@Tech 技术讨论群的入口。"
+    },
+    {
+      "username": "licensess",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "迎宾帖指向同一订阅合租社群。其关联频道将这个入口列为合租群，并实际发布按价收费的招租信息。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@licensess",
+          "Licensess #2",
+          "wantwantgroup #6",
+          "Licensesss #10045"
+        ],
+        "last_public_content_at": "2022-03-09T14:37:07+00:00",
+        "destinations": [
+          {
+            "title": "Digital Immigrants丨Want Want Lobby",
+            "display": "1 743 subscribers",
+            "action": "View in Telegram",
+            "username": "wantwantgroup"
+          },
+          {
+            "title": "旺旺碎冰冰",
+            "display": "@wantbutlerbot",
+            "action": "Start Bot",
+            "username": "wantbutlerbot"
+          }
+        ]
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "teleplus_channel",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-08-10，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@TelePlus_Channel",
+          "teleplus_channel #403"
+        ],
+        "last_public_content_at": "2026-08-10T07:30:48+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "papercliphub",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-02-16，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@papercliphub",
+          "papercliphub #1156"
+        ],
+        "last_public_content_at": "2022-02-16T12:52:45+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "csrinfo",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-02-08，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@csrinfo",
+          "csrinfo #237"
+        ],
+        "last_public_content_at": "2023-02-08T07:15:34+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "jacobemk",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-01-23，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@JacobEMK",
+          "JacobEMK #1833"
+        ],
+        "last_public_content_at": "2026-01-23T05:22:28+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "group_shouliumeiyizhifuyou",
+      "status": "pending",
+      "reason_type": "pending_entry",
+      "reason": "公开公告仍为重建求助，未提供能核实名称及成员的目标群入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@group_shouliumeiyizhifuyou",
+          "group_shouliumeiyizhifuyou #4"
+        ],
+        "last_public_content_at": "2026-01-12T07:53:05+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "inbox_all",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-01-01，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@inbox_all",
+          "inbox_all #1015"
+        ],
+        "last_public_content_at": "2025-01-01T15:43:11+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "tieliu",
+      "status": "excluded",
+      "reason_type": "closed_or_moved",
+      "reason": "简介和最后的公开公告均要求转去新频道。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@tieliu",
+          "tieliu #12"
+        ],
+        "last_public_content_at": "2026-09-18T09:38:03+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "servercat",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2020-11-06，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@servercat",
+          "servercat #124"
+        ],
+        "last_public_content_at": "2020-11-06T05:50:33+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "gcjiriji",
+      "status": "excluded",
+      "reason_type": "adult_content",
+      "reason": "多个旧帖通过按钮向成人内容和交友服务引流。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@gcjiriji",
+          "gcjiriji #3",
+          "gcjiriji #7"
+        ],
+        "last_public_content_at": "2023-01-05T03:37:59+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "legado_channels",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "频道置顶第三方付费服务的邀请注册链接和专属充值折扣。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@Legado_Channels",
+          "Legado_Channels #1649"
+        ],
+        "last_public_content_at": "2026-11-15T04:37:39+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "myandroidtools",
+      "status": "pending",
+      "reason_type": "pending_entry",
+      "reason": "群规仍可阅读，但原帖给出的 LIF_Group 只显示通用联系人页面，后续规则页也没有显示可核实的群邀请。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@myandroidtools",
+          "MyAndroidTools #56",
+          "MyAndroidTools #80"
+        ],
+        "last_public_content_at": "2018-07-13T10:12:35+00:00",
+        "destinations": [
+          {
+            "title": "Telegram: Contact @lif_group",
+            "display": "",
+            "action": "Send Message",
+            "username": "lif_group"
+          }
+        ]
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "lifetimecn",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-05-23，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@lifetimecn",
+          "lifetimecn #23473"
+        ],
+        "last_public_content_at": "2023-05-23T12:57:42+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "tgdailigg",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-04-26，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@tgdailigg",
+          "tgdailigg #388"
+        ],
+        "last_public_content_at": "2023-04-25T21:54:08+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "tualatrix_says",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-03-26，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@tualatrix_says",
+          "tualatrix_says #177"
+        ],
+        "last_public_content_at": "2025-03-26T02:23:38+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "connectivity_test",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2021-02-02，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@connectivity_test",
+          "connectivity_test #20"
+        ],
+        "last_public_content_at": "2021-02-02T07:24:42+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "chuliandeganjue",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2021-12-09，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@chuliandeganjue",
+          "chuliandeganjue #458"
+        ],
+        "last_public_content_at": "2021-12-09T13:25:35+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "read_hub",
+      "status": "excluded",
+      "reason_type": "adult_content",
+      "reason": "旧帖使用按钮向标为仅限成人的群组引流。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@Read_Hub",
+          "read_hub #7"
+        ],
+        "last_public_content_at": "2023-08-05T07:13:04+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "paypal_us",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2020-12-19，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@paypal_us",
+          "paypal_us #19"
+        ],
+        "last_public_content_at": "2020-12-19T10:58:31+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "flyingsky233",
+      "status": "excluded",
+      "reason_type": "closed_or_moved",
+      "reason": "频道在简介中说明已经停止运营，公开旧帖存档仍可见。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@FlyingSky233",
+          "FlyingSky233 #2298"
+        ],
+        "last_public_content_at": "2024-04-04T15:47:19+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "tgchinanews",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-05-11，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@tgchinanews",
+          "tgchinanews #1520"
+        ],
+        "last_public_content_at": "2022-05-11T11:40:58+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "spotifynews",
+      "status": "included",
+      "reason_type": "available_entry",
+      "reason": "从原入口打开群组目标页并核对身份。Spotify Addict Group。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@spotifynews",
+          "@spotifyaddict"
+        ],
+        "last_public_content_at": "2026-05-22T02:32:14+00:00",
+        "destinations": [
+          {
+            "title": "Spotify Addict Group",
+            "display": "1 139 members, 16 online",
+            "action": "View in Telegram",
+            "username": "spotifyaddict"
+          }
+        ]
+      },
+      "rechecked_on": "2026-11-18",
+      "description": "Spotify Addict 爱好者讨论群的邀请入口。"
+    },
+    {
+      "username": "wolleynews",
+      "status": "included",
+      "reason_type": "available_entry",
+      "reason": "从原入口打开机器人目标页并核对身份。Wolley Bot。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@wolleynews",
+          "@wolley_bot"
+        ],
+        "last_public_content_at": "2020-08-27T09:06:06+00:00",
+        "destinations": [
+          {
+            "title": "Wolley Bot",
+            "display": "@wolley_bot",
+            "action": "Start Bot",
+            "username": "wolley_bot"
+          }
+        ]
+      },
+      "rechecked_on": "2026-11-18",
+      "description": "Wolley 社区助手入口，机器人主页有账号绑定与评论通知的说明。"
+    },
+    {
+      "username": "my_ali_bot",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-01-08，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@my_ali_bot",
+          "my_ali_bot #483"
+        ],
+        "last_public_content_at": "2023-01-08T14:50:55+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "moemeta",
+      "status": "pending",
+      "reason_type": "pending_entry",
+      "reason": "入群说明指向社区网站，网站要求登录后才显示群地址，当前无法从公开页面核实目标群。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@moemeta",
+          "moemeta #2"
+        ],
+        "last_public_content_at": "2026-02-06T05:11:29+00:00",
+        "public_notice_url": "https://moe.one/thread-1.htm"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "tingtalk_op",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-09-22，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@tingtalk_op",
+          "tingtalk_op #120"
+        ],
+        "last_public_content_at": "2025-09-22T04:18:17+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "pvszforquanx",
+      "status": "included",
+      "reason_type": "available_entry",
+      "reason": "从原入口打开群组目标页并核对身份。mini club。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@pvszforquanx",
+          "@orz_mini"
+        ],
+        "last_public_content_at": "2021-07-26T03:02:26+00:00",
+        "destinations": [
+          {
+            "title": "mini club",
+            "display": "6 354 members, 62 online",
+            "action": "View in Telegram",
+            "username": "orz_mini"
+          }
+        ]
+      },
+      "rechecked_on": "2026-11-18",
+      "description": "PVSZ for QuanX 图标项目的社区讨论入口。"
+    },
+    {
+      "username": "scalesystem",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2021-11-26，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@scalesystem",
+          "scalesystem #609"
+        ],
+        "last_public_content_at": "2021-11-26T07:29:57+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "curlymouse",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "公开时间线仅有系统记录，最新一条为 2025-06-13，已超过 90 天无公开内容更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@CurlyMouse",
+          "CurlyMouse #1"
+        ],
+        "last_visible_event_at": "2025-06-13T02:12:39+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "dielichtung",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-03-12，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@dieLichtung",
+          "dieLichtung #1160"
+        ],
+        "last_public_content_at": "2023-03-12T01:34:14+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "telegramnl",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2017-07-03，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@TelegramNL",
+          "TelegramNL #14"
+        ],
+        "last_public_content_at": "2017-07-03T05:33:51+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "videomessages",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2017-05-21，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@videomessages",
+          "videomessages #17"
+        ],
+        "last_public_content_at": "2017-05-21T16:21:37+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "meowthemes",
+      "status": "excluded",
+      "reason_type": "invalid_entry",
+      "reason": "原入群帖指向 MeowThemes。Telegram 将目标标为订阅频道并显示订阅人数，未提供原目录所写的主题讨论群入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@meowthemes",
+          "MeowThemes #2"
+        ],
+        "last_public_content_at": "2025-10-15T05:47:34+00:00",
+        "destinations": [
+          {
+            "title": "MeowThemes",
+            "display": "10 065 subscribers",
+            "action": "Join Channel"
+          }
+        ]
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "realdonaldtrumptwitter",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-09-22，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@realDonaldTrumpTwitter",
+          "realDonaldTrumpTwitter #16274"
+        ],
+        "last_public_content_at": "2022-09-22T14:19:28+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "aliyundrive_backup",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-03-25，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@aliyundrive_backup",
+          "aliyundrive_backup #38"
+        ],
+        "last_public_content_at": "2022-03-24T19:59:05+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "paolutongzhi",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2021-10-12，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@Paolutongzhi",
+          "Paolutongzhi #109"
+        ],
+        "last_public_content_at": "2021-10-12T11:33:11+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "philchannel",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2026-06-14，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@philchannel",
+          "philchannel #3484"
+        ],
+        "last_public_content_at": "2026-06-14T11:14:48+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "ialiyun",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "公开时间线仅有系统记录，最新一条为 2025-02-09，已超过 90 天无公开内容更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@iAliyun",
+          "iAliyun #15"
+        ],
+        "last_visible_event_at": "2025-02-08T17:26:01+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "momokch",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2023-04-30，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@MomoKCH",
+          "MomoKCH #1171"
+        ],
+        "last_public_content_at": "2023-04-30T14:33:31+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "miaopang",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2021-10-18，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@miaopang",
+          "miaopang #822"
+        ],
+        "last_public_content_at": "2021-10-18T15:36:02+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "bitvoice",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2019-04-12，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@bitvoice",
+          "bitvoice #43"
+        ],
+        "last_public_content_at": "2019-04-12T01:26:06+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "product_hunt_hot",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2025-06-09，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@product_hunt_hot",
+          "product_hunt_hot #10975"
+        ],
+        "last_public_content_at": "2025-06-08T17:39:31+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "tbojianggroup",
+      "status": "included",
+      "reason_type": "available_entry",
+      "reason": "从原入口打开群组目标页并核对身份。Tbo 粉丝群（真正的粉丝……。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@tbojianggroup",
+          "TboJiangGroup #2"
+        ],
+        "last_public_content_at": "2020-08-09T14:31:44+00:00",
+        "destinations": [
+          {
+            "title": "Tbo 粉丝群（真正的粉丝……",
+            "display": "118 members, 2 online",
+            "action": "Join Group"
+          }
+        ]
+      },
+      "rechecked_on": "2026-11-18",
+      "description": "Tbo 框架用户讨论群的加入入口。"
+    },
+    {
+      "username": "mytelecloudbot",
+      "status": "excluded",
+      "reason_type": "closed_or_moved",
+      "reason": "项目公告说明原服务已停运，并推荐接替项目。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@MyTeleCloudBot",
+          "MyTeleCloudBot #2"
+        ],
+        "last_public_content_at": "2026-05-23T20:12:01+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "whalediscovery",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "公开时间线仅有系统记录，最新一条为 2019-09-20，已超过 90 天无公开内容更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@whalediscovery",
+          "WhaleDiscovery #1"
+        ],
+        "last_visible_event_at": "2019-09-20T10:33:52+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "dew_cn",
+      "status": "excluded",
+      "reason_type": "inactive",
+      "reason": "最新公开内容发布于 2022-12-22，已超过 90 天未更新。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@dew_cn",
+          "dew_cn #13"
+        ],
+        "last_public_content_at": "2022-12-22T03:40:47+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "galgamer_channel",
+      "status": "excluded",
+      "reason_type": "adult_content",
+      "reason": "公开帖为标为成人、色情的游戏提供下载入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@Galgamer_Channel",
+          "Galgamer_channel #396"
+        ],
+        "last_public_content_at": "2026-11-07T12:54:38+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "someacg",
+      "status": "excluded",
+      "reason_type": "adult_content",
+      "reason": "壁纸帖附指向 R18 作品及成人账号的入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@SomeACG",
+          "SomeACG #4921",
+          "SomeACG #5321"
+        ],
+        "last_public_content_at": "2026-11-17T08:36:03+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "moeisland",
+      "status": "excluded",
+      "reason_type": "adult_content",
+      "reason": "公开帖推销插画周边的 R18 成人版本，并给出商店入口。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@moeisland",
+          "moeisland #53046"
+        ],
+        "last_public_content_at": "2026-11-17T13:01:14+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "vwyxrd",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "多次发布商家的专用优惠码、购买地址和折后价格。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@Vwyxrd",
+          "Vwyxrd #1986",
+          "Vwyxrd #2625"
+        ],
+        "last_public_content_at": "2026-11-16T15:30:22+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "biquan321",
+      "status": "excluded",
+      "reason_type": "promotion",
+      "reason": "频道主发布个人交易所邀请链接，请读者注册以完成其邀请目标。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@biquan321",
+          "biquan321 #6660",
+          "biquan321 #8013"
+        ],
+        "last_public_content_at": "2026-11-15T14:04:58+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "pfff_wall",
+      "status": "excluded",
+      "reason_type": "adult_content",
+      "reason": "多篇公开帖直接推荐成人网站集合，并在原文注明只供成年人。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@pfff_wall",
+          "pfff_wall #22339",
+          "pfff_wall #22463"
+        ],
+        "last_public_content_at": "2026-11-17T20:35:31+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    },
+    {
+      "username": "ruheyushadiaoxiangchu",
+      "status": "included",
+      "reason_type": "active_content",
+      "reason": "频道守则明确排除 R18 内容。原帖只有 NSFW 提醒，核对的公开内容和频道说明支持按搞笑频道保留。",
+      "evidence": {
+        "kind": "public_telegram_preview",
+        "references": [
+          "@ruheyushadiaoxiangchu",
+          "ruheyushadiaoxiangchu #6909",
+          "ruheyushadiaoxiangchu #19213",
+          "ruheyushadiaoxiangchu #44334"
+        ],
+        "last_public_content_at": "2026-11-17T18:55:06+00:00"
+      },
+      "rechecked_on": "2026-11-18"
+    }
+  ]
+}

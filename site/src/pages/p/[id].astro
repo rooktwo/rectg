@@ -125,7 +125,7 @@ const detailJsonLd = [
         <article class="resource-card" data-id={item.id} data-type={typeName}>
           <header class="resource-header">
             <div class={`resource-avatar ${colorClass}`} aria-hidden="true"><span>{firstLetter}</span>{avatarUrl && <img src={avatarUrl} alt="" width="72" height="72" decoding="async" onerror="this.hidden=true" />}</div>
-            <div class="resource-identity"><p class="eyebrow">{typeName}<span> / </span><a href={categoryHref}>{resolvedCategoryName}</a></p><h1>{item.title}</h1><p class="resource-username">{telegramLabel}</p></div>
+            <div class="resource-identity"><p class="resource-label">{typeName}<span> / </span><a href={categoryHref}>{resolvedCategoryName}</a></p><h1>{item.title}</h1><p class="resource-username">{telegramLabel}</p></div>
           </header>
           <div class="detail-actions" aria-label="资源操作">
             <a href={item.url} target="_blank" rel="noopener noreferrer" class="button action-primary"><Icon name="telegram" size={18} />{openLabel}<Icon name="external" size={16} /></a>
@@ -133,13 +133,13 @@ const detailJsonLd = [
             <button type="button" class="button secondary bookmark-button" data-bookmark={item.id} data-title={item.title} aria-pressed="false"><Icon name="bookmark" size={17} /><span class="bookmark-label">收藏</span></button>
           </div>
           <section class="resource-copy" aria-labelledby="description-heading"><h2 id="description-heading">关于这个{typeName}</h2><p class="resource-description">{item.desc || '暂无简介，可以前往 Telegram 查看更多信息。'}</p></section>
-          <div class="resource-footnote"><span>信息来自公开页面，可能已发生变化。</span><a href={`https://github.com/jackvale/rectg/issues/new?title=${encodeURIComponent(`资源反馈：${item.title}`)}&body=${encodeURIComponent(`资源链接：${item.url}\n\n问题说明：`)}`} target="_blank" rel="noopener noreferrer">反馈问题 ↗</a></div>
+          <div class="resource-footnote"><span>信息来自公开页面，可能已发生变化。</span><a href={`https://github.com/rooktwo/rectg/issues/new?title=${encodeURIComponent(`资源反馈：${item.title}`)}&body=${encodeURIComponent(`资源链接：${item.url}\n\n问题说明：`)}`} target="_blank" rel="noopener noreferrer">反馈问题 ↗</a></div>
         </article>
         <aside class="resource-aside" aria-labelledby="info-heading"><h2 id="info-heading">收录信息</h2><dl class="resource-info"><div><dt>{countLabel}人数</dt><dd class="info-count">{subscriberCount}</dd></div><div><dt>类型</dt><dd>{typeName}</dd></div><div><dt>所属主题</dt><dd><a href={categoryHref}>{resolvedCategoryName}<Icon name="external" size={14} /></a></dd></div><div><dt>Telegram 地址</dt><dd><a class="telegram-link" href={item.url} target="_blank" rel="noopener noreferrer">{telegramLabel}<Icon name="external" size={14} /></a></dd></div></dl><p>{capturedDate(item.countCheckedAt) ? `${item.countStale ? '人数未刷新，上次采集' : '人数采集'}：${capturedDate(item.countCheckedAt)}。` : '人数未刷新。'}请以 Telegram 内的实际信息为准。{item.reviewPending === false ? '本次文本样本已审核，媒体画面及交互功能未覆盖。' : '内容待复核，尚不能作为新推荐。'}</p></aside>
       </div>
       {relatedItems.length > 0 && <section class="related-section" aria-labelledby="related-title"><div class="section-heading"><h2 id="related-title">继续逛逛{resolvedCategoryName}</h2><a class="text-link" href={categoryHref}>查看分类<Icon name="arrow" size={16} /></a></div><div class="related-list">{relatedItems.map(related => <a class="related-item" href={itemPath(related.id)}><span class={`related-avatar ${getAvatarColorClass(Array.from(related.title)[0])}`} aria-hidden="true">{Array.from(related.title)[0]}</span><span><strong>{related.title}</strong><small>{related.typeName} · {related.countStr} 人</small></span><Icon name="arrow" size={18} /></a>)}</div></section>}
       <nav class="resource-pagination" aria-label="同分类前后资源">{previousItem ? <a href={itemPath(previousItem.id)}><span>← 上一个</span><strong>{previousItem.title}</strong></a> : <span></span>}{nextItem ? <a href={itemPath(nextItem.id)}><span>下一个 →</span><strong>{nextItem.title}</strong></a> : <span></span>}</nav>
-      <SiteFooter compact />
+      <SiteFooter />
     </main>
   </div>
 </Layout>

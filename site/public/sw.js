@@ -1,9 +1,10 @@
-const CACHE_NAME = 'rectg-cache-v7-logo';
+const CACHE_NAME = 'rectg-cache-v10';
 const PRECACHE_URLS = [
     '/',
     '/manifest.json',
-    '/favicon.svg',
-    '/favicon.png'
+    '/favicon.svg?v=10',
+    '/favicon.png?v=10',
+    '/favicon-maskable.png'
 ];
 
 self.addEventListener('install', event => {

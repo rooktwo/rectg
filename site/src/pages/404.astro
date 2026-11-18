@@ -11,14 +11,13 @@ const { validSections } = buildDirectoryData();
   <SiteHeader />
   <main id="main-content" class="detail-container">
     <section class="not-found" aria-labelledby="not-found-title">
-      <p class="eyebrow">404 · 页面未找到</p>
-      <h1 id="not-found-title">换个入口，继续发现。</h1>
+      <h1 id="not-found-title">404 · 页面未找到</h1>
       <p class="not-found-description">这个页面可能已移除，或链接地址有误。试试搜索名称、关键词或 Telegram 用户名。</p>
       <form class="not-found-search" action="/" method="get" role="search" aria-label="搜索全站资源">
         <input type="hidden" name="c" value="all" />
         <label class="sr-only" for="not-found-query">名称、关键词或 Telegram 用户名</label>
         <input id="not-found-query" name="q" type="search" placeholder="搜索名称、关键词或 @用户名" required />
-        <button class="button secondary" type="submit">搜索</button>
+        <button class="search-submit" type="submit">搜索</button>
       </form>
       <a class="text-link" href="/">返回首页 →</a>
       <nav class="not-found-categories" aria-label="浏览资源分类">

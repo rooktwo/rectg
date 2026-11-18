@@ -31,7 +31,7 @@ function readLocation() {
   return {
     section: ['featured', 'all', 'saved'].includes(requested) || sections.some(section => section.id === requested) ? requested : 'featured',
     q: (params.get('q') || '').trim(),
-    type: ['频道', '群组'].includes(params.get('type')) ? params.get('type') : 'all',
+    type: [...$('#type-select').options].some(option => option.value === params.get('type')) ? params.get('type') : 'all',
     sort: ['members', 'name'].includes(params.get('sort')) ? params.get('sort') : 'default',
   };
 }
@@ -150,11 +150,9 @@ function render() {
   const searchScope = section?.name || (state.section === 'saved' ? '我的收藏' : '全部收录');
   $('#active-section-title').textContent = state.q ? '搜索结果' : name;
   $('#active-section-meta').textContent = filteredItems.length;
-  $('#active-section-desc').textContent = state.q ? `在「${searchScope}」中搜索“${state.q}”` : section ? `浏览${section.name}相关的频道与群组。` : state.section === 'saved' ? '留住感兴趣的频道。收藏保存在当前浏览器中。' : state.section === 'all' ? `${allItems.length} 个公开频道与群组，按兴趣慢慢找。` : '换个方向逛逛，也许会有新发现。';
-  $('#directory-intro').hidden = state.section !== 'featured' || Boolean(state.q);
-  $('.category-title').setAttribute('aria-level', $('#directory-intro').hidden ? '1' : '2');
-  $('#section-eyebrow').hidden = state.section === 'featured' && !state.q;
-  $('#section-eyebrow').textContent = state.q ? '搜索目录' : section ? '主题目录' : '你的目录';
+  const description = state.q ? `在「${searchScope}」中搜索“${state.q}”` : state.section === 'saved' ? '收藏保存在当前浏览器中。' : '';
+  $('#active-section-desc').textContent = description;
+  $('#active-section-desc').hidden = !description;
   $('#browse-all').hidden = state.section !== 'featured' || Boolean(state.q);
   $('#directory-about').hidden = state.section !== 'featured' || Boolean(state.q);
   $('#active-section').dataset.currentId = state.section;
@@ -170,17 +168,18 @@ function render() {
     link.classList.toggle('active', selected);
     if (selected) link.setAttribute('aria-current', 'page'); else link.removeAttribute('aria-current');
   });
-  document.querySelectorAll('[data-type]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.type === state.type)));
-  document.querySelectorAll('[data-type-count]').forEach(count => {
-    count.textContent = matching.filter(item => count.dataset.typeCount === 'all' || item.typeName === count.dataset.typeCount).length;
-  });
+  const typeSelect = $('#type-select');
+  typeSelect.value = state.type;
+  for (const option of typeSelect.options) {
+    if (option.value !== 'all') option.textContent = `${option.value}（${matching.filter(item => item.typeName === option.value).length}）`;
+  }
   const hasConditions = Boolean(state.q) || state.type !== 'all' || state.sort !== 'default';
   $('#result-status').hidden = !hasConditions;
   $('#result-status-text').textContent = `${filteredItems.length} 个结果${state.type === 'all' ? '' : ` · 仅${state.type}`}`;
   $('#search-all-btn').hidden = !state.q || (!section && state.section !== 'saved');
   $('#empty-state').hidden = filteredItems.length > 0;
   const noSaved = state.section === 'saved' && !source.length;
-  $('#empty-state h3').textContent = noSaved ? '把喜欢的频道留在这里' : '暂时没有找到';
+  $('#empty-state h2').textContent = noSaved ? '还没有收藏' : '没有找到相关资源';
   $('#empty-state p').textContent = noSaved ? '点击资源右上角的书签，下次就能在这里找到它。' : state.q ? '试试更短的关键词、拼音或 t.me 用户名。' : '这个分类暂无该类型的资源，试试其他筛选。';
   $('#empty-reset').textContent = noSaved ? '去发现频道' : '清除筛选';
   renderCards();
@@ -210,6 +209,7 @@ function syncSidebar(open = false) {
   $('#sidebar-overlay').classList.toggle('open', expanded);
   $('#menu-btn').setAttribute('aria-expanded', String(expanded));
   $('#main-content').inert = expanded;
+  $('.site-header').inert = expanded;
   document.body.classList.toggle('menu-open', expanded);
   if (expanded) { sidebar.setAttribute('role', 'dialog'); sidebar.setAttribute('aria-modal', 'true'); }
   else { sidebar.removeAttribute('role'); sidebar.removeAttribute('aria-modal'); }
@@ -257,6 +257,7 @@ $('#empty-reset').addEventListener('click', () => {
   search.focus({ preventScroll: goDiscover });
 });
 $('#sort-select').addEventListener('change', event => changeState({ sort: event.target.value }));
+$('#type-select').addEventListener('change', event => changeState({ type: event.target.value }));
 $('#load-more').addEventListener('click', event => {
   const previousCount = visibleCount;
   visibleCount += pageSize;
@@ -271,10 +272,7 @@ document.addEventListener('click', event => {
     event.preventDefault();
     closeSidebar();
     changeState({ section: nav.dataset.section, q: '', type: 'all', sort: 'default' }, { scroll: true });
-    document.querySelector('.mobile-category-item.active')?.scrollIntoView({ block: 'nearest', inline: 'nearest' });
   }
-  const type = event.target.closest('[data-type]');
-  if (type?.tagName === 'BUTTON') changeState({ type: type.dataset.type });
   const display = event.target.closest('[data-view]');
   if (display) { view = display.dataset.view; writeStorage('rectg:view', view); syncView(); }
   if (event.target.closest('.card-title')) rememberPosition();

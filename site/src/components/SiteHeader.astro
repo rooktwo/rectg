@@ -1,8 +1,21 @@
 ---
 import Icon from './Icon.astro';
 import ThemeToggle from './ThemeToggle.astro';
+
+const { directory = false } = Astro.props;
 ---
-<header class="detail-topbar">
-  <a class="brand" href="/" aria-label="RecTG 首页"><img class="brand-mark" src="/favicon.svg" width="33" height="33" alt="" /><strong>RecTG</strong><span class="brand-caption">Telegram 中文目录</span></a>
-  <nav class="topbar-actions" aria-label="主导航"><a class="text-link" href="/">浏览目录</a><a class="text-link" href="https://github.com/jackvale/rectg/issues/new?template=channel-submission.md" target="_blank" rel="noopener noreferrer">提交收录 <Icon name="external" size={15} /></a><ThemeToggle /></nav>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="/" aria-label="RecTG 首页">
+      <img class="brand-mark" src="/favicon.svg?v=10" width="33" height="33" alt="" />
+      <strong>RecTG</strong>
+    </a>
+    <span class="brand-caption">Telegram 中文目录</span>
+    <nav class="header-actions" aria-label="主导航">
+      {directory && <button id="menu-btn" class="header-link" type="button" aria-expanded="false" aria-controls="sidebar"><Icon name="menu" size={17} />分类</button>}
+      <a href="/?c=saved" class="header-link" data-section={directory ? 'saved' : undefined}><Icon name="bookmark" size={16} />收藏<span class="saved-count" data-saved-count>0</span></a>
+      <a class="header-link submit-link" href="https://github.com/rooktwo/rectg/issues/new?template=channel-submission.md" target="_blank" rel="noopener noreferrer">提交收录<Icon name="external" size={14} /></a>
+      <ThemeToggle />
+    </nav>
+  </div>
 </header>
