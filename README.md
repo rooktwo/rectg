@@ -52,7 +52,7 @@
 | 7x24投资快讯 | [@golden_wind_news](https://t.me/golden_wind_news) | 4,821 | 24 小时投资相关的快讯。 |
 | Python潮流周刊 | [@pythontrendingweekly](https://t.me/pythontrendingweekly) | 4,581 | 分享 Python 文章、教程和开源项目。 |
 | 币圈快讯 | [@btcnewsdaily](https://t.me/btcnewsdaily) | 5,073 | 币圈快讯，掌握币圈动态。 |
-| 一起偷偷观察 DIYgod | [@awesomeDIYgod](https://t.me/awesomeDIYgod) | 4,087 | 通过 RSSHub 汇总 DIYgod 的社交动态。 |
+| 一起偷偷观察 DIYgod | [@awesomeDIYgod](https://t.me/awesomeDIYgod) | 4,088 | 通过 RSSHub 汇总 DIYgod 的社交动态。 |
 | 开发者日报 | [@cndevdaily](https://t.me/cndevdaily) | 2,067 | 面向开发者的热门文章聚合。 |
 | 悦读「优质少量RSS聚合」 | [@dailyrss](https://t.me/dailyrss) | 1,722 | 通过 RSS 汇集文章、图片、视频、音乐和播客。 |
 | 辣鸡咕鸽毁我信仰 #CurryMyLife | [@googleshit](https://t.me/googleshit) | 1,140 | 今天份的 Google 药丸。 |
@@ -110,7 +110,7 @@
 | agou 的胡言乱语 | [@bakadog](https://t.me/bakadog) | 889 | 个人数码体验、产品设计观察与开发者生活随笔。 |
 | 烤苹果 | [@AppleCooked](https://t.me/AppleCooked) | 850 | 专业收集 bug，与信仰无关。 |
 | R.O.D. | [@read_or_dead](https://t.me/read_or_dead) | 733 | 日常读书吐槽，博客。 |
-| 車車的阁楼 | [@DuskPipe](https://t.me/DuskPipe) | 756 | 个人旅行、生活与星空摄影记录。 |
+| 車車的阁楼 | [@DuskPipe](https://t.me/DuskPipe) | 758 | 个人旅行、生活与星空摄影记录。 |
 | UAinfo | [@UniversityAlliance_Info](https://t.me/UniversityAlliance_Info) | 637 | University Alliance 的群组说明。 |
 | KAIX.IN | [@kaix_in](https://t.me/kaix_in) | 549 | 思考碎片，博客更新。 |
 | 科技无意义 | [@technical_with_love](https://t.me/technical_with_love) | 326 | 一个简单的人。 |
@@ -155,13 +155,13 @@
 | Telegram APKs for Android | [@TAndroidAPK](https://t.me/TAndroidAPK) | 260,378 | Telegram 官方发布的 Android 安装包。 |
 | Nekogram APKs | [@NekogramAPKs](https://t.me/NekogramAPKs) | 41,257 | 第三方客户端 Nekogram 的官方 Android 安装包。 |
 | 不要糖醋放椒盐 | [@saltplayerupdate](https://t.me/saltplayerupdate) | 17,641 | 椒盐音乐等播放器的版本更新、功能介绍与开发动态。 |
-| 404 KIDS SEE GHOSTS | [@isaiahsystem](https://t.me/isaiahsystem) | 13,574 | AI 工作流、笔记工具、开源应用与个人效率经验。 |
+| 404 KIDS SEE GHOSTS | [@isaiahsystem](https://t.me/isaiahsystem) | 13,578 | AI 工作流、笔记工具、开源应用与个人效率经验。 |
 | Leeco-雪花社 | [@xuehuashe](https://t.me/xuehuashe) | 12,033 | 分享实用快捷指令与脚本。 |
 | AdClose | [@adclose](https://t.me/adclose) | 12,463 | Android 广告拦截工具的版本发布、修复与功能更新。 |
 | 推特翻译 | [@twitter_translate](https://t.me/twitter_translate) | 11,152 | 翻译并分享推特上的内容。 |
 | Fragment Monitor | [@Fragment_Monitor](https://t.me/Fragment_Monitor) | 6,880 | 订阅 Fragment 用户名拍卖的新增出价等动态。 |
 | 简悦 - SimpRead | [@simpread](https://t.me/simpread) | 5,635 | 简悦的发布通道。 |
-| App Store 应用推荐 | [@app_store](https://t.me/app_store) | 5,044 | 苹果应用商店的应用推荐、限免与降价信息。 |
+| App Store 应用推荐 | [@app_store](https://t.me/app_store) | 5,043 | 苹果应用商店的应用推荐、限免与降价信息。 |
 | AppPie | [@AppPie](https://t.me/AppPie) | 3,530 | Apple 产品动态与应用推荐。 |
 | GBox 官方频道 | [@GBoxTGC](https://t.me/GBoxTGC) | 2,469 | GBox 的应用签名与 IPA 安装工具更新。 |
 | 無逸齋隨筆 | [@todayread](https://t.me/todayread) | 2,487 | 分享工作、阅读和写作随笔。 |
@@ -230,7 +230,7 @@
 | TestFlightX | [@TestFlightX](https://t.me/TestFlightX) | 43,346 | 分享开放申请的 TestFlight 应用测试链接。 |
 | 你有一个打折需要了解 | [@SteamNy](https://t.me/SteamNy) | 16,260 | 游戏折扣与优惠资讯。 |
 | 瞎玩菌 #SFW | [@blindgamer](https://t.me/blindgamer) | 10,785 | 聚焦 PC / 主机游戏。 |
-| PlayStation 游戏资讯 | [@playstationnewssss](https://t.me/playstationnewssss) | 3,218 | PlayStation 游戏发售、版本更新与会员资讯转载。 |
+| PlayStation 游戏资讯 | [@playstationnewssss](https://t.me/playstationnewssss) | 3,243 | PlayStation 游戏发售、版本更新与会员资讯转载。 |
 | Epic 游戏限免提醒 | [@weeklyfreeepicgames](https://t.me/weeklyfreeepicgames) | 2,438 | Epic Games 正版游戏赠送活动与领取时间提醒。 |
 | Hana 的 CS 杂谈 | [@hanacs2](https://t.me/hanacs2) | 844 | CS 电竞赛事、战队变动与赛程资讯，含外语转载。 |
 
@@ -292,7 +292,7 @@
 | 即刻精选 | [@jike_collection](https://t.me/jike_collection) | 35,920 | 转载即刻社区的内容选读。 |
 | Time经济观察 | [@TimeHorizonX](https://t.me/TimeHorizonX) | 21,104 | 宏观经济/公共政策/金融市场。 |
 | Laoself | [@laoself](https://t.me/laoself) | 3,064 | Laosb 的个人想法及社交平台动态。 |
-| 微博热搜 | [@weiboresou](https://t.me/weiboresou) | 1,574 | 通过第三方 RSS 订阅微博热搜。 |
+| 微博热搜 | [@weiboresou](https://t.me/weiboresou) | 1,570 | 通过第三方 RSS 订阅微博热搜。 |
 
 <a id="section-channel-16"></a>
 ### 👗 生活消费
@@ -306,7 +306,7 @@
 | 每日摄影观察 | [@cnphotog_collect](https://t.me/cnphotog_collect) | 6,767 | 摄影作品与个人观察。 |
 | Soha 的日常 | [@sohadays](https://t.me/sohadays) | 4,832 | Sohajin 的日常分享。 |
 | moke 的 日常分享、吐槽和动态 | [@mokeyjay_channel](https://t.me/mokeyjay_channel) | 2,749 | mokeyjay 关于 IT 和日常生活的见闻。 |
-| 可爱小狗 | [@keaixiaogou](https://t.me/keaixiaogou) | 2,511 | 猫狗及其他动物的趣味图片与日常分享。 |
+| 可爱小狗 | [@keaixiaogou](https://t.me/keaixiaogou) | 2,514 | 猫狗及其他动物的趣味图片与日常分享。 |
 | 中國地震速报（≥4.5级） | [@dizhen](https://t.me/dizhen) | 987 | 汇集中国地震台网和美国地质调查局的地震测定消息。 |
 | 猫咪都是天使！ | [@mastemeow](https://t.me/mastemeow) | 676 | 以自家猫咪为主的日常记录与萌宠影像。 |
 | 中转站 柯基犬的日常 - 吹水群 | [@UntitledGroup](https://t.me/UntitledGroup) | 266 | 柯基犬的日常讨论群入口，入群说明附有邀请链接。 |

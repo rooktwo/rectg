@@ -1,11 +1,8 @@
 {
   "added": [],
-  "generated_at": "2026-11-18T22:30:08.940281+00:00",
-  "readme_sha256": "81db75fd437208d036be9323794399f6313a4e76032b2707a46d175a29e1a11f",
-  "removed": [
-    "githubtrendinghub",
-    "free_group"
-  ],
+  "generated_at": "2026-11-19T22:30:10.695501+00:00",
+  "readme_sha256": "bf7e246ec7162671b4facaef6c5df0f795d07835a5e7a9150dffb49d4ab366ad",
+  "removed": [],
   "resources": {
     "abcthoughts": {
       "countCheckedAt": "2026-11-14T12:38:18.526435+00:00",
@@ -62,10 +59,10 @@
       "reviewPending": false
     },
     "app_store": {
-      "countCheckedAt": "2026-11-14T12:43:28.740854+00:00",
+      "countCheckedAt": "2026-11-14T18:13:35.356682+00:00",
       "countStale": false,
       "listConflict": false,
-      "reviewPending": true
+      "reviewPending": false
     },
     "applecooked": {
       "countCheckedAt": "2026-11-14T20:32:08.704534+00:00",
@@ -104,7 +101,7 @@
       "reviewPending": true
     },
     "awesomediygod": {
-      "countCheckedAt": "2026-11-14T18:00:26.653925+00:00",
+      "countCheckedAt": "2026-11-19T11:30:15.887205+00:00",
       "countStale": false,
       "listConflict": false,
       "reviewPending": true
@@ -296,7 +293,7 @@
       "reviewPending": true
     },
     "duskpipe": {
-      "countCheckedAt": "2026-11-14T18:24:59.058448+00:00",
+      "countCheckedAt": "2026-11-19T04:00:17.469222+00:00",
       "countStale": false,
       "listConflict": false,
       "reviewPending": true
@@ -482,7 +479,7 @@
       "reviewPending": true
     },
     "isaiahsystem": {
-      "countCheckedAt": "2026-11-14T18:52:11.004626+00:00",
+      "countCheckedAt": "2026-11-19T11:40:16.121971+00:00",
       "countStale": false,
       "listConflict": false,
       "reviewPending": true
@@ -530,7 +527,7 @@
       "reviewPending": true
     },
     "keaixiaogou": {
-      "countCheckedAt": "2026-11-14T18:56:01.297787+00:00",
+      "countCheckedAt": "2026-11-19T10:00:58.753230+00:00",
       "countStale": false,
       "listConflict": false,
       "reviewPending": true
@@ -878,7 +875,7 @@
       "reviewPending": true
     },
     "playstationnewssss": {
-      "countCheckedAt": "2026-11-14T19:41:23.798215+00:00",
+      "countCheckedAt": "2026-11-19T10:00:16.169224+00:00",
       "countStale": false,
       "listConflict": false,
       "reviewPending": true
@@ -1478,7 +1475,7 @@
       "reviewPending": true
     },
     "weiboresou": {
-      "countCheckedAt": "2026-11-14T20:50:13.942780+00:00",
+      "countCheckedAt": "2026-11-19T13:00:15.849275+00:00",
       "countStale": false,
       "listConflict": false,
       "reviewPending": true
@@ -1629,9 +1626,12 @@
     }
   },
   "updated_counts": [
-    "golden_wind_news",
-    "ijustseesee",
-    "todayread",
-    "sohadays"
+    "awesomediygod",
+    "duskpipe",
+    "isaiahsystem",
+    "app_store",
+    "playstationnewssss",
+    "weiboresou",
+    "keaixiaogou"
   ]
 }
