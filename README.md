@@ -106,7 +106,7 @@
 | theBlock | [@theBlockClub](https://t.me/theBlockClub) | 2,531 | Notion 使用方法、技巧和相关资讯。 |
 | NickTalk | [@nicktalk](https://t.me/nicktalk) | 2,252 | 格物致知，興趣相投。 |
 | Parallel Experiments | [@LinghaoCh](https://t.me/LinghaoCh) | 1,728 | Linghao 的个人选读和随想。 |
-| MrKevin博客 资讯 分享 测评 | [@hilinuxcn](https://t.me/hilinuxcn) | 1,242 | 服务器独立测评、主机优惠与互联网资讯。 |
+| MrKevin博客 资讯 分享 测评 | [@hilinuxcn](https://t.me/hilinuxcn) | 1,241 | 服务器独立测评、主机优惠与互联网资讯。 |
 | agou 的胡言乱语 | [@bakadog](https://t.me/bakadog) | 889 | 个人数码体验、产品设计观察与开发者生活随笔。 |
 | 烤苹果 | [@AppleCooked](https://t.me/AppleCooked) | 850 | 专业收集 bug，与信仰无关。 |
 | R.O.D. | [@read_or_dead](https://t.me/read_or_dead) | 733 | 日常读书吐槽，博客。 |
@@ -191,13 +191,15 @@
 | 电影爱好者 | [@MovieAnywhere](https://t.me/MovieAnywhere) | 26,848 | 电影爱好者讨论群入口，供影迷交流电影。 |
 | 國家地理雜誌 中文版 | [@natgeomedia](https://t.me/natgeomedia) | 14,841 | 《国家地理》杂志中文版的内容更新。 |
 | 新蛤社 | [@XinHaNewsAgency](https://t.me/XinHaNewsAgency) | 7,922 | 以江泽民相关网络文化为主题的内容。 |
-| 人人影视字幕文件 | [@yyets_subtitles](https://t.me/yyets_subtitles) | 7,292 | 分享人人影视字幕文件。 |
+| 人人影视字幕文件 | [@yyets_subtitles](https://t.me/yyets_subtitles) | 7,298 | 分享人人影视字幕文件。 |
 | 啰哩啰嗦分享频道 | [@notonlyshare](https://t.me/notonlyshare) | 4,442 | 分享互联网科技、人文、美食与电影。 |
 | ZUOLUOTV | [@zuoluotvofficial](https://t.me/zuoluotvofficial) | 2,898 | ZUOLUOTV 的官方频道与视频更新。 |
 | 美剧←→blahblah (& etc.) | [@mytvseries](https://t.me/mytvseries) | 1,899 | 美剧话题与闲聊。 |
 | 纪录片自留地 | [@litterpanda](https://t.me/litterpanda) | 1,180 | 随意发发，随便看看，不定时更。 |
 
 <a id="section-channel-8"></a>
+| BBC news | [@bbc_chinese_news](https://t.me/bbc_chinese_news) | 610 | BBC非官方新闻发布频道。 |
+
 ### 🎵 音乐音频
 
 | 名称 | 链接 | 人数 | 简介 |
@@ -259,7 +261,7 @@
 | 宇宙自然博物馆 | [@manhuadao04](https://t.me/manhuadao04) | 32,583 | 天文、地理与自然影像分享，更新节奏较慢。 |
 | 校长读报 | [@XiaoZhangDuBao](https://t.me/XiaoZhangDuBao) | 9,495 | 读书和读报分享。 |
 | zread (推) - 什么书值得读 | [@zreadpush](https://t.me/zreadpush) | 8,108 | zread 读书会与阅读机器人入口，旧书讯推送已结束。 |
-| 一天世界 博客 | [@yitianshijie](https://t.me/yitianshijie) | 6,082 | 新文章上线提醒及其它。 |
+| 一天世界 博客 | [@yitianshijie](https://t.me/yitianshijie) | 6,073 | 新文章上线提醒及其它。 |
 | APOD 每日天文图片（中文转载） | [@apod_hans](https://t.me/apod_hans) | 5,086 | NASA APOD 天文图片与中文科普转载，非 NASA 官方频道。 |
 | 椒盐豆豉剪报 | [@mtfront](https://t.me/mtfront) | 4,940 | 个人博客、旅行、阅读与科技剪报，偶有理财话题。 |
 | 豆瓣知乎简书微信公众号 | [@dbzhjs](https://t.me/dbzhjs) | 2,274 | 阅读，爱上书。 |
@@ -401,3 +403,7 @@
 | QDOWGLE | [@ZH_wool](https://t.me/ZH_wool) | 114 | - |
 | Tbo 交流群 | [@TboJiangGroup](https://t.me/TboJiangGroup) | 51 | Tbo 框架用户讨论群的加入入口。 |
 | 𝐕 𝐀 𝐆 𝐔 𝐄 - 針 | [@oz_sensei](https://t.me/oz_sensei) | 46 | - |
+| 参考消息 | [@cankaoxiaoxi_news](https://t.me/cankaoxiaoxi_news) | 835 | 参考消息非官方发布频道。 |
+| 全港交通消息 | [@hk_traffic_news](https://t.me/hk_traffic_news) | 43,539 | 全港即時最新交通消息 	RTH。 |
+
+
