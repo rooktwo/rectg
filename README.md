@@ -60,6 +60,10 @@
 | 公共交通部落 | [@fhs_publictransport_zone](https://t.me/fhs_publictransport_zone) | 582 | 公共交通相关的个人频道，涉及杭州公交和地铁。 |
 
 <a id="section-channel-2"></a>
+| 环球网 | [@huanqiu_news](https://t.me/huanqiu_news) | 1,263 | 环球网非官方发布频道。 |
+
+| 台湾 中央社 香港 苹果日报 | [@ttww_rss](https://t.me/ttww_rss) | 7,119 | \[RSS全文订阅 实时更新\]	。 |
+
 ### 💻 数码科技
 
 | 名称 | 链接 | 人数 | 简介 |
@@ -208,7 +212,7 @@
 | 小破不入渠 | [@forwardlikehell](https://t.me/forwardlikehell) | 6,749 | 个人随笔与原创作品。 |
 | 咕 Billchan 咕 抹茶芭菲批发中心 | [@billchenla](https://t.me/billchenla) | 3,188 | Billchan 分享的个人歌单等内容。 |
 | Classical Music | [@exploreclassical](https://t.me/exploreclassical) | 1,851 | 一起来听古典音乐吧～～。 |
-| 浅影随想 | [@lightFantasy](https://t.me/lightFantasy) | 1,443 | 一位计算机专业研究生的日常随想。 |
+| 浅影随想 | [@lightFantasy](https://t.me/lightFantasy) | 1,444 | 一位计算机专业研究生的日常随想。 |
 | 音乐小本本 | [@paulsnote](https://t.me/paulsnote) | 595 | 古典音乐欣赏、演奏分享与乐理随笔。 |
 
 <a id="section-channel-9"></a>
@@ -275,6 +279,10 @@
 | 維基人 官方推播頻道 | [@the_Wikipedian](https://t.me/the_Wikipedian) | 246 | 中文维基人编撰的刊物，关注维基百科政策和社区议题。 |
 
 <a id="section-channel-14"></a>
+| wikipedia-zh patrol | [@wikipedia_zh_patrol](https://t.me/wikipedia_zh_patrol) | 771 | 中文维基百科社群巡查频道	🌐。 |
+
+| 知乎大巴扎 | [@zhihu_bazaar](https://t.me/zhihu_bazaar) | 21,855 | 搬运和备份一些知乎上的内容。 |
+
 ### 🎨 创意设计
 
 | 名称 | 链接 | 人数 | 简介 |

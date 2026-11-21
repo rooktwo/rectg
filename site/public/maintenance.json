@@ -1,106 +1,107 @@
 {
   "added": [
-    "bbc_chinese_news",
-    "cankaoxiaoxi_news",
-    "hk_traffic_news"
+    "huanqiu_news",
+    "ttww_rss",
+    "wikipedia_zh_patrol",
+    "zhihu_bazaar"
   ],
-  "generated_at": "2026-11-20T22:30:10.115071+00:00",
-  "readme_sha256": "b3050207e07487c10602d426881684c7b35a228f786df08f28586b1f58da62f9",
+  "generated_at": "2026-11-21T22:30:12.213195+00:00",
+  "readme_sha256": "1c7e38115baae959c7efe93413e848fdb8529ef97fb57c2f671b4ef4d73dfcd6",
   "removed": [],
   "resources": {
     "abcthoughts": {
       "countCheckedAt": "2026-11-14T12:38:18.526435+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "abiyahmedaliofficial": {
       "countCheckedAt": "2026-11-14T12:38:28.505431+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "aboutrss": {
       "countCheckedAt": "2026-11-14T12:38:38.524142+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "acgstickers": {
       "countCheckedAt": "2026-11-14T12:38:48.521508+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "adclose": {
       "countCheckedAt": "2026-11-14T12:39:28.554847+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "agentone_r": {
       "countCheckedAt": "2026-11-14T12:40:18.593347+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "ai_copilot_channel": {
       "countCheckedAt": "2026-11-14T12:40:28.597990+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "alistshare": {
       "countCheckedAt": "2026-11-14T12:41:38.656731+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "apod_hans": {
       "countCheckedAt": "2026-11-14T18:04:28.669067+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": false
     },
     "app_store": {
       "countCheckedAt": "2026-11-14T18:13:35.356682+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": false
     },
     "applecooked": {
       "countCheckedAt": "2026-11-14T20:32:08.704534+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "applenuts": {
       "countCheckedAt": "2026-11-14T12:44:38.795880+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "apppie": {
       "countCheckedAt": "2026-11-14T12:45:18.824551+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "archlinuxcn": {
       "countCheckedAt": "2026-11-14T12:45:58.851052+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "archlinuxcn_updates": {
       "countCheckedAt": "2026-11-14T19:48:14.763074+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": false
     },
     "awesomechatgpt": {
       "countCheckedAt": "2026-11-14T18:00:05.697990+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -112,66 +113,67 @@
     },
     "awesomersshub": {
       "countCheckedAt": "2026-11-14T18:01:08.768606+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "baipiaozy": {
       "countCheckedAt": "2026-11-14T18:01:51.003635+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "bakadog": {
       "countCheckedAt": "2026-11-14T18:02:32.990370+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "bbc_chinese_news": {
       "countCheckedAt": "2026-11-19T20:39:10.266056+00:00",
       "countStale": false,
+      "listConflict": false,
       "reviewPending": false
     },
     "beautifultgtheme": {
       "countCheckedAt": "2026-11-14T18:02:54.045546+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "bigdongdongchannel": {
       "countCheckedAt": "2026-11-14T18:05:00.190107+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "billchenla": {
       "countCheckedAt": "2026-11-14T18:05:21.227196+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "blindgamer": {
       "countCheckedAt": "2026-11-14T18:06:34.841449+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "botnews": {
       "countCheckedAt": "2026-11-14T18:07:37.714306+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "bpsheel": {
       "countCheckedAt": "2026-11-14T18:07:58.650929+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "breakingnews_t": {
       "countCheckedAt": "2026-11-14T18:08:09.110819+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -183,7 +185,7 @@
     },
     "bunte_welt": {
       "countCheckedAt": "2026-11-14T18:08:40.511013+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -196,6 +198,7 @@
     "cankaoxiaoxi_news": {
       "countCheckedAt": "2026-11-20T02:40:51.068704+00:00",
       "countStale": false,
+      "listConflict": false,
       "reviewPending": false
     },
     "cantonweather": {
@@ -206,13 +209,13 @@
     },
     "ce_observe": {
       "countCheckedAt": "2026-11-14T18:09:53.768598+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "chavyscripts": {
       "countCheckedAt": "2026-11-14T18:10:14.697825+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -230,25 +233,25 @@
     },
     "cnphotog_collect": {
       "countCheckedAt": "2026-11-14T18:14:49.249938+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "contest": {
       "countCheckedAt": "2026-11-14T18:15:31.378102+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "cool_scripts": {
       "countCheckedAt": "2026-11-14T18:15:52.338949+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "creativemotion": {
       "countCheckedAt": "2026-11-14T18:16:13.506759+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
@@ -260,7 +263,7 @@
     },
     "dailyrss": {
       "countCheckedAt": "2026-11-14T18:17:37.304846+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -272,19 +275,19 @@
     },
     "dbzhjs": {
       "countCheckedAt": "2026-11-14T18:18:19.234963+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "designers": {
       "countCheckedAt": "2026-11-14T18:18:40.181479+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "discussthis": {
       "countCheckedAt": "2026-11-14T18:21:28.540859+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
@@ -296,13 +299,13 @@
     },
     "drawing1024": {
       "countCheckedAt": "2026-11-14T18:24:16.977063+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "durov": {
       "countCheckedAt": "2026-11-14T18:24:38.027869+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
@@ -314,25 +317,25 @@
     },
     "duyaoss": {
       "countCheckedAt": "2026-11-14T18:25:20.215956+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "eco_cn": {
       "countCheckedAt": "2026-11-14T18:26:44.809214+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "economist_rss": {
       "countCheckedAt": "2026-11-14T18:27:05.911437+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "exploreclassical": {
       "countCheckedAt": "2026-11-14T18:29:33.554551+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -344,55 +347,55 @@
     },
     "fanren4k": {
       "countCheckedAt": "2026-11-14T12:51:32.918111+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "fengsharegroup": {
       "countCheckedAt": "2026-11-14T18:32:01.166287+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "fhs_publictransport_zone": {
       "countCheckedAt": "2026-11-14T18:32:43.689507+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "financenewsdaily": {
       "countCheckedAt": "2026-11-14T18:33:04.946309+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "fnnew": {
       "countCheckedAt": "2026-11-14T18:35:00.585144+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "forwardlikehell": {
       "countCheckedAt": "2026-11-14T18:35:42.468687+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "fragment_monitor": {
       "countCheckedAt": "2026-11-14T18:35:52.930349+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "gboxtgc": {
       "countCheckedAt": "2026-11-14T18:37:16.683607+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "githubtrending": {
       "countCheckedAt": "2026-11-14T18:39:01.446391+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
@@ -404,49 +407,49 @@
     },
     "googleplaypublic": {
       "countCheckedAt": "2026-11-14T18:41:07.598240+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "googleshit": {
       "countCheckedAt": "2026-11-14T18:41:28.828519+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "goworkbitch": {
       "countCheckedAt": "2026-11-14T18:42:11.402669+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "groupownerbots": {
       "countCheckedAt": "2026-11-14T18:43:35.680312+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "hacker_news_feed": {
       "countCheckedAt": "2026-11-14T18:44:27.990976+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "hanacs2": {
       "countCheckedAt": "2026-11-14T18:44:49.078389+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "hearrain": {
       "countCheckedAt": "2026-11-14T18:46:13.454899+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "hexozh": {
       "countCheckedAt": "2026-11-14T18:46:45.025352+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -459,11 +462,17 @@
     "hk_traffic_news": {
       "countCheckedAt": "2026-11-20T04:49:05.611930+00:00",
       "countStale": false,
+      "listConflict": false,
+      "reviewPending": false
+    },
+    "huanqiu_news": {
+      "countCheckedAt": "2026-11-20T04:58:33.681359+00:00",
+      "countStale": false,
       "reviewPending": false
     },
     "ibeta_channel": {
       "countCheckedAt": "2026-11-14T18:48:40.205833+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -475,25 +484,25 @@
     },
     "illusory_world": {
       "countCheckedAt": "2026-11-14T18:49:01.124765+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "im_roriri": {
       "countCheckedAt": "2026-11-14T18:49:11.587271+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "ingresschinese": {
       "countCheckedAt": "2026-11-14T18:50:57.440884+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "iosupdates": {
       "countCheckedAt": "2026-11-14T18:51:39.619425+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
@@ -505,43 +514,43 @@
     },
     "isiswatch": {
       "countCheckedAt": "2026-11-14T18:52:21.476326+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "jike_collection": {
       "countCheckedAt": "2026-11-14T18:53:34.762478+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "jisfw": {
       "countCheckedAt": "2026-11-14T18:54:16.623108+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "jumpto22222": {
       "countCheckedAt": "2026-11-14T18:54:48.037703+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "justaboringchannel": {
       "countCheckedAt": "2026-11-14T18:54:58.502453+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "justfnew": {
       "countCheckedAt": "2026-11-14T18:55:08.969201+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "kaix_in": {
       "countCheckedAt": "2026-11-14T18:55:29.894565+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -553,7 +562,7 @@
     },
     "kejiqu": {
       "countCheckedAt": "2026-11-14T18:56:22.261065+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -565,61 +574,61 @@
     },
     "ksc666": {
       "countCheckedAt": "2026-11-14T18:59:00.413038+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "laoself": {
       "countCheckedAt": "2026-11-14T19:00:03.812155+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "leehsienloong": {
       "countCheckedAt": "2026-11-14T19:00:24.740666+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "lengyanxiangyang": {
       "countCheckedAt": "2026-11-14T19:00:56.135130+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "lightfantasy": {
-      "countCheckedAt": "2026-11-14T19:01:48.484089+00:00",
+      "countCheckedAt": "2026-11-20T19:12:39.134336+00:00",
       "countStale": false,
       "listConflict": false,
       "reviewPending": true
     },
     "linghaoch": {
       "countCheckedAt": "2026-11-14T19:02:51.301126+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "linsbooka": {
       "countCheckedAt": "2026-11-14T19:03:33.250215+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "listentotheworld": {
       "countCheckedAt": "2026-11-14T19:04:57.635880+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "litterpanda": {
       "countCheckedAt": "2026-11-14T19:05:18.863479+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "lover_links": {
       "countCheckedAt": "2026-11-14T19:06:00.847763+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -631,79 +640,79 @@
     },
     "lychee_wood": {
       "countCheckedAt": "2026-11-14T19:06:53.202627+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "lymbo_chatting": {
       "countCheckedAt": "2026-11-14T19:07:03.676974+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "mactalk": {
       "countCheckedAt": "2026-11-14T19:07:35.063731+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "magazinesclubnew": {
       "countCheckedAt": "2026-11-14T19:07:45.546229+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "manhuadao04": {
       "countCheckedAt": "2026-11-14T19:08:16.995271+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "mastemeow": {
       "countCheckedAt": "2026-11-14T19:08:27.460211+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "matlab_tips": {
       "countCheckedAt": "2026-11-14T19:09:09.318298+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "meetashare": {
       "countCheckedAt": "2026-11-14T19:10:13.071589+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "meowminimeow": {
       "countCheckedAt": "2026-11-14T19:11:50.117000+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "miaotonychannel": {
       "countCheckedAt": "2026-11-14T19:12:32.067232+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "miaowu": {
       "countCheckedAt": "2026-11-14T19:12:42.534976+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "mikuri520": {
       "countCheckedAt": "2026-11-14T19:13:03.466291+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "milkice_portal": {
       "countCheckedAt": "2026-11-14T19:13:13.934049+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -715,25 +724,25 @@
     },
     "mokeyjay_channel": {
       "countCheckedAt": "2026-11-14T19:14:06.269049+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "movieanywhere": {
       "countCheckedAt": "2026-11-14T19:14:27.184851+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "mtalk": {
       "countCheckedAt": "2026-11-14T19:14:58.581186+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "mtfront": {
       "countCheckedAt": "2026-11-14T19:15:19.554033+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -745,151 +754,151 @@
     },
     "nanningtg": {
       "countCheckedAt": "2026-11-14T19:18:32.741415+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "natgeomedia": {
       "countCheckedAt": "2026-11-14T19:18:54.320033+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "nekogramapks": {
       "countCheckedAt": "2026-11-14T19:19:15.311699+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "nekosc": {
       "countCheckedAt": "2026-11-14T19:19:36.297626+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "newlearnerchannel": {
       "countCheckedAt": "2026-11-14T19:19:57.230492+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "newmobilelife": {
       "countCheckedAt": "2026-11-14T19:20:18.246743+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "newsfw": {
       "countCheckedAt": "2026-11-14T19:21:21.283819+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "nexttrace": {
       "countCheckedAt": "2026-11-14T19:22:45.384618+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "nianticofficial": {
       "countCheckedAt": "2026-11-14T19:23:49.185134+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "nicequotes123": {
       "countCheckedAt": "2026-11-14T19:25:25.286957+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "niche_software": {
       "countCheckedAt": "2026-11-14T19:25:57.328686+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "nicktalk": {
       "countCheckedAt": "2026-11-14T19:26:18.601784+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "notonlyshare": {
       "countCheckedAt": "2026-11-14T19:28:55.769260+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "openwrt_flippy": {
       "countCheckedAt": "2026-11-14T19:30:20.538598+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "otp_channel": {
       "countCheckedAt": "2026-11-14T19:31:13.243820+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "outvivid": {
       "countCheckedAt": "2026-11-14T19:31:55.420975+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "oz_sensei": {
       "countCheckedAt": "2026-11-14T19:32:58.619155+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "pankt": {
       "countCheckedAt": "2026-11-14T19:33:40.557406+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "paulsnote": {
       "countCheckedAt": "2026-11-14T19:34:43.664627+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "pdcn1": {
       "countCheckedAt": "2026-11-14T19:35:46.649834+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "peekfun": {
       "countCheckedAt": "2026-11-14T19:36:49.998933+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "peopleofscreen": {
       "countCheckedAt": "2026-11-14T19:37:11.083139+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "pikapush": {
       "countCheckedAt": "2026-11-14T19:39:18.064867+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "pincongessence": {
       "countCheckedAt": "2026-11-14T19:39:39.010357+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "pixivshare": {
       "countCheckedAt": "2026-11-14T19:40:41.890254+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -901,67 +910,67 @@
     },
     "plusmsgr": {
       "countCheckedAt": "2026-11-14T19:42:06.127197+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "polls_channel": {
       "countCheckedAt": "2026-11-14T19:42:27.530837+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "polyhedron": {
       "countCheckedAt": "2026-11-14T19:42:48.800300+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "programmerjokes": {
       "countCheckedAt": "2026-11-14T19:44:55.009296+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "projectxtls": {
       "countCheckedAt": "2026-11-14T19:45:16.092601+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "purewriter": {
       "countCheckedAt": "2026-11-14T19:45:58.302247+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "pvszforquanx": {
       "countCheckedAt": "2026-11-14T19:46:40.387420+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "pwrtelegram": {
       "countCheckedAt": "2026-11-14T19:47:01.399513+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "pythontrendingweekly": {
       "countCheckedAt": "2026-11-14T19:47:53.829225+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "qiushuiyibing": {
       "countCheckedAt": "2026-11-14T19:48:46.221148+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "quanxnews": {
       "countCheckedAt": "2026-11-14T19:49:49.372903+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
@@ -979,13 +988,13 @@
     },
     "read_or_dead": {
       "countCheckedAt": "2026-11-14T19:55:04.136072+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "readhub_cn": {
       "countCheckedAt": "2026-11-14T19:55:25.306342+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -1003,115 +1012,115 @@
     },
     "ruheyushadiaoxiangchu": {
       "countCheckedAt": "2026-11-14T19:57:41.928284+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "rules_for_python": {
       "countCheckedAt": "2026-11-14T19:57:52.390499+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "rvalue_daily": {
       "countCheckedAt": "2026-11-14T19:58:34.267616+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "rynif": {
       "countCheckedAt": "2026-11-14T19:58:44.748569+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "saltplayerupdate": {
       "countCheckedAt": "2026-11-14T19:58:55.216757+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "science": {
       "countCheckedAt": "2026-11-14T19:59:16.149788+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "scitech_fans": {
       "countCheckedAt": "2026-11-14T19:59:26.614910+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "seedless_channel": {
       "countCheckedAt": "2026-11-14T19:59:47.538345+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "shadowrocketnews": {
       "countCheckedAt": "2026-11-14T20:00:29.572379+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "sharealiyun": {
       "countCheckedAt": "2026-11-14T20:00:50.838861+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "shitofniantic": {
       "countCheckedAt": "2026-11-14T20:03:18.040896+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "shmirziyoyev": {
       "countCheckedAt": "2026-11-14T20:03:39.022872+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "shortcutscn": {
       "countCheckedAt": "2026-11-14T20:03:59.988177+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "shuangyunews_rss": {
       "countCheckedAt": "2026-11-14T20:04:10.473279+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "sidehustleus": {
       "countCheckedAt": "2026-11-14T20:04:41.873742+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "simpread": {
       "countCheckedAt": "2026-11-14T20:04:52.338440+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "sitandrelaxlab": {
       "countCheckedAt": "2026-11-14T20:05:02.808731+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "sitandrelaxlabs": {
       "countCheckedAt": "2026-11-14T20:05:13.268217+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "sitandrelaxw": {
       "countCheckedAt": "2026-11-14T20:05:23.739545+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -1123,55 +1132,55 @@
     },
     "solidot": {
       "countCheckedAt": "2026-11-14T20:06:37.393620+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "spotifynews": {
       "countCheckedAt": "2026-11-14T20:07:41.320615+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "sspai": {
       "countCheckedAt": "2026-11-14T20:08:02.576818+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "steamny": {
       "countCheckedAt": "2026-11-14T20:08:45.117017+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "steamsteam": {
       "countCheckedAt": "2026-11-14T20:09:06.034257+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "stopca": {
       "countCheckedAt": "2026-11-14T20:10:30.656819+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "sukkachannel": {
       "countCheckedAt": "2026-11-14T20:11:13.143911+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "surfboardnews": {
       "countCheckedAt": "2026-11-14T20:11:34.345225+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "sweet_kartoshka": {
       "countCheckedAt": "2026-11-14T20:12:16.771460+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -1183,169 +1192,169 @@
     },
     "tandroidapk": {
       "countCheckedAt": "2026-11-14T20:12:59.167487+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "tbojianggroup": {
       "countCheckedAt": "2026-11-14T20:13:41.650043+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "tech_scavenger": {
       "countCheckedAt": "2026-11-14T20:14:02.856747+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "technical_with_love": {
       "countCheckedAt": "2026-11-14T20:14:45.348623+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "telebookstall": {
       "countCheckedAt": "2026-11-14T20:15:48.408128+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "telegram": {
       "countCheckedAt": "2026-11-14T20:16:09.369143+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "telegrambr": {
       "countCheckedAt": "2026-11-14T20:16:30.335668+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "telegrames": {
       "countCheckedAt": "2026-11-14T20:17:12.523362+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "telegramit": {
       "countCheckedAt": "2026-11-14T20:17:54.744186+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "telegramtips": {
       "countCheckedAt": "2026-11-14T20:18:36.945083+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "telegramtipsbr": {
       "countCheckedAt": "2026-11-14T20:18:47.414086+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "telegramtipses": {
       "countCheckedAt": "2026-11-14T20:18:57.945802+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "telegramtipsid": {
       "countCheckedAt": "2026-11-14T20:19:08.407368+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "telegramtipsit": {
       "countCheckedAt": "2026-11-14T20:19:18.871147+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "tesla_share": {
       "countCheckedAt": "2026-11-14T20:20:11.237807+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "testflights": {
       "countCheckedAt": "2026-11-14T20:20:42.642179+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "testflightx": {
       "countCheckedAt": "2026-11-14T20:21:03.565377+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "tg_internetsecurity": {
       "countCheckedAt": "2026-11-14T20:21:46.035332+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "tg_x64": {
       "countCheckedAt": "2026-11-14T20:22:07.153189+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "tginfo": {
       "countCheckedAt": "2026-11-14T20:25:16.890918+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "tginfoen": {
       "countCheckedAt": "2026-11-14T20:25:38.000587+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "tgpill": {
       "countCheckedAt": "2026-11-14T20:25:59.125324+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "tgstable": {
       "countCheckedAt": "2026-11-14T20:26:51.975486+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "the_wikipedian": {
       "countCheckedAt": "2026-11-14T20:27:33.848014+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "theblockbeats": {
       "countCheckedAt": "2026-11-14T20:27:44.310046+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "theblockclub": {
       "countCheckedAt": "2026-11-14T20:28:05.273150+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "thespeechless": {
       "countCheckedAt": "2026-11-14T20:29:09.178708+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "thinkpositivewords": {
       "countCheckedAt": "2026-11-14T20:29:30.373329+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
@@ -1357,25 +1366,25 @@
     },
     "times001": {
       "countCheckedAt": "2026-11-14T20:31:47.366309+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "timmychannel": {
       "countCheckedAt": "2026-11-14T20:32:19.156476+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "tinysnow4yi": {
       "countCheckedAt": "2026-11-14T20:34:04.779605+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "titan_pain": {
       "countCheckedAt": "2026-11-14T20:34:25.980149+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -1387,109 +1396,114 @@
     },
     "trendingstickers": {
       "countCheckedAt": "2026-11-14T20:36:32.383213+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "trumpjr": {
       "countCheckedAt": "2026-11-14T20:36:42.852447+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "tsbblog": {
       "countCheckedAt": "2026-11-14T20:36:53.328513+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "tsecrecord": {
       "countCheckedAt": "2026-11-14T20:37:03.793489+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
+    "ttww_rss": {
+      "countCheckedAt": "2026-11-20T07:49:11.428447+00:00",
+      "countStale": false,
+      "reviewPending": false
+    },
     "tvbox888": {
       "countCheckedAt": "2026-11-14T20:37:35.197345+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "tw_reporter_org": {
       "countCheckedAt": "2026-11-14T20:37:45.666497+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "twitter_translate": {
       "countCheckedAt": "2026-11-14T20:38:48.577371+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "typechodev": {
       "countCheckedAt": "2026-11-14T20:39:09.522914+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "unigram": {
       "countCheckedAt": "2026-11-14T20:40:12.320929+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "unigramappx": {
       "countCheckedAt": "2026-11-14T20:40:22.782801+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "universityalliance_info": {
       "countCheckedAt": "2026-11-14T20:40:33.261285+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "untitledgroup": {
       "countCheckedAt": "2026-11-14T20:40:43.736226+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "uselessideas": {
       "countCheckedAt": "2026-11-14T20:42:07.953255+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "v_zelenskiy_official": {
       "countCheckedAt": "2026-11-14T20:43:53.430684+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "vanillatg": {
       "countCheckedAt": "2026-11-14T20:44:14.589931+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "vitamineepodcast": {
       "countCheckedAt": "2026-11-14T20:45:38.964581+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "weekly_books": {
       "countCheckedAt": "2026-11-14T20:48:49.282835+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "weeklyfreeepicgames": {
       "countCheckedAt": "2026-11-14T20:49:10.503221+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -1501,79 +1515,84 @@
     },
     "wikinews_zh_broadcast": {
       "countCheckedAt": "2026-11-14T20:51:48.119593+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
+    "wikipedia_zh_patrol": {
+      "countCheckedAt": "2026-11-20T08:11:39.896941+00:00",
+      "countStale": false,
+      "reviewPending": false
+    },
     "wolleynews": {
       "countCheckedAt": "2026-11-14T20:52:19.747683+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "world2us": {
       "countCheckedAt": "2026-11-14T20:53:02.179978+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "wublock": {
       "countCheckedAt": "2026-11-14T20:54:48.055721+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "wushuwang": {
       "countCheckedAt": "2026-11-14T20:55:30.181582+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "xhqcankao": {
       "countCheckedAt": "2026-11-14T20:57:36.810762+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "xiao_man_tou": {
       "countCheckedAt": "2026-11-14T20:58:40.192662+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "xiaozhangdubao": {
       "countCheckedAt": "2026-11-14T21:00:04.264556+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "xinhanewsagency": {
       "countCheckedAt": "2026-11-14T21:00:25.207427+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "xplus_channel": {
       "countCheckedAt": "2026-11-14T21:01:07.619670+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": true,
       "reviewPending": true
     },
     "xuehuashe": {
       "countCheckedAt": "2026-11-14T21:01:49.958752+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "yeqingjie_gjg666": {
       "countCheckedAt": "2026-11-14T21:03:14.364108+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "yingyoushadiao": {
       "countCheckedAt": "2026-11-14T21:03:45.765154+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -1585,7 +1604,7 @@
     },
     "yuan_en": {
       "countCheckedAt": "2026-11-14T21:04:59.012067+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -1597,7 +1616,7 @@
     },
     "yxhmd": {
       "countCheckedAt": "2026-11-14T21:05:19.928928+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -1609,7 +1628,7 @@
     },
     "zaobaosg": {
       "countCheckedAt": "2026-11-14T21:07:06.030467+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -1619,34 +1638,37 @@
       "listConflict": false,
       "reviewPending": true
     },
+    "zhihu_bazaar": {
+      "countCheckedAt": "2026-11-20T08:50:07.746292+00:00",
+      "countStale": false,
+      "reviewPending": false
+    },
     "zhihuribao_rss": {
       "countCheckedAt": "2026-11-14T21:08:31.119143+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "zreadpush": {
       "countCheckedAt": "2026-11-14T21:10:38.379846+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "zrj96": {
       "countCheckedAt": "2026-11-14T21:10:59.474060+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "zuoluotvofficial": {
       "countCheckedAt": "2026-11-14T21:12:02.847874+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     }
   },
   "updated_counts": [
-    "hilinuxcn",
-    "yyets_subtitles",
-    "yitianshijie"
+    "lightfantasy"
   ]
 }
