@@ -39,7 +39,7 @@
 | RSSHub News | [@awesomeRSSHub](https://t.me/awesomeRSSHub) | 12,111 | RSSHub 项目的资讯与更新。 |
 | 经济信息联播 | [@eco_cn](https://t.me/eco_cn) | 11,940 | 汇总股市收盘信息、财经新闻和研究报告。 |
 | TestFlight News | [@testflights](https://t.me/testflights) | 11,080 | 汇总 iOS 应用的 TestFlight 申请入口与使用说明。 |
-| ALL About RSS | [@aboutrss](https://t.me/aboutrss) | 9,449 | RSS 工具、教程与订阅技巧。 |
+| ALL About RSS | [@aboutrss](https://t.me/aboutrss) | 9,445 | RSS 工具、教程与订阅技巧。 |
 | 层叠 - The Cascading | [@outvivid](https://t.me/outvivid) | 9,325 | 主要话题大概是开源业界新闻。 |
 | 突发新闻 | [@breakingnews_t](https://t.me/breakingnews_t) | 8,589 | 突发新闻推送服务（简体中文）。 |
 | Readhub | [@readhub_cn](https://t.me/readhub_cn) | 8,587 | 每天三分钟的科技新闻聚合阅读。 |
@@ -81,7 +81,7 @@
 | Shadowrocket News | [@ShadowrocketNews](https://t.me/ShadowrocketNews) | 47,293 | Shadowrocket 在 iOS、iPadOS 和 tvOS 上的应用资讯。 |
 | Think Positive Words | [@thinkpositivewords](https://t.me/thinkpositivewords) | 35,582 | 英语励志短句和语录。 |
 | 科技&趣闻&杂记 | [@kejiqu](https://t.me/kejiqu) | 36,779 | 分享有价值，有趣的信息。 |
-|  Apple Nuts | [@AppleNuts](https://t.me/AppleNuts) | 37,722 | 一个特别的 Apple 频道。 |
+|  Apple Nuts | [@AppleNuts](https://t.me/AppleNuts) | 37,788 | 一个特别的 Apple 频道。 |
 | 少数派sspai | [@sspai](https://t.me/sspai) | 39,166 | 少数派的官方频道。 |
 | 老毛子Padavan固件发布 | [@pdcn1](https://t.me/pdcn1) | 31,429 | 老毛子 Padavan 固件用户的自助交流群和 iOS 交流群入口。 |
 | Telegram Info English | [@tginfoen](https://t.me/tginfoen) | 30,099 | Telegram Info 的英语版，报道 Telegram 动态。 |
@@ -96,12 +96,12 @@
 | NewMobileLife | [@newmobilelife](https://t.me/newmobilelife) | 12,595 | 苹果产品消息、应用限免和使用技巧。 |
 | 〄FW | [@JISFW](https://t.me/JISFW) | 12,883 | For Work 系列的梗图、网络趣闻与科技段子。 |
 | 那些好看的Tg主题 | [@beautifultgtheme](https://t.me/beautifultgtheme) | 12,963 | 分享 Telegram 主题，以 Android 客户端为主。 |
-| AI Copilot | [@ai_copilot_channel](https://t.me/ai_copilot_channel) | 11,438 | AI 产品更新、模型动态与工具使用提示。 |
+| AI Copilot | [@ai_copilot_channel](https://t.me/ai_copilot_channel) | 11,724 | AI 产品更新、模型动态与工具使用提示。 |
 | Unigram News | [@unigram](https://t.me/unigram) | 10,591 | Windows 版 Telegram 客户端 Unigram 的更新。 |
 | iOS Releases | [@iOSUpdates](https://t.me/iOSUpdates) | 9,031 | iOS 固件查询机器人入口，提供机型、固件和系统签名相关工具的说明。 |
 | 64Gram Release | [@tg_x64](https://t.me/tg_x64) | 8,670 | 基于 Telegram Desktop 的第三方客户端 64Gram 版本发布。 |
 | 时间的切片 | [@mactalk](https://t.me/mactalk) | 6,860 | 分享墨问等产品的开发记录与发布消息。 |
-| 今天abc看了啥 | [@abcthoughts](https://t.me/abcthoughts) | 7,149 | 现在我也不知道这频道发了啥了。 |
+| 今天abc看了啥 | [@abcthoughts](https://t.me/abcthoughts) | 7,177 | 现在我也不知道这频道发了啥了。 |
 | Telegram Stable Releases | [@tgstable](https://t.me/tgstable) | 5,168 | 汇总 Telegram 各官方客户端的稳定版发布。 |
 | AIM扩散力场 | [@nekosc](https://t.me/nekosc) | 3,515 | 本频道会不定时推送一些段子。 |
 | Milkice's 生而喵喵 | [@milkice_portal](https://t.me/milkice_portal) | 3,397 | Milkice 的个人频道，分享音游、科技与日常。 |
@@ -127,16 +127,16 @@
 | Hacker News | [@hacker_news_feed](https://t.me/hacker_news_feed) | 30,633 | 汇总 Hacker News 上评分超过 100 分的热门文章。 |
 | Project X Channel | [@projectXtls](https://t.me/projectXtls) | 30,598 | Project X 的项目公告和社区入口。 |
 | BennyThink’s Blog | [@mikuri520](https://t.me/mikuri520) | 12,075 | 开发者的开源工具、技术折腾与生活随笔。 |
-| Arch Linux Chinese Messages | [@archlinuxcn](https://t.me/archlinuxcn) | 11,276 | Arch Linux 官方新闻的中文翻译、软件包更新和使用提醒。 |
+| Arch Linux Chinese Messages | [@archlinuxcn](https://t.me/archlinuxcn) | 11,288 | Arch Linux 官方新闻的中文翻译、软件包更新和使用提醒。 |
 | GitHub Trends | [@githubtrending](https://t.me/githubtrending) | 12,066 | GitHub 热门开源项目动态。 |
 | Python Telegram Network Rules | [@rules_for_python](https://t.me/rules_for_python) | 3,007 | Python Telegram Network 的英文群规与 Python、Django 讨论群入口。 |
 | MATLAB TIPS | [@MATLAB_tips](https://t.me/MATLAB_tips) | 2,618 | MATLAB 脚本、函数、技巧和教程。 |
 | DBin_K · Tingle 灵光一闪 | [@dbinkbb](https://t.me/dbinkbb) | 2,349 | AI 编程、开源工具、技术会议与开发随笔。 |
 | NextTrace | [@nexttrace](https://t.me/nexttrace) | 915 | 开源网络路由追踪、链路诊断工具的版本与项目动态。 |
 | PWRTelegram API channel | [@Pwrtelegram](https://t.me/Pwrtelegram) | 718 | PWRTelegram Bot API 的官方更新与安装说明。 |
-| Arch Linux Updates | [@archlinuxcn_updates](https://t.me/archlinuxcn_updates) | 724 | Arch Linux 官方及中文社区仓库的软件包更新。 |
+| Arch Linux Updates | [@archlinuxcn_updates](https://t.me/archlinuxcn_updates) | 726 | Arch Linux 官方及中文社区仓库的软件包更新。 |
 | 副业 | [@sidehustleus](https://t.me/sidehustleus) | 906 | 专注于 MVP 验证。 |
-| Rachel 的消息发布站点 | [@RachelNotice](https://t.me/RachelNotice) | 139 | Rachel 的个人公告。 |
+| Rachel 的消息发布站点 | [@RachelNotice](https://t.me/RachelNotice) | 135 | Rachel 的个人公告。 |
 | faangbbs APP北美程序员大群 | [@faangbbs](https://t.me/faangbbs) | 64 | 北美程序员社群 FAANGBBS 的交流入口。 |
 
 <a id="section-channel-4"></a>
@@ -161,12 +161,12 @@
 | 不要糖醋放椒盐 | [@saltplayerupdate](https://t.me/saltplayerupdate) | 17,641 | 椒盐音乐等播放器的版本更新、功能介绍与开发动态。 |
 | 404 KIDS SEE GHOSTS | [@isaiahsystem](https://t.me/isaiahsystem) | 13,578 | AI 工作流、笔记工具、开源应用与个人效率经验。 |
 | Leeco-雪花社 | [@xuehuashe](https://t.me/xuehuashe) | 12,033 | 分享实用快捷指令与脚本。 |
-| AdClose | [@adclose](https://t.me/adclose) | 12,463 | Android 广告拦截工具的版本发布、修复与功能更新。 |
+| AdClose | [@adclose](https://t.me/adclose) | 12,500 | Android 广告拦截工具的版本发布、修复与功能更新。 |
 | 推特翻译 | [@twitter_translate](https://t.me/twitter_translate) | 11,152 | 翻译并分享推特上的内容。 |
 | Fragment Monitor | [@Fragment_Monitor](https://t.me/Fragment_Monitor) | 6,880 | 订阅 Fragment 用户名拍卖的新增出价等动态。 |
 | 简悦 - SimpRead | [@simpread](https://t.me/simpread) | 5,635 | 简悦的发布通道。 |
-| App Store 应用推荐 | [@app_store](https://t.me/app_store) | 5,043 | 苹果应用商店的应用推荐、限免与降价信息。 |
-| AppPie | [@AppPie](https://t.me/AppPie) | 3,530 | Apple 产品动态与应用推荐。 |
+| App Store 应用推荐 | [@app_store](https://t.me/app_store) | 5,057 | 苹果应用商店的应用推荐、限免与降价信息。 |
+| AppPie | [@AppPie](https://t.me/AppPie) | 3,536 | Apple 产品动态与应用推荐。 |
 | GBox 官方频道 | [@GBoxTGC](https://t.me/GBoxTGC) | 2,469 | GBox 的应用签名与 IPA 安装工具更新。 |
 | 無逸齋隨筆 | [@todayread](https://t.me/todayread) | 2,487 | 分享工作、阅读和写作随笔。 |
 | MtalkRes 媒说资源 | [@mtalk](https://t.me/mtalk) | 741 | Mtalk 媒说墙外交流群的入口。 |
@@ -178,7 +178,7 @@
 | 名称 | 链接 | 人数 | 简介 |
 | --- | --- | ---: | --- |
 | 阿里云盘发布频道 | [@shareAliyun](https://t.me/shareAliyun) | 198,261 | 阿里云盘资源分享与交流。 |
-| Alist资源频道 | [@alistshare](https://t.me/alistshare) | 22,377 | 收集使用 AList 等工具搭建的网盘资源站点。 |
+| Alist资源频道 | [@alistshare](https://t.me/alistshare) | 22,367 | 收集使用 AList 等工具搭建的网盘资源站点。 |
 | Cool Scripts | [@cool_scripts](https://t.me/cool_scripts) | 16,372 | 分享适用于 QuanX、Loon、Surge 和 Scriptable 等工具的脚本。 |
 | Chavy Scripts | [@chavyscripts](https://t.me/chavyscripts) | 10,097 | Chavy 的脚本发布频道。 |
 | Pure Writer Releases | [@purewriter](https://t.me/purewriter/) | 3,262 | 纯纯写作的版本发布与更新日志。 |
@@ -224,7 +224,7 @@
 | 高画质动漫分享 Anime share 最后的假期版 | [@YXHMd](https://t.me/YXHMd) | 20,755 | 收集动漫作品的高画质蓝光转制版本。 |
 | Pixiv wallpaper 高质量插画壁纸 | [@pixivshare](https://t.me/pixivshare) | 14,030 | 分享来自 Pixiv 的插画和壁纸。 |
 | 目录频道 | [@jumpto22222](https://t.me/jumpto22222) | 9,866 | 作者分享漫画阅读工具、电子书资源与 AI 工具的使用心得。 |
-| ACG Stickers | [@ACGStickers](https://t.me/ACGStickers) | 8,286 | 分享动漫贴纸与 GIF 动图。 |
+| ACG Stickers | [@ACGStickers](https://t.me/ACGStickers) | 8,299 | 分享动漫贴纸与 GIF 动图。 |
 | 瘦瘦的绘画世界 | [@drawing1024](https://t.me/drawing1024) | 3,125 | 作者的素描写生、水彩、插画和彩铅作品。 |
 | 亿万同人唯一指定官方群 | [@ywtrzm](https://t.me/ywtrzm) | 511 | 亿万同人社群入口。 |
 
@@ -266,7 +266,7 @@
 | 校长读报 | [@XiaoZhangDuBao](https://t.me/XiaoZhangDuBao) | 9,495 | 读书和读报分享。 |
 | zread (推) - 什么书值得读 | [@zreadpush](https://t.me/zreadpush) | 8,108 | zread 读书会与阅读机器人入口，旧书讯推送已结束。 |
 | 一天世界 博客 | [@yitianshijie](https://t.me/yitianshijie) | 6,073 | 新文章上线提醒及其它。 |
-| APOD 每日天文图片（中文转载） | [@apod_hans](https://t.me/apod_hans) | 5,086 | NASA APOD 天文图片与中文科普转载，非 NASA 官方频道。 |
+| APOD 每日天文图片（中文转载） | [@apod_hans](https://t.me/apod_hans) | 5,087 | NASA APOD 天文图片与中文科普转载，非 NASA 官方频道。 |
 | 椒盐豆豉剪报 | [@mtfront](https://t.me/mtfront) | 4,940 | 个人博客、旅行、阅读与科技剪报，偶有理财话题。 |
 | 豆瓣知乎简书微信公众号 | [@dbzhjs](https://t.me/dbzhjs) | 2,274 | 阅读，爱上书。 |
 | MiaoTony's Box 困困困 zzz | [@MiaoTonyChannel](https://t.me/MiaoTonyChannel) | 1,916 | MiaoTony 的个人频道与博客更新。 |
@@ -281,7 +281,7 @@
 <a id="section-channel-14"></a>
 | wikipedia-zh patrol | [@wikipedia_zh_patrol](https://t.me/wikipedia_zh_patrol) | 771 | 中文维基百科社群巡查频道	🌐。 |
 
-| 知乎大巴扎 | [@zhihu_bazaar](https://t.me/zhihu_bazaar) | 21,855 | 搬运和备份一些知乎上的内容。 |
+| 知乎大巴扎 | [@zhihu_bazaar](https://t.me/zhihu_bazaar) | 21,849 | 搬运和备份一些知乎上的内容。 |
 
 ### 🎨 创意设计
 
@@ -289,7 +289,7 @@
 | --- | --- | ---: | --- |
 | Telegram Designers | [@designers](https://t.me/designers) | 80,231 | 汇集各地设计师为 Telegram 提交的功能和界面构想。 |
 | Creative Motion | [@creativemotion](https://t.me/creativemotion) | 21,147 | 俄语动态图形设计频道，分享动画案例。 |
-| R探长 | [@agentONE_R](https://t.me/agentONE_R) | 11,220 | 面向多云服务器管理的 Web SSH 终端。 |
+| R探长 | [@agentONE_R](https://t.me/agentONE_R) | 11,242 | 面向多云服务器管理的 Web SSH 终端。 |
 | 秋水逸冰 | [@qiushuiyibing](https://t.me/qiushuiyibing) | 6,733 | 这里是秋水逸冰的个人频道。 |
 | 南国微雪 一切，都很美丽。 | [@TinySnow4Yi](https://t.me/TinySnow4Yi) | 2,781 | 南国微雪的个人随笔。 |
 | Suzy & Sansa | [@sweet_kartoshka](https://t.me/sweet_kartoshka) | 103 | 记录 Suzy 和 Sansa 两只猫的日常。 |
@@ -309,7 +309,7 @@
 
 | 名称 | 链接 | 人数 | 简介 |
 | --- | --- | ---: | --- |
-| 鸭鸭｜远程工作与招聘 | [@ReeJob](https://t.me/reejob) | 2 | 远程工作与招聘，交流求职和面试。 |
+| 鸭鸭｜远程工作与招聘 | [@ReeJob](https://t.me/reejob) | 8 | 远程工作与招聘，交流求职和面试。 |
 | 悟空的日常TG频道 | [@daily5kong](https://t.me/daily5kong) | 19,134 | 悟空的博客更新与资源索引。 |
 | rvalue的生草日常 | [@rvalue_daily](https://t.me/rvalue_daily) | 8,814 | rvalue 的个人频道与日常记录。 |
 | 笔记本：Lin's 文字世界 : 个人见闻/B站视频/网络见闻 | [@LinsBookA](https://t.me/LinsBookA) | 8,089 | Lin 的文字随笔、网络见闻与生活记录。 |
@@ -357,7 +357,7 @@
 | Tips de Telegram | [@telegramtipsES](https://t.me/telegramtipsES) | 1,448,420 | 西班牙语 Telegram 使用技巧。 |
 | Plus Messenger official | [@plusmsgr](https://t.me/plusmsgr) | 894,607 | Plus Messenger 的官方消息与版本更新。 |
 | Tips Telegram | [@telegramtipsID](https://t.me/telegramtipsID) | 424,504 | 印度尼西亚语 Telegram 使用技巧。 |
-| Abiy Ahmed Ali | [@AbiyAhmedAliofficial](https://t.me/AbiyAhmedAliofficial) | 188,204 | 阿比·艾哈迈德·阿里的个人频道。 |
+| Abiy Ahmed Ali | [@AbiyAhmedAliofficial](https://t.me/AbiyAhmedAliofficial) | 188,588 | 阿比·艾哈迈德·阿里的个人频道。 |
 | Noticias de Telegram | [@TelegramES](https://t.me/TelegramES) | 145,143 | Telegram 官方新闻的西班牙语版。 |
 | BotNews | [@BotNews](https://t.me/BotNews) | 154,770 | Telegram Bot API 的官方更新通知。 |
 | Telegram Brasil | [@TelegramBR](https://t.me/TelegramBR) | 109,943 | Telegram 面向巴西用户的葡萄牙语官方资讯。 |

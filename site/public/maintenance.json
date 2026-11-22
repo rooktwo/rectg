@@ -1,71 +1,66 @@
 {
-  "added": [
-    "huanqiu_news",
-    "ttww_rss",
-    "wikipedia_zh_patrol",
-    "zhihu_bazaar"
-  ],
-  "generated_at": "2026-11-21T22:30:12.213195+00:00",
-  "readme_sha256": "1c7e38115baae959c7efe93413e848fdb8529ef97fb57c2f671b4ef4d73dfcd6",
+  "added": [],
+  "generated_at": "2026-11-22T22:30:12.137695+00:00",
+  "readme_sha256": "6a3010cdcb2fd9067de86f959d582f199b1928b13669ed8494c5b9485ae10ca7",
   "removed": [],
   "resources": {
     "abcthoughts": {
-      "countCheckedAt": "2026-11-14T12:38:18.526435+00:00",
-      "countStale": true,
+      "countCheckedAt": "2026-11-22T18:19:30.606979+00:00",
+      "countStale": false,
       "listConflict": false,
       "reviewPending": true
     },
     "abiyahmedaliofficial": {
-      "countCheckedAt": "2026-11-14T12:38:28.505431+00:00",
-      "countStale": true,
+      "countCheckedAt": "2026-11-22T18:27:01.035873+00:00",
+      "countStale": false,
       "listConflict": true,
       "reviewPending": true
     },
     "aboutrss": {
-      "countCheckedAt": "2026-11-14T12:38:38.524142+00:00",
-      "countStale": true,
+      "countCheckedAt": "2026-11-22T18:18:38.272215+00:00",
+      "countStale": false,
       "listConflict": false,
       "reviewPending": true
     },
     "acgstickers": {
-      "countCheckedAt": "2026-11-14T12:38:48.521508+00:00",
-      "countStale": true,
+      "countCheckedAt": "2026-11-22T18:25:37.326396+00:00",
+      "countStale": false,
       "listConflict": true,
       "reviewPending": true
     },
     "adclose": {
-      "countCheckedAt": "2026-11-14T12:39:28.554847+00:00",
-      "countStale": true,
+      "countCheckedAt": "2026-11-22T18:24:03.110475+00:00",
+      "countStale": false,
       "listConflict": false,
       "reviewPending": true
     },
     "agentone_r": {
-      "countCheckedAt": "2026-11-14T12:40:18.593347+00:00",
-      "countStale": true,
+      "countCheckedAt": "2026-11-22T18:26:08.716661+00:00",
+      "countStale": false,
       "listConflict": false,
       "reviewPending": true
     },
     "ai_copilot_channel": {
-      "countCheckedAt": "2026-11-14T12:40:28.597990+00:00",
-      "countStale": true,
+      "countCheckedAt": "2026-11-22T18:19:09.676005+00:00",
+      "countStale": false,
       "listConflict": false,
       "reviewPending": true
     },
     "alistshare": {
-      "countCheckedAt": "2026-11-14T12:41:38.656731+00:00",
-      "countStale": true,
+      "countCheckedAt": "2026-11-22T18:24:55.418168+00:00",
+      "countStale": false,
       "listConflict": false,
       "reviewPending": true
     },
     "apod_hans": {
-      "countCheckedAt": "2026-11-14T18:04:28.669067+00:00",
-      "countStale": true,
+      "countCheckedAt": "2026-11-22T18:25:58.257312+00:00",
+      "countStale": false,
       "listConflict": false,
       "reviewPending": false
     },
     "app_store": {
-      "countCheckedAt": "2026-11-14T18:13:35.356682+00:00",
-      "countStale": true,
+      "countCheckedAt": "2026-11-22T18:24:24.034327+00:00",
+      "countStale": false,
       "listConflict": false,
       "reviewPending": false
     },
@@ -76,26 +71,26 @@
       "reviewPending": true
     },
     "applenuts": {
-      "countCheckedAt": "2026-11-14T12:44:38.795880+00:00",
-      "countStale": true,
+      "countCheckedAt": "2026-11-22T18:18:59.202483+00:00",
+      "countStale": false,
       "listConflict": false,
       "reviewPending": true
     },
     "apppie": {
-      "countCheckedAt": "2026-11-14T12:45:18.824551+00:00",
-      "countStale": true,
+      "countCheckedAt": "2026-11-22T18:24:44.957182+00:00",
+      "countStale": false,
       "listConflict": false,
       "reviewPending": true
     },
     "archlinuxcn": {
-      "countCheckedAt": "2026-11-14T12:45:58.851052+00:00",
-      "countStale": true,
+      "countCheckedAt": "2026-11-22T18:22:07.963302+00:00",
+      "countStale": false,
       "listConflict": false,
       "reviewPending": true
     },
     "archlinuxcn_updates": {
-      "countCheckedAt": "2026-11-14T19:48:14.763074+00:00",
-      "countStale": true,
+      "countCheckedAt": "2026-11-22T18:22:28.919251+00:00",
+      "countStale": false,
       "listConflict": false,
       "reviewPending": false
     },
@@ -179,7 +174,7 @@
     },
     "btcnewsdaily": {
       "countCheckedAt": "2026-11-15T18:10:46.288701+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": false
     },
@@ -191,7 +186,7 @@
     },
     "butnothinghappened": {
       "countCheckedAt": "2026-11-15T19:04:13.718520+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -203,7 +198,7 @@
     },
     "cantonweather": {
       "countCheckedAt": "2026-11-15T18:32:04.888785+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -221,13 +216,13 @@
     },
     "cnbeta_com": {
       "countCheckedAt": "2026-11-15T20:35:03.588416+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": false
     },
     "cndevdaily": {
       "countCheckedAt": "2026-11-15T20:43:38.890557+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": false
     },
@@ -269,7 +264,7 @@
     },
     "dbinkbb": {
       "countCheckedAt": "2026-11-15T18:03:45.609225+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -468,6 +463,7 @@
     "huanqiu_news": {
       "countCheckedAt": "2026-11-20T04:58:33.681359+00:00",
       "countStale": false,
+      "listConflict": false,
       "reviewPending": false
     },
     "ibeta_channel": {
@@ -634,7 +630,7 @@
     },
     "lumaoshe": {
       "countCheckedAt": "2026-11-15T18:30:29.938132+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -718,7 +714,7 @@
     },
     "misakatech": {
       "countCheckedAt": "2026-11-15T19:02:06.032385+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -976,13 +972,13 @@
     },
     "rachelblahblah": {
       "countCheckedAt": "2026-11-15T18:02:10.557345+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
     "rachelnotice": {
-      "countCheckedAt": null,
-      "countStale": true,
+      "countCheckedAt": "2026-11-22T19:06:48.932293+00:00",
+      "countStale": false,
       "listConflict": false,
       "reviewPending": true
     },
@@ -999,8 +995,8 @@
       "reviewPending": true
     },
     "reejob": {
-      "countCheckedAt": null,
-      "countStale": true,
+      "countCheckedAt": "2026-11-22T19:09:15.545097+00:00",
+      "countStale": false,
       "listConflict": false,
       "reviewPending": true
     },
@@ -1186,7 +1182,7 @@
     },
     "switchnewcn": {
       "countCheckedAt": "2026-11-15T19:31:26.600347+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -1360,7 +1356,7 @@
     },
     "timehorizonx": {
       "countCheckedAt": "2026-11-15T19:00:30.338740+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -1419,8 +1415,9 @@
       "reviewPending": true
     },
     "ttww_rss": {
-      "countCheckedAt": "2026-11-20T07:49:11.428447+00:00",
+      "countCheckedAt": "2026-11-20T21:36:44.273094+00:00",
       "countStale": false,
+      "listConflict": false,
       "reviewPending": false
     },
     "tvbox888": {
@@ -1520,8 +1517,9 @@
       "reviewPending": true
     },
     "wikipedia_zh_patrol": {
-      "countCheckedAt": "2026-11-20T08:11:39.896941+00:00",
+      "countCheckedAt": "2026-11-21T19:22:10.166204+00:00",
       "countStale": false,
+      "listConflict": false,
       "reviewPending": false
     },
     "wolleynews": {
@@ -1639,8 +1637,9 @@
       "reviewPending": true
     },
     "zhihu_bazaar": {
-      "countCheckedAt": "2026-11-20T08:50:07.746292+00:00",
+      "countCheckedAt": "2026-11-21T21:57:04.458571+00:00",
       "countStale": false,
+      "listConflict": false,
       "reviewPending": false
     },
     "zhihuribao_rss": {
@@ -1669,6 +1668,22 @@
     }
   },
   "updated_counts": [
-    "lightfantasy"
+    "aboutrss",
+    "applenuts",
+    "ai_copilot_channel",
+    "abcthoughts",
+    "archlinuxcn",
+    "archlinuxcn_updates",
+    "rachelnotice",
+    "adclose",
+    "app_store",
+    "apppie",
+    "alistshare",
+    "acgstickers",
+    "apod_hans",
+    "zhihu_bazaar",
+    "agentone_r",
+    "reejob",
+    "abiyahmedaliofficial"
   ]
 }
