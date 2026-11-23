@@ -1,7 +1,17 @@
 {
-  "added": [],
-  "generated_at": "2026-11-22T22:30:12.137695+00:00",
-  "readme_sha256": "6a3010cdcb2fd9067de86f959d582f199b1928b13669ed8494c5b9485ae10ca7",
+  "added": [
+    "anwnews",
+    "bangumi_online_ch",
+    "caixin_news",
+    "gaokaocountdown",
+    "haoruanfenxianglist",
+    "jinrishici",
+    "oschina001",
+    "trantor_archive",
+    "usinterview"
+  ],
+  "generated_at": "2026-11-23T22:30:13.730966+00:00",
+  "readme_sha256": "0098e9dd88f2b5dbbc3b06ee4821ca7f1ad7049de5a9909bf3e20ca1fbe6b774",
   "removed": [],
   "resources": {
     "abcthoughts": {
@@ -51,6 +61,11 @@
       "countStale": false,
       "listConflict": false,
       "reviewPending": true
+    },
+    "anwnews": {
+      "countCheckedAt": "2026-11-23T05:03:33.325518+00:00",
+      "countStale": false,
+      "reviewPending": false
     },
     "apod_hans": {
       "countCheckedAt": "2026-11-22T18:25:58.257312+00:00",
@@ -124,6 +139,11 @@
       "listConflict": false,
       "reviewPending": true
     },
+    "bangumi_online_ch": {
+      "countCheckedAt": "2026-11-23T05:44:39.333117+00:00",
+      "countStale": false,
+      "reviewPending": false
+    },
     "bbc_chinese_news": {
       "countCheckedAt": "2026-11-19T20:39:10.266056+00:00",
       "countStale": false,
@@ -190,6 +210,11 @@
       "listConflict": false,
       "reviewPending": true
     },
+    "caixin_news": {
+      "countCheckedAt": "2026-11-20T02:37:09.177036+00:00",
+      "countStale": false,
+      "reviewPending": false
+    },
     "cankaoxiaoxi_news": {
       "countCheckedAt": "2026-11-20T02:40:51.068704+00:00",
       "countStale": false,
@@ -252,7 +277,7 @@
     },
     "daily5kong": {
       "countCheckedAt": "2026-11-16T18:03:32.468148+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -288,7 +313,7 @@
     },
     "dizhen": {
       "countCheckedAt": "2026-11-16T18:07:54.437055+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": false
     },
@@ -382,6 +407,11 @@
       "listConflict": false,
       "reviewPending": true
     },
+    "gaokaocountdown": {
+      "countCheckedAt": "2026-11-23T10:13:45.856681+00:00",
+      "countStale": false,
+      "reviewPending": false
+    },
     "gboxtgc": {
       "countCheckedAt": "2026-11-14T18:37:16.683607+00:00",
       "countStale": true,
@@ -435,6 +465,11 @@
       "countStale": true,
       "listConflict": false,
       "reviewPending": true
+    },
+    "haoruanfenxianglist": {
+      "countCheckedAt": "2026-11-23T10:52:37.126902+00:00",
+      "countStale": false,
+      "reviewPending": false
     },
     "hearrain": {
       "countCheckedAt": "2026-11-14T18:46:13.454899+00:00",
@@ -519,6 +554,11 @@
       "countStale": true,
       "listConflict": false,
       "reviewPending": true
+    },
+    "jinrishici": {
+      "countCheckedAt": "2026-11-23T02:19:56.653438+00:00",
+      "countStale": false,
+      "reviewPending": false
     },
     "jisfw": {
       "countCheckedAt": "2026-11-14T18:54:16.623108+00:00",
@@ -831,6 +871,11 @@
       "countStale": true,
       "listConflict": false,
       "reviewPending": true
+    },
+    "oschina001": {
+      "countCheckedAt": "2026-11-23T14:26:03.922430+00:00",
+      "countStale": false,
+      "reviewPending": false
     },
     "otp_channel": {
       "countCheckedAt": "2026-11-14T19:31:13.243820+00:00",
@@ -1390,6 +1435,11 @@
       "listConflict": false,
       "reviewPending": true
     },
+    "trantor_archive": {
+      "countCheckedAt": "2026-11-23T16:51:43.578153+00:00",
+      "countStale": false,
+      "reviewPending": false
+    },
     "trendingstickers": {
       "countCheckedAt": "2026-11-14T20:36:32.383213+00:00",
       "countStale": true,
@@ -1473,6 +1523,11 @@
       "countStale": true,
       "listConflict": false,
       "reviewPending": true
+    },
+    "usinterview": {
+      "countCheckedAt": "2026-11-23T17:09:19.572025+00:00",
+      "countStale": false,
+      "reviewPending": false
     },
     "v_zelenskiy_official": {
       "countCheckedAt": "2026-11-14T20:43:53.430684+00:00",
@@ -1667,23 +1722,5 @@
       "reviewPending": true
     }
   },
-  "updated_counts": [
-    "aboutrss",
-    "applenuts",
-    "ai_copilot_channel",
-    "abcthoughts",
-    "archlinuxcn",
-    "archlinuxcn_updates",
-    "rachelnotice",
-    "adclose",
-    "app_store",
-    "apppie",
-    "alistshare",
-    "acgstickers",
-    "apod_hans",
-    "zhihu_bazaar",
-    "agentone_r",
-    "reejob",
-    "abiyahmedaliofficial"
-  ]
+  "updated_counts": []
 }

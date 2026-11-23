@@ -64,6 +64,10 @@
 
 | 台湾 中央社 香港 苹果日报 | [@ttww_rss](https://t.me/ttww_rss) | 7,119 | \[RSS全文订阅 实时更新\]	。 |
 
+| Anyway.Now | [@anwnews](https://t.me/anwnews) | 1,723 | 读者诸君你好。 |
+
+| 財新網 | [@caixin_news](https://t.me/caixin_news) | 2,651 | (由第三方維護)		财新网定位。 |
+
 ### 💻 数码科技
 
 | 名称 | 链接 | 人数 | 简介 |
@@ -140,6 +144,10 @@
 | faangbbs APP北美程序员大群 | [@faangbbs](https://t.me/faangbbs) | 64 | 北美程序员社群 FAANGBBS 的交流入口。 |
 
 <a id="section-channel-4"></a>
+| ⏱高考倒计时 | [@gaokaocountdown](https://t.me/gaokaocountdown) | 897 | 高考倒计时频道	高考倒计时Bo。 |
+
+| 开源中国 | [@oschina001](https://t.me/oschina001) | 867 | 开源中国  是目前中国最大的开。 |
+
 ### 🔒 信息安全
 
 | 名称 | 链接 | 人数 | 简介 |
@@ -331,6 +339,8 @@
 | 广州天气速报 | [@cantonWeather](https://t.me/cantonWeather) | 609 | 广州天气预报、雷雨提醒与气象预警转载。 |
 
 <a id="section-channel-18"></a>
+| 川陀大学图书馆档案室 | [@trantor_archive](https://t.me/trantor_archive) | 941 | 『川陀大学图书馆 TG分馆 3。 |
+
 ### 💬 闲聊交友
 
 | 名称 | 链接 | 人数 | 简介 |
@@ -413,5 +423,13 @@
 | 𝐕 𝐀 𝐆 𝐔 𝐄 - 針 | [@oz_sensei](https://t.me/oz_sensei) | 46 | - |
 | 参考消息 | [@cankaoxiaoxi_news](https://t.me/cankaoxiaoxi_news) | 835 | 参考消息非官方发布频道。 |
 | 全港交通消息 | [@hk_traffic_news](https://t.me/hk_traffic_news) | 43,539 | 全港即時最新交通消息 	RTH。 |
+| アニメ新番組 Ch | [@bangumi_online_ch](https://t.me/bangumi_online_ch) | 5,095 | You can view an。 |
+| 好软分享·列表频道 | [@haoruanfenxianglist](https://t.me/haoruanfenxianglist) | 4,492 | 👇列表清单👇	⭐️  ⭐️	👆。 |
+| 今日诗词 | [@jinrishici](https://t.me/jinrishici) | 1,179 | 利用今日诗词API。 |
+| 北美跳槽面经 | [@usinterview](https://t.me/usinterview) | 544 | You can view an。 |
+
+
+
+
 
 
