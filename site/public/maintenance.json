@@ -1,17 +1,9 @@
 {
   "added": [
-    "anwnews",
-    "bangumi_online_ch",
-    "caixin_news",
-    "gaokaocountdown",
-    "haoruanfenxianglist",
-    "jinrishici",
-    "oschina001",
-    "trantor_archive",
-    "usinterview"
+    "chinesecaixin"
   ],
-  "generated_at": "2026-11-23T22:30:13.730966+00:00",
-  "readme_sha256": "0098e9dd88f2b5dbbc3b06ee4821ca7f1ad7049de5a9909bf3e20ca1fbe6b774",
+  "generated_at": "2026-11-24T22:30:15.599639+00:00",
+  "readme_sha256": "3ff296a35da774bf04a9e106c0b3ccc7380a2bb060b84316ff5685f788b0258c",
   "removed": [],
   "resources": {
     "abcthoughts": {
@@ -63,8 +55,9 @@
       "reviewPending": true
     },
     "anwnews": {
-      "countCheckedAt": "2026-11-23T05:03:33.325518+00:00",
+      "countCheckedAt": "2026-11-23T18:07:24.805567+00:00",
       "countStale": false,
+      "listConflict": false,
       "reviewPending": false
     },
     "apod_hans": {
@@ -140,8 +133,9 @@
       "reviewPending": true
     },
     "bangumi_online_ch": {
-      "countCheckedAt": "2026-11-23T05:44:39.333117+00:00",
+      "countCheckedAt": "2026-11-23T18:07:03.873297+00:00",
       "countStale": false,
+      "listConflict": false,
       "reviewPending": false
     },
     "bbc_chinese_news": {
@@ -213,6 +207,7 @@
     "caixin_news": {
       "countCheckedAt": "2026-11-20T02:37:09.177036+00:00",
       "countStale": false,
+      "listConflict": false,
       "reviewPending": false
     },
     "cankaoxiaoxi_news": {
@@ -238,6 +233,11 @@
       "countStale": true,
       "listConflict": false,
       "reviewPending": true
+    },
+    "chinesecaixin": {
+      "countCheckedAt": "2026-11-20T03:07:09.549155+00:00",
+      "countStale": false,
+      "reviewPending": false
     },
     "cnbeta_com": {
       "countCheckedAt": "2026-11-15T20:35:03.588416+00:00",
@@ -408,8 +408,9 @@
       "reviewPending": true
     },
     "gaokaocountdown": {
-      "countCheckedAt": "2026-11-23T10:13:45.856681+00:00",
+      "countCheckedAt": "2026-11-23T18:07:35.263364+00:00",
       "countStale": false,
+      "listConflict": false,
       "reviewPending": false
     },
     "gboxtgc": {
@@ -426,7 +427,7 @@
     },
     "golden_wind_news": {
       "countCheckedAt": "2026-11-17T20:03:34.737203+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": false
     },
@@ -467,8 +468,9 @@
       "reviewPending": true
     },
     "haoruanfenxianglist": {
-      "countCheckedAt": "2026-11-23T10:52:37.126902+00:00",
+      "countCheckedAt": "2026-11-23T18:07:56.225526+00:00",
       "countStale": false,
+      "listConflict": false,
       "reviewPending": false
     },
     "hearrain": {
@@ -556,8 +558,9 @@
       "reviewPending": true
     },
     "jinrishici": {
-      "countCheckedAt": "2026-11-23T02:19:56.653438+00:00",
+      "countCheckedAt": "2026-11-23T18:06:53.408386+00:00",
       "countStale": false,
+      "listConflict": false,
       "reviewPending": false
     },
     "jisfw": {
@@ -873,8 +876,9 @@
       "reviewPending": true
     },
     "oschina001": {
-      "countCheckedAt": "2026-11-23T14:26:03.922430+00:00",
+      "countCheckedAt": "2026-11-23T18:08:17.144521+00:00",
       "countStale": false,
+      "listConflict": false,
       "reviewPending": false
     },
     "otp_channel": {
@@ -1436,8 +1440,9 @@
       "reviewPending": true
     },
     "trantor_archive": {
-      "countCheckedAt": "2026-11-23T16:51:43.578153+00:00",
+      "countCheckedAt": "2026-11-23T19:17:54.593707+00:00",
       "countStale": false,
+      "listConflict": false,
       "reviewPending": false
     },
     "trendingstickers": {
@@ -1525,8 +1530,9 @@
       "reviewPending": true
     },
     "usinterview": {
-      "countCheckedAt": "2026-11-23T17:09:19.572025+00:00",
+      "countCheckedAt": "2026-11-24T19:15:42.924312+00:00",
       "countStale": false,
+      "listConflict": false,
       "reviewPending": false
     },
     "v_zelenskiy_official": {
@@ -1722,5 +1728,10 @@
       "reviewPending": true
     }
   },
-  "updated_counts": []
+  "updated_counts": [
+    "anwnews",
+    "bangumi_online_ch",
+    "jinrishici",
+    "usinterview"
+  ]
 }

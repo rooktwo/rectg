@@ -64,9 +64,11 @@
 
 | 台湾 中央社 香港 苹果日报 | [@ttww_rss](https://t.me/ttww_rss) | 7,119 | \[RSS全文订阅 实时更新\]	。 |
 
-| Anyway.Now | [@anwnews](https://t.me/anwnews) | 1,723 | 读者诸君你好。 |
+| Anyway.Now | [@anwnews](https://t.me/anwnews) | 1,725 | 读者诸君你好。 |
 
 | 財新網 | [@caixin_news](https://t.me/caixin_news) | 2,651 | (由第三方維護)		财新网定位。 |
+
+| 大河马中文财经新闻分享 | [@chinesecaixin](https://t.me/chinesecaixin) | 7,774 | 转载财新，FT中文网。 |
 
 ### 💻 数码科技
 
@@ -423,10 +425,10 @@
 | 𝐕 𝐀 𝐆 𝐔 𝐄 - 針 | [@oz_sensei](https://t.me/oz_sensei) | 46 | - |
 | 参考消息 | [@cankaoxiaoxi_news](https://t.me/cankaoxiaoxi_news) | 835 | 参考消息非官方发布频道。 |
 | 全港交通消息 | [@hk_traffic_news](https://t.me/hk_traffic_news) | 43,539 | 全港即時最新交通消息 	RTH。 |
-| アニメ新番組 Ch | [@bangumi_online_ch](https://t.me/bangumi_online_ch) | 5,095 | You can view an。 |
+| アニメ新番組 Ch | [@bangumi_online_ch](https://t.me/bangumi_online_ch) | 5,093 | You can view an。 |
 | 好软分享·列表频道 | [@haoruanfenxianglist](https://t.me/haoruanfenxianglist) | 4,492 | 👇列表清单👇	⭐️  ⭐️	👆。 |
-| 今日诗词 | [@jinrishici](https://t.me/jinrishici) | 1,179 | 利用今日诗词API。 |
-| 北美跳槽面经 | [@usinterview](https://t.me/usinterview) | 544 | You can view an。 |
+| 今日诗词 | [@jinrishici](https://t.me/jinrishici) | 1,181 | 利用今日诗词API。 |
+| 北美跳槽面经 | [@usinterview](https://t.me/usinterview) | 546 | You can view an。 |
 
 
 
