@@ -70,6 +70,12 @@
 
 | 大河马中文财经新闻分享 | [@chinesecaixin](https://t.me/chinesecaixin) | 7,774 | 转载财新，FT中文网。 |
 
+| 新闻联播（文字版） | [@cctv_news_official](https://t.me/cctv_news_official) | 1,319 | 《新闻联播》。 |
+
+| Crypto Market Aggregator / 币圈新闻汇总 | [@cryptomarketaggregator](https://t.me/cryptomarketaggregator) | 8,794 | AI自动汇总币圈新闻。 |
+
+| 工劳快讯：关注当代打工人 | [@laborpower](https://t.me/laborpower) | 8,910 | 我们发布最新中国工人。 |
+
 ### 💻 数码科技
 
 | 名称 | 链接 | 人数 | 简介 |
@@ -267,6 +273,8 @@
 | BlockBeats | [@theblockbeats](https://t.me/theblockbeats) | 38,257 | BlockBeats 的区块链研究与行业资讯。 |
 
 <a id="section-channel-13"></a>
+| 提阿非羅TIABTC | [@tiaalert](https://t.me/tiaalert) | 19,760 | YouTube日更。 |
+
 ### 📚 学习阅读
 
 | 名称 | 链接 | 人数 | 简介 |
@@ -342,6 +350,8 @@
 
 <a id="section-channel-18"></a>
 | 川陀大学图书馆档案室 | [@trantor_archive](https://t.me/trantor_archive) | 941 | 『川陀大学图书馆 TG分馆 3。 |
+
+| 2026香港天氣及風暴追擊 (Since 2017) 天佑香港。 | [@windseasonhk](https://t.me/windseasonhk) | 10,615 | #Admin專欄 會有大量主觀。 |
 
 ### 💬 闲聊交友
 
@@ -429,6 +439,12 @@
 | 好软分享·列表频道 | [@haoruanfenxianglist](https://t.me/haoruanfenxianglist) | 4,492 | 👇列表清单👇	⭐️  ⭐️	👆。 |
 | 今日诗词 | [@jinrishici](https://t.me/jinrishici) | 1,181 | 利用今日诗词API。 |
 | 北美跳槽面经 | [@usinterview](https://t.me/usinterview) | 546 | You can view an。 |
+| RTHK即時新聞 | [@rthk_new_c](https://t.me/rthk_new_c) | 48,824 | RTHK即時新聞 	RTHK。 |
+| 春都早桜风曼暖 | [@sakurato](https://t.me/sakurato) | 13,454 | You can view an。 |
+| Trump.truthsocial_中文 | [@trump_ts](https://t.me/trump_ts) | 4,287 | You can view an。 |
+
+
+
 
 
 
