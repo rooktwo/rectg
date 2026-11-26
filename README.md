@@ -70,7 +70,7 @@
 
 | 大河马中文财经新闻分享 | [@chinesecaixin](https://t.me/chinesecaixin) | 7,774 | 转载财新，FT中文网。 |
 
-| 新闻联播（文字版） | [@cctv_news_official](https://t.me/cctv_news_official) | 1,319 | 《新闻联播》。 |
+| 新闻联播（文字版） | [@cctv_news_official](https://t.me/cctv_news_official) | 1,318 | 《新闻联播》。 |
 
 | Crypto Market Aggregator / 币圈新闻汇总 | [@cryptomarketaggregator](https://t.me/cryptomarketaggregator) | 8,794 | AI自动汇总币圈新闻。 |
 
@@ -132,6 +132,8 @@
 | 科技无意义 | [@technical_with_love](https://t.me/technical_with_love) | 326 | 一个简单的人。 |
 
 <a id="section-channel-3"></a>
+| CloudNAS | [@cloud_nas](https://t.me/cloud_nas) | 11,706 | CloudNAS发布频道。 |
+
 ### 👨‍💻 开发运维
 
 | 名称 | 链接 | 人数 | 简介 |
@@ -189,6 +191,8 @@
 | 小众软件 | [@niche_software](https://t.me/niche_software) | 406 | 介绍解决日常问题的软件和效率工具，附平台与使用限制。 |
 
 <a id="section-channel-6"></a>
+| 地心引力 | [@bigwalnut](https://t.me/bigwalnut) | 3,162 | 这是我公开的inbox。 |
+
 ### ☁️ 网盘资源
 
 | 名称 | 链接 | 人数 | 简介 |
@@ -273,7 +277,7 @@
 | BlockBeats | [@theblockbeats](https://t.me/theblockbeats) | 38,257 | BlockBeats 的区块链研究与行业资讯。 |
 
 <a id="section-channel-13"></a>
-| 提阿非羅TIABTC | [@tiaalert](https://t.me/tiaalert) | 19,760 | YouTube日更。 |
+| 提阿非羅TIABTC | [@tiaalert](https://t.me/tiaalert) | 19,759 | YouTube日更。 |
 
 ### 📚 学习阅读
 
@@ -351,7 +355,7 @@
 <a id="section-channel-18"></a>
 | 川陀大学图书馆档案室 | [@trantor_archive](https://t.me/trantor_archive) | 941 | 『川陀大学图书馆 TG分馆 3。 |
 
-| 2026香港天氣及風暴追擊 (Since 2017) 天佑香港。 | [@windseasonhk](https://t.me/windseasonhk) | 10,615 | #Admin專欄 會有大量主觀。 |
+| 2026香港天氣及風暴追擊 (Since 2017) 天佑香港。 | [@windseasonhk](https://t.me/windseasonhk) | 10,614 | #Admin專欄 會有大量主觀。 |
 
 ### 💬 闲聊交友
 
@@ -442,6 +446,10 @@
 | RTHK即時新聞 | [@rthk_new_c](https://t.me/rthk_new_c) | 48,824 | RTHK即時新聞 	RTHK。 |
 | 春都早桜风曼暖 | [@sakurato](https://t.me/sakurato) | 13,454 | You can view an。 |
 | Trump.truthsocial_中文 | [@trump_ts](https://t.me/trump_ts) | 4,287 | You can view an。 |
+| 502云寄售 | [@fakw502](https://t.me/fakw502) | 9,228 | 负责人 - @fakw502k。 |
+| 9Marks 健康教会九标志 | [@ixmarkscn](https://t.me/ixmarkscn) | 2,403 | 九标志事工存在的目的是为了用圣。 |
+
+
 
 
 

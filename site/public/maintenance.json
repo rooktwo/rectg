@@ -1,16 +1,12 @@
 {
   "added": [
-    "cctv_news_official",
-    "cryptomarketaggregator",
-    "laborpower",
-    "rthk_new_c",
-    "sakurato",
-    "tiaalert",
-    "trump_ts",
-    "windseasonhk"
+    "bigwalnut",
+    "cloud_nas",
+    "fakw502",
+    "ixmarkscn"
   ],
-  "generated_at": "2026-11-25T22:30:20.811921+00:00",
-  "readme_sha256": "238d77ebfaa5cf3be978074604ee8964b22d9f6677dbd6e5f7ed05c9601f4236",
+  "generated_at": "2026-11-26T22:30:23.391969+00:00",
+  "readme_sha256": "19fe5ddb8fb3871efde85ed3d5d98bff89fac359d5017981c5d7ba7d291df37b",
   "removed": [],
   "resources": {
     "abcthoughts": {
@@ -117,7 +113,7 @@
     },
     "awesomediygod": {
       "countCheckedAt": "2026-11-19T11:30:15.887205+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -147,7 +143,7 @@
     },
     "bbc_chinese_news": {
       "countCheckedAt": "2026-11-19T20:39:10.266056+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": false
     },
@@ -162,6 +158,11 @@
       "countStale": true,
       "listConflict": false,
       "reviewPending": true
+    },
+    "bigwalnut": {
+      "countCheckedAt": "2026-11-26T08:22:17.775593+00:00",
+      "countStale": false,
+      "reviewPending": false
     },
     "billchenla": {
       "countCheckedAt": "2026-11-14T18:05:21.227196+00:00",
@@ -230,8 +231,9 @@
       "reviewPending": true
     },
     "cctv_news_official": {
-      "countCheckedAt": "2026-11-23T07:07:51.874840+00:00",
+      "countCheckedAt": "2026-11-25T18:04:17.307939+00:00",
       "countStale": false,
+      "listConflict": false,
       "reviewPending": false
     },
     "ce_observe": {
@@ -250,6 +252,11 @@
       "countCheckedAt": "2026-11-20T03:07:09.549155+00:00",
       "countStale": false,
       "listConflict": false,
+      "reviewPending": false
+    },
+    "cloud_nas": {
+      "countCheckedAt": "2026-11-25T08:05:42.171241+00:00",
+      "countStale": false,
       "reviewPending": false
     },
     "cnbeta_com": {
@@ -291,6 +298,7 @@
     "cryptomarketaggregator": {
       "countCheckedAt": "2026-11-20T03:19:48.878508+00:00",
       "countStale": false,
+      "listConflict": false,
       "reviewPending": false
     },
     "daily5kong": {
@@ -349,7 +357,7 @@
     },
     "duskpipe": {
       "countCheckedAt": "2026-11-19T04:00:17.469222+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -382,6 +390,11 @@
       "countStale": true,
       "listConflict": false,
       "reviewPending": true
+    },
+    "fakw502": {
+      "countCheckedAt": "2026-11-26T20:28:30.311867+00:00",
+      "countStale": false,
+      "reviewPending": false
     },
     "fanren4k": {
       "countCheckedAt": "2026-11-14T12:51:32.918111+00:00",
@@ -505,7 +518,7 @@
     },
     "hilinuxcn": {
       "countCheckedAt": "2026-11-19T20:03:18.020924+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": false
     },
@@ -559,7 +572,7 @@
     },
     "isaiahsystem": {
       "countCheckedAt": "2026-11-19T11:40:16.121971+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -568,6 +581,11 @@
       "countStale": true,
       "listConflict": true,
       "reviewPending": true
+    },
+    "ixmarkscn": {
+      "countCheckedAt": "2026-11-26T01:56:20.703667+00:00",
+      "countStale": false,
+      "reviewPending": false
     },
     "jike_collection": {
       "countCheckedAt": "2026-11-14T18:53:34.762478+00:00",
@@ -613,7 +631,7 @@
     },
     "keaixiaogou": {
       "countCheckedAt": "2026-11-19T10:00:58.753230+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -625,7 +643,7 @@
     },
     "korea_rss": {
       "countCheckedAt": "2026-11-19T18:34:54.826653+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": false
     },
@@ -638,6 +656,7 @@
     "laborpower": {
       "countCheckedAt": "2026-11-20T05:41:00.640985+00:00",
       "countStale": false,
+      "listConflict": false,
       "reviewPending": false
     },
     "laoself": {
@@ -972,7 +991,7 @@
     },
     "playstationnewssss": {
       "countCheckedAt": "2026-11-19T10:00:16.169224+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -1080,7 +1099,8 @@
     },
     "rthk_new_c": {
       "countCheckedAt": "2026-11-19T19:49:38.245270+00:00",
-      "countStale": false,
+      "countStale": true,
+      "listConflict": false,
       "reviewPending": false
     },
     "ruheyushadiaoxiangchu": {
@@ -1108,8 +1128,9 @@
       "reviewPending": true
     },
     "sakurato": {
-      "countCheckedAt": "2026-11-25T17:44:37.108336+00:00",
+      "countCheckedAt": "2026-11-26T18:39:10.459202+00:00",
       "countStale": false,
+      "listConflict": false,
       "reviewPending": false
     },
     "saltplayerupdate": {
@@ -1437,8 +1458,9 @@
       "reviewPending": true
     },
     "tiaalert": {
-      "countCheckedAt": "2026-11-25T05:29:29.072005+00:00",
+      "countCheckedAt": "2026-11-25T18:03:56.352695+00:00",
       "countStale": false,
+      "listConflict": false,
       "reviewPending": false
     },
     "timehorizonx": {
@@ -1490,8 +1512,9 @@
       "reviewPending": true
     },
     "trump_ts": {
-      "countCheckedAt": "2026-11-20T07:47:36.487650+00:00",
+      "countCheckedAt": "2026-11-20T21:31:40.001535+00:00",
       "countStale": false,
+      "listConflict": false,
       "reviewPending": false
     },
     "trumpjr": {
@@ -1610,7 +1633,7 @@
     },
     "weiboresou": {
       "countCheckedAt": "2026-11-19T13:00:15.849275+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -1627,8 +1650,9 @@
       "reviewPending": false
     },
     "windseasonhk": {
-      "countCheckedAt": "2026-11-25T12:45:23.595699+00:00",
+      "countCheckedAt": "2026-11-25T18:03:35.348192+00:00",
       "countStale": false,
+      "listConflict": false,
       "reviewPending": false
     },
     "wolleynews": {
@@ -1705,7 +1729,7 @@
     },
     "yitianshijie": {
       "countCheckedAt": "2026-11-19T20:00:29.205427+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": false
     },
@@ -1776,5 +1800,9 @@
       "reviewPending": true
     }
   },
-  "updated_counts": []
+  "updated_counts": [
+    "cctv_news_official",
+    "tiaalert",
+    "windseasonhk"
+  ]
 }
