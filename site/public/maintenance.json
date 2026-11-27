@@ -1,12 +1,10 @@
 {
   "added": [
-    "bigwalnut",
-    "cloud_nas",
-    "fakw502",
-    "ixmarkscn"
+    "v_chat_channel",
+    "xymhbnb"
   ],
-  "generated_at": "2026-11-26T22:30:23.391969+00:00",
-  "readme_sha256": "19fe5ddb8fb3871efde85ed3d5d98bff89fac359d5017981c5d7ba7d291df37b",
+  "generated_at": "2026-11-27T22:30:20.715589+00:00",
+  "readme_sha256": "b65bfb687601ed275f88ab6084a315856c46570c0839a45f1288d7d3525f8925",
   "removed": [],
   "resources": {
     "abcthoughts": {
@@ -61,7 +59,7 @@
       "countCheckedAt": "2026-11-23T18:07:24.805567+00:00",
       "countStale": false,
       "listConflict": false,
-      "reviewPending": false
+      "reviewPending": true
     },
     "apod_hans": {
       "countCheckedAt": "2026-11-22T18:25:58.257312+00:00",
@@ -160,8 +158,9 @@
       "reviewPending": true
     },
     "bigwalnut": {
-      "countCheckedAt": "2026-11-26T08:22:17.775593+00:00",
+      "countCheckedAt": "2026-11-26T18:40:03.031142+00:00",
       "countStale": false,
+      "listConflict": false,
       "reviewPending": false
     },
     "billchenla": {
@@ -214,13 +213,13 @@
     },
     "caixin_news": {
       "countCheckedAt": "2026-11-20T02:37:09.177036+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": false
     },
     "cankaoxiaoxi_news": {
       "countCheckedAt": "2026-11-20T02:40:51.068704+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": false
     },
@@ -250,13 +249,14 @@
     },
     "chinesecaixin": {
       "countCheckedAt": "2026-11-20T03:07:09.549155+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": false
     },
     "cloud_nas": {
-      "countCheckedAt": "2026-11-25T08:05:42.171241+00:00",
+      "countCheckedAt": "2026-11-26T18:39:31.581584+00:00",
       "countStale": false,
+      "listConflict": false,
       "reviewPending": false
     },
     "cnbeta_com": {
@@ -297,7 +297,7 @@
     },
     "cryptomarketaggregator": {
       "countCheckedAt": "2026-11-20T03:19:48.878508+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": false
     },
@@ -392,8 +392,9 @@
       "reviewPending": true
     },
     "fakw502": {
-      "countCheckedAt": "2026-11-26T20:28:30.311867+00:00",
+      "countCheckedAt": "2026-11-27T18:42:30.906989+00:00",
       "countStale": false,
+      "listConflict": false,
       "reviewPending": false
     },
     "fanren4k": {
@@ -524,13 +525,13 @@
     },
     "hk_traffic_news": {
       "countCheckedAt": "2026-11-20T04:49:05.611930+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": false
     },
     "huanqiu_news": {
       "countCheckedAt": "2026-11-20T04:58:33.681359+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": false
     },
@@ -583,8 +584,9 @@
       "reviewPending": true
     },
     "ixmarkscn": {
-      "countCheckedAt": "2026-11-26T01:56:20.703667+00:00",
+      "countCheckedAt": "2026-11-26T18:39:42.054021+00:00",
       "countStale": false,
+      "listConflict": false,
       "reviewPending": false
     },
     "jike_collection": {
@@ -594,7 +596,7 @@
       "reviewPending": true
     },
     "jinrishici": {
-      "countCheckedAt": "2026-11-23T18:06:53.408386+00:00",
+      "countCheckedAt": "2026-11-27T03:51:06.966807+00:00",
       "countStale": false,
       "listConflict": false,
       "reviewPending": false
@@ -655,7 +657,7 @@
     },
     "laborpower": {
       "countCheckedAt": "2026-11-20T05:41:00.640985+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": false
     },
@@ -679,7 +681,7 @@
     },
     "lightfantasy": {
       "countCheckedAt": "2026-11-20T19:12:39.134336+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": true
     },
@@ -1513,7 +1515,7 @@
     },
     "trump_ts": {
       "countCheckedAt": "2026-11-20T21:31:40.001535+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": false
     },
@@ -1537,7 +1539,7 @@
     },
     "ttww_rss": {
       "countCheckedAt": "2026-11-20T21:36:44.273094+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": false
     },
@@ -1599,6 +1601,11 @@
       "countCheckedAt": "2026-11-24T19:15:42.924312+00:00",
       "countStale": false,
       "listConflict": false,
+      "reviewPending": false
+    },
+    "v_chat_channel": {
+      "countCheckedAt": "2026-11-27T05:57:24.677175+00:00",
+      "countStale": false,
       "reviewPending": false
     },
     "v_zelenskiy_official": {
@@ -1715,6 +1722,11 @@
       "listConflict": false,
       "reviewPending": true
     },
+    "xymhbnb": {
+      "countCheckedAt": "2026-11-27T18:47:24.936445+00:00",
+      "countStale": false,
+      "reviewPending": false
+    },
     "yeqingjie_gjg666": {
       "countCheckedAt": "2026-11-14T21:03:14.364108+00:00",
       "countStale": true,
@@ -1753,7 +1765,7 @@
     },
     "yyets_subtitles": {
       "countCheckedAt": "2026-11-20T10:35:16.760421+00:00",
-      "countStale": false,
+      "countStale": true,
       "listConflict": false,
       "reviewPending": false
     },
@@ -1801,8 +1813,8 @@
     }
   },
   "updated_counts": [
-    "cctv_news_official",
-    "tiaalert",
-    "windseasonhk"
+    "cloud_nas",
+    "jinrishici",
+    "fakw502"
   ]
 }

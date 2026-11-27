@@ -132,7 +132,7 @@
 | 科技无意义 | [@technical_with_love](https://t.me/technical_with_love) | 326 | 一个简单的人。 |
 
 <a id="section-channel-3"></a>
-| CloudNAS | [@cloud_nas](https://t.me/cloud_nas) | 11,706 | CloudNAS发布频道。 |
+| CloudNAS | [@cloud_nas](https://t.me/cloud_nas) | 11,716 | CloudNAS发布频道。 |
 
 ### 👨‍💻 开发运维
 
@@ -441,13 +441,17 @@
 | 全港交通消息 | [@hk_traffic_news](https://t.me/hk_traffic_news) | 43,539 | 全港即時最新交通消息 	RTH。 |
 | アニメ新番組 Ch | [@bangumi_online_ch](https://t.me/bangumi_online_ch) | 5,093 | You can view an。 |
 | 好软分享·列表频道 | [@haoruanfenxianglist](https://t.me/haoruanfenxianglist) | 4,492 | 👇列表清单👇	⭐️  ⭐️	👆。 |
-| 今日诗词 | [@jinrishici](https://t.me/jinrishici) | 1,181 | 利用今日诗词API。 |
+| 今日诗词 | [@jinrishici](https://t.me/jinrishici) | 1,185 | 利用今日诗词API。 |
 | 北美跳槽面经 | [@usinterview](https://t.me/usinterview) | 546 | You can view an。 |
 | RTHK即時新聞 | [@rthk_new_c](https://t.me/rthk_new_c) | 48,824 | RTHK即時新聞 	RTHK。 |
 | 春都早桜风曼暖 | [@sakurato](https://t.me/sakurato) | 13,454 | You can view an。 |
 | Trump.truthsocial_中文 | [@trump_ts](https://t.me/trump_ts) | 4,287 | You can view an。 |
-| 502云寄售 | [@fakw502](https://t.me/fakw502) | 9,228 | 负责人 - @fakw502k。 |
+| 502云寄售 | [@fakw502](https://t.me/fakw502) | 9,225 | 负责人 - @fakw502k。 |
 | 9Marks 健康教会九标志 | [@ixmarkscn](https://t.me/ixmarkscn) | 2,403 | 九标志事工存在的目的是为了用圣。 |
+| vchat闲谈 | [@v_chat_channel](https://t.me/v_chat_channel) | 1,210 | 目前发布开机通知。 |
+| 小夜美目美化 | [@xymhbnb](https://t.me/xymhbnb) | 1,729 | You can view an。 |
+
+
 
 
 
